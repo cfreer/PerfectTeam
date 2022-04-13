@@ -27,10 +27,11 @@ TODO
 N/A for the first report.
 
 #### Progress and Issues
-TODO
+I helped work on HW2 by writing the fourth use case, some of the toolset, and describing some of the major features and stretch goals. I also worked on proofreading and formatting each section of the document to make sure it was clear and professional. Meeting and messaging with my group worked well for me because I could discuss confusing parts with other team members and determine which parts of the assignment were still incomplete. From working on HW2, I learned how to formulate use cases and establish requirements for a project. One thing I am currently unsure about is how we will host the final web application and database. I initially thought about using GitHub pages with a firebase backend because I have successfully used this combination for a past project. However, I am still researching other options like Heroku.
 
 #### Plans and Goals
-TODO
+- Research more about how we will host our web application
+- Create a mock UI for the web application using Figma
 
 ### 3. Caroline
 #### Goals From Last Week
