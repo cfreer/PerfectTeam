@@ -8,7 +8,8 @@ N/A for the first report.
 We mainly focused on finishing HW2 this week and creating a schedule for how we plan on completing this project. We learned how to work together around our busy schedules. We found that it works better to meet up in person or over Zoom rather than trying to message each other about our work. We had trouble creating the use cases for HW2 because we were confused about the format and had overlapping cases. We solved this problem by asking our project manager to clarify the sections and by discussing all of our completed use cases together. One issue we are running into is deciding what language to use for the backend and how to connect it to the React being used for the frontend. We are also still discussing how we will host our final website.
 
 ### Plans and Goals
-TODO
+- Create mock UI for website (Aaron, Amanda)
+- Write the specification for backend (Caroline, Juan, Ned)
 
 ## Team Member Contributions
 ### 1. Aaron
