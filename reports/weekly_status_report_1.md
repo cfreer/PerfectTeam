@@ -39,7 +39,8 @@ N/A for the first report.
 Last week I helped complete HW2 by writing my use case, most of the external requirements, and some of the toolset. I also helped clean up the document and worked with the team over Zoom to finalize our report and turn it in. What worked well for me was reaching out to my team when I wasn't sure about expectations and discussing which parts of the assignment still needed help being completed. One thing blocking me right now is not exactly knowing my role in the project, so I don't know where to start.
 
 #### Plans and Goals
-TODO
+- Help team complete the GitHub README.md.
+- Figure out what we are using for our backend server and get a basic stucture set up.
 
 ### 4. Juan
 #### Goals From Last Week
