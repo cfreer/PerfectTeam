@@ -11,7 +11,7 @@ We mostly focused on finishing HW2 this week and getting a schedule in place for
 TODO
 
 ## Team Member Contributions
-### Aaron
+### 1. Aaron
 #### Goals From Last Week
 N/A for the first report.
 
@@ -21,7 +21,7 @@ TODO
 #### Plans and Goals
 TODO
 
-### Amanda
+### 2. Amanda
 #### Goals From Last Week
 N/A for the first report.
 
@@ -31,7 +31,7 @@ TODO
 #### Plans and Goals
 TODO
 
-### Caroline
+### 3. Caroline
 #### Goals From Last Week
 N/A for the first report.
 
@@ -41,7 +41,7 @@ Last week I helped complete HW2 by writing my use case, most of the external req
 #### Plans and Goals
 TODO
 
-### Juan
+### 4. Juan
 #### Goals From Last Week
 N/A for the first report.
 
@@ -51,7 +51,7 @@ TODO
 #### Plans and Goals
 TODO
 
-### Ned
+### 5. Ned
 #### Goals From Last Week
 N/A for the first report.
 
