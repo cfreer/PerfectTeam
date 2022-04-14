@@ -50,10 +50,11 @@ Last week I helped complete HW2 by writing my use case, most of the external req
 N/A for the first report.
 
 #### Progress and Issues
-TODO
+I worked on Homework where I helped to create some of the cases. We work as a team and we helped each other to understand the constraints of the project and what do we need to do to work forward. Some trouble that we had was that we were unclear on some of the stuff and understanding what to we need to do to accomplish some of the task.
 
 #### Plans and Goals
-TODO
+- Create the server and system design of the backend by researching different tools and understanding how the data is going to flow.
+- Research about the machine learning and algorithms that we can use to get the score for the win/loss projections.
 
 ### 5. Ned
 #### Goals From Last Week
