@@ -60,7 +60,8 @@ TODO
 N/A for the first report.
 
 #### Progress and Issues
-TODO
+This past week I helped complete HW 2 and did some research for how our algorithm will work. On hw2 I worked over zoom with the team on every possible occasion and wrote out the use cases and risks of our project. I also helped comb over the assignment to make sure everything was up to our standard. I also wrote the product description. What worked for us as a team was meeting frequently and looking at each other work. I learned that working together in person or over zoom get work done the fastest and it allows us to hold each other accountable and we work more efficienty with less distractions. We had trouble with be specific in our use cases and clarifying what they wanted out of us for hw 2. What really helped with that was talking with Ardi and keeping him in the loop while we were working. We are stuck on knowing where to start on our project since many of us don't have alot of experience with a project like this.
 
 #### Plans and Goals
-TODO
+Plan is to do some more research and to start working on the spec for the backend. 
+A goal would be to come up with a basic algorithm that is somewhat effective in predicting win/loss and also to have a spec done within a week or two.
