@@ -20,8 +20,8 @@ N/A for the first report.
 I aided in the completion of HW2 for the majority of this week. I worked on teh first user case, aided in creating the roadmap for the rest fo the quarter, and helped clarify our major risks, and when we would need external advice/testing. As a group we met multiple times during the week, and were able to share a lot of ideas about how we plan on moving forward. We were also able to catch eachothers mistakes, and I was able to recieve a lot of benficial advice from my peers. I learned a lot this week about the importance of planning ahead, and how much less daunting a project can feel when you have walked through use cases and have a clear goal for future endeavours. The main issue I was running into was considering in which way we would be connecting the backend to the frontend, and which languages would be the most comaptible for using alongside React JS. Ardi, our project manager, helped to clear up a lot fo my confusion, but I am going to need to perform some research in the coming future to be certain I can complete my required tasks.
 
 #### Plans and Goals
-Begin our initial mockup of our UI for frontend.
-Figure out what command line calls will be needed for combing different langauges together
+- Begin our initial mockup of our UI for frontend.
+- Figure out what command line calls will be needed for combing different langauges together
 
 ### 2. Amanda
 #### Goals From Last Week
