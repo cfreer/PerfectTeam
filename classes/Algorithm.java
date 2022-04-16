@@ -5,4 +5,5 @@ package classes;
 
 public class Algorithm {
 
+  //((marginal offense) / (marginal points per win)) * P / average winshares * 82
 }
