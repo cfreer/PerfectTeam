@@ -1,5 +1,9 @@
-#Juan 
+//Juan
 package classes;
+
+//This class help us to search for specific players based on specific data metrics. Here we want to create
+// a global search for the web app.
+
 
 public class Search {
       // Function for linear search
