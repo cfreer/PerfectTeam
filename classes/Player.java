@@ -1,5 +1,6 @@
 package classes;
-
+// A Player represents a basketball player that has stats, a PER, winshares,
+// salary, and a projcected salary.
 public class Player {
   private Stats stats;
   private PER per;
