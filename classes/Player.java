@@ -16,23 +16,14 @@ public class Player {
     this.projSalary = projSalary;
   }
 
+  public double getSalary() {
+    return this.salary;
+  }
+
   private class Stats {
     public Stats() {
-      
-    }
-  }
-
-  private class PER {
-    public PER() {
 
     }
-  }
-
-  private class WinShares {
-    public WinShares() {
-
-    }
-
   }
 
 }

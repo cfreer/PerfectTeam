@@ -15,14 +15,15 @@ public class Team {
   }
 
   public boolean addPlayer(Player player) {
+    double salary = player.getSalary();
     if (this.players.size() < 12) {
-      if (this.totalSalary + player.salary > this.salaryCap) {
+      if (this.totalSalary + salary > this.salaryCap) {
         // TODO: display this message to user in UI
         System.out.println("Error: Player cannot be added to the team." +
                             "Player's salary causes the total team salary to exceed the salary cap.");
       } else {
         this.players.add(player);
-        this.totalSalary += player.salary;
+        this.totalSalary += salary;
         return true;
       }
     } else {
@@ -30,6 +31,10 @@ public class Team {
                             "Team already has 12 players.");
     }
     return false;
+  }
+
+  public boolean removePlayer(Player player) {
+    return this.players.remove(player);
   }
 
 }
