@@ -3,12 +3,12 @@ package classes;
 // salary, and a projcected salary.
 public class Player {
   private Stats stats;
-  private PER per;
-  private WinShares winShares;
+  private double per;
+  private double winShares;
   private double salary;
   private double projSalary;
 
-  public Player(Stats stats, PER per, WinShares winShares, double salary, double projSalary) {
+  public Player(Stats stats, double per, double winShares, double salary, double projSalary) {
     this.stats = stats;
     this.per = per;
     this.winShares = winShares;
@@ -18,7 +18,7 @@ public class Player {
 
   private class Stats {
     public Stats() {
-
+      
     }
   }
 
