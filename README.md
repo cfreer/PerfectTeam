@@ -16,16 +16,16 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 
 # Repo Layout
 **classes**
-Stores all of the .java classes for the backend server.
+- Stores all of the .java classes for the backend server.
 
 **data**
-Stores all of the basketball data used for the application.
+- Stores all of the basketball data used for the application.
 
 **public**
-Stores the index.html file that hosts the application.
+- Stores the index.html file that hosts the application.
 
 **src**
-Stores all the files needed to create the frontend server.
+- Stores all the files needed to create the frontend server.
 
 # How to Run
 ```bash
