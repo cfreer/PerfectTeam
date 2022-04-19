@@ -28,10 +28,24 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 - Stores all the files needed to create the frontend server.
 
 # How to Run
-```bash
+Clone this repo using the following command:
+```
 git clone https://github.com/cfreer/PerfectTeam.git
+```
+
+Install the latest version of Node from [Nodejs.org](Nodejs.org). Once Node is installed, run the following command in the root directory:
+```
 npm install
+```
+
+To create a development build, run the following command:
+```
 npm start
+```
+
+To create a production build, run the following command:
+```
+npm run build
 ```
 
 GitHub Page: https://cfreer.github.io/PerfectTeam/
