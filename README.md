@@ -47,10 +47,10 @@ To create a development build, run the following command:
 npm start
 ```
 
-To create a production build, run the following command:
+To create a production build and deploy it to Firebase, run the following command:
 ```
 npm run build
+firebase deploy
 ```
 
-GitHub Page: https://cfreer.github.io/PerfectTeam/
-(to be implemented to host the server)
+Firebase hosting URL: [https://perfect-team-75839.web.app](https://perfect-team-75839.web.app)
