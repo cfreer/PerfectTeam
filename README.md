@@ -1,4 +1,5 @@
 # PerfectTeam
+GitHub Page: https://cfreer.github.io/PerfectTeam/
 PerfectTeam is an NBA predictive modeling software that takes any twelve-person lineup for a basketball team and accurately predicts their wins for an 82 game season. It uses algorithms and potentially machine learning for data analysis to predict their wins and losses. It includes major features like a wins prediction, team customization, salary cap, and a quick add team function. PerfectTeam will be a web application with a public URL for users to access easily.
 
 ## Major Features & Goals:
