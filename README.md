@@ -55,7 +55,7 @@ firebase deploy
 
 Firebase hosting URL: [https://perfect-team-75839.web.app](https://perfect-team-75839.web.app)
 
-# How to Set Up Firebase Hosting and include Firebase in the React app
+# How to Set Up Firebase Hosting and Include Firebase in the React App
 1. Go to [https://firebase.google.com/](https://firebase.google.com/), click the "Get started" button, and sign in using a Google account.
 2. Click the "Add project" button and enter a project name.
 3. Unselect "Enable Google Analytics for this project" and create the project.
@@ -65,4 +65,4 @@ Firebase hosting URL: [https://perfect-team-75839.web.app](https://perfect-team-
 7. Run the command `firebase login` in the root directory. It will prompt you to log in with the Google account that you used to sign up for Firebase.
 8. Run the command `firebase init` in the root directory. Type "y" to proceed. When asked to select the Firebase CLI features to set up, select Database and Hosting options. Next, select "Use an existing project" and select the project name that you created earlier. Once the database finishes setting up, type "y" when it asks if you would like to set up Realtime Database for the project. Next, select "us-central1" for the location. Press "Enter" when asked about the Realtime Database Security Rules file, using your public directory, and configuring a single-page app. Type "n" to setting up automatic builds and deploys with GitHub and overwriting the `public/index.html` file.
 9. Go to the `firebase.json` file. In the "hosting" object, change the line `"public": "public",` to `"public": "build",` and save the changes.
-10. Now, you can run the commands `npm run build` to create a production build and `firebase deploy` to deploy the Firebase web app. The hosting URL will be shown in the command prompt after the web app is deployed successfully. 
+10. Now, you can run the commands `npm run build` to create a production build and `firebase deploy` to deploy the Firebase web app. The hosting URL will be shown in the command prompt after the web app is deployed successfully.
