@@ -14,7 +14,8 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 - Trade Strategy - Calculate whether a trade is “worth it” depending on salary and potential contribution to wins.
 - Real-Time Data - Data on the webpage will be updated in real-time to give the user the best statistics and predictions.
 
-# Repo Layout
+# Git Repo
+## Layout
 **classes**
 - Stores all of the .java classes for the backend server.
 
@@ -26,6 +27,9 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 
 **src**
 - Stores all the files needed to create the frontend server.
+
+## Policies
+Branches will be in the format "name/feature_name" for each new feature and will be merged through a pull request that must be approved by another team member.
 
 # How to Run
 Clone this repo using the following command:
