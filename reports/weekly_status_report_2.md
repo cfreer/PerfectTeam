@@ -6,7 +6,7 @@
 - Write the specification for backend (Caroline, Juan, Ned)
 
 ### Progress and Issues
-This week Amanda and Aaron came up with mockup for the frontend UI, Amanda and Juan got the Firebase server working, and Juan, Ned, and Caroline got started on implementing the backend. We also worked as a team to get our GitHub set up and organized for HW3. One thing blocking our team this week was lack of communication, as we only had 2/5 members present at our team meeting, so we plan on having full attendance next week and therefore be more organized.
+This week Amanda and Aaron came up with a mockup for the frontend UI, Amanda and Juan got the Firebase server working, and Juan, Ned, and Caroline got started on implementing the backend. We also worked as a team to get our GitHub set up and organized for HW3. One thing blocking our team this week was lack of communication, as we only had 2/5 members present at our team meeting, so we plan on having full attendance next week and therefore be more organized.
 
 ### Plans and Goals
 - Start implementing the frontend (Aaron, Amanda)
@@ -29,7 +29,7 @@ This week Amanda and Aaron came up with mockup for the frontend UI, Amanda and J
 
 #### Plans and Goals
 - Begin harcoding the frontend in ReactJS
-- Work alongside backedend to implement changes in design as seen fit
+- Work alongside backend to implement changes in design as seen fit
 
 ### 2. Amanda
 #### Goals From Last Week
@@ -72,7 +72,7 @@ Plan is to do some more research and to start working on the spec for the backen
 A goal would be to come up with a basic algorithm that is somewhat effective in predicting win/loss and also to have a spec done within a week or two.
 
 #### Progress and Issues
-Have done a lot of research on finding the best way of creating an algorithm. Added some spec elements into backend. Helped imagine first design of the frontend. Some issues have been working on the algorithm there are certain method calls I require from the other classes that don't exist yet so for my stuff to work I need to write out more in the other classes. 
+Have done a lot of research on finding the best way of creating an algorithm. Added some spec elements into backend. Helped imagine first design of the frontend. Some issues have been working on the algorithm there are certain method calls I require from the other classes that don't exist yet so for my stuff to work I need to write out more in the other classes.
 
 #### Plans and Goals
 A plan that I have to increase accuracy in my algorithm was to take into consideration age as a factor in determining how well a player is going to play the next season but more importantly the players projected stats for the next season. I have seen similar patterns in how players will hit a prime and the deteriorate. Most players don't improve past their 27th and 28th birthdays. Another factor I need to implement is how much playing time makes an influence on the game. While one player may not get a lot of time on one team, they may get a lot more attention on another which can change how winshares and other stats are calculated.
