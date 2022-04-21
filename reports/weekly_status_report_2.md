@@ -62,10 +62,11 @@ This week I started implementing the backend classes for our web application, fo
 - Research about the machine learning and algorithms that we can use to get the score for the win/loss projections.
 
 #### Progress and Issues
-TODO
+This week I worked on the creation of the server in Firebased, I was able to help them by creating an app that allow us to server our website and the databases at the same time. On the other hand, I helped my team creating the search and csvtojson java classes that will help us to create the integration of the search bar and the mock data for the frontend. Some of the issues that we have is understanding the data that we need to put in our json files and the best way to send the data.
 
 #### Plans and Goals
-TODO
+- Help team to finisht the architecture and ER for our techinal spec.
+- Finish the integration of the backend and the creation of the tables in our server.
 
 ### 5. Ned
 #### Goals From Last Week
