@@ -21,9 +21,9 @@ TODO
  I focused mainly on finishing our design on Figma for the UI design. I worked on finalizing a page on games currently occuring
  and a page that presents the user with all of the current teams in the NBA. What worked well for me was having an open line of communication with
  the team members on backend where we were able to discuss what data would be used and presented. I learned a lot this week about the benefits of
- having a plan that is well thought it and well communicated, as it has helped us ot avoid a lot of roadblocks that I feel could have occured otherwise.
+ having a plan that is well thought out and well communicated, as it has helped us to avoid a lot of roadblocks that I feel could have occured otherwise.
  The main issue I was running into was in what way data should be expressed in the UI, whether a scroll bar would be more effective in circumstances
- was one example of this. However, many these issues were quiclly solves thanks to communciation with the team.
+ was one example of this. However, many of these issues were quickly solved thanks to communciation with the team.
 
 #### Plans and Goals
 - Begin harcoding the frontend in ReactJS
