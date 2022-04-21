@@ -6,10 +6,12 @@
 - Write the specification for backend (Caroline, Juan, Ned)
 
 ### Progress and Issues
-TODO
+This week Amanda and Aaron came up with mockup for the frontend UI, Amanda and Juan got the Firebase server working, and Juan, Ned, and Caroline got started on implementing the backend. We also worked as a team to get our GitHub set up and organized for HW3. One thing blocking our team this week was lack of communication, as we only had 2/5 members present at our team meeting, so we plan on having full attendance next week and therefore be more organized.
 
 ### Plans and Goals
-TODO
+- Start implementing the frontend (Aaron, Amanda)
+- Write the specification for backend (Juan, Ned)
+- Implement Player and Team class (Caroline)
 
 ## Team Member Contributions
 ### 1. Aaron
@@ -46,10 +48,12 @@ TODO
 - Figure out what we are using for our backend server and get a basic stucture set up.
 
 #### Progress and Issues
-TODO
+This week I started implementing the backend classes for our web application, focusing on the Team and Player classes. I also helped the team complete HW3. One thing blocking me right now is still not having a clear spec of the expected behavior for these classes, but I will hopefully get some clarification on that this week and get a first draft of these classes finished up.
 
 #### Plans and Goals
-TODO
+- Finish Team and Player backend classes.
+- Help the team complete HW4.
+
 
 ### 4. Juan
 #### Goals From Last Week
