@@ -38,10 +38,11 @@ This week Amanda and Aaron came up with a mockup for the frontend UI, Amanda and
 - Create a mock UI for the web application using Figma.
 
 #### Progress and Issues
-TODO
+I worked on creating the design for the UI of our web application. I first sketched the designs on paper and then created the Home page, Create a Team page, and the player profile page in Figma. I also helped with HW3 by setting up the React files and including Firebase in the React app. After researching the different options to host our web application, Juan and I decided to use Firebase Hosting. I went through the steps to set up a Firebase server for our project and wrote detailed instructions to include in our README.md for HW3. The thing that worked for me the best this week was meeting up with others to discuss the project. I learned that it takes a lot of communication and discussion between the frontend and backend groups to work on a project together. I had trouble finding out what data the backend group was working with but got a better understanding once they created the classes and data file in our Git repo. One thing that I am unsure about is the source of images for our web application. I think there may be APIs online that get NBA basketball images. I plan to spend time this week looking for useful APIs.
 
 #### Plans and Goals
-TODO
+- Begin implementing the frontend for our web application in React.
+- Search online for APIs that get NBA basketball images.
 
 ### 3. Caroline
 #### Goals From Last Week
