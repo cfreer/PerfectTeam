@@ -13,6 +13,9 @@ public class Team {
     this.salaryCap = salaryCap;
     this.totalSalary = 0;
   }
+  
+  //get totalSalary
+  
 
   public boolean addPlayer(Player player) {
     double salary = player.getSalary();
