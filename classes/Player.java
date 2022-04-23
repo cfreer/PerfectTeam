@@ -15,6 +15,8 @@ public class Player {
     this.salary = salary;
     this.projSalary = projSalary;
   }
+  
+  //get stats
 
   public double getSalary() {
     return this.salary;
