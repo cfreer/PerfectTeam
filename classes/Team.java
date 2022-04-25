@@ -19,6 +19,14 @@ public class Team {
   }
 
   /**
+   * Returns the teams's total salary.
+   * @return Team's total salary.
+   */
+  public double getTotalSalary() {
+    return this.totalSalary;
+  }
+
+  /**
    * If possible, adds the given player to the current team. If not, displays an
    * error to the user.
    * @param player The player to be added to the team.

@@ -29,6 +29,14 @@ public class Player {
   }
 
   /**
+   * Returns the player's stats
+   * @return Player's stats.
+   */
+  public Stats getStats() {
+    return this.stats;
+  }
+
+  /**
    * Returns the player's salary.
    * @return Player's salary.
    */
