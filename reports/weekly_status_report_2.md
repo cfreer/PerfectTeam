@@ -6,10 +6,10 @@
 - Write the specification for backend (Caroline, Juan, Ned)
 
 ### Progress and Issues
-This week Amanda and Aaron came up with a mockup for the frontend UI, Amanda and Juan got the Firebase server working, and Juan, Ned, and Caroline got started on implementing the backend. We also worked as a team to get our GitHub set up and organized for HW3. One thing blocking our team this week was lack of communication, as we only had 2/5 members present at our team meeting, so we plan on having full attendance next week and therefore be more organized.
+This week Amanda and Aaron came up with a mockup for the frontend UI. Amanda and Juan got the Firebase server working, and Juan, Ned, and Caroline started implementing the backend. We also worked as a team to get our GitHub set up and organized for HW3. One thing blocking our team this week was lack of communication, as we only had 2/5 members present at our team meeting. We plan on having full attendance next week and therefore be more organized. As the backend gets more complicated, more methods and implementations are necessary all around in the different classes. One change in one class can require other classes to "catch up." We have made good progress overall in the team and player classes, and the frontend devs are working closely with the backend devs to ensure the frontend has the tools they need.
 
 ### Plans and Goals
-- Start implementing the frontend (Aaron, Amanda)
+- Start implementing the frontend in React (Aaron, Amanda)
 - Write the specification for backend (Juan, Ned)
 - Implement Player and Team class (Caroline)
 
@@ -37,10 +37,11 @@ This week Amanda and Aaron came up with a mockup for the frontend UI, Amanda and
 - Create a mock UI for the web application using Figma.
 
 #### Progress and Issues
-TODO
+I worked on creating the design for the UI of our web application. I first sketched the designs on paper and then created the Home page, Create a Team page, and the player profile page in Figma. I also helped with HW3 by setting up the React files and including Firebase in the React app. After researching the different options to host our web application, Juan and I decided to use Firebase Hosting. I went through the steps to set up a Firebase server for our project and wrote detailed instructions to include in our README.md for HW3. The thing that worked for me the best this week was meeting up with others to discuss the project. I learned that it takes a lot of communication and discussion between the frontend and backend groups to work on a project together. I had trouble finding out what data the backend group was working with but got a better understanding once they created the classes and data file in our Git repo. One thing that I am unsure about is the source of images for our web application. I think there may be APIs online that get NBA basketball images. I plan to spend time this week looking for useful APIs.
 
 #### Plans and Goals
-TODO
+- Begin implementing the frontend for our web application in React.
+- Search online for APIs that get NBA basketball images.
 
 ### 3. Caroline
 #### Goals From Last Week
@@ -61,10 +62,11 @@ This week I started implementing the backend classes for our web application, fo
 - Research about the machine learning and algorithms that we can use to get the score for the win/loss projections.
 
 #### Progress and Issues
-TODO
+This week I worked on the creation of the server in Firebased, I was able to help them by creating an app that allow us to server our website and the databases at the same time. On the other hand, I helped my team creating the search and csvtojson java classes that will help us to create the integration of the search bar and the mock data for the frontend. Some of the issues that we have is understanding the data that we need to put in our json files and the best way to send the data.
 
 #### Plans and Goals
-TODO
+- Help team to finisht the architecture and ER for our techinal spec.
+- Finish the integration of the backend and the creation of the tables in our server.
 
 ### 5. Ned
 #### Goals From Last Week

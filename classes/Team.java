@@ -17,6 +17,9 @@ public class Team {
     this.salaryCap = salaryCap;
     this.totalSalary = 0;
   }
+  
+  //get totalSalary
+  
 
   /**
    * Returns the teams's total salary.
