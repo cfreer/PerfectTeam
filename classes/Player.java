@@ -10,6 +10,8 @@ public class Player {
   private double winShares; // An estimate of the number of wins contributed by a player.
   private double salary; // Player's salary.
   private double projSalary; // Player's projected salary.
+  private String name;
+  private int age;
 
   /**
    * Creates a new Player with the given data.
@@ -20,12 +22,14 @@ public class Player {
    * @param salary Player's salary.
    * @param projSalary Player's projected salary.
    */
-  public Player(Stats stats, double per, double winShares, double salary, double projSalary) {
+  public Player(Stats stats, double per, double winShares, double salary, double projSalary, String name, int age) {
     this.stats = stats;
     this.per = per;
     this.winShares = winShares;
     this.salary = salary;
     this.projSalary = projSalary;
+    this.name = name;
+    this.age = age;
   }
   
   //get stats
