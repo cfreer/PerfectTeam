@@ -10,8 +10,8 @@ public class Player {
   private double winShares; // An estimate of the number of wins contributed by a player.
   private double salary; // Player's salary.
   private double projSalary; // Player's projected salary.
-  private String name;
-  private int age;
+  private String name; //Player's name.
+  private int age; //Player's age.
 
   /**
    * Creates a new Player with the given data.
