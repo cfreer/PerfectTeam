@@ -40,11 +40,27 @@ public class Player {
   }
 
   /**
-   * Returns the player's stats
+   * Returns the player's stats.
    * @return Player's stats.
    */
   public Stats getStats() {
     return this.stats;
+  }
+
+  /**
+   * Returns the player's player efficiency rating.
+   * @return Player's player efficiency rating.
+   */
+  public double getPER() {
+    return this.per;
+  }
+
+  /**
+   * Returns the player's win shares.
+   * @return Player's win shares.
+   */
+  public double getWinShares() {
+    return this.winShares;
   }
 
   /**
@@ -53,6 +69,38 @@ public class Player {
    */
   public double getSalary() {
     return this.salary;
+  }
+
+  /**
+   * Returns the player's projected salary.
+   * @return Player's projected salary.
+   */
+  public double getProjSalary() {
+    return this.projSalary;
+  }
+
+  /**
+   * Returns the player's profile picture.
+   * @return Player's profile picture.
+   */
+  public Image getProPic() {
+    return this.proPic;
+  }
+
+  /**
+   * Returns the player's first and last name.
+   * @return Player's first and last name.
+   */
+  public String getName() {
+    return this.name;
+  }
+
+  /**
+   * Returns the player's age.
+   * @return Player's age.
+   */
+  public int getAge() {
+    return this.age;
   }
 
   // A Stats represents averages of a player's points, free throws made, offensive rebounds,
@@ -95,6 +143,87 @@ public class Player {
       this.blocksAgainst = blocksAgainst;
       this.personalFouls = personalFouls;
     }
+
+    /**
+     * Returns the average points.
+     * @return Average points.
+     */
+    public double getPoints() {
+      return this.points;
+    }
+
+    /**
+     * Returns the average free throws made.
+     * @return Average free throws made.
+     */
+    public double getFreeThrows() {
+      return this.freeThrows;
+    }
+
+    /**
+     * Returns the average offensive rebounds.
+     * @return Average offensive rebounds.
+     */
+    public double getOffRebounds() {
+      return this.offRebounds;
+    }
+
+    /**
+     * Returns the average defensive rebounds.
+     * @return Average defensive rebounds.
+     */
+    public double getDefRebounds() {
+      return this.defRebounds;
+    }
+
+    /**
+     * Returns the average assists.
+     * @return Average assists.
+     */
+    public double getAssists() {
+      return this.assists;
+    }
+
+    /**
+     * Returns the average turnovers.
+     * @return Average turnovers.
+     */
+    public double getTurnovers() {
+      return this.turnovers;
+    }
+
+    /**
+     * Returns the average steals.
+     * @return Average steals.
+     */
+    public double getSteals() {
+      return this.steals;
+    }
+
+    /**
+     * Returns the average blocks.
+     * @return Average blocks.
+     */
+    public double getBlocks() {
+      return this.blocks;
+    }
+
+    /**
+     * Returns the average blocks against.
+     * @return Average blocks against.
+     */
+    public double getBlocksAgainst() {
+      return this.blocksAgainst;
+    }
+
+    /**
+     * Returns the average personal fouls.
+     * @return Average personal fouls.
+     */
+    public double getPersonalFouls() {
+      return this.personalFouls;
+    }
+
   }
 
 }
