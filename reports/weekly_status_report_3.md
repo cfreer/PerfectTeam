@@ -1,4 +1,4 @@
-# Weekly Status Report 2
+# Weekly Status Report 3
 
 ## Team Report
 ### Goals From Last Week
@@ -41,10 +41,11 @@ TODO
 - Help the team complete HW4.
 
 #### Progress and Issues
-TODO
+This week I finished a first draft of the Team and Player classes. We changed all of the statistics needed for the algorithm, so I added these to the Stats class and added getters for the fields of Player and Stats. I also helped the team complete HW5 by doing the coding guidelines section and updating my role and schedule. I don't have any huge blockers right now, other than not knowing what to work on next besides testing.
 
 #### Plans and Goals
-TODO
+- Set up testing and write tests for Team and Player.
+- Help the team complete HW5.
 
 ### 4. Juan
 #### Goals From Last Week
