@@ -4,8 +4,8 @@ import java.awt.*;
 // A Player represents a basketball player that has stats, a PER, win shares,
 // salary, a projected salary, profile picture, name, and age.
 public class Player {
-  private Stats stats; // 3-point attempt rate, assist percentage total rebound percentage,
-                       // block percentage, and steal percentage.
+  private Stats stats; //points, assists, defensive rebounds, offensive rebounds, steals, turnovers, personal fouls,
+                       //blocks, blocks against, free throws made
   private double per; // Player Efficiency Rating: A measure of per-minute
                       // production standardized such that the league average is 15.
   private double winShares; // An estimate of the number of wins contributed by a player.
@@ -105,7 +105,7 @@ public class Player {
 
   // A Stats represents averages of a player's points, free throws made, offensive rebounds,
   // defensive rebounds, assists, turnovers, steals, blocks, blocks against, and personal fouls.
-  private class Stats {
+  public class Stats {
     private double points; // Average points.
     private double freeThrows; // Average free throws made.
     private double offRebounds; // Average offensive rebounds.
@@ -116,6 +116,7 @@ public class Player {
     private double blocks; // Average blocks.
     private double blocksAgainst; // Average blocks against.
     private double personalFouls; // Average personal fouls.
+    private double playingTime; //Average playing time.
 
     /**
      * Creates a new Stats with the given data.
@@ -131,7 +132,7 @@ public class Player {
      * @param personalFouls Average personal fouls.
      */
     public Stats(double points, double freeThrows, double offRebounds, double defRebounds, double assists,
-                 double turnovers, double steals, double blocks, double blocksAgainst, double personalFouls) {
+                 double turnovers, double steals, double blocks, double blocksAgainst, double personalFouls, double playingTime) {
       this.points = points;
       this.freeThrows = freeThrows;
       this.offRebounds = offRebounds;
@@ -142,6 +143,7 @@ public class Player {
       this.blocks = blocks;
       this.blocksAgainst = blocksAgainst;
       this.personalFouls = personalFouls;
+      this.playingTime = playingTime;
     }
 
     /**
@@ -150,6 +152,14 @@ public class Player {
      */
     public double getPoints() {
       return this.points;
+    }
+
+    /**
+     * Returns the playing time.
+     * @return Playing time of the player.
+     */
+    public double getPlayingTime() {
+      return this.playingTime;
     }
 
     /**
