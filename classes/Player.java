@@ -95,6 +95,87 @@ public class Player {
       this.blocksAgainst = blocksAgainst;
       this.personalFouls = personalFouls;
     }
+
+    /**
+     * Returns the average points.
+     * @return Average points.
+     */
+    public double getPoints() {
+      return this.points;
+    }
+
+    /**
+     * Returns the average free throws made.
+     * @return Average free throws made.
+     */
+    public double getFreeThrows() {
+      return this.freeThrows;
+    }
+
+    /**
+     * Returns the average offensive rebounds.
+     * @return Average offensive rebounds.
+     */
+    public double getOffRebounds() {
+      return this.offRebounds;
+    }
+
+    /**
+     * Returns the average defensive rebounds.
+     * @return Average defensive rebounds.
+     */
+    public double getDefRebounds() {
+      return this.defRebounds;
+    }
+
+    /**
+     * Returns the average assists.
+     * @return Average assists.
+     */
+    public double getAssists() {
+      return this.assists;
+    }
+
+    /**
+     * Returns the average turnovers.
+     * @return Average turnovers.
+     */
+    public double getTurnovers() {
+      return this.turnovers;
+    }
+
+    /**
+     * Returns the average steals.
+     * @return Average steals.
+     */
+    public double getSteals() {
+      return this.steals;
+    }
+
+    /**
+     * Returns the average blocks.
+     * @return Average blocks.
+     */
+    public double getBlocks() {
+      return this.blocks;
+    }
+
+    /**
+     * Returns the average blocks against.
+     * @return Average blocks against.
+     */
+    public double getBlocksAgainst() {
+      return this.blocksAgainst;
+    }
+
+    /**
+     * Returns the average personal fouls.
+     * @return Average personal fouls.
+     */
+    public double getPersonalFouls() {
+      return this.personalFouls;
+    }
+
   }
 
 }
