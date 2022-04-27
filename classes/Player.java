@@ -40,11 +40,27 @@ public class Player {
   }
 
   /**
-   * Returns the player's stats
+   * Returns the player's stats.
    * @return Player's stats.
    */
   public Stats getStats() {
     return this.stats;
+  }
+
+  /**
+   * Returns the player's player efficiency rating.
+   * @return Player's player efficiency rating.
+   */
+  public double getPER() {
+    return this.per;
+  }
+
+  /**
+   * Returns the player's win shares.
+   * @return Player's win shares.
+   */
+  public double getWinShares() {
+    return this.winShares;
   }
 
   /**
@@ -53,6 +69,38 @@ public class Player {
    */
   public double getSalary() {
     return this.salary;
+  }
+
+  /**
+   * Returns the player's projected salary.
+   * @return Player's projected salary.
+   */
+  public double getProjSalary() {
+    return this.projSalary;
+  }
+
+  /**
+   * Returns the player's profile picture.
+   * @return Player's profile picture.
+   */
+  public Image getProPic() {
+    return this.proPic;
+  }
+
+  /**
+   * Returns the player's first and last name.
+   * @return Player's first and last name.
+   */
+  public String getName() {
+    return this.name;
+  }
+
+  /**
+   * Returns the player's age.
+   * @return Player's age.
+   */
+  public int getAge() {
+    return this.age;
   }
 
   // A Stats represents averages of a player's points, free throws made, offensive rebounds,
