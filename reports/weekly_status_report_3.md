@@ -65,7 +65,7 @@ A plan that I have to increase accuracy in my algorithm was to take into conside
 My goal is to find a way to implement these biases into my algorithm and finalize what I need from the other classes to do what I want to do.
 
 #### Progress and Issues
-TODO
+This week I have been finalizing what I want for the algorithm and helping the other teammates with their classes. I have figured out what I want for the algorithm but the data that we collected doesn't completely match up with what I need as variables. We have added all the neccessary fields and stats to the team and player classes. Another issue that I will have is trying to find a way to adjust stats related to playing time since different players on different teams will have differing playing time numbers. For example a super star on a bad team will most likely play the whole game while a star surrounded by other great players will likely get more rest and play less.
 
 #### Plans and Goals
-TODO
+My plan is to distribute the playing time minutes dependant on how much time they get on their current teams and scale the minutes to fit the 240 minutes that each team plays. I also need to find another source of stats that contain the missing variables that I need for the formula. Another plan I have is to work with Juan on helping him filter the data. My goal for this coming week is to have the algorithm done.
