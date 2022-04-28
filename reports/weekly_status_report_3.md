@@ -7,7 +7,7 @@
 - Implement Player and Team class (Caroline)
 
 ### Progress and Issues
-This week we did more research on the algorithm, which allowed us to recognize what additional data we will need and finalize what fields are needed for the Team and Player classes. We also defined the software architecture and design for our project and came up with an updated schedule for HW4.
+This week, we did more research on the algorithm, which allowed us to recognize what additional data we will need and finalize what fields are needed for the Team and Player classes. On the frontend side, we started setting up the different components and pages of the web application. We also defined the software architecture and design for our project and came up with an updated schedule for HW4. We moved our weekly team meetings to Tuesdays instead of Monday, which worked well for us as all members participated.
 
 ### Plans and Goals
 - Continue implementing the static mock-up pages in React (Aaron, Amanda)
