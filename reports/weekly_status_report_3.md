@@ -61,10 +61,11 @@ This week I finished a first draft of the Team and Player classes. We changed al
 - Finish the integration of the backend and the creation of the tables in our server.
 
 #### Progress and Issues
-TODO
+This week I help the team working on the architecture and design of the project, I help with the software design where I structured the design of the application based on our MVC approach. Working on this I was able to create a system desing flow that will help us to understand how is the data is going to show up. By understanding this, I was able to help my teammates to create the ER diagram that will help us to understand the data and how is the data is structured in our system.
 
 #### Plans and Goals
-TODO
+Finishing the parsing the data from CSV to JSON file and create the endpoints for our project. 
+Finishing the structure of our JSON files that will be send to the frontend.
 
 ### 5. Ned
 #### Goals From Last Week
