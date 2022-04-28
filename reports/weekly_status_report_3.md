@@ -27,8 +27,8 @@ autofill funcitonality an save us a lot of coding time. I am still working on fi
 through it appropriately and effectively. However, Juan will be giving me this information shortly, so I don't think this block will last past the end of this week.
 
 #### Plans and Goals
-- Finish search bar component
-- continue progress on the games page for a static mock up.
+- Finish search bar component.
+- Continue progress on the games page for a static mock up.
 
 ### 2. Amanda
 #### Goals From Last Week
