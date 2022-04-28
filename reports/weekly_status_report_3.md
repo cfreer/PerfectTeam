@@ -10,7 +10,9 @@
 TODO
 
 ### Plans and Goals
-TODO
+- Continue implementing the static mock-up pages in React (Aaron, Amanda)
+- (Juan, Ned)
+- Set up testing and write tests for Team and Player (Caroline)
 
 ## Team Member Contributions
 ### 1. Aaron
