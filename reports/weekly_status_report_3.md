@@ -30,10 +30,12 @@ TODO
 - Search online for APIs that get NBA basketball images.
 
 #### Progress and Issues
-TODO
+This week I worked on defining the software architecture for our project. I worked with Juan to figure out what data should be stored and how our database would be organized. I created an ER diagram of the data to show the relationship between the different entities better. I also started implementing a static mock-up of the home page in React. Once again, meeting in person to discuss the project worked well for me. By working on HW4, I learned more about the different software architectures, such as MVC, MVP, and MVVM. I had trouble deciding which software architecture would work well for our project, but I was able to choose one after talking more with the TAs. I am still slightly stuck finding the best method to get NBA images for our web application. To prevent this from blocking the progress of our work, I will use placeholder images on our web application for now.
 
 #### Plans and Goals
-TODO
+- Add interactions to the Figma prototype.
+- Continue implementing static mock-up of pages in React for our web application.
+- Create a new logo for PerfectTeam.
 
 ### 3. Caroline
 #### Goals From Last Week
