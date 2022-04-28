@@ -28,6 +28,14 @@ public class Team {
   public double getTotalSalary() {
     return this.totalSalary;
   }
+  
+  /**
+   * @return The list of players on the team
+   */
+
+  public List<Player> getTeam() {
+    return players;
+  }
 
   /**
    * If possible, adds the given player to the current team. If not, displays an
