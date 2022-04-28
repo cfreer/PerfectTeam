@@ -11,7 +11,7 @@ This week, we did more research on the algorithm, which allowed us to recognize 
 
 ### Plans and Goals
 - Continue implementing the static mock-up pages in React (Aaron, Amanda)
-- (Juan, Ned)
+- Finalize algorithm and find additional data needed. (Juan, Ned)
 - Set up testing and write tests for Team and Player (Caroline)
 
 ## Team Member Contributions
@@ -27,7 +27,7 @@ autofill funcitonality an save us a lot of coding time. I am still working on fi
 through it appropriately and effectively. However, Juan will be giving me this information shortly, so I don't think this block will last past the end of this week.
 
 #### Plans and Goals
-- Finsih search bar component
+- Finish search bar component
 - continue progress on the games page for a static mock up.
 
 ### 2. Amanda
