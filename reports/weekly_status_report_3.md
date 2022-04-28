@@ -21,10 +21,14 @@ This week, we did more research on the algorithm, which allowed us to recognize 
 - Work alongside backend to implement changes in design as seen fit
 
 #### Progress and Issues
-TODO
+This week I began working on the games page for the frontend representation. I also have spent an ample amount time implementing the autofill searchbar, which has 
+proven to be quite involved. This week, a lot of my learning has been around search options for our data, and I've found some unique tools that will aid in the
+autofill funcitonality an save us a lot of coding time. I am still working on finsihing the search bar, as I need to know our JSON file format so that I can search
+through it appropriately and effectively. However, Juan will be giving me this information shortly, so I don't think this block will last past the end of this week.
 
 #### Plans and Goals
-TODO
+- Finsih search bar component
+- continue progress on the games page for a static mock up.
 
 ### 2. Amanda
 #### Goals From Last Week
