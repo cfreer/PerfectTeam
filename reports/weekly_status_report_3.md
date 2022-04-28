@@ -17,7 +17,7 @@ This week, we did more research on the algorithm, which allowed us to recognize 
 ## Team Member Contributions
 ### 1. Aaron
 #### Goals From Last Week
-- Begin harcoding the frontend in ReactJS
+- Begin hardcoding the frontend in ReactJS
 - Work alongside backend to implement changes in design as seen fit
 
 #### Progress and Issues
