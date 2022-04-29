@@ -7,24 +7,28 @@
 - Implement Player and Team class (Caroline)
 
 ### Progress and Issues
-This week we did more research on the algorithm, which allowed us to recognize what additional data we will need and finalize what fields are needed for the Team and Player classes. We also defined the software architecture and design for our project and came up with an updated schedule for HW4.
+This week, we did more research on the algorithm, which allowed us to recognize what additional data we will need and finalize what fields are needed for the Team and Player classes. On the frontend side, we started setting up the different components and pages of the web application. We also defined the software architecture and design for our project and came up with an updated schedule for HW4. We moved our weekly team meetings to Tuesdays instead of Monday, which worked well for us as all members participated.
 
 ### Plans and Goals
 - Continue implementing the static mock-up pages in React (Aaron, Amanda)
-- (Juan, Ned)
+- Finalize algorithm and find additional data needed. (Juan, Ned)
 - Set up testing and write tests for Team and Player (Caroline)
 
 ## Team Member Contributions
 ### 1. Aaron
 #### Goals From Last Week
-- Begin harcoding the frontend in ReactJS
+- Begin hardcoding the frontend in ReactJS
 - Work alongside backend to implement changes in design as seen fit
 
 #### Progress and Issues
-TODO
+This week I began working on the games page for the frontend representation. I also have spent an ample amount time implementing the autofill searchbar, which has 
+proven to be quite involved. This week, a lot of my learning has been around search options for our data, and I've found some unique tools that will aid in the
+autofill funcitonality an save us a lot of coding time. I am still working on finsihing the search bar, as I need to know our JSON file format so that I can search
+through it appropriately and effectively. However, Juan will be giving me this information shortly, so I don't think this block will last past the end of this week.
 
 #### Plans and Goals
-TODO
+- Finish search bar component.
+- Continue progress on the games page for a static mock up.
 
 ### 2. Amanda
 #### Goals From Last Week
@@ -57,10 +61,11 @@ This week I finished a first draft of the Team and Player classes. We changed al
 - Finish the integration of the backend and the creation of the tables in our server.
 
 #### Progress and Issues
-TODO
+This week I help the team working on the architecture and design of the project, I help with the software design where I structured the design of the application based on our MVC approach. Working on this I was able to create a system desing flow that will help us to understand how is the data is going to show up. By understanding this, I was able to help my teammates to create the ER diagram that will help us to understand the data and how is the data is structured in our system.
 
 #### Plans and Goals
-TODO
+Finishing the parsing the data from CSV to JSON file and create the endpoints for our project. 
+Finishing the structure of our JSON files that will be send to the frontend.
 
 ### 5. Ned
 #### Goals From Last Week
