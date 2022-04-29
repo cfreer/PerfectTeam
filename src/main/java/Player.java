@@ -1,4 +1,4 @@
-package classes;
+package src.main.java;
 import java.awt.*;
 
 // A Player represents a basketball player that has stats, a PER, win shares,
