@@ -1,4 +1,4 @@
-package classes;
+package src.main.java;
 import java.util.*;
 
 // A Team represents a list of 12 Players that is able to be modified and
@@ -17,9 +17,9 @@ public class Team {
     this.salaryCap = salaryCap;
     this.totalSalary = 0;
   }
-  
+
   //get totalSalary
-  
+
 
   /**
    * Returns the teams's total salary.
@@ -28,7 +28,7 @@ public class Team {
   public double getTotalSalary() {
     return this.totalSalary;
   }
-  
+
   /**
    * @return The list of players on the team
    */

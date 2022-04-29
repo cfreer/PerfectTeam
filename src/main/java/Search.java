@@ -1,5 +1,5 @@
 //Juan
-package classes;
+package src.main.java;
 
 //This class help us to search for specific players based on specific data metrics. Here we want to create
 // a global search for the web app.
@@ -10,10 +10,10 @@ public class Search {
     public static int search(int arr[], int x)
     {
         int n = arr.length;
- 
+
         // Traverse array arr[]
         for (int i = 0; i < n; i++) {
- 
+
             // If element found then
             // return that index
             if (arr[i] == x)
@@ -21,16 +21,16 @@ public class Search {
         }
         return -1;
     }
- 
+
     // Driver Code
     public static void main(String args[])
     {
         // Given arr[]
         int arr[] = { 2, 3, 4, 10, 40 };
- 
+
         // Element to search
         int x = 10;
- 
+
         // Function Call
         int result = search(arr, x);
         if (result == -1)
