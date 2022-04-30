@@ -29,7 +29,7 @@ function NavBar() {
   return (
     <div>
       <header>
-        <h1><NavLink to="/">Kilim</NavLink></h1>
+        <h1><NavLink to="/">PerfectTeam</NavLink></h1>
       </header>
       <Dropdown id="dropdown">
         <Dropdown.Toggle id="dropdown-basic">
@@ -37,19 +37,20 @@ function NavBar() {
         </Dropdown.Toggle>
         <Dropdown.Menu>
           <Dropdown.Item> <NavLink className="menuLinks" to="/">Home</NavLink> </Dropdown.Item>
-          <Dropdown.Item> <NavLink className="menuLinks" to="/author">Featured Authors</NavLink></Dropdown.Item>
-          <Dropdown.Item> <NavLink className="menuLinks" to="/about">About Us</NavLink></Dropdown.Item>
-          <Dropdown.Item> <NavLink className="menuLinks" to="/profile">Profile</NavLink></Dropdown.Item>
-          <Dropdown.Item> <NavLink to="/Login">Sign Up/Login</NavLink></Dropdown.Item>
+          <Dropdown.Item> <NavLink className="menuLinks" to="/createteam">Create Team</NavLink></Dropdown.Item>
+          <Dropdown.Item> <NavLink className="menuLinks" to="/games">Games</NavLink></Dropdown.Item>
+          <Dropdown.Item> <NavLink className="menuLinks" to="/teams">Teams</NavLink></Dropdown.Item>
+          <Dropdown.Item> <NavLink to="/players">Players</NavLink></Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       <Navbar>
         <div id="navLinks">
           <ul className="ul-menu">
             <li><NavLink className="menuLinks" to="/">Home</NavLink></li>
-            <li><NavLink className="menuLinks" to="/author">Featured Authors</NavLink></li>
-            <li><NavLink className="menuLinks" to="/about">About Us</NavLink></li>
-            <li><NavLink className="menuLinks" to="/login">Profile</NavLink></li>
+            <li><NavLink className="menuLinks" to="/createteam">Create Team</NavLink></li>
+            <li><NavLink className="menuLinks" to="/games">Games</NavLink></li>
+            <li><NavLink className="menuLinks" to="/teams">Teams</NavLink></li>
+            <li><NavLink className="menuLinks" to="/players">Players</NavLink></li>
           </ul>
         </div>
       </Navbar>
