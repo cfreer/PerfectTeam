@@ -15,8 +15,11 @@ function App(props : any) {
   // returns rendered routes and specified components
   return (
     <div>
+      <div id='header-bar'>
+        <p></p>
+      </div>
       <header>
-        <h1><a href="/">PerfectTeam</a></h1>
+        <img src={process.env.PUBLIC_URL + '/imgs/perfect_team_logo.jpg'} alt='Perfect Team logo'/>
       </header>
       <hr />
       <Route path="/" component={NavBar} />
