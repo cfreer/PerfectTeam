@@ -4,8 +4,8 @@ function CreateTeam(props : any) {
 
   // renders create team page
   return (
-    <div className='home-container'>
-
+    <div className='create-team-container'>
+      <p>create team</p>
     </div>
   );
 }

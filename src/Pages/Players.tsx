@@ -5,7 +5,7 @@ function Players(props : any) {
   // renders players page
   return (
     <div className='players-container'>
-
+      <p>players</p>
     </div>
   );
 }

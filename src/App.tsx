@@ -5,9 +5,9 @@ import CreateTeam from './pages/CreateTeam';
 import Games from './pages/Games';
 import Teams from './pages/Teams';
 import Players from './pages/Players';
-import './index.css';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import './index.css';
 
 
 function App(props : any) {
@@ -15,10 +15,15 @@ function App(props : any) {
   // returns rendered routes and specified components
   return (
     <div>
+      <header>
+        <h1><a href="/">PerfectTeam</a></h1>
+      </header>
+      <hr />
       <Route path="/" component={NavBar} />
+      <hr />
       <main>
         <Switch>
-          <Route path="/" >
+          <Route exact path="/" >
             <Home />
           </Route>
           <Route path="/createteam">

@@ -5,7 +5,7 @@ function Games(props : any) {
   // rendered games page
   return (
     <div className='games-container'>
-
+      <p>games</p>
     </div>
   );
 }
