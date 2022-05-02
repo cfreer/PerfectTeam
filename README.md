@@ -37,7 +37,7 @@ Clone this repo using the following command:
 git clone https://github.com/cfreer/PerfectTeam.git
 ```
 
-Install the latest version of Node from [Nodejs.org](Nodejs.org). Once Node is installed, run the following command in the root directory:
+Install the latest version of Node from [Nodejs.org](https://nodejs.org/en/). Once Node is installed, run the following command in the root directory:
 ```
 npm install
 ```
