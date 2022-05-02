@@ -36,7 +36,7 @@ function NavBar() {
           menu
         </Dropdown.Toggle>
         <Dropdown.Menu>
-          <Dropdown.Item> <NavLink className="menuLinks" to="/">Home</NavLink> </Dropdown.Item>
+          <li> <NavLink className="menuLinks" to="/">Home</NavLink> </li>
           <Dropdown.Item> <NavLink className="menuLinks" to="/createteam">Create Team</NavLink></Dropdown.Item>
           <Dropdown.Item> <NavLink className="menuLinks" to="/games">Games</NavLink></Dropdown.Item>
           <Dropdown.Item> <NavLink className="menuLinks" to="/teams">Teams</NavLink></Dropdown.Item>
