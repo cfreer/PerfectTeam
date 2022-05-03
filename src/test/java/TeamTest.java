@@ -74,4 +74,9 @@ public class TeamTest {
     assertTrue(team.removePlayer(player));
     assertEquals(new ArrayList<Player>(), team.getPlayers());
   }
+
+  @Test
+  public void testFalse() {
+    assertTrue(false);
+  }
 }
