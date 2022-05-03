@@ -16,12 +16,16 @@ h1, h2, h3 {
   padding: 1rem;
 }
 
-header, header a {
-  text-align: center;
-  font-family: 'Lobster', cursive;
-  background-position: center;
-  color: #F1600D;
-  margin: 0;
+header {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  margin: 10px;
+  max-width: 15rem;
+  height: auto;
 }
 
 nav {
@@ -55,11 +59,16 @@ li {
 footer {
   background-color: black;
   color: white;
-  padding: .5rem;
   margin: 0;
   font-size: 10pt;
   display: flex;
   justify-content: center;
+}
+
+#header-bar {
+  background-color: black;
+  padding: 10px;
+  height: 25px;
 }
 
 #dropdown {
