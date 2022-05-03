@@ -13,6 +13,7 @@
     "@types/react-router-dom": "^5.3.3",
     "bootstrap": "^4.6.0",
     "firebase": "^8.6.5",
+    "gradle": "^1.2.4",
     "live-server": "^1.2.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
