@@ -13,7 +13,7 @@ public class Algorithm {
   public Algorithm(Team team) {
     double playingTimeScale = 0;
     double totalPlayingTime = 0.0;
-    for (Player player : team.getTeam()) {
+    for (Player player : team.getPlayers()) {
       player.getStats().getPlayingTime();
     }
   }

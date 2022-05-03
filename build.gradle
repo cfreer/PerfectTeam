@@ -11,5 +11,5 @@ dependencies {
 }
 
 application {
-  mainClassName 'Player'
+  mainClassName 'Team'
 }
