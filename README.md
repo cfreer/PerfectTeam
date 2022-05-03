@@ -16,17 +16,29 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 
 # Git Repo
 ## Layout
-**classes**
-- Stores all of the .java classes for the backend server.
-
 **data**
 - Stores all of the basketball data used for the application.
+
+**lib**
+- Stores the .jar files needed for JUnit.
+
+**gradle/wrapper**
+- Store the Gradle wrapper files so GitHub Actions can use Gradle.
 
 **public**
 - Stores the index.html file that hosts the application.
 
-**src**
-- Stores all the files needed to create the frontend server.
+**src/Components**
+- Stores all the components needed to create the frontend server.
+
+**src/Pages**
+- Stores all the pages needed to create the frontend server.
+
+**src/main/java**
+- Stores all of the .java classes for the backend server.
+
+**src/test/java**
+- Stores all of the JUnit tests for the backend server.
 
 ## Policies
 Branches will be in the format "name/feature_name" for each new feature and will be merged through a pull request that must be approved by another team member.
