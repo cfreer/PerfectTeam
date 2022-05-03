@@ -5,7 +5,7 @@ function Home(props : any) {
   // renders home page
   return (
     <div className='home-container'>
-      <p>home</p>
+      <p>home page</p>
     </div>
   );
 }

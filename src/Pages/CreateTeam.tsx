@@ -5,7 +5,7 @@ function CreateTeam(props : any) {
   // renders create team page
   return (
     <div className='create-team-container'>
-      <p>create team</p>
+      <p>create team page</p>
     </div>
   );
 }

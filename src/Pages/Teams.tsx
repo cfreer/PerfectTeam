@@ -5,7 +5,7 @@ function Teams(props : any) {
   // renders teams page
   return (
     <div className='teams-container'>
-      <p>teams</p>
+      <p>teams page</p>
     </div>
   );
 }
