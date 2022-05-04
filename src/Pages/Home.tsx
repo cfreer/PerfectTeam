@@ -15,7 +15,7 @@ function Home(props : any) {
           vivamus arcu felis bibendum ut. Gravida quis blandit turpis cursus in
           hac habitasse platea dictumst. Sagittis nisl rhoncus mattis rhoncus.
         </p>
-        <Button variant='primary'>Create Team</Button>
+        <Button variant='primary' data-testid='create-team-btn'>Create Team</Button>
       </div>
 
     </div>

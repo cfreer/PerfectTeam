@@ -10,7 +10,7 @@ const currRender = (ui : any, {route = '/'} = {}) => {
 
 test('renders home page', () => {
   currRender(<App />);
-  expect(screen.getByText(/home page/i)).toBeInTheDocument();
+  expect(screen.getByTestId(/create-team-btn/i)).toBeInTheDocument();
 });
 
 test('renders create team page', () => {
