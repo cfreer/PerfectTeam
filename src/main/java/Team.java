@@ -18,11 +18,8 @@ public class Team {
     this.totalSalary = 0;
   }
 
-  //get totalSalary
-
-
   /**
-   * Returns the teams's total salary.
+   * Returns the team's total salary.
    * @return Team's total salary.
    */
   public double getTotalSalary() {
@@ -30,10 +27,10 @@ public class Team {
   }
 
   /**
-   * @return The list of players on the team
+   * Returns the team's players.
+   * @return The list of players on the team.
    */
-
-  public List<Player> getTeam() {
+  public List<Player> getPlayers() {
     return players;
   }
 
@@ -49,15 +46,19 @@ public class Team {
       if (this.totalSalary + salary > this.salaryCap) {
         // TODO: display this message to user in UI
         System.out.println("Error: Player cannot be added to the team." +
-                            "Player's salary causes the total team salary to exceed the salary cap.");
-      } else {
+                           "Player's salary causes the total team salary to exceed the salary cap.");
+      } else if (this.players.contains(player)) {
+        System.out.println("Error: Player cannot be added to the team." +
+                      "Player is already on the team.");
+      }
+      else {
         this.players.add(player);
         this.totalSalary += salary;
         return true;
       }
     } else {
       System.out.println("Error: Player cannot be added to the team." +
-                            "Team already has 12 players.");
+                         "Team already has 12 players.");
     }
     return false;
   }

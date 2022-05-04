@@ -27,13 +27,14 @@ public class CsvFileToJsonFile {
                 .lines()
                 .collect(Collectors.joining("\n"));
 
-        try {
-            // Convert csv text to JSON string, and save it
-            // to a data.json file.
-            String json = CDL.toJSONArray(csv).toString(2);
-            Files.write(Path.of("data.json"), json.getBytes());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        // TODO: Uncomment and fix CDL problem.
+        // try {
+        //     // Convert csv text to JSON string, and save it
+        //     // to a data.json file.
+        //     String json = CDL.toJSONArray(csv).toString(2);
+        //     Files.write(Path.of("data.json"), json.getBytes());
+        // } catch (IOException e) {
+        //     e.printStackTrace();
+        // }
     }
 }
