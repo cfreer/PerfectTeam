@@ -28,8 +28,12 @@
 - Create a new logo for PerfectTeam.
 
 #### Progress and Issues
+I worked on adding a new workflow to GitHub Actions that builds and tests the frontend of our web application. Also, I set up more React libraries in our project and finished implementing the NavBar component, App, and Home pages in React. I added Jest unit tests for the NavBar and App components, and I am currently working on tests for the Home page. Additionally, I created a new logo for PerfectTeam. Meeting in person to discuss the project worked well for me. This week I learned how to set up GitHub Actions and add our own workflows to automate. I had trouble adding the React libraries to our project, but I fixed the errors by creating a new React project and reinstalling everything. Currently, I am not really stuck on anything and will continue to work on implementing all components and pages of the web application for our beta release next week.
 
 #### Plans and Goals
+- Add interactions to the Figma prototype.
+- Finish implementing pages in React for our web application.
+- Help integrate frontend and backend.
 
 ### 3. Caroline
 #### Goals From Last Week
