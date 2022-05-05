@@ -15,6 +15,7 @@ public class Player {
   private ImageIcon proPic; // Player's profile picture.
   private String name; // Player's name in the form "[FirstName] [LastName]".
   private int age; // Player's age.
+  private String team; // Player's team in an abbreviated 3-letter form. Ex: "CLE".
 
   /**
    * Creates a new Player with the given data.
@@ -102,6 +103,14 @@ public class Player {
    */
   public int getAge() {
     return this.age;
+  }
+
+  /**
+   * Returns the player's team.
+   * @return Player's team.
+   */
+  public String getTeam() {
+    return this.team;
   }
 
 }

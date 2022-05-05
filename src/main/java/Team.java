@@ -72,6 +72,10 @@ public class Team {
     return this.players.remove(player);
   }
 
+  public boolean quickAdd(String team) {
+    // Query where team = team and player != any players already on team
+  }
+
   /**
    * Sets the salary cap of the team to the given salary cap.
    * @param salaryCap Maximum salary allowed of the team.
