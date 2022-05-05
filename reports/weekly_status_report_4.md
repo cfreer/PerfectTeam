@@ -76,6 +76,7 @@ This week I was able to finished querying the data and putting together some of 
 My plan is to distribute the playing time minutes dependant on how much time they get on their current teams and scale the minutes to fit the 240 minutes that each team plays. I also need to find another source of stats that contain the missing variables that I need for the formula. Another plan I have is to work with Juan on helping him filter the data. My goal for this coming week is to have the algorithm done.
 
 #### Progress and Issues
+This week I finished the algorithm and helped other group members work through any problems they had. I also helped with hw 5 adding justifications for different design choices. One issue we had was a miscomunication I had with Ardi but we dealt with it. Another issue we may have is finishing the beta.
 
 #### Plans and Goals
-
+The main goal is to finish the beta release by friday hopefully before our weekly meeting so we can show Ardi our progress. My personal goal is to have our algorithm working and being somewhat accurate before we spend time testing it.
