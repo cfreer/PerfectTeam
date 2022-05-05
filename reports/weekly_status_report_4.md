@@ -7,8 +7,12 @@
 - Set up testing and write tests for Team and Player (Caroline)
 
 ### Progress and Issues
+We got our CI and testing set up through GitHub for both the frontend and backend this week.
 
 ### Plans and Goals
+- Finish first draft of backend (Caroline, Ned, Juan)
+- Finish first draft of frontend (Aaron, Amanda)
+- Combine front and backend to create a beta release (Everyone)
 
 
 ## Team Member Contributions
