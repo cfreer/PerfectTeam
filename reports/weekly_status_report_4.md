@@ -7,7 +7,7 @@
 - Set up testing and write tests for Team and Player (Caroline)
 
 ### Progress and Issues
-We got our CI and testing set up through GitHub for both the frontend and backend this week.
+We got our CI and testing set up through GitHub for both the frontend and backend this week. We were able to fix the React version and library issues for the frontend and finish the NavBar, App, and Home page components. We also added unit testing for React components using Jest. Besides meeting on Zoom for our weekly team meeting, meeting in person to work on the homework assignment worked well for us. We learned how to set up GitHub Actions to automate testing.
 
 ### Plans and Goals
 - Finish first draft of backend (Caroline, Ned, Juan)
