@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-// import firebase from 'firebase';
-import { initializeApp } from "firebase/app";
+import firebase from 'firebase';
+import { BrowserRouter } from "react-router-dom";
 
 // Firebase configuration
 const firebaseConfig = {
@@ -16,11 +16,11 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+ReactDOM.render(
+  <BrowserRouter>
     <App />
-  </React.StrictMode>
+  </BrowserRouter>,
+  document.getElementById('root')
 );
