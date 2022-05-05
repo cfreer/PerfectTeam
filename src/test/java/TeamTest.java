@@ -74,4 +74,10 @@ public class TeamTest {
     assertTrue(team.removePlayer(player));
     assertEquals(new ArrayList<Player>(), team.getPlayers());
   }
+
+  @Test
+  public void testQuickAdd() {
+    Team team = new Team(100);
+    assertTrue(team.quickAdd("CLE"));
+  }
 }
