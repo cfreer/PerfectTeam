@@ -64,8 +64,12 @@ This week I got our CI of choice, GitHub Actions, set up. I also added JUnit tes
 - Finishing the structure of our JSON files that will be send to the frontend.
 
 #### Progress and Issues
+This week I was able to finished querying the data and putting together some of the data tables necessary for the project to follow. At the same time, I created some JUnit tests to test how the data flow into the different parameters. Finishing the structure of our JSON files helped us to understand what is the necessary that we need for our algorithm and make sure it aligns with the parameters in our statical model.
 
 #### Plans and Goals
+- Finish the integration of the Module APIs
+- Have a beta where the data can flow from end-to-end
+
 
 ### 5. Ned
 #### Goals From Last Week
