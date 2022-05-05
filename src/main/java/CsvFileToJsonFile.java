@@ -6,7 +6,7 @@ package src.main.java;
 //In the CSV file, the first line in the file will be use as the keys to the generated JSON string.
 // On the other way around, the JSON string keys will be written on the first line of the CSV file as the column header.
 
-// import org.json.CDL;
+import org.json.CDL;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,14 +27,13 @@ public class CsvFileToJsonFile {
                 .lines()
                 .collect(Collectors.joining("\n"));
 
-        // TODO: Uncomment and fix CDL problem.
-        // try {
-        //     // Convert csv text to JSON string, and save it
-        //     // to a data.json file.
-        //     String json = CDL.toJSONArray(csv).toString(2);
-        //     Files.write(Path.of("data.json"), json.getBytes());
-        // } catch (IOException e) {
-        //     e.printStackTrace();
-        // }
+        try {
+            // Convert csv text to JSON string, and save it
+            // to a data.json file.
+            String json = CDL.toJSONArray(csv).toString(2);
+            Files.write(Path.of("data.json"), json.getBytes());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

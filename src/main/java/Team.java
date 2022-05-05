@@ -1,5 +1,10 @@
 package src.main.java;
 import java.util.*;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import java.io.*;
+import java.sql.*;
 
 // A Team represents a list of 12 Players that is able to be modified and
 // also keeps track of a salary cap.
@@ -74,6 +79,17 @@ public class Team {
 
   public boolean quickAdd(String team) {
     // Query where team = team and player != any players already on team
+    // JSONParser parser = new JSONParser();
+    // try {
+		// 	Connection conn = DriverManager.
+    //         getConnection("jdbc:h2:~/test", "sa", "");
+    //     // add application code here
+    //     await conn.query("SELECT * FROM CSVREAD('test.csv');")
+    //     conn.close();
+		// } catch (Exception e) {
+		// 	e.printStackTrace();
+		// }
+    return true;
   }
 
   /**
