@@ -22,8 +22,15 @@ We got our CI and testing set up through GitHub for both the frontend and backen
 - Continue progress on the games page for a static mock up.
 
 #### Progress and Issues
+This week my primary focus was to finish up the autofill search bar component, which I was successfully able to complete thanks to the JSON file being done.
+I also continued to work on the games page, but need to decide how we plan to update the page based on current games, which may just require weekly work to 
+be accurate. I am planning to finish the basic setup for the games page and work on the players page. Meeting in person was incredibly beneficial to me, as it 
+streamlined the processes that I was currently working on. We plan to continue this this week. Otherwise I have been fixing bugs as they come up, but not too many errors so far.
 
 #### Plans and Goals
+- Finsih a basic games page
+- decide how we intend to keep the games page up to date.
+- Begin work on players page.
 
 ### 2. Amanda
 #### Goals From Last Week
