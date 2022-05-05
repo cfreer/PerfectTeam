@@ -41,12 +41,15 @@ I worked on adding a new workflow to GitHub Actions that builds and tests the fr
 - Help the team complete HW5.
 
 #### Progress and Issues
+This week I got our CI of choice, GitHub Actions, set up. I also added JUnit tests for the Team class, but I realized I do not yet have a need for testing for the Player class, as it does not have any functionality except for getting and setting fields. One thing I am worried about is getting everything together for our beta release next week.
 
 #### Plans and Goals
+- Help the team complete HW6.
+- Get the quick add feature for teams working.
 
 ### 4. Juan
 #### Goals From Last Week
-- Finishing the parsing the data from CSV to JSON file and create the endpoints for our project. 
+- Finishing the parsing the data from CSV to JSON file and create the endpoints for our project.
 - Finishing the structure of our JSON files that will be send to the frontend.
 
 #### Progress and Issues
