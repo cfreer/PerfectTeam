@@ -17,7 +17,7 @@ function NavBar() {
           <Dropdown.Item><NavLink to="/players">Players</NavLink></Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Navbar>
+      <Navbar className="justify-content-center">
         <div id="navLinks">
           <ul className="ul-menu">
             <li><NavLink className="menuLinks" to="/">Home</NavLink></li>
