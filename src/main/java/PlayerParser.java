@@ -9,19 +9,16 @@ package src.main.java;
 // import org.json.CDL;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-public class CsvFileToJsonFile {
+public class PlayerParser {
     public static void main(String[] args) {
         // Read csv data file and store it in a string
-        InputStream is = CsvFileToJsonFile.class.getResourceAsStream("/data.csv");
+        InputStream is = PlayerParser.class.getResourceAsStream("/data.csv");
         String csv = new BufferedReader(
                 new InputStreamReader(Objects.requireNonNull(is), StandardCharsets.UTF_8))
                 .lines()
