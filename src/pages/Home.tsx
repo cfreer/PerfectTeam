@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import Slideshow from '../components/Slideshow';
+import CreateTeamBtn from '../components/CreateTeamButton';
 
 function Home(props : any) {
 
@@ -15,7 +15,7 @@ function Home(props : any) {
           vivamus arcu felis bibendum ut. Gravida quis blandit turpis cursus in
           hac habitasse platea dictumst. Sagittis nisl rhoncus mattis rhoncus.
         </p>
-        <Button variant='primary' data-testid='create-team-btn'>Create Team</Button>
+        <CreateTeamBtn />
       </div>
 
     </div>
