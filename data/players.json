@@ -1,0 +1,5784 @@
+[{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487dd"
+  },
+  "Rk": 1,
+  "name": "Precious Achiuwa\\achiupr01",
+  "age": 22,
+  "WS": "2.5",
+  "salary": "$45780966",
+  "projSalary": "$48070014"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487de"
+  },
+  "Rk": 2,
+  "name": "Steven Adams\\adamsst01",
+  "age": 28,
+  "WS": "6.8",
+  "salary": "$44310840",
+  "projSalary": "$47366760"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487df"
+  },
+  "Rk": 3,
+  "name": "Bam Adebayo\\adebaba01",
+  "age": 24,
+  "WS": "7.2",
+  "salary": "$44211146",
+  "projSalary": "$47063478"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487e0"
+  },
+  "Rk": 4,
+  "name": "Santi Aldama\\aldamsa01",
+  "age": 21,
+  "WS": "0.3",
+  "salary": "$43848000",
+  "projSalary": "$46872000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487e1"
+  },
+  "Rk": 5,
+  "name": "LaMarcus Aldridge\\aldrila01",
+  "age": 36,
+  "WS": "3.1",
+  "salary": "$41180544",
+  "projSalary": "$44474988"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487e2"
+  },
+  "Rk": 6,
+  "name": "Nickeil Alexander-Walker\\alexani01",
+  "age": 23,
+  "WS": "0.1",
+  "salary": "$40918900",
+  "projSalary": "$44119845"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487e3"
+  },
+  "Rk": 7,
+  "name": "Grayson Allen\\allengr01",
+  "age": 26,
+  "WS": "4.2",
+  "salary": "$39344970",
+  "projSalary": "$42492568"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487e4"
+  },
+  "Rk": 8,
+  "name": "Jarrett Allen\\allenja01",
+  "age": 23,
+  "WS": "8.5",
+  "salary": "$39344970",
+  "projSalary": "$42492568"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487e5"
+  },
+  "Rk": 9,
+  "name": "Jose Alvarado\\alvarjo01",
+  "age": 23,
+  "WS": "2.1",
+  "salary": "$39344900",
+  "projSalary": "$42492492"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487e6"
+  },
+  "Rk": 10,
+  "name": "Justin Anderson\\anderju01",
+  "age": 28,
+  "WS": "0.4",
+  "salary": "$39344900",
+  "projSalary": "$42492492"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487e7"
+  },
+  "Rk": 11,
+  "name": "Kyle Anderson\\anderky01",
+  "age": 28,
+  "WS": "3.5",
+  "salary": "$37980720",
+  "projSalary": "$40600080"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487e8"
+  },
+  "Rk": 12,
+  "name": "Giannis Antetokounmpo\\antetgi01",
+  "age": 27,
+  "WS": "12.9",
+  "salary": "$36016200",
+  "projSalary": "$37653300"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487e9"
+  },
+  "Rk": 13,
+  "name": "Thanasis Antetokounmpo\\antetth01",
+  "age": 29,
+  "WS": "0.9",
+  "salary": "$36000000",
+  "projSalary": "$38482759"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487ea"
+  },
+  "Rk": 14,
+  "name": "Carmelo Anthony\\anthoca01",
+  "age": 37,
+  "WS": "3.6",
+  "salary": "$35500000",
+  "projSalary": "$37948276"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487eb"
+  },
+  "Rk": 15,
+  "name": "Cole Anthony\\anthoco01",
+  "age": 21,
+  "WS": "1.6",
+  "salary": "$35361360",
+  "projSalary": "$37980720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487ec"
+  },
+  "Rk": 16,
+  "name": "OG Anunoby\\anunoog01",
+  "age": 24,
+  "WS": "3.7",
+  "salary": "$35344828",
+  "projSalary": "$38172414"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487ed"
+  },
+  "Rk": 17,
+  "name": "Ryan Arcidiacono\\arcidry01",
+  "age": 27,
+  "WS": "0.1",
+  "salary": "$34916200",
+  "projSalary": "$36503300"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487ee"
+  },
+  "Rk": 18,
+  "name": "Trevor Ariza\\arizatr01",
+  "age": 36,
+  "WS": "0.2",
+  "salary": "$34502130",
+  "projSalary": "$37262300"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487ef"
+  },
+  "Rk": 19,
+  "name": "D.J. Augustin\\augusdj01",
+  "age": 34,
+  "WS": "0.8",
+  "salary": "$31650600",
+  "projSalary": "$33833400"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487f0"
+  },
+  "Rk": 20,
+  "name": "Deni Avdija\\avdijde01",
+  "age": 21,
+  "WS": "2.4",
+  "salary": "$31610000",
+  "projSalary": "$33790000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487f1"
+  },
+  "Rk": 21,
+  "name": "Joel Ayayi\\ayayijo01",
+  "age": 21,
+  "WS": "0",
+  "salary": "$31610000",
+  "projSalary": "$33790000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487f2"
+  },
+  "Rk": 22,
+  "name": "Deandre Ayton\\aytonde01",
+  "age": 23,
+  "WS": "7.3",
+  "salary": "$31590000",
+  "projSalary": "$33930000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487f3"
+  },
+  "Rk": 23,
+  "name": "Udoka Azubuike\\azubuud01",
+  "age": 22,
+  "WS": "0.6",
+  "salary": "$31590000",
+  "projSalary": "$33930000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487f4"
+  },
+  "Rk": 24,
+  "name": "Marvin Bagley III\\baglema01",
+  "age": 22,
+  "WS": "2",
+  "salary": "$31579390",
+  "projSalary": "$33616770"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487f5"
+  },
+  "Rk": 25,
+  "name": "LaMelo Ball\\ballla01",
+  "age": 20,
+  "WS": "5.8",
+  "salary": "$31579390",
+  "projSalary": "$33616770"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487f6"
+  },
+  "Rk": 26,
+  "name": "Lonzo Ball\\balllo01",
+  "age": 24,
+  "WS": "2.2",
+  "salary": "$31320000",
+  "projSalary": "$33640000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487f7"
+  },
+  "Rk": 27,
+  "name": "Mo Bamba\\bambamo01",
+  "age": 23,
+  "WS": "4.5",
+  "salary": "$31300000",
+  "projSalary": "$28900000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487f8"
+  },
+  "Rk": 28,
+  "name": "Desmond Bane\\banede01",
+  "age": 23,
+  "WS": "7.2",
+  "salary": "$30864198",
+  "projSalary": "$33333333"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487f9"
+  },
+  "Rk": 29,
+  "name": "Dalano Banton\\bantoda01",
+  "age": 22,
+  "WS": "0.4",
+  "salary": "$30800000",
+  "projSalary": "$28400000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487fa"
+  },
+  "Rk": 30,
+  "name": "Cat Barber\\barbeca01",
+  "age": 27,
+  "WS": "-0.1",
+  "salary": "$30510423",
+  "projSalary": "$32478837"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487fb"
+  },
+  "Rk": 31,
+  "name": "Harrison Barnes\\barneha02",
+  "age": 29,
+  "WS": "6",
+  "salary": "$30133333",
+  "projSalary": "$32393333"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487fc"
+  },
+  "Rk": 32,
+  "name": "Scottie Barnes\\barnesc01",
+  "age": 20,
+  "WS": "6.6",
+  "salary": "$30013500",
+  "projSalary": "$31377750"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487fd"
+  },
+  "Rk": 33,
+  "name": "RJ Barrett\\barrerj01",
+  "age": 21,
+  "WS": "2.3",
+  "salary": "$29900000",
+  "projSalary": "$30100000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487fe"
+  },
+  "Rk": 34,
+  "name": "Will Barton\\bartowi01",
+  "age": 31,
+  "WS": "3.2",
+  "salary": "$32405817"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69487ff"
+  },
+  "Rk": 35,
+  "name": "Paris Bass\\basspa01",
+  "age": 26,
+  "WS": "0",
+  "salary": "$29467800",
+  "projSalary": "$31650600"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948800"
+  },
+  "Rk": 36,
+  "name": "Charles Bassey\\bassech01",
+  "age": 21,
+  "WS": "0.8",
+  "salary": "$28103550",
+  "projSalary": "$30351834"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948801"
+  },
+  "Rk": 37,
+  "name": "Keita Bates-Diop\\bateske01",
+  "age": 26,
+  "WS": "1.6",
+  "salary": "$28103550",
+  "projSalary": "$30351834"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948802"
+  },
+  "Rk": 38,
+  "name": "Nicolas Batum\\batumni01",
+  "age": 33,
+  "WS": "3.7",
+  "salary": "$28103550",
+  "projSalary": "$30351834"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948803"
+  },
+  "Rk": 39,
+  "name": "Kent Bazemore\\bazemke01",
+  "age": 32,
+  "WS": "0.1",
+  "salary": "$28103550",
+  "projSalary": "$30351834"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948804"
+  },
+  "Rk": 40,
+  "name": "Darius Bazley\\bazleda01",
+  "age": 21,
+  "WS": "1.8",
+  "salary": "$27000000",
+  "projSalary": "$26500000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948805"
+  },
+  "Rk": 41,
+  "name": "Bradley Beal\\bealbr01",
+  "age": 28,
+  "WS": "1.4",
+  "salary": "$26984128",
+  "projSalary": "$28333334"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948806"
+  },
+  "Rk": 42,
+  "name": "Malik Beasley\\beaslma01",
+  "age": 25,
+  "WS": "2.9",
+  "salary": "$34967442",
+  "projSalary": "$36596549"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948807"
+  },
+  "Rk": 43,
+  "name": "Jordan Bell\\belljo01",
+  "age": 27,
+  "WS": "0",
+  "salary": "$26000000",
+  "projSalary": "$27300000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948808"
+  },
+  "Rk": 44,
+  "name": "DeAndre' Bembry\\bembrde01",
+  "age": 27,
+  "WS": "2.2",
+  "salary": "$24830357",
+  "projSalary": "$26669643"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948809"
+  },
+  "Rk": 45,
+  "name": "Dāvis Bertāns\\bertada01",
+  "age": 29,
+  "WS": "0.9",
+  "salary": "$24026712",
+  "projSalary": "$25806469"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694880a"
+  },
+  "Rk": 46,
+  "name": "Patrick Beverley\\beverpa01",
+  "age": 33,
+  "WS": "4.1",
+  "salary": "$24000000",
+  "projSalary": "$22000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694880b"
+  },
+  "Rk": 47,
+  "name": "Saddiq Bey\\beysa01",
+  "age": 22,
+  "WS": "4",
+  "salary": "$23000000",
+  "projSalary": "$23500000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694880c"
+  },
+  "Rk": 48,
+  "name": "Khem Birch\\birchkh01",
+  "age": 29,
+  "WS": "2.6",
+  "salary": "$22477273",
+  "projSalary": "$20522727"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694880d"
+  },
+  "Rk": 49,
+  "name": "Goga Bitadze\\bitadgo01",
+  "age": 22,
+  "WS": "1.9",
+  "salary": "$21700000",
+  "projSalary": "$22600000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694880e"
+  },
+  "Rk": 50,
+  "name": "Bismack Biyombo\\biyombi01",
+  "age": 29,
+  "WS": "1.8",
+  "salary": "$21306816",
+  "projSalary": "$19602273"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694880f"
+  },
+  "Rk": 51,
+  "name": "Nemanja Bjelica\\bjeline01",
+  "age": 33,
+  "WS": "3",
+  "salary": "$21000000",
+  "projSalary": "$22680000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948810"
+  },
+  "Rk": 52,
+  "name": "Eric Bledsoe\\bledser01",
+  "age": 32,
+  "WS": "1.3",
+  "salary": "$20482143"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948811"
+  },
+  "Rk": 53,
+  "name": "Keljin Blevins\\blevike01",
+  "age": 26,
+  "WS": "-0.5",
+  "salary": "$20475000",
+  "projSalary": "$21450000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948812"
+  },
+  "Rk": 54,
+  "name": "Bogdan Bogdanović\\bogdabo01",
+  "age": 29,
+  "WS": "3.7",
+  "salary": "$20284091",
+  "projSalary": "$18352273"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948813"
+  },
+  "Rk": 55,
+  "name": "Bojan Bogdanović\\bogdabo02",
+  "age": 32,
+  "WS": "5.2",
+  "salary": "$20000000",
+  "projSalary": "$20000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948814"
+  },
+  "Rk": 56,
+  "name": "Bol Bol\\bolbo01",
+  "age": 22,
+  "WS": "0.1",
+  "salary": "$20000000",
+  "projSalary": "$20952381"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948815"
+  },
+  "Rk": 57,
+  "name": "Leandro Bolmaro\\bolmale01",
+  "age": 21,
+  "WS": "0",
+  "salary": "$19800000",
+  "projSalary": "$23760000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948816"
+  },
+  "Rk": 58,
+  "name": "Isaac Bonga\\bongais01",
+  "age": 22,
+  "WS": "0.1",
+  "salary": "$19675926",
+  "projSalary": "$21250000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948817"
+  },
+  "Rk": 59,
+  "name": "Devin Booker\\bookede01",
+  "age": 25,
+  "WS": "7.6",
+  "salary": "$19500000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948818"
+  },
+  "Rk": 60,
+  "name": "Brandon Boston Jr.\\bostobr01",
+  "age": 20,
+  "WS": "0.4",
+  "salary": "$20168742"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948819"
+  },
+  "Rk": 61,
+  "name": "Chris Boucher\\bouchch01",
+  "age": 29,
+  "WS": "6",
+  "salary": "$18700000",
+  "projSalary": "$19550000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694881a"
+  },
+  "Rk": 62,
+  "name": "James Bouknight\\bouknja01",
+  "age": 21,
+  "WS": "0",
+  "salary": "$18604651",
+  "projSalary": "$19534884"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694881b"
+  },
+  "Rk": 63,
+  "name": "Avery Bradley\\bradlav01",
+  "age": 31,
+  "WS": "1.2",
+  "salary": "$18562500",
+  "projSalary": "$19937500"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694881c"
+  },
+  "Rk": 64,
+  "name": "Tony Bradley\\bradlto01",
+  "age": 24,
+  "WS": "1.3",
+  "salary": "$18218818",
+  "projSalary": "$19568360"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694881d"
+  },
+  "Rk": 65,
+  "name": "Ignas Brazdeikis\\brazdig01",
+  "age": 23,
+  "WS": "0.5",
+  "salary": "$18139535",
+  "projSalary": "$19046512"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694881e"
+  },
+  "Rk": 66,
+  "name": "Mikal Bridges\\bridgmi01",
+  "age": 25,
+  "WS": "8.9",
+  "salary": "$18125000",
+  "projSalary": "$19375000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694881f"
+  },
+  "Rk": 67,
+  "name": "Miles Bridges\\bridgmi02",
+  "age": 23,
+  "WS": "7.2",
+  "salary": "$18000000",
+  "projSalary": "$18000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948820"
+  },
+  "Rk": 68,
+  "name": "Oshae Brissett\\brissos01",
+  "age": 23,
+  "WS": "2.2",
+  "salary": "$18000000",
+  "projSalary": "$18000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948821"
+  },
+  "Rk": 69,
+  "name": "Malcolm Brogdon\\brogdma01",
+  "age": 29,
+  "WS": "2.7",
+  "salary": "$17905263",
+  "projSalary": "$21486316"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948822"
+  },
+  "Rk": 70,
+  "name": "Armoni Brooks\\brookar01",
+  "age": 23,
+  "WS": "0.2",
+  "salary": "$17809524"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948823"
+  },
+  "Rk": 71,
+  "name": "Dillon Brooks\\brookdi01",
+  "age": 26,
+  "WS": "1.6",
+  "salary": "$17500000",
+  "projSalary": "$18796296"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948824"
+  },
+  "Rk": 72,
+  "name": "Bruce Brown\\brownbr01",
+  "age": 25,
+  "WS": "4.8",
+  "salary": "$17400000",
+  "projSalary": "$17400000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948825"
+  },
+  "Rk": 73,
+  "name": "Charlie Brown Jr.\\brownch02",
+  "age": 24,
+  "WS": "0",
+  "salary": "$17357143",
+  "projSalary": "$18642857"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948826"
+  },
+  "Rk": 74,
+  "name": "Chaundee Brown Jr.\\brownch05",
+  "age": 23,
+  "WS": "0",
+  "salary": "$17142857",
+  "projSalary": "$18000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948827"
+  },
+  "Rk": 75,
+  "name": "Greg Brown III\\browngr01",
+  "age": 20,
+  "WS": "0.4",
+  "salary": "$17103448",
+  "projSalary": "$18206897"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948828"
+  },
+  "Rk": 76,
+  "name": "Jaylen Brown\\brownja02",
+  "age": 25,
+  "WS": "5.8",
+  "salary": "$17073171",
+  "projSalary": "$17926829"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948829"
+  },
+  "Rk": 77,
+  "name": "Moses Brown\\brownmo01",
+  "age": 22,
+  "WS": "1.2",
+  "salary": "$16500000",
+  "projSalary": "$16500000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694882a"
+  },
+  "Rk": 78,
+  "name": "Sterling Brown\\brownst02",
+  "age": 26,
+  "WS": "0.8",
+  "salary": "$16409091",
+  "projSalary": "$19690909"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694882b"
+  },
+  "Rk": 79,
+  "name": "Troy Brown Jr.\\browntr01",
+  "age": 22,
+  "WS": "1.4",
+  "salary": "$16071429",
+  "projSalary": "$17357143"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694882c"
+  },
+  "Rk": 80,
+  "name": "Jalen Brunson\\brunsja01",
+  "age": 25,
+  "WS": "7.5",
+  "salary": "$16000000",
+  "projSalary": "$16000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694882d"
+  },
+  "Rk": 81,
+  "name": "Thomas Bryant\\bryanth01",
+  "age": 24,
+  "WS": "1.1",
+  "salary": "$16000000",
+  "projSalary": "$17280000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694882e"
+  },
+  "Rk": 82,
+  "name": "Shaq Buchanan\\buchash01",
+  "age": 25,
+  "WS": "0",
+  "salary": "$15690909",
+  "projSalary": "$16475454"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694882f"
+  },
+  "Rk": 83,
+  "name": "Reggie Bullock\\bullore01",
+  "age": 30,
+  "WS": "3.2",
+  "salary": "$15627907",
+  "projSalary": "$16372093"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948830"
+  },
+  "Rk": 84,
+  "name": "Trey Burke\\burketr01",
+  "age": 29,
+  "WS": "0",
+  "salary": "$15560000",
+  "projSalary": "$16902000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948831"
+  },
+  "Rk": 85,
+  "name": "Alec Burks\\burksal01",
+  "age": 30,
+  "WS": "6.1",
+  "salary": "$15517242",
+  "projSalary": "$16758621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948832"
+  },
+  "Rk": 86,
+  "name": "Jared Butler\\butleja02",
+  "age": 21,
+  "WS": "0.4",
+  "salary": "$15428571",
+  "projSalary": "$16571429"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948833"
+  },
+  "Rk": 87,
+  "name": "Jimmy Butler\\butleji01",
+  "age": 32,
+  "WS": "9.2",
+  "salary": "$15384615",
+  "projSalary": "$16615385"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948834"
+  },
+  "Rk": 88,
+  "name": "Devontae Cacok\\cacokde01",
+  "age": 25,
+  "WS": "0.5",
+  "salary": "$15178571",
+  "projSalary": "$16392857"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948835"
+  },
+  "Rk": 89,
+  "name": "Kentavious Caldwell-Pope\\caldwke01",
+  "age": 28,
+  "WS": "2.8",
+  "salary": "$15057692"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948836"
+  },
+  "Rk": 90,
+  "name": "Facundo Campazzo\\campafa01",
+  "age": 30,
+  "WS": "2",
+  "salary": "$14391964",
+  "projSalary": "$15458035"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948837"
+  },
+  "Rk": 91,
+  "name": "Vlatko Čančar\\cancavl01",
+  "age": 24,
+  "WS": "0.4",
+  "salary": "$14339285",
+  "projSalary": "$16607142"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948838"
+  },
+  "Rk": 92,
+  "name": "Devin Cannady\\cannade01",
+  "age": 25,
+  "WS": "0.1",
+  "salary": "$14320988",
+  "projSalary": "$13000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948839"
+  },
+  "Rk": 93,
+  "name": "Clint Capela\\capelca01",
+  "age": 27,
+  "WS": "8.3",
+  "salary": "$14190000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694883a"
+  },
+  "Rk": 94,
+  "name": "Vernon Carey Jr.\\careyve01",
+  "age": 20,
+  "WS": "0.1",
+  "salary": "$14000000",
+  "projSalary": "$14700000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694883b"
+  },
+  "Rk": 95,
+  "name": "Jevon Carter\\carteje01",
+  "age": 26,
+  "WS": "1.2",
+  "salary": "$14000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694883c"
+  },
+  "Rk": 96,
+  "name": "Wendell Carter Jr.\\cartewe01",
+  "age": 22,
+  "WS": "5",
+  "salary": "$13750000",
+  "projSalary": "$13750000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694883d"
+  },
+  "Rk": 97,
+  "name": "Alex Caruso\\carusal01",
+  "age": 27,
+  "WS": "2",
+  "salary": "$13666667",
+  "projSalary": "$14317459"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694883e"
+  },
+  "Rk": 98,
+  "name": "Willie Cauley-Stein\\caulewi01",
+  "age": 28,
+  "WS": "0.2",
+  "salary": "$13445120",
+  "projSalary": "$14520730"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694883f"
+  },
+  "Rk": 99,
+  "name": "Ahmad Caver\\caverah01",
+  "age": 25,
+  "WS": "0",
+  "salary": "$13302325",
+  "projSalary": "$13906976"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948840"
+  },
+  "Rk": 100,
+  "name": "Justin Champagnie\\champju01",
+  "age": 20,
+  "WS": "0.8",
+  "salary": "$13038862",
+  "projSalary": "$14004703"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948841"
+  },
+  "Rk": 101,
+  "name": "Zylan Cheatham\\cheatzy01",
+  "age": 26,
+  "WS": "-0.1",
+  "salary": "$13000000",
+  "projSalary": "$13000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948842"
+  },
+  "Rk": 102,
+  "name": "Chris Chiozza\\chiozch01",
+  "age": 26,
+  "WS": "0",
+  "salary": "$12975471"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948843"
+  },
+  "Rk": 103,
+  "name": "Marquese Chriss\\chrisma01",
+  "age": 24,
+  "WS": "0.8",
+  "salary": "$12727273",
+  "projSalary": "$13745455"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948844"
+  },
+  "Rk": 104,
+  "name": "Josh Christopher\\chrisjo01",
+  "age": 20,
+  "WS": "0.3",
+  "salary": "$12690000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948845"
+  },
+  "Rk": 105,
+  "name": "Gary Clark\\clarkga01",
+  "age": 27,
+  "WS": "0.7",
+  "salary": "$12632950"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948846"
+  },
+  "Rk": 106,
+  "name": "Brandon Clarke\\clarkbr01",
+  "age": 25,
+  "WS": "6.3",
+  "salary": "$12500000",
+  "projSalary": "$11500000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948847"
+  },
+  "Rk": 107,
+  "name": "Jordan Clarkson\\clarkjo01",
+  "age": 29,
+  "WS": "3.5",
+  "salary": "$12420000",
+  "projSalary": "$13340000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948848"
+  },
+  "Rk": 108,
+  "name": "Nic Claxton\\claxtni01",
+  "age": 22,
+  "WS": "3.5",
+  "salary": "$12200000",
+  "projSalary": "$11400000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948849"
+  },
+  "Rk": 109,
+  "name": "Amir Coffey\\coffeam01",
+  "age": 24,
+  "WS": "3.8",
+  "salary": "$12195122",
+  "projSalary": "$12804878"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694884a"
+  },
+  "Rk": 110,
+  "name": "John Collins\\collijo01",
+  "age": 24,
+  "WS": "5.1",
+  "salary": "$12000000",
+  "projSalary": "$12600000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694884b"
+  },
+  "Rk": 111,
+  "name": "Zach Collins\\colliza01",
+  "age": 24,
+  "WS": "1.2",
+  "salary": "$12000000",
+  "projSalary": "$12960000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694884c"
+  },
+  "Rk": 112,
+  "name": "Darren Collison\\collida01",
+  "age": 34,
+  "WS": "-0.1",
+  "salary": "$12000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694884d"
+  },
+  "Rk": 113,
+  "name": "Mike Conley\\conlemi01",
+  "age": 34,
+  "WS": "6.7",
+  "salary": "$11615328",
+  "projSalary": "$12196094"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694884e"
+  },
+  "Rk": 114,
+  "name": "Pat Connaughton\\connapa01",
+  "age": 29,
+  "WS": "4.4",
+  "salary": "$11312114"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694884f"
+  },
+  "Rk": 115,
+  "name": "Tyler Cook\\cookty01",
+  "age": 24,
+  "WS": "0.5",
+  "salary": "$11000000",
+  "projSalary": "$11550000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948850"
+  },
+  "Rk": 116,
+  "name": "Sharife Cooper\\coopesh01",
+  "age": 20,
+  "WS": "-0.2",
+  "salary": "$11000000",
+  "projSalary": "$11814815"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948851"
+  },
+  "Rk": 117,
+  "name": "Petr Cornelie\\cornepe01",
+  "age": 26,
+  "WS": "0",
+  "salary": "$10733400",
+  "projSalary": "$13534817"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948852"
+  },
+  "Rk": 118,
+  "name": "DeMarcus Cousins\\couside01",
+  "age": 31,
+  "WS": "1.6",
+  "salary": "$10690909",
+  "projSalary": "$9672727"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948853"
+  },
+  "Rk": 119,
+  "name": "Robert Covington\\covinro01",
+  "age": 31,
+  "WS": "3.2",
+  "salary": "$10500000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948854"
+  },
+  "Rk": 120,
+  "name": "Torrey Craig\\craigto01",
+  "age": 31,
+  "WS": "2.3",
+  "salary": "$10384500",
+  "projSalary": "$11215260"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948855"
+  },
+  "Rk": 121,
+  "name": "Jae Crowder\\crowdja01",
+  "age": 31,
+  "WS": "4.3",
+  "salary": "$10384500",
+  "projSalary": "$11215260"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948856"
+  },
+  "Rk": 122,
+  "name": "Jarrett Culver\\culveja01",
+  "age": 22,
+  "WS": "0.1",
+  "salary": "$10245480",
+  "projSalary": "$10733400"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948857"
+  },
+  "Rk": 123,
+  "name": "Jarron Cumberland\\cumbeja01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$10174391",
+  "projSalary": "$35700000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948858"
+  },
+  "Rk": 124,
+  "name": "Cade Cunningham\\cunnica01",
+  "age": 20,
+  "WS": "-0.5",
+  "salary": "$10050120",
+  "projSalary": "$10552800"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948859"
+  },
+  "Rk": 125,
+  "name": "Seth Curry\\curryse01",
+  "age": 31,
+  "WS": "4.2",
+  "salary": "$10468119"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694885a"
+  },
+  "Rk": 126,
+  "name": "Stephen Curry\\curryst01",
+  "age": 33,
+  "WS": "8",
+  "salary": "$10000000",
+  "projSalary": "$10000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694885b"
+  },
+  "Rk": 127,
+  "name": "Anthony Davis\\davisan02",
+  "age": 28,
+  "WS": "4.5",
+  "salary": "$9937150"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694885c"
+  },
+  "Rk": 128,
+  "name": "Ed Davis\\davised01",
+  "age": 32,
+  "WS": "0.5",
+  "salary": "$9742000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694885d"
+  },
+  "Rk": 129,
+  "name": "Terence Davis\\daviste02",
+  "age": 24,
+  "WS": "0.5",
+  "salary": "$9720900",
+  "projSalary": "$10183800"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694885e"
+  },
+  "Rk": 130,
+  "name": "Gabriel Deck\\deckga01",
+  "age": 26,
+  "WS": "0.1",
+  "salary": "$9720900",
+  "projSalary": "$10183800"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694885f"
+  },
+  "Rk": 131,
+  "name": "Dewayne Dedmon\\dedmode01",
+  "age": 32,
+  "WS": "3.5",
+  "salary": "$10720900"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948860"
+  },
+  "Rk": 132,
+  "name": "Sam Dekker\\dekkesa01",
+  "age": 27,
+  "WS": "0",
+  "salary": "$9720900"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948861"
+  },
+  "Rk": 133,
+  "name": "Javin DeLaurier\\delauja01",
+  "age": 23,
+  "WS": "0",
+  "salary": "$9720900"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948862"
+  },
+  "Rk": 134,
+  "name": "DeMar DeRozan\\derozde01",
+  "age": 32,
+  "WS": "8.8",
+  "salary": "$9603360",
+  "projSalary": "$12119440"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948863"
+  },
+  "Rk": 135,
+  "name": "Mamadi Diakite\\diakima01",
+  "age": 25,
+  "WS": "0.3",
+  "salary": "$9536000",
+  "projSalary": "$10012800"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948864"
+  },
+  "Rk": 136,
+  "name": "Cheick Diallo\\diallch01",
+  "age": 25,
+  "WS": "0.1",
+  "salary": "$9536000",
+  "projSalary": "$10012800"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948865"
+  },
+  "Rk": 137,
+  "name": "Hamidou Diallo\\diallha01",
+  "age": 23,
+  "WS": "2.1",
+  "salary": "$9500000",
+  "projSalary": "$10260000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948866"
+  },
+  "Rk": 138,
+  "name": "Gorgui Dieng\\dienggo01",
+  "age": 32,
+  "WS": "1.2",
+  "salary": "$9180560",
+  "projSalary": "$23437500"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948867"
+  },
+  "Rk": 139,
+  "name": "Spencer Dinwiddie\\dinwisp01",
+  "age": 28,
+  "WS": "4.1",
+  "salary": "$9166800",
+  "projSalary": "$9603360"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948868"
+  },
+  "Rk": 140,
+  "name": "Donte DiVincenzo\\divindo01",
+  "age": 25,
+  "WS": "0.7",
+  "salary": "$12213507",
+  "projSalary": "$12372008"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948869"
+  },
+  "Rk": 141,
+  "name": "Luka Dončić\\doncilu01",
+  "age": 22,
+  "WS": "7.6",
+  "salary": "$9000000",
+  "projSalary": "$9666667"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694886a"
+  },
+  "Rk": 142,
+  "name": "Luguentz Dort\\dortlu01",
+  "age": 22,
+  "WS": "1.4",
+  "salary": "$8992200",
+  "projSalary": "$9441720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694886b"
+  },
+  "Rk": 143,
+  "name": "Ayo Dosunmu\\dosunay01",
+  "age": 22,
+  "WS": "3",
+  "salary": "$8800000",
+  "projSalary": "$9240000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694886c"
+  },
+  "Rk": 144,
+  "name": "Damyean Dotson\\dotsoda01",
+  "age": 27,
+  "WS": "0",
+  "salary": "$8750000",
+  "projSalary": "$9398148"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694886d"
+  },
+  "Rk": 145,
+  "name": "Devon Dotson\\dotsode01",
+  "age": 22,
+  "WS": "0.1",
+  "salary": "$8750000",
+  "projSalary": "$9000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694886e"
+  },
+  "Rk": 146,
+  "name": "Sekou Doumbouya\\doumbse01",
+  "age": 21,
+  "WS": "0.1",
+  "salary": "$8730159"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694886f"
+  },
+  "Rk": 147,
+  "name": "Jeff Dowtin\\dowtije01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$34967442",
+  "projSalary": "$36596549"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948870"
+  },
+  "Rk": 148,
+  "name": "PJ Dozier\\doziepj01",
+  "age": 25,
+  "WS": "0.3",
+  "salary": "$8678571",
+  "projSalary": "$9321429"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948871"
+  },
+  "Rk": 149,
+  "name": "Goran Dragić\\dragigo01",
+  "age": 35,
+  "WS": "0.4",
+  "salary": "$8623920",
+  "projSalary": "$10900635"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948872"
+  },
+  "Rk": 150,
+  "name": "Andre Drummond\\drumman01",
+  "age": 28,
+  "WS": "5.1",
+  "salary": "$8604651",
+  "projSalary": "$9034884"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948873"
+  },
+  "Rk": 151,
+  "name": "Chris Duarte\\duartch01",
+  "age": 24,
+  "WS": "0.9",
+  "salary": "$8526316"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948874"
+  },
+  "Rk": 152,
+  "name": "David Duke Jr.\\dukeda01",
+  "age": 22,
+  "WS": "0.3",
+  "salary": "$8437500",
+  "projSalary": "$9062500"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948875"
+  },
+  "Rk": 153,
+  "name": "Kris Dunn\\dunnkr01",
+  "age": 27,
+  "WS": "0.2",
+  "salary": "$8372093",
+  "projSalary": "$8790698"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948876"
+  },
+  "Rk": 154,
+  "name": "Kevin Durant\\duranke01",
+  "age": 33,
+  "WS": "8.4",
+  "salary": "$8333333",
+  "projSalary": "$9000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948877"
+  },
+  "Rk": 155,
+  "name": "Jaime Echenique\\echenja01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$8326471",
+  "projSalary": "$29750000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948878"
+  },
+  "Rk": 156,
+  "name": "Anthony Edwards\\edwaran01",
+  "age": 20,
+  "WS": "4.3",
+  "salary": "$8292683",
+  "projSalary": "$8707317"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948879"
+  },
+  "Rk": 157,
+  "name": "Carsen Edwards\\edwarca01",
+  "age": 23,
+  "WS": "-0.1",
+  "salary": "$8231760",
+  "projSalary": "$8623920"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694887a"
+  },
+  "Rk": 158,
+  "name": "Kessler Edwards\\edwarke02",
+  "age": 21,
+  "WS": "0.6",
+  "salary": "$8186047",
+  "projSalary": "$8558140"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694887b"
+  },
+  "Rk": 159,
+  "name": "Rob Edwards\\edwarro01",
+  "age": 25,
+  "WS": "0",
+  "salary": "$8137500",
+  "projSalary": "$8525000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694887c"
+  },
+  "Rk": 160,
+  "name": "CJ Elleby\\ellebcj01",
+  "age": 21,
+  "WS": "0.4",
+  "salary": "$8075160",
+  "projSalary": "$8478720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694887d"
+  },
+  "Rk": 161,
+  "name": "Wayne Ellington\\ellinwa01",
+  "age": 34,
+  "WS": "1",
+  "salary": "$8050000",
+  "projSalary": "$7350000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694887e"
+  },
+  "Rk": 162,
+  "name": "Joel Embiid\\embiijo01",
+  "age": 27,
+  "WS": "12",
+  "salary": "$11109327",
+  "projSalary": "$7827907"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694887f"
+  },
+  "Rk": 163,
+  "name": "James Ennis III\\ennisja01",
+  "age": 31,
+  "WS": "0.1",
+  "salary": "$7775400",
+  "projSalary": "$9835881"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948880"
+  },
+  "Rk": 164,
+  "name": "Drew Eubanks\\eubandr01",
+  "age": 24,
+  "WS": "3.4",
+  "salary": "$7568742"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948881"
+  },
+  "Rk": 165,
+  "name": "Tacko Fall\\fallta01",
+  "age": 26,
+  "WS": "0.1",
+  "salary": "$7522200"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948882"
+  },
+  "Rk": 166,
+  "name": "Derrick Favors\\favorde01",
+  "age": 30,
+  "WS": "1.4",
+  "salary": "$7518518",
+  "projSalary": "$7518518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948883"
+  },
+  "Rk": 167,
+  "name": "Bruno Fernando\\fernabr01",
+  "age": 23,
+  "WS": "0.4",
+  "salary": "$7500000",
+  "projSalary": "$8100000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948884"
+  },
+  "Rk": 168,
+  "name": "Dorian Finney-Smith\\finnedo01",
+  "age": 28,
+  "WS": "6.6",
+  "salary": "$7422000",
+  "projSalary": "$7775400"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948885"
+  },
+  "Rk": 169,
+  "name": "Malik Fitts\\fittsma01",
+  "age": 24,
+  "WS": "0.1",
+  "salary": "$7280520",
+  "projSalary": "$7644720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948886"
+  },
+  "Rk": 170,
+  "name": "Malachi Flynn\\flynnma01",
+  "age": 23,
+  "WS": "1",
+  "salary": "$7040880",
+  "projSalary": "$8920795"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948887"
+  },
+  "Rk": 171,
+  "name": "Bryn Forbes\\forbebr01",
+  "age": 28,
+  "WS": "1.4",
+  "salary": "$7009615"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948888"
+  },
+  "Rk": 172,
+  "name": "Aleem Ford\\fordal03",
+  "age": 24,
+  "WS": "-0.2",
+  "salary": "$7622467",
+  "projSalary": "$333333"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948889"
+  },
+  "Rk": 173,
+  "name": "Trent Forrest\\forretr01",
+  "age": 23,
+  "WS": "1.3",
+  "salary": "$7000000",
+  "projSalary": "$7350000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694888a"
+  },
+  "Rk": 174,
+  "name": "Evan Fournier\\fournev01",
+  "age": 29,
+  "WS": "3.7",
+  "salary": "$6984127",
+  "projSalary": "$7333333"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694888b"
+  },
+  "Rk": 175,
+  "name": "De'Aaron Fox\\foxde01",
+  "age": 24,
+  "WS": "2.5",
+  "salary": "$6920027",
+  "projSalary": "$14150000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694888c"
+  },
+  "Rk": 176,
+  "name": "Melvin Frazier\\frazime01",
+  "age": 25,
+  "WS": "-0.4",
+  "salary": "$6720720",
+  "projSalary": "$7040880"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694888d"
+  },
+  "Rk": 177,
+  "name": "Tim Frazier\\fraziti01",
+  "age": 31,
+  "WS": "-0.2",
+  "salary": "$6593040",
+  "projSalary": "$6922440"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694888e"
+  },
+  "Rk": 178,
+  "name": "Enes Freedom\\kanteen01",
+  "age": 29,
+  "WS": "1.4",
+  "salary": "$6500000",
+  "projSalary": "$6000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694888f"
+  },
+  "Rk": 179,
+  "name": "Markelle Fultz\\fultzma01",
+  "age": 23,
+  "WS": "0.4",
+  "salary": "$6431666"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948890"
+  },
+  "Rk": 180,
+  "name": "Wenyen Gabriel\\gabriwe01",
+  "age": 24,
+  "WS": "0.7",
+  "salary": "$6395160",
+  "projSalary": "$8109063"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948891"
+  },
+  "Rk": 181,
+  "name": "Daniel Gafford\\gaffoda01",
+  "age": 23,
+  "WS": "6",
+  "salary": "$6350000",
+  "projSalary": "$6667750"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948892"
+  },
+  "Rk": 182,
+  "name": "Danilo Gallinari\\gallida01",
+  "age": 33,
+  "WS": "3.6",
+  "salary": "$6349671"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948893"
+  },
+  "Rk": 183,
+  "name": "Langston Galloway\\gallola01",
+  "age": 30,
+  "WS": "-0.2",
+  "salary": "$6175440",
+  "projSalary": "$6632880"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948894"
+  },
+  "Rk": 184,
+  "name": "Darius Garland\\garlada01",
+  "age": 22,
+  "WS": "6.3",
+  "salary": "$6104280",
+  "projSalary": "$6395160"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948895"
+  },
+  "Rk": 185,
+  "name": "Marcus Garrett\\garrema01",
+  "age": 23,
+  "WS": "0.1",
+  "salary": "$6006420",
+  "projSalary": "$6292440"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948896"
+  },
+  "Rk": 186,
+  "name": "Usman Garuba\\garubus01",
+  "age": 19,
+  "WS": "0.5",
+  "salary": "$5988000",
+  "projSalary": "$6287400"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948897"
+  },
+  "Rk": 187,
+  "name": "Luka Garza\\garzalu01",
+  "age": 23,
+  "WS": "0.8",
+  "salary": "$5890000",
+  "projSalary": "$6184500"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948898"
+  },
+  "Rk": 188,
+  "name": "Rudy Gay\\gayru01",
+  "age": 35,
+  "WS": "2.1",
+  "salary": "$5890000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948899"
+  },
+  "Rk": 189,
+  "name": "Paul George\\georgpa01",
+  "age": 31,
+  "WS": "1.3",
+  "salary": "$5890000",
+  "projSalary": "$6184500"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694889a"
+  },
+  "Rk": 190,
+  "name": "Taj Gibson\\gibsota01",
+  "age": 36,
+  "WS": "2.7",
+  "salary": "$5845978"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694889b"
+  },
+  "Rk": 191,
+  "name": "Josh Giddey\\giddejo01",
+  "age": 19,
+  "WS": "0.4",
+  "salary": "$5837760",
+  "projSalary": "$7413955"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694889c"
+  },
+  "Rk": 192,
+  "name": "Shai Gilgeous-Alexander\\gilgesh01",
+  "age": 23,
+  "WS": "4.6",
+  "salary": "$5573334"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694889d"
+  },
+  "Rk": 193,
+  "name": "Anthony Gill\\gillan01",
+  "age": 29,
+  "WS": "1.4",
+  "salary": "$5572680",
+  "projSalary": "$5837760"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694889e"
+  },
+  "Rk": 194,
+  "name": "Freddie Gillespie\\gillefr01",
+  "age": 24,
+  "WS": "0.1",
+  "salary": "$5557725",
+  "projSalary": "$20089286"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694889f"
+  },
+  "Rk": 195,
+  "name": "Rudy Gobert\\goberru01",
+  "age": 29,
+  "WS": "11.7",
+  "salary": "$5495532",
+  "projSalary": "$29750000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488a0"
+  },
+  "Rk": 196,
+  "name": "Brandon Goodwin\\goodwbr01",
+  "age": 26,
+  "WS": "0.7",
+  "salary": "$5466360",
+  "projSalary": "$5739960"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488a1"
+  },
+  "Rk": 197,
+  "name": "Jordan Goodwin\\goodwjo01",
+  "age": 23,
+  "WS": "-0.1",
+  "salary": "$5421493"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488a2"
+  },
+  "Rk": 198,
+  "name": "Aaron Gordon\\gordoaa01",
+  "age": 26,
+  "WS": "5.2",
+  "salary": "$5348280",
+  "projSalary": "$6803012"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488a3"
+  },
+  "Rk": 199,
+  "name": "Eric Gordon\\gordoer01",
+  "age": 33,
+  "WS": "1.4",
+  "salary": "$5333333",
+  "projSalary": "$5728395"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488a4"
+  },
+  "Rk": 200,
+  "name": "Devonte' Graham\\grahade01",
+  "age": 26,
+  "WS": "2.8",
+  "salary": "$5258735",
+  "projSalary": "$29750000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488a5"
+  },
+  "Rk": 201,
+  "name": "Jerami Grant\\grantje01",
+  "age": 27,
+  "WS": "2.3",
+  "salary": "$5214584"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488a6"
+  },
+  "Rk": 202,
+  "name": "Hassani Gravett\\graveha01",
+  "age": 25,
+  "WS": "0.3",
+  "salary": "$5200000",
+  "projSalary": "$5200000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488a7"
+  },
+  "Rk": 203,
+  "name": "Danny Green\\greenda02",
+  "age": 34,
+  "WS": "1.9",
+  "salary": "$5178572"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488a8"
+  },
+  "Rk": 204,
+  "name": "Draymond Green\\greendr01",
+  "age": 31,
+  "WS": "3.6",
+  "salary": "$5170564"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488a9"
+  },
+  "Rk": 205,
+  "name": "Jalen Green\\greenja05",
+  "age": 19,
+  "WS": "0.7",
+  "salary": "$5105160",
+  "projSalary": "$5348280"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488aa"
+  },
+  "Rk": 206,
+  "name": "JaMychal Green\\greenja01",
+  "age": 31,
+  "WS": "2.7",
+  "salary": "$5007840",
+  "projSalary": "$5258280"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ab"
+  },
+  "Rk": 207,
+  "name": "Javonte Green\\greenja02",
+  "age": 28,
+  "WS": "4.4",
+  "salary": "$5005350"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ac"
+  },
+  "Rk": 208,
+  "name": "Jeff Green\\greenje02",
+  "age": 35,
+  "WS": "3.9",
+  "salary": "$5000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ad"
+  },
+  "Rk": 209,
+  "name": "Josh Green\\greenjo02",
+  "age": 21,
+  "WS": "2.4",
+  "salary": "$5000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ae"
+  },
+  "Rk": 210,
+  "name": "Blake Griffin\\griffbl01",
+  "age": 32,
+  "WS": "2.1",
+  "salary": "$5000000",
+  "projSalary": "$5250000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488af"
+  },
+  "Rk": 211,
+  "name": "Quentin Grimes\\grimequ01",
+  "age": 21,
+  "WS": "1.4",
+  "salary": "$5000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488b0"
+  },
+  "Rk": 212,
+  "name": "Kyle Guy\\guyky01",
+  "age": 24,
+  "WS": "0.1",
+  "salary": "$4990000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488b1"
+  },
+  "Rk": 213,
+  "name": "Rui Hachimura\\hachiru01",
+  "age": 23,
+  "WS": "1.4",
+  "salary": "$4916160",
+  "projSalary": "$6263188"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488b2"
+  },
+  "Rk": 214,
+  "name": "Tyrese Haliburton\\halibty01",
+  "age": 21,
+  "WS": "7",
+  "salary": "$4910000",
+  "projSalary": "$5155500"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488b3"
+  },
+  "Rk": 215,
+  "name": "Tyler Hall\\hallty01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$7310000",
+  "projSalary": "$5155000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488b4"
+  },
+  "Rk": 216,
+  "name": "R.J. Hampton\\hamptrj01",
+  "age": 20,
+  "WS": "-0.2",
+  "salary": "$4910000",
+  "projSalary": "$5155500"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488b5"
+  },
+  "Rk": 217,
+  "name": "Tim Hardaway Jr.\\hardati02",
+  "age": 29,
+  "WS": "2",
+  "salary": "$4878049",
+  "projSalary": "$5121951"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488b6"
+  },
+  "Rk": 218,
+  "name": "James Harden\\hardeja01",
+  "age": 32,
+  "WS": "7.6",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488b7"
+  },
+  "Rk": 219,
+  "name": "Maurice Harkless\\harklma01",
+  "age": 28,
+  "WS": "0.5",
+  "salary": "$4736102"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488b8"
+  },
+  "Rk": 220,
+  "name": "Jared Harper\\harpeja01",
+  "age": 24,
+  "WS": "0.4",
+  "salary": "$4692840",
+  "projSalary": "$4916160"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488b9"
+  },
+  "Rk": 221,
+  "name": "Montrezl Harrell\\harremo01",
+  "age": 28,
+  "WS": "7.3",
+  "salary": "$4675830"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ba"
+  },
+  "Rk": 222,
+  "name": "Gary Harris\\harriga01",
+  "age": 27,
+  "WS": "2.2",
+  "salary": "$4670160",
+  "projSalary": "$5954454"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488bb"
+  },
+  "Rk": 223,
+  "name": "Joe Harris\\harrijo01",
+  "age": 30,
+  "WS": "0.5",
+  "salary": "$4650000",
+  "projSalary": "$5022000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488bc"
+  },
+  "Rk": 224,
+  "name": "Tobias Harris\\harrito02",
+  "age": 29,
+  "WS": "5.6",
+  "salary": "$4629630",
+  "projSalary": "$5000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488bd"
+  },
+  "Rk": 225,
+  "name": "Shaquille Harrison\\harrish01",
+  "age": 28,
+  "WS": "0",
+  "salary": "$4603320",
+  "projSalary": "$4833600"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488be"
+  },
+  "Rk": 226,
+  "name": "Josh Hart\\hartjo01",
+  "age": 26,
+  "WS": "4.4",
+  "salary": "$4500000",
+  "projSalary": "$4725000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488bf"
+  },
+  "Rk": 227,
+  "name": "Isaiah Hartenstein\\harteis01",
+  "age": 23,
+  "WS": "5.5",
+  "salary": "$4500000",
+  "projSalary": "$4500000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488c0"
+  },
+  "Rk": 228,
+  "name": "Udonis Haslem\\hasleud01",
+  "age": 41,
+  "WS": "0.1",
+  "salary": "$4458000",
+  "projSalary": "$4670160"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488c1"
+  },
+  "Rk": 229,
+  "name": "Sam Hauser\\hausesa01",
+  "age": 24,
+  "WS": "0.6",
+  "salary": "$4447896"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488c2"
+  },
+  "Rk": 230,
+  "name": "Jaxson Hayes\\hayesja02",
+  "age": 21,
+  "WS": "5.1",
+  "salary": "$4437000",
+  "projSalary": "$5887899"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488c3"
+  },
+  "Rk": 231,
+  "name": "Killian Hayes\\hayeski01",
+  "age": 20,
+  "WS": "0.5",
+  "salary": "$4373160",
+  "projSalary": "$4591920"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488c4"
+  },
+  "Rk": 232,
+  "name": "Gordon Hayward\\haywago01",
+  "age": 31,
+  "WS": "2.8",
+  "salary": "$4347600",
+  "projSalary": "$4564980"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488c5"
+  },
+  "Rk": 233,
+  "name": "Aaron Henry\\henryaa01",
+  "age": 22,
+  "WS": "-0.1",
+  "salary": "$4347600",
+  "projSalary": "$4564980"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488c6"
+  },
+  "Rk": 234,
+  "name": "Juancho Hernangómez\\hernaju01",
+  "age": 26,
+  "WS": "0.9",
+  "salary": "$4259259",
+  "projSalary": "$4600000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488c7"
+  },
+  "Rk": 235,
+  "name": "Willy Hernangómez\\hernawi01",
+  "age": 27,
+  "WS": "3.2",
+  "salary": "$4253357",
+  "projSalary": "$14508929"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488c8"
+  },
+  "Rk": 236,
+  "name": "Tyler Herro\\herroty01",
+  "age": 22,
+  "WS": "3.8",
+  "salary": "$4235160",
+  "projSalary": "$4437000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488c9"
+  },
+  "Rk": 237,
+  "name": "Buddy Hield\\hieldbu01",
+  "age": 29,
+  "WS": "1.9",
+  "salary": "$4215120",
+  "projSalary": "$5808435"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ca"
+  },
+  "Rk": 238,
+  "name": "Haywood Highsmith\\highsha01",
+  "age": 25,
+  "WS": "0.1",
+  "salary": "$4154400",
+  "projSalary": "$4362240"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488cb"
+  },
+  "Rk": 239,
+  "name": "George Hill\\hillge01",
+  "age": 35,
+  "WS": "2.3",
+  "salary": "$4087904"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488cc"
+  },
+  "Rk": 240,
+  "name": "Malcolm Hill\\hillma01",
+  "age": 26,
+  "WS": "0.6",
+  "salary": "$4054695",
+  "projSalary": "$9615385"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488cd"
+  },
+  "Rk": 241,
+  "name": "Solomon Hill\\hillso01",
+  "age": 30,
+  "WS": "0",
+  "salary": "$4023600",
+  "projSalary": "$4215120"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ce"
+  },
+  "Rk": 242,
+  "name": "Nate Hinton\\hintona01",
+  "age": 22,
+  "WS": "-0.1",
+  "salary": "$4004280",
+  "projSalary": "$5722116"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488cf"
+  },
+  "Rk": 243,
+  "name": "Jaylen Hoard\\hoardja01",
+  "age": 22,
+  "WS": "0.6",
+  "salary": "$4000000",
+  "projSalary": "$12402000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488d0"
+  },
+  "Rk": 244,
+  "name": "Aaron Holiday\\holidaa01",
+  "age": 25,
+  "WS": "1.5",
+  "salary": "$4000000",
+  "projSalary": "$4000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488d1"
+  },
+  "Rk": 245,
+  "name": "Jrue Holiday\\holidjr01",
+  "age": 31,
+  "WS": "6.9",
+  "salary": "$4000000",
+  "projSalary": "$4000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488d2"
+  },
+  "Rk": 246,
+  "name": "Justin Holiday\\holidju01",
+  "age": 32,
+  "WS": "1.4",
+  "salary": "$4000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488d3"
+  },
+  "Rk": 247,
+  "name": "Richaun Holmes\\holmeri01",
+  "age": 28,
+  "WS": "3.2",
+  "salary": "$3980551"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488d4"
+  },
+  "Rk": 248,
+  "name": "Rodney Hood\\hoodro01",
+  "age": 29,
+  "WS": "0.7",
+  "salary": "$3946800",
+  "projSalary": "$4144320"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488d5"
+  },
+  "Rk": 249,
+  "name": "Scotty Hopson\\hopsosc01",
+  "age": 32,
+  "WS": "0",
+  "salary": "$3940184"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488d6"
+  },
+  "Rk": 250,
+  "name": "Al Horford\\horfoal01",
+  "age": 35,
+  "WS": "7.6",
+  "salary": "$3938818"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488d7"
+  },
+  "Rk": 251,
+  "name": "Talen Horton-Tucker\\hortota01",
+  "age": 21,
+  "WS": "1.1",
+  "salary": "$3902439",
+  "projSalary": "$4097561"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488d8"
+  },
+  "Rk": 252,
+  "name": "Danuel House Jr.\\houseda01",
+  "age": 28,
+  "WS": "1",
+  "salary": "$3822240",
+  "projSalary": "$4004280"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488d9"
+  },
+  "Rk": 253,
+  "name": "Dwight Howard\\howardw01",
+  "age": 36,
+  "WS": "3.5",
+  "salary": "$3804360",
+  "projSalary": "$5634257"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488da"
+  },
+  "Rk": 254,
+  "name": "Markus Howard\\howarma02",
+  "age": 22,
+  "WS": "0.3",
+  "salary": "$3804150"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488db"
+  },
+  "Rk": 255,
+  "name": "Kevin Huerter\\huertke01",
+  "age": 23,
+  "WS": "2.8",
+  "salary": "$3768342",
+  "projSalary": "$9598214"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488dc"
+  },
+  "Rk": 256,
+  "name": "Jay Huff\\huffja01",
+  "age": 23,
+  "WS": "0",
+  "salary": "$3749520",
+  "projSalary": "$3936960"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488dd"
+  },
+  "Rk": 257,
+  "name": "Elijah Hughes\\hugheel01",
+  "age": 23,
+  "WS": "-0.4",
+  "salary": "$3731707",
+  "projSalary": "$3918293"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488de"
+  },
+  "Rk": 258,
+  "name": "Feron Hunt\\huntfe01",
+  "age": 22,
+  "WS": "0",
+  "salary": "$3661976",
+  "projSalary": "$10700000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488df"
+  },
+  "Rk": 259,
+  "name": "De'Andre Hunter\\huntede01",
+  "age": 24,
+  "WS": "1.1",
+  "salary": "$4107149",
+  "projSalary": "$3925000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488e0"
+  },
+  "Rk": 260,
+  "name": "Chandler Hutchison\\hutchch01",
+  "age": 25,
+  "WS": "0",
+  "salary": "$3631200",
+  "projSalary": "$3804360"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488e1"
+  },
+  "Rk": 261,
+  "name": "Bones Hyland\\hylanbo01",
+  "age": 21,
+  "WS": "2.4",
+  "salary": "$3562080",
+  "projSalary": "$3740160"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488e2"
+  },
+  "Rk": 262,
+  "name": "Serge Ibaka\\ibakase01",
+  "age": 32,
+  "WS": "2",
+  "salary": "$3500000",
+  "projSalary": "$3500000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488e3"
+  },
+  "Rk": 263,
+  "name": "Andre Iguodala\\iguodan01",
+  "age": 38,
+  "WS": "1.6",
+  "salary": "$3500000",
+  "projSalary": "$3500000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488e4"
+  },
+  "Rk": 264,
+  "name": "Joe Ingles\\inglejo01",
+  "age": 34,
+  "WS": "2.2",
+  "salary": "$3449400",
+  "projSalary": "$3613680"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488e5"
+  },
+  "Rk": 265,
+  "name": "Brandon Ingram\\ingrabr01",
+  "age": 24,
+  "WS": "3.9",
+  "salary": "$3383640",
+  "projSalary": "$3552960"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488e6"
+  },
+  "Rk": 266,
+  "name": "Kyrie Irving\\irvinky01",
+  "age": 29,
+  "WS": "3.3",
+  "salary": "$3333333",
+  "projSalary": "$3492063"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488e7"
+  },
+  "Rk": 267,
+  "name": "Wes Iwundu\\iwundwe01",
+  "age": 27,
+  "WS": "0.1",
+  "salary": "$3300000",
+  "projSalary": "$3465000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488e8"
+  },
+  "Rk": 268,
+  "name": "Frank Jackson\\jacksfr01",
+  "age": 23,
+  "WS": "0.7",
+  "salary": "$3277080",
+  "projSalary": "$3433320"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488e9"
+  },
+  "Rk": 269,
+  "name": "Isaiah Jackson\\jacksis01",
+  "age": 20,
+  "WS": "1.4",
+  "salary": "$3277080",
+  "projSalary": "$3433320"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ea"
+  },
+  "Rk": 270,
+  "name": "Jaren Jackson Jr.\\jacksja02",
+  "age": 22,
+  "WS": "5.4",
+  "salary": "$3261480",
+  "projSalary": "$5009633"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488eb"
+  },
+  "Rk": 271,
+  "name": "Josh Jackson\\jacksjo02",
+  "age": 24,
+  "WS": "0",
+  "salary": "$3214680",
+  "projSalary": "$3375480"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ec"
+  },
+  "Rk": 272,
+  "name": "Justin Jackson\\jacksju01",
+  "age": 26,
+  "WS": "0",
+  "salary": "$12213507",
+  "projSalary": "$12372008"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ed"
+  },
+  "Rk": 273,
+  "name": "Reggie Jackson\\jacksre01",
+  "age": 31,
+  "WS": "0.4",
+  "salary": "$3169347"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ee"
+  },
+  "Rk": 274,
+  "name": "LeBron James\\jamesle01",
+  "age": 37,
+  "WS": "7.5",
+  "salary": "$3113160",
+  "projSalary": "$3261480"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ef"
+  },
+  "Rk": 275,
+  "name": "DeJon Jarreau\\jarrede01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$3098400",
+  "projSalary": "$4765339"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488f0"
+  },
+  "Rk": 276,
+  "name": "DaQuan Jeffries\\jeffrda01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$3053760",
+  "projSalary": "$3206640"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488f1"
+  },
+  "Rk": 277,
+  "name": "Ty Jerome\\jeromty01",
+  "age": 24,
+  "WS": "0.5",
+  "salary": "$3000000",
+  "projSalary": "$3000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488f2"
+  },
+  "Rk": 278,
+  "name": "Isaiah Joe\\joeis01",
+  "age": 22,
+  "WS": "0.4",
+  "salary": "$3000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488f3"
+  },
+  "Rk": 279,
+  "name": "Alize Johnson\\johnsal02",
+  "age": 25,
+  "WS": "0.1",
+  "salary": "$3000000",
+  "projSalary": "$3150000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488f4"
+  },
+  "Rk": 280,
+  "name": "B.J. Johnson\\johnsbj01",
+  "age": 26,
+  "WS": "0.1",
+  "salary": "$2957520",
+  "projSalary": "$3098400"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488f5"
+  },
+  "Rk": 281,
+  "name": "Cameron Johnson\\johnsca02",
+  "age": 25,
+  "WS": "5.6",
+  "salary": "$2901240",
+  "projSalary": "$3046200"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488f6"
+  },
+  "Rk": 282,
+  "name": "David Johnson\\johnsda08",
+  "age": 20,
+  "WS": "0",
+  "salary": "$5256308",
+  "projSalary": "$2866667"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488f7"
+  },
+  "Rk": 283,
+  "name": "Jalen Johnson\\johnsja05",
+  "age": 20,
+  "WS": "0",
+  "salary": "$2844429",
+  "projSalary": "$2844429"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488f8"
+  },
+  "Rk": 284,
+  "name": "James Johnson\\johnsja01",
+  "age": 34,
+  "WS": "1.7",
+  "salary": "$2840160",
+  "projSalary": "$4379527"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488f9"
+  },
+  "Rk": 285,
+  "name": "Joe Johnson\\johnsjo02",
+  "age": 40,
+  "WS": "0",
+  "salary": "$2824320",
+  "projSalary": "$2959080"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488fa"
+  },
+  "Rk": 286,
+  "name": "Keldon Johnson\\johnske04",
+  "age": 22,
+  "WS": "4.9",
+  "salary": "$2770560",
+  "projSalary": "$2909160"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488fb"
+  },
+  "Rk": 287,
+  "name": "Keon Johnson\\johnske07",
+  "age": 19,
+  "WS": "-0.5",
+  "salary": "$2726880",
+  "projSalary": "$4343920"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488fc"
+  },
+  "Rk": 288,
+  "name": "Stanley Johnson\\johnsst04",
+  "age": 25,
+  "WS": "1.8",
+  "salary": "$2711280",
+  "projSalary": "$2840160"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488fd"
+  },
+  "Rk": 289,
+  "name": "Tyler Johnson\\johnsty01",
+  "age": 29,
+  "WS": "0.1",
+  "salary": "$2659560",
+  "projSalary": "$2792520"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488fe"
+  },
+  "Rk": 290,
+  "name": "Nikola Jokić\\jokicni01",
+  "age": 26,
+  "WS": "15.2",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69488ff"
+  },
+  "Rk": 291,
+  "name": "Carlik Jones\\jonesca03",
+  "age": 24,
+  "WS": "-0.1",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948900"
+  },
+  "Rk": 292,
+  "name": "Damian Jones\\jonesda03",
+  "age": 26,
+  "WS": "3.3",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948901"
+  },
+  "Rk": 293,
+  "name": "Derrick Jones Jr.\\jonesde02",
+  "age": 24,
+  "WS": "2.2",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948902"
+  },
+  "Rk": 294,
+  "name": "Herbert Jones\\joneshe01",
+  "age": 23,
+  "WS": "4.6",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948903"
+  },
+  "Rk": 295,
+  "name": "Jemerrio Jones\\jonesje01",
+  "age": 26,
+  "WS": "0.1",
+  "salary": "$11109327",
+  "projSalary": "$7827907"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948904"
+  },
+  "Rk": 296,
+  "name": "Kai Jones\\joneska01",
+  "age": 21,
+  "WS": "0",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948905"
+  },
+  "Rk": 297,
+  "name": "Mason Jones\\jonesma05",
+  "age": 23,
+  "WS": "0.2",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948906"
+  },
+  "Rk": 298,
+  "name": "Tre Jones\\jonestr01",
+  "age": 22,
+  "WS": "2.9",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948907"
+  },
+  "Rk": 299,
+  "name": "Tyus Jones\\jonesty01",
+  "age": 25,
+  "WS": "5.1",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948908"
+  },
+  "Rk": 300,
+  "name": "DeAndre Jordan\\jordade01",
+  "age": 33,
+  "WS": "1.9",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948909"
+  },
+  "Rk": 301,
+  "name": "Cory Joseph\\josepco01",
+  "age": 30,
+  "WS": "2.5",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694890a"
+  },
+  "Rk": 302,
+  "name": "Georgios Kalaitzakis\\kalaige01",
+  "age": 23,
+  "WS": "-0.1",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694890b"
+  },
+  "Rk": 303,
+  "name": "Frank Kaminsky\\kaminfr01",
+  "age": 28,
+  "WS": "0.9",
+  "salary": "$32405817"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694890c"
+  },
+  "Rk": 304,
+  "name": "Luke Kennard\\kennalu01",
+  "age": 25,
+  "WS": "4.5",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694890d"
+  },
+  "Rk": 305,
+  "name": "Braxton Key\\keybr01",
+  "age": 24,
+  "WS": "0.2",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694890e"
+  },
+  "Rk": 306,
+  "name": "George King\\kingge03",
+  "age": 28,
+  "WS": "-0.1",
+  "salary": "$2641691"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694890f"
+  },
+  "Rk": 307,
+  "name": "Louis King\\kinglo02",
+  "age": 22,
+  "WS": "0",
+  "salary": "$2617800",
+  "projSalary": "$4306281"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948910"
+  },
+  "Rk": 308,
+  "name": "Corey Kispert\\kispeco01",
+  "age": 22,
+  "WS": "2.3",
+  "salary": "$2602920",
+  "projSalary": "$2726880"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948911"
+  },
+  "Rk": 309,
+  "name": "Maxi Kleber\\klebima01",
+  "age": 30,
+  "WS": "3",
+  "salary": "$2553120",
+  "projSalary": "$2681040"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948912"
+  },
+  "Rk": 310,
+  "name": "Brandon Knight\\knighbr03",
+  "age": 30,
+  "WS": "0.1",
+  "salary": "$2513040",
+  "projSalary": "$4264629"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948913"
+  },
+  "Rk": 311,
+  "name": "Nathan Knight\\knighna01",
+  "age": 24,
+  "WS": "1",
+  "salary": "$2500000",
+  "projSalary": "$2625000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948914"
+  },
+  "Rk": 312,
+  "name": "Kevin Knox\\knoxke01",
+  "age": 22,
+  "WS": "0.2",
+  "salary": "$2498760",
+  "projSalary": "$2617800"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948915"
+  },
+  "Rk": 313,
+  "name": "John Konchar\\konchjo01",
+  "age": 25,
+  "WS": "4.2",
+  "salary": "$2451120",
+  "projSalary": "$2573760"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948916"
+  },
+  "Rk": 314,
+  "name": "Furkan Korkmaz\\korkmfu01",
+  "age": 24,
+  "WS": "1.2",
+  "salary": "$2412840",
+  "projSalary": "$4220057"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948917"
+  },
+  "Rk": 315,
+  "name": "Luke Kornet\\kornelu01",
+  "age": 26,
+  "WS": "0.4",
+  "salary": "$2401537"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948918"
+  },
+  "Rk": 316,
+  "name": "Vit Krejci\\krejcvi01",
+  "age": 21,
+  "WS": "0.6",
+  "salary": "$2401537"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948919"
+  },
+  "Rk": 317,
+  "name": "Arnoldas Kulboka\\kulboar01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$2401537"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694891a"
+  },
+  "Rk": 318,
+  "name": "Jonathan Kuminga\\kuminjo01",
+  "age": 19,
+  "WS": "3",
+  "salary": "$2401537"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694891b"
+  },
+  "Rk": 319,
+  "name": "Kyle Kuzma\\kuzmaky01",
+  "age": 26,
+  "WS": "2",
+  "salary": "$7310000",
+  "projSalary": "$5155000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694891c"
+  },
+  "Rk": 320,
+  "name": "Anthony Lamb\\lamban01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$2389641"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694891d"
+  },
+  "Rk": 321,
+  "name": "Jeremy Lamb\\lambje01",
+  "age": 29,
+  "WS": "1.2",
+  "salary": "$2389641"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694891e"
+  },
+  "Rk": 322,
+  "name": "Jock Landale\\landajo01",
+  "age": 26,
+  "WS": "1.5",
+  "salary": "$2389641"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694891f"
+  },
+  "Rk": 323,
+  "name": "Romeo Langford\\langfro01",
+  "age": 22,
+  "WS": "1.3",
+  "salary": "$2389641"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948920"
+  },
+  "Rk": 324,
+  "name": "Zach LaVine\\lavinza01",
+  "age": 26,
+  "WS": "5.8",
+  "salary": "$2389641"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948921"
+  },
+  "Rk": 325,
+  "name": "Jake Layman\\laymaja01",
+  "age": 27,
+  "WS": "0.1",
+  "salary": "$5256308",
+  "projSalary": "$2866667"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948922"
+  },
+  "Rk": 326,
+  "name": "Damion Lee\\leeda03",
+  "age": 29,
+  "WS": "2.7",
+  "salary": "$2389641"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948923"
+  },
+  "Rk": 327,
+  "name": "Saben Lee\\leesa01",
+  "age": 22,
+  "WS": "0.9",
+  "salary": "$2353320",
+  "projSalary": "$2471160"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948924"
+  },
+  "Rk": 328,
+  "name": "Alex Len\\lenal01",
+  "age": 28,
+  "WS": "0.9",
+  "salary": "$2353320",
+  "projSalary": "$2471160"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948925"
+  },
+  "Rk": 329,
+  "name": "Caris LeVert\\leverca01",
+  "age": 27,
+  "WS": "2.2",
+  "salary": "$2327220",
+  "projSalary": "$2443581"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948926"
+  },
+  "Rk": 330,
+  "name": "Kira Lewis Jr.\\lewiski01",
+  "age": 20,
+  "WS": "-0.1",
+  "salary": "$2316240",
+  "projSalary": "$4171548"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948927"
+  },
+  "Rk": 331,
+  "name": "Scottie Lewis\\lewissc01",
+  "age": 21,
+  "WS": "0",
+  "salary": "$2303040",
+  "projSalary": "$2412840"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948928"
+  },
+  "Rk": 332,
+  "name": "Damian Lillard\\lillada01",
+  "age": 31,
+  "WS": "1.7",
+  "salary": "$2259240",
+  "projSalary": "$2372160"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948929"
+  },
+  "Rk": 333,
+  "name": "Nassir Little\\littlna01",
+  "age": 21,
+  "WS": "1.7",
+  "salary": "$2245400"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694892a"
+  },
+  "Rk": 334,
+  "name": "Isaiah Livers\\liveris01",
+  "age": 23,
+  "WS": "0.7",
+  "salary": "$2239544"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694892b"
+  },
+  "Rk": 335,
+  "name": "Kevon Looney\\looneke01",
+  "age": 25,
+  "WS": "6.8",
+  "salary": "$2239544"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694892c"
+  },
+  "Rk": 336,
+  "name": "Brook Lopez\\lopezbr01",
+  "age": 33,
+  "WS": "0.7",
+  "salary": "$2239200",
+  "projSalary": "$4037278"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694892d"
+  },
+  "Rk": 337,
+  "name": "Robin Lopez\\lopezro01",
+  "age": 33,
+  "WS": "0.8",
+  "salary": "$2210640",
+  "projSalary": "$2316240"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694892e"
+  },
+  "Rk": 338,
+  "name": "Didi Louzada\\louzama01",
+  "age": 22,
+  "WS": "0",
+  "salary": "$2197674",
+  "projSalary": "$2302326"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694892f"
+  },
+  "Rk": 339,
+  "name": "Kevin Love\\loveke01",
+  "age": 33,
+  "WS": "5.7",
+  "salary": "$2168760",
+  "projSalary": "$2277000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948930"
+  },
+  "Rk": 340,
+  "name": "Kyle Lowry\\lowryky01",
+  "age": 35,
+  "WS": "6.4",
+  "salary": "$2161440",
+  "projSalary": "$3901399"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948931"
+  },
+  "Rk": 341,
+  "name": "Gabriel Lundberg\\lundbga01",
+  "age": 27,
+  "WS": "0",
+  "salary": "$2161152"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948932"
+  },
+  "Rk": 342,
+  "name": "Timothé Luwawu-Cabarrot\\luwawti01",
+  "age": 26,
+  "WS": "0.9",
+  "salary": "$2145720",
+  "projSalary": "$3873025"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948933"
+  },
+  "Rk": 343,
+  "name": "Trey Lyles\\lylestr01",
+  "age": 26,
+  "WS": "3.5",
+  "salary": "$2137440",
+  "projSalary": "$2239200"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948934"
+  },
+  "Rk": 344,
+  "name": "Théo Maledon\\maledth01",
+  "age": 20,
+  "WS": "0.3",
+  "salary": "$2130240",
+  "projSalary": "$3845083"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948935"
+  },
+  "Rk": 345,
+  "name": "Sandro Mamukelashvili\\mamuksa01",
+  "age": 22,
+  "WS": "1.1",
+  "salary": "$2096880",
+  "projSalary": "$2201400"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948936"
+  },
+  "Rk": 346,
+  "name": "Terance Mann\\mannte01",
+  "age": 25,
+  "WS": "5.5",
+  "salary": "$2089448"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948937"
+  },
+  "Rk": 347,
+  "name": "Tre Mann\\manntr01",
+  "age": 20,
+  "WS": "0.1",
+  "salary": "$2089448"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948938"
+  },
+  "Rk": 348,
+  "name": "Boban Marjanović\\marjabo01",
+  "age": 33,
+  "WS": "0.1",
+  "salary": "$2089448"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948939"
+  },
+  "Rk": 349,
+  "name": "Lauri Markkanen\\markkla01",
+  "age": 24,
+  "WS": "5",
+  "salary": "$2075880",
+  "projSalary": "$2174880"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694893a"
+  },
+  "Rk": 350,
+  "name": "Naji Marshall\\marshna01",
+  "age": 24,
+  "WS": "0.8",
+  "salary": "$2063280",
+  "projSalary": "$2161440"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694893b"
+  },
+  "Rk": 351,
+  "name": "Caleb Martin\\martica02",
+  "age": 26,
+  "WS": "4",
+  "salary": "$2048040",
+  "projSalary": "$2145720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694893c"
+  },
+  "Rk": 352,
+  "name": "Cody Martin\\martico01",
+  "age": 26,
+  "WS": "3.9",
+  "salary": "$2036280",
+  "projSalary": "$2138160"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694893d"
+  },
+  "Rk": 353,
+  "name": "Kelan Martin\\martike03",
+  "age": 26,
+  "WS": "0",
+  "salary": "$2033160",
+  "projSalary": "$2130240"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694893e"
+  },
+  "Rk": 354,
+  "name": "Kenyon Martin Jr.\\martike04",
+  "age": 21,
+  "WS": "2.9",
+  "salary": "$2023800",
+  "projSalary": "$2125200"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694893f"
+  },
+  "Rk": 355,
+  "name": "Garrison Mathews\\mathega01",
+  "age": 25,
+  "WS": "2.8",
+  "salary": "$2009040",
+  "projSalary": "$2109360"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948940"
+  },
+  "Rk": 356,
+  "name": "Dakota Mathias\\mathida01",
+  "age": 26,
+  "WS": "0",
+  "salary": "$2000000",
+  "projSalary": "$2000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948941"
+  },
+  "Rk": 357,
+  "name": "Wesley Matthews\\matthwe02",
+  "age": 35,
+  "WS": "1.2",
+  "salary": "$2000000",
+  "projSalary": "$2000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948942"
+  },
+  "Rk": 358,
+  "name": "Tyrese Maxey\\maxeyty01",
+  "age": 21,
+  "WS": "7.3",
+  "salary": "$2000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948943"
+  },
+  "Rk": 359,
+  "name": "Skylar Mays\\mayssk01",
+  "age": 24,
+  "WS": "0.3",
+  "salary": "$2000000",
+  "projSalary": "$1900000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948944"
+  },
+  "Rk": 360,
+  "name": "Miles McBride\\mcbrimi01",
+  "age": 21,
+  "WS": "0.2",
+  "salary": "$2000000",
+  "projSalary": "$2000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948945"
+  },
+  "Rk": 361,
+  "name": "Mac McClung\\mccluma01",
+  "age": 23,
+  "WS": "0",
+  "salary": "$1994520",
+  "projSalary": "$2094240"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948946"
+  },
+  "Rk": 362,
+  "name": "CJ McCollum\\mccolcj01",
+  "age": 30,
+  "WS": "3.6",
+  "salary": "$1977011"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948947"
+  },
+  "Rk": 363,
+  "name": "T.J. McConnell\\mccontj01",
+  "age": 29,
+  "WS": "1.3",
+  "salary": "$1958501"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948948"
+  },
+  "Rk": 364,
+  "name": "Jaden McDaniels\\mcdanja02",
+  "age": 21,
+  "WS": "2.4",
+  "salary": "$1939350"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948949"
+  },
+  "Rk": 365,
+  "name": "Jalen McDaniels\\mcdanja01",
+  "age": 24,
+  "WS": "1.7",
+  "salary": "$2541217"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694894a"
+  },
+  "Rk": 366,
+  "name": "Doug McDermott\\mcderdo01",
+  "age": 30,
+  "WS": "1.6",
+  "salary": "$1939350"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694894b"
+  },
+  "Rk": 367,
+  "name": "JaVale McGee\\mcgeeja01",
+  "age": 34,
+  "WS": "4.9",
+  "salary": "$1939350"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694894c"
+  },
+  "Rk": 368,
+  "name": "Cameron McGriff\\mcgrica01",
+  "age": 24,
+  "WS": "0.1",
+  "salary": "$1910860"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694894d"
+  },
+  "Rk": 369,
+  "name": "Rodney McGruder\\mcgruro01",
+  "age": 30,
+  "WS": "1.2",
+  "salary": "$1910860"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694894e"
+  },
+  "Rk": 370,
+  "name": "Alfonzo McKinnie\\mckinal01",
+  "age": 29,
+  "WS": "-0.1",
+  "salary": "$1865547"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694894f"
+  },
+  "Rk": 371,
+  "name": "JaQuori McLaughlin\\mclauja01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$1846738",
+  "projSalary": "$1997718"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948950"
+  },
+  "Rk": 372,
+  "name": "Jordan McLaughlin\\mclaujo01",
+  "age": 25,
+  "WS": "2.3",
+  "salary": "$1802057"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948951"
+  },
+  "Rk": 373,
+  "name": "Ben McLemore\\mclembe01",
+  "age": 28,
+  "WS": "0.8",
+  "salary": "$1802057"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948952"
+  },
+  "Rk": 374,
+  "name": "De'Anthony Melton\\meltode01",
+  "age": 23,
+  "WS": "3.7",
+  "salary": "$1789256"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948953"
+  },
+  "Rk": 375,
+  "name": "Sam Merrill\\merrisa01",
+  "age": 25,
+  "WS": "0",
+  "salary": "$1789256"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948954"
+  },
+  "Rk": 376,
+  "name": "Chimezie Metu\\metuch01",
+  "age": 24,
+  "WS": "1.5",
+  "salary": "$1789256"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948955"
+  },
+  "Rk": 377,
+  "name": "Khris Middleton\\middlkh01",
+  "age": 30,
+  "WS": "5.3",
+  "salary": "$1789256",
+  "projSalary": "$2036318"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948956"
+  },
+  "Rk": 378,
+  "name": "C.J. Miles\\milescj01",
+  "age": 34,
+  "WS": "0",
+  "salary": "$1789256",
+  "projSalary": "$2036318"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948957"
+  },
+  "Rk": 379,
+  "name": "Patty Mills\\millspa02",
+  "age": 33,
+  "WS": "2.8",
+  "salary": "$1786878",
+  "projSalary": "$1876222"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948958"
+  },
+  "Rk": 380,
+  "name": "Paul Millsap\\millspa01",
+  "age": 36,
+  "WS": "0.5",
+  "salary": "$1782621",
+  "projSalary": "$1930681"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948959"
+  },
+  "Rk": 381,
+  "name": "Shake Milton\\miltosh01",
+  "age": 25,
+  "WS": "1.7",
+  "salary": "$1782621",
+  "projSalary": "$1930681"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694895a"
+  },
+  "Rk": 382,
+  "name": "Davion Mitchell\\mitchda01",
+  "age": 23,
+  "WS": "0.1",
+  "salary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694895b"
+  },
+  "Rk": 383,
+  "name": "Donovan Mitchell\\mitchdo01",
+  "age": 25,
+  "WS": "7.2",
+  "salary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694895c"
+  },
+  "Rk": 384,
+  "name": "Evan Mobley\\mobleev01",
+  "age": 20,
+  "WS": "5.2",
+  "salary": "$76744",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694895d"
+  },
+  "Rk": 385,
+  "name": "Malik Monk\\monkma01",
+  "age": 23,
+  "WS": "3.6",
+  "salary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694895e"
+  },
+  "Rk": 386,
+  "name": "Greg Monroe\\monrogr01",
+  "age": 31,
+  "WS": "0.7",
+  "salary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694895f"
+  },
+  "Rk": 387,
+  "name": "Moses Moody\\moodymo01",
+  "age": 19,
+  "WS": "1.3",
+  "salary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948960"
+  },
+  "Rk": 388,
+  "name": "Xavier Moon\\moonxa01",
+  "age": 27,
+  "WS": "0.3",
+  "salary": "$1782621",
+  "projSalary": "$1930681"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948961"
+  },
+  "Rk": 389,
+  "name": "Matt Mooney\\moonema01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$1782621",
+  "projSalary": "$1930681"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948962"
+  },
+  "Rk": 390,
+  "name": "Ja Morant\\moranja01",
+  "age": 22,
+  "WS": "6.7",
+  "salary": "$1782621",
+  "projSalary": "$1930681"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948963"
+  },
+  "Rk": 391,
+  "name": "Juwan Morgan\\morgaju01",
+  "age": 24,
+  "WS": "0.1",
+  "salary": "$1782621",
+  "projSalary": "$1930681"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948964"
+  },
+  "Rk": 392,
+  "name": "Jaylen Morris\\morrija01",
+  "age": 26,
+  "WS": "-0.1",
+  "salary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948965"
+  },
+  "Rk": 393,
+  "name": "Marcus Morris\\morrima03",
+  "age": 32,
+  "WS": "2.4",
+  "salary": "$1782621",
+  "projSalary": "$1930681"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948966"
+  },
+  "Rk": 394,
+  "name": "Markieff Morris\\morrima02",
+  "age": 32,
+  "WS": "0.3",
+  "salary": "$1782621",
+  "projSalary": "$1930681"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948967"
+  },
+  "Rk": 395,
+  "name": "Monte Morris\\morrimo01",
+  "age": 26,
+  "WS": "5.4",
+  "salary": "$1762796"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948968"
+  },
+  "Rk": 396,
+  "name": "Emmanuel Mudiay\\mudiaem01",
+  "age": 25,
+  "WS": "0",
+  "salary": "$1762796",
+  "projSalary": "$1910860"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948969"
+  },
+  "Rk": 397,
+  "name": "Mychal Mulder\\muldemy01",
+  "age": 27,
+  "WS": "-0.2",
+  "salary": "$1762769"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694896a"
+  },
+  "Rk": 398,
+  "name": "Ade Murkey\\murkead01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$1729217",
+  "projSalary": "$1878720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694896b"
+  },
+  "Rk": 399,
+  "name": "Trey Murphy III\\murphtr02",
+  "age": 21,
+  "WS": "1.9",
+  "salary": "$1729217",
+  "projSalary": "$1878720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694896c"
+  },
+  "Rk": 400,
+  "name": "Dejounte Murray\\murrade01",
+  "age": 25,
+  "WS": "7.3",
+  "salary": "$1729217",
+  "projSalary": "$1878720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694896d"
+  },
+  "Rk": 401,
+  "name": "Mike Muscala\\muscami01",
+  "age": 30,
+  "WS": "2.1",
+  "salary": "$1729217",
+  "projSalary": "$1878720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694896e"
+  },
+  "Rk": 402,
+  "name": "Svi Mykhailiuk\\mykhasv01",
+  "age": 24,
+  "WS": "0.8",
+  "salary": "$1729217"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694896f"
+  },
+  "Rk": 403,
+  "name": "Abdel Nader\\naderab01",
+  "age": 28,
+  "WS": "0",
+  "salary": "$3430810"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948970"
+  },
+  "Rk": 404,
+  "name": "Larry Nance Jr.\\nancela02",
+  "age": 29,
+  "WS": "2.3",
+  "salary": "$1701593"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948971"
+  },
+  "Rk": 405,
+  "name": "RJ Nembhard Jr.\\nembhrj01",
+  "age": 22,
+  "WS": "0",
+  "salary": "$1720779"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948972"
+  },
+  "Rk": 406,
+  "name": "Aaron Nesmith\\nesmiaa01",
+  "age": 22,
+  "WS": "0.4",
+  "salary": "$1701593",
+  "projSalary": "$1846738"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948973"
+  },
+  "Rk": 407,
+  "name": "Raul Neto\\netora01",
+  "age": 29,
+  "WS": "1.5",
+  "salary": "$3430810"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948974"
+  },
+  "Rk": 408,
+  "name": "Malik Newman\\newmama01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$1700000",
+  "projSalary": "$1785000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948975"
+  },
+  "Rk": 409,
+  "name": "Georges Niang\\niangge01",
+  "age": 28,
+  "WS": "2.8",
+  "salary": "$1690507"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948976"
+  },
+  "Rk": 410,
+  "name": "Daishen Nix\\nixda01",
+  "age": 19,
+  "WS": "-0.2",
+  "salary": "$1669178",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948977"
+  },
+  "Rk": 411,
+  "name": "Zeke Nnaji\\nnajize01",
+  "age": 21,
+  "WS": "1.8",
+  "salary": "$1669178",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948978"
+  },
+  "Rk": 412,
+  "name": "Nerlens Noel\\noelne01",
+  "age": 27,
+  "WS": "1.5",
+  "salary": "$1669178",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948979"
+  },
+  "Rk": 413,
+  "name": "Jaylen Nowell\\nowelja01",
+  "age": 22,
+  "WS": "2.8",
+  "salary": "$1669178",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694897a"
+  },
+  "Rk": 414,
+  "name": "Frank Ntilikina\\ntilila01",
+  "age": 23,
+  "WS": "0.9",
+  "salary": "$1669178"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694897b"
+  },
+  "Rk": 415,
+  "name": "Jusuf Nurkić\\nurkiju01",
+  "age": 27,
+  "WS": "3.6",
+  "salary": "$1669178"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694897c"
+  },
+  "Rk": 416,
+  "name": "David Nwaba\\nwabada01",
+  "age": 29,
+  "WS": "1.3",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694897d"
+  },
+  "Rk": 417,
+  "name": "Jordan Nwora\\nworajo01",
+  "age": 23,
+  "WS": "0.6",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694897e"
+  },
+  "Rk": 418,
+  "name": "Royce O'Neale\\onealro01",
+  "age": 28,
+  "WS": "5.5",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694897f"
+  },
+  "Rk": 419,
+  "name": "Semi Ojeleye\\ojelese01",
+  "age": 27,
+  "WS": "0.2",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948980"
+  },
+  "Rk": 420,
+  "name": "Chuma Okeke\\okekech01",
+  "age": 23,
+  "WS": "2.2",
+  "salary": "$1517981"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948981"
+  },
+  "Rk": 421,
+  "name": "Josh Okogie\\okogijo01",
+  "age": 23,
+  "WS": "0.7",
+  "salary": "$1517981"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948982"
+  },
+  "Rk": 422,
+  "name": "Onyeka Okongwu\\okongon01",
+  "age": 21,
+  "WS": "4.2",
+  "salary": "$1517981"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948983"
+  },
+  "Rk": 423,
+  "name": "Isaac Okoro\\okorois01",
+  "age": 21,
+  "WS": "4.2",
+  "salary": "$1517981"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948984"
+  },
+  "Rk": 424,
+  "name": "KZ Okpala\\okpalkz01",
+  "age": 22,
+  "WS": "0.5",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948985"
+  },
+  "Rk": 425,
+  "name": "Victor Oladipo\\oladivi01",
+  "age": 29,
+  "WS": "0.4",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948986"
+  },
+  "Rk": 426,
+  "name": "Cameron Oliver\\oliveca01",
+  "age": 25,
+  "WS": "0.2",
+  "salary": "$1517981"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948987"
+  },
+  "Rk": 427,
+  "name": "Kelly Olynyk\\olynyke01",
+  "age": 30,
+  "WS": "1.6",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948988"
+  },
+  "Rk": 428,
+  "name": "Eugene Omoruyi\\omorueu01",
+  "age": 24,
+  "WS": "0.1",
+  "salary": "$1517981"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948989"
+  },
+  "Rk": 429,
+  "name": "Miye Oni\\onimi01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694898a"
+  },
+  "Rk": 430,
+  "name": "Cedi Osman\\osmande01",
+  "age": 26,
+  "WS": "2.9",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694898b"
+  },
+  "Rk": 431,
+  "name": "Daniel Oturu\\oturuda01",
+  "age": 22,
+  "WS": "0.1",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694898c"
+  },
+  "Rk": 432,
+  "name": "Kelly Oubre Jr.\\oubreke01",
+  "age": 26,
+  "WS": "3.3",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694898d"
+  },
+  "Rk": 433,
+  "name": "Jaysean Paige\\paigeja01",
+  "age": 27,
+  "WS": "-0.1",
+  "salary": "$1500000",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694898e"
+  },
+  "Rk": 434,
+  "name": "Trayvon Palmer\\palmetr01",
+  "age": 27,
+  "WS": "0",
+  "salary": "$1500000",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694898f"
+  },
+  "Rk": 435,
+  "name": "Kevin Pangos\\pangoke01",
+  "age": 29,
+  "WS": "0.1",
+  "salary": "$1489065",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948990"
+  },
+  "Rk": 436,
+  "name": "Jabari Parker\\parkeja01",
+  "age": 26,
+  "WS": "0.3",
+  "salary": "$1489065",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948991"
+  },
+  "Rk": 437,
+  "name": "Eric Paschall\\pascher01",
+  "age": 25,
+  "WS": "2",
+  "salary": "$1625991",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948992"
+  },
+  "Rk": 438,
+  "name": "Chris Paul\\paulch01",
+  "age": 36,
+  "WS": "9.4",
+  "salary": "$1456666"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948993"
+  },
+  "Rk": 439,
+  "name": "Cameron Payne\\payneca01",
+  "age": 27,
+  "WS": "1.9",
+  "salary": "$2045094"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948994"
+  },
+  "Rk": 440,
+  "name": "Elfrid Payton\\paytoel01",
+  "age": 27,
+  "WS": "-0.2",
+  "salary": "$1366392"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948995"
+  },
+  "Rk": 441,
+  "name": "Gary Payton II\\paytoga02",
+  "age": 29,
+  "WS": "5.2",
+  "salary": "$4000000",
+  "projSalary": "$4000000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948996"
+  },
+  "Rk": 442,
+  "name": "Norvel Pelle\\pelleno01",
+  "age": 28,
+  "WS": "0",
+  "salary": "$1252127"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948997"
+  },
+  "Rk": 443,
+  "name": "Reggie Perry\\perryre01",
+  "age": 21,
+  "WS": "0.2",
+  "salary": "$1250000",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948998"
+  },
+  "Rk": 444,
+  "name": "Jamorko Pickett\\pickeja01",
+  "age": 24,
+  "WS": "0.1",
+  "salary": "$1093598",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948999"
+  },
+  "Rk": 445,
+  "name": "Theo Pinson\\pinsoth01",
+  "age": 26,
+  "WS": "0.4",
+  "salary": "$1090007"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694899a"
+  },
+  "Rk": 446,
+  "name": "Mason Plumlee\\plumlma01",
+  "age": 31,
+  "WS": "4.7",
+  "salary": "$1068288"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694899b"
+  },
+  "Rk": 447,
+  "name": "Jakob Poeltl\\poeltja01",
+  "age": 26,
+  "WS": "6.9",
+  "salary": "$1062303",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694899c"
+  },
+  "Rk": 448,
+  "name": "Aleksej Pokusevski\\pokusal01",
+  "age": 20,
+  "WS": "0.4",
+  "salary": "$1057260",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694899d"
+  },
+  "Rk": 449,
+  "name": "Yves Pons\\ponsyv01",
+  "age": 22,
+  "WS": "0",
+  "salary": "$1039080"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694899e"
+  },
+  "Rk": 450,
+  "name": "Jordan Poole\\poolejo01",
+  "age": 22,
+  "WS": "6",
+  "salary": "$1000000",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad694899f"
+  },
+  "Rk": 451,
+  "name": "Kevin Porter Jr.\\porteke02",
+  "age": 21,
+  "WS": "0.8",
+  "salary": "$10720900"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489a0"
+  },
+  "Rk": 452,
+  "name": "Michael Porter Jr.\\portemi01",
+  "age": 23,
+  "WS": "-0.2",
+  "salary": "$999200",
+  "projSalary": "$999200"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489a1"
+  },
+  "Rk": 453,
+  "name": "Otto Porter Jr.\\porteot01",
+  "age": 28,
+  "WS": "4.9",
+  "salary": "$958529",
+  "projSalary": "$2193920"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489a2"
+  },
+  "Rk": 454,
+  "name": "Bobby Portis\\portibo01",
+  "age": 26,
+  "WS": "5.5",
+  "salary": "$925258",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489a3"
+  },
+  "Rk": 455,
+  "name": "Kristaps Porziņģis\\porzikr01",
+  "age": 26,
+  "WS": "5.6",
+  "salary": "$925258",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489a4"
+  },
+  "Rk": 456,
+  "name": "Micah Potter\\pottemi01",
+  "age": 23,
+  "WS": "0",
+  "salary": "$925258",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489a5"
+  },
+  "Rk": 457,
+  "name": "Dwight Powell\\poweldw01",
+  "age": 30,
+  "WS": "8.2",
+  "salary": "$925258",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489a6"
+  },
+  "Rk": 458,
+  "name": "Myles Powell\\powelmy01",
+  "age": 24,
+  "WS": "-0.1",
+  "salary": "$925258",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489a7"
+  },
+  "Rk": 459,
+  "name": "Norman Powell\\powelno01",
+  "age": 28,
+  "WS": "2.8",
+  "salary": "$925258",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489a8"
+  },
+  "Rk": 460,
+  "name": "Joshua Primo\\primojo01",
+  "age": 19,
+  "WS": "0",
+  "salary": "$925258",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489a9"
+  },
+  "Rk": 461,
+  "name": "Taurean Prince\\princta02",
+  "age": 27,
+  "WS": "2.2",
+  "salary": "$925258",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489aa"
+  },
+  "Rk": 462,
+  "name": "Payton Pritchard\\pritcpa01",
+  "age": 24,
+  "WS": "3.1",
+  "salary": "$925258",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ab"
+  },
+  "Rk": 463,
+  "name": "Trevelin Queen\\queentr01",
+  "age": 24,
+  "WS": "0.1",
+  "salary": "$925258",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ac"
+  },
+  "Rk": 464,
+  "name": "Neemias Queta\\quetane01",
+  "age": 22,
+  "WS": "0.1",
+  "salary": "$925258"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ad"
+  },
+  "Rk": 465,
+  "name": "Immanuel Quickley\\quickim01",
+  "age": 22,
+  "WS": "4.2",
+  "salary": "$925258"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ae"
+  },
+  "Rk": 466,
+  "name": "Jahmi'us Ramsey\\ramseja01",
+  "age": 20,
+  "WS": "-0.1",
+  "salary": "$924730"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489af"
+  },
+  "Rk": 467,
+  "name": "Julius Randle\\randlju01",
+  "age": 27,
+  "WS": "3.1",
+  "salary": "$888616",
+  "projSalary": "$2351521"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489b0"
+  },
+  "Rk": 468,
+  "name": "Austin Reaves\\reaveau01",
+  "age": 23,
+  "WS": "2.9",
+  "salary": "$850331"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489b1"
+  },
+  "Rk": 469,
+  "name": "Cam Reddish\\reddica01",
+  "age": 22,
+  "WS": "1",
+  "salary": "$785102"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489b2"
+  },
+  "Rk": 470,
+  "name": "Davon Reed\\reedda01",
+  "age": 26,
+  "WS": "1.6",
+  "salary": "$20168742"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489b3"
+  },
+  "Rk": 471,
+  "name": "Paul Reed\\reedpa01",
+  "age": 22,
+  "WS": "1.3",
+  "salary": "$705598"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489b4"
+  },
+  "Rk": 472,
+  "name": "Naz Reid\\reidna01",
+  "age": 22,
+  "WS": "3.2",
+  "salary": "$705598"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489b5"
+  },
+  "Rk": 473,
+  "name": "Nick Richards\\richani01",
+  "age": 24,
+  "WS": "1",
+  "salary": "$1290481"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489b6"
+  },
+  "Rk": 474,
+  "name": "Josh Richardson\\richajo01",
+  "age": 28,
+  "WS": "3.5",
+  "salary": "$666666"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489b7"
+  },
+  "Rk": 475,
+  "name": "Austin Rivers\\riverau01",
+  "age": 29,
+  "WS": "1.2",
+  "salary": "$663024"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489b8"
+  },
+  "Rk": 476,
+  "name": "Duncan Robinson\\robindu01",
+  "age": 27,
+  "WS": "3.9",
+  "salary": "$2045094"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489b9"
+  },
+  "Rk": 477,
+  "name": "Justin Robinson\\robinju01",
+  "age": 24,
+  "WS": "-0.3",
+  "salary": "$7622467",
+  "projSalary": "$333333"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ba"
+  },
+  "Rk": 478,
+  "name": "Mitchell Robinson\\robinmi01",
+  "age": 23,
+  "WS": "8.5",
+  "salary": "$1290481"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489bb"
+  },
+  "Rk": 479,
+  "name": "Jeremiah Robinson-Earl\\robinje02",
+  "age": 21,
+  "WS": "1.5",
+  "salary": "$606702"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489bc"
+  },
+  "Rk": 480,
+  "name": "Isaiah Roby\\robyis01",
+  "age": 23,
+  "WS": "2.9",
+  "salary": "$2541217"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489bd"
+  },
+  "Rk": 481,
+  "name": "Rajon Rondo\\rondora01",
+  "age": 35,
+  "WS": "0.7",
+  "salary": "$11109327",
+  "projSalary": "$7827907"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489be"
+  },
+  "Rk": 482,
+  "name": "Derrick Rose\\rosede01",
+  "age": 33,
+  "WS": "1.4",
+  "salary": "$586136"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489bf"
+  },
+  "Rk": 483,
+  "name": "Terrence Ross\\rosste01",
+  "age": 30,
+  "WS": "0.3",
+  "salary": "$558345"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489c0"
+  },
+  "Rk": 484,
+  "name": "Terry Rozier\\roziete01",
+  "age": 27,
+  "WS": "5.9",
+  "salary": "$527614"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489c1"
+  },
+  "Rk": 485,
+  "name": "Ricky Rubio\\rubiori01",
+  "age": 31,
+  "WS": "1.3",
+  "salary": "$10468119"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489c2"
+  },
+  "Rk": 486,
+  "name": "D'Angelo Russell\\russeda01",
+  "age": 25,
+  "WS": "4.4",
+  "salary": "$462629"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489c3"
+  },
+  "Rk": 487,
+  "name": "Matt Ryan\\ryanma01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$4107149",
+  "projSalary": "$3925000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489c4"
+  },
+  "Rk": 488,
+  "name": "Domantas Sabonis\\sabondo01",
+  "age": 25,
+  "WS": "7.1",
+  "salary": "$377645"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489c5"
+  },
+  "Rk": 489,
+  "name": "Olivier Sarr\\sarrol01",
+  "age": 22,
+  "WS": "1",
+  "salary": "$364533"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489c6"
+  },
+  "Rk": 490,
+  "name": "Tomáš Satoranský\\satorto01",
+  "age": 30,
+  "WS": "1",
+  "salary": "$350000"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489c7"
+  },
+  "Rk": 491,
+  "name": "Jordan Schakel\\schakjo01",
+  "age": 23,
+  "WS": "-0.1",
+  "salary": "$313737",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489c8"
+  },
+  "Rk": 492,
+  "name": "Admiral Schofield\\schofad01",
+  "age": 24,
+  "WS": "0.3"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489c9"
+  },
+  "Rk": 493,
+  "name": "Dennis Schröder\\schrode01",
+  "age": 28,
+  "WS": "2.9",
+  "salary": "$292466",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ca"
+  },
+  "Rk": 494,
+  "name": "Tre Scott\\scotttr01",
+  "age": 25,
+  "WS": "0",
+  "salary": "$290967",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489cb"
+  },
+  "Rk": 495,
+  "name": "Jay Scrubb\\scrubja01",
+  "age": 21,
+  "WS": "0",
+  "salary": "$276039"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489cc"
+  },
+  "Rk": 496,
+  "name": "Wayne Selden\\seldewa01",
+  "age": 27,
+  "WS": "0",
+  "salary": "$260561",
+  "projSalary": "$1563518"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489cd"
+  },
+  "Rk": 497,
+  "name": "Alperen Şengün\\sengual01",
+  "age": 19,
+  "WS": "2.1",
+  "salary": "$8558"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ce"
+  },
+  "Rk": 498,
+  "name": "Collin Sexton\\sextoco01",
+  "age": 23,
+  "WS": "-0.1",
+  "salary": "$231062",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489cf"
+  },
+  "Rk": 499,
+  "name": "Landry Shamet\\shamela01",
+  "age": 24,
+  "WS": "2.6",
+  "salary": "$202068"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489d0"
+  },
+  "Rk": 500,
+  "name": "Day'Ron Sharpe\\sharpda01",
+  "age": 20,
+  "WS": "1.2",
+  "salary": "$153488"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489d1"
+  },
+  "Rk": 501,
+  "name": "Pascal Siakam\\siakapa01",
+  "age": 27,
+  "WS": "8.1",
+  "salary": "$1366392"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489d2"
+  },
+  "Rk": 502,
+  "name": "Chris Silva\\silvach01",
+  "age": 25,
+  "WS": "0.3",
+  "salary": "$1290481"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489d3"
+  },
+  "Rk": 503,
+  "name": "Marko Simonovic\\simonma01",
+  "age": 22,
+  "WS": "0",
+  "salary": "$1290481"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489d4"
+  },
+  "Rk": 504,
+  "name": "Anfernee Simons\\simonan01",
+  "age": 22,
+  "WS": "1.9",
+  "salary": "$1290481"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489d5"
+  },
+  "Rk": 505,
+  "name": "Zavier Simpson\\simpsza01",
+  "age": 24,
+  "WS": "-0.1",
+  "salary": "$924730"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489d6"
+  },
+  "Rk": 506,
+  "name": "Jericho Sims\\simsje01",
+  "age": 23,
+  "WS": "1.5",
+  "salary": "$924730"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489d7"
+  },
+  "Rk": 507,
+  "name": "Deividas Sirvydis\\sirvyde01",
+  "age": 21,
+  "WS": "-0.1",
+  "salary": "$924730"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489d8"
+  },
+  "Rk": 508,
+  "name": "Javonte Smart\\smartja01",
+  "age": 22,
+  "WS": "-0.2",
+  "salary": "$924730"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489d9"
+  },
+  "Rk": 509,
+  "name": "Marcus Smart\\smartma01",
+  "age": 27,
+  "WS": "5.6",
+  "salary": "$276039"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489da"
+  },
+  "Rk": 510,
+  "name": "Dennis Smith Jr.\\smithde03",
+  "age": 24,
+  "WS": "0.4",
+  "salary": "$276039"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489db"
+  },
+  "Rk": 511,
+  "name": "Ish Smith\\smithis01",
+  "age": 33,
+  "WS": "0.5"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489dc"
+  },
+  "Rk": 512,
+  "name": "Jalen Smith\\smithja04",
+  "age": 21,
+  "WS": "2.8"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489dd"
+  },
+  "Rk": 513,
+  "name": "Xavier Sneed\\sneedxa01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$55208"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489de"
+  },
+  "Rk": 514,
+  "name": "Tony Snell\\snellto01",
+  "age": 30,
+  "WS": "0.4",
+  "salary": "$55208"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489df"
+  },
+  "Rk": 515,
+  "name": "Jaden Springer\\sprinja01",
+  "age": 19,
+  "WS": "0",
+  "salary": "$55208"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489e0"
+  },
+  "Rk": 516,
+  "name": "Cassius Stanley\\stanlca01",
+  "age": 22,
+  "WS": "0.1",
+  "salary": "$55208"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489e1"
+  },
+  "Rk": 517,
+  "name": "Nik Stauskas\\stausni01",
+  "age": 28,
+  "WS": "0.1",
+  "salary": "$276039"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489e2"
+  },
+  "Rk": 518,
+  "name": "Lance Stephenson\\stephla01",
+  "age": 31,
+  "WS": "0.8",
+  "salary": "$924730"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489e3"
+  },
+  "Rk": 519,
+  "name": "Lamar Stevens\\stevela01",
+  "age": 24,
+  "WS": "1.6",
+  "salary": "$1625991",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489e4"
+  },
+  "Rk": 520,
+  "name": "Isaiah Stewart\\stewais01",
+  "age": 20,
+  "WS": "3.4",
+  "salary": "$276039"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489e5"
+  },
+  "Rk": 521,
+  "name": "Max Strus\\strusma01",
+  "age": 25,
+  "WS": "3.6",
+  "salary": "$122741",
+  "projSalary": "$122741"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489e6"
+  },
+  "Rk": 522,
+  "name": "Jalen Suggs\\suggsja01",
+  "age": 20,
+  "WS": "-1.6",
+  "salary": "$888616",
+  "projSalary": "$2351521"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489e7"
+  },
+  "Rk": 523,
+  "name": "Craig Sword\\swordcr01",
+  "age": 28,
+  "WS": "0.1",
+  "salary": "$888616",
+  "projSalary": "$2351521"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489e8"
+  },
+  "Rk": 524,
+  "name": "Keifer Sykes\\sykeske01",
+  "age": 28,
+  "WS": "-0.5",
+  "salary": "$888616",
+  "projSalary": "$2351521"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489e9"
+  },
+  "Rk": 525,
+  "name": "Jae'Sean Tate\\tateja01",
+  "age": 26,
+  "WS": "3",
+  "salary": "$888616",
+  "projSalary": "$2351521"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ea"
+  },
+  "Rk": 526,
+  "name": "Jayson Tatum\\tatumja01",
+  "age": 23,
+  "WS": "9.6",
+  "salary": "$958529",
+  "projSalary": "$2193920"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489eb"
+  },
+  "Rk": 527,
+  "name": "Terry Taylor\\taylote01",
+  "age": 22,
+  "WS": "2.4",
+  "salary": "$958529",
+  "projSalary": "$2193920"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ec"
+  },
+  "Rk": 528,
+  "name": "Garrett Temple\\templga01",
+  "age": 35,
+  "WS": "0.8",
+  "salary": "$958529",
+  "projSalary": "$2193920"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ed"
+  },
+  "Rk": 529,
+  "name": "Emanuel Terry\\terryem01",
+  "age": 25,
+  "WS": "-0.1",
+  "salary": "$2045094"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ee"
+  },
+  "Rk": 530,
+  "name": "Tyrell Terry\\terryty01",
+  "age": 21,
+  "WS": "0",
+  "salary": "$2045094"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ef"
+  },
+  "Rk": 531,
+  "name": "Jon Teske\\teskejo01",
+  "age": 24,
+  "WS": "0",
+  "salary": "$2045094"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489f0"
+  },
+  "Rk": 532,
+  "name": "Daniel Theis\\theisda01",
+  "age": 29,
+  "WS": "1.9",
+  "salary": "$2045094"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489f1"
+  },
+  "Rk": 533,
+  "name": "Brodric Thomas\\thomabr01",
+  "age": 25,
+  "WS": "0.1"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489f2"
+  },
+  "Rk": 534,
+  "name": "Cam Thomas\\thomaca02",
+  "age": 20,
+  "WS": "0.8",
+  "salary": "$586136"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489f3"
+  },
+  "Rk": 535,
+  "name": "Isaiah Thomas\\thomais02",
+  "age": 32,
+  "WS": "0.2",
+  "salary": "$586136"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489f4"
+  },
+  "Rk": 536,
+  "name": "Matt Thomas\\thomama02",
+  "age": 27,
+  "WS": "0.6",
+  "salary": "$606702"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489f5"
+  },
+  "Rk": 537,
+  "name": "Klay Thompson\\thompkl01",
+  "age": 31,
+  "WS": "1.8",
+  "salary": "$606702"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489f6"
+  },
+  "Rk": 538,
+  "name": "Tristan Thompson\\thomptr01",
+  "age": 30,
+  "WS": "1.6",
+  "salary": "$1090007"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489f7"
+  },
+  "Rk": 539,
+  "name": "JT Thor\\thorjt01",
+  "age": 19,
+  "WS": "0.3",
+  "salary": "$1090007"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489f8"
+  },
+  "Rk": 540,
+  "name": "Matisse Thybulle\\thybuma01",
+  "age": 24,
+  "WS": "3.7",
+  "salary": "$1068288"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489f9"
+  },
+  "Rk": 541,
+  "name": "Killian Tillie\\tilliki02",
+  "age": 23,
+  "WS": "0.6",
+  "salary": "$100000",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489fa"
+  },
+  "Rk": 542,
+  "name": "Xavier Tillman Sr.\\tillmxa01",
+  "age": 23,
+  "WS": "1.8",
+  "salary": "$1762796"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489fb"
+  },
+  "Rk": 543,
+  "name": "Isaiah Todd\\toddis01",
+  "age": 20,
+  "WS": "-0.2",
+  "salary": "$1762796"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489fc"
+  },
+  "Rk": 544,
+  "name": "Obi Toppin\\toppiob01",
+  "age": 23,
+  "WS": "3.9",
+  "salary": "$1762796"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489fd"
+  },
+  "Rk": 545,
+  "name": "Juan Toscano-Anderson\\toscaju01",
+  "age": 28,
+  "WS": "2",
+  "salary": "$1762796"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489fe"
+  },
+  "Rk": 546,
+  "name": "Karl-Anthony Towns\\townska01",
+  "age": 26,
+  "WS": "10.3",
+  "salary": "$1762796"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad69489ff"
+  },
+  "Rk": 547,
+  "name": "Gary Trent Jr.\\trentga02",
+  "age": 23,
+  "WS": "5.6",
+  "salary": "$705598"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a00"
+  },
+  "Rk": 548,
+  "name": "P.J. Tucker\\tuckepj01",
+  "age": 36,
+  "WS": "5",
+  "salary": "$705598"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a01"
+  },
+  "Rk": 549,
+  "name": "Rayjon Tucker\\tuckera01",
+  "age": 24,
+  "WS": "0.4",
+  "salary": "$29814",
+  "projSalary": "$1878720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a02"
+  },
+  "Rk": 550,
+  "name": "Myles Turner\\turnemy01",
+  "age": 25,
+  "WS": "3.1",
+  "salary": "$29814",
+  "projSalary": "$1878720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a03"
+  },
+  "Rk": 551,
+  "name": "Jonas Valančiūnas\\valanjo01",
+  "age": 29,
+  "WS": "7.3"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a04"
+  },
+  "Rk": 552,
+  "name": "Denzel Valentine\\valende01",
+  "age": 28,
+  "WS": "0.2",
+  "salary": "$705598"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a05"
+  },
+  "Rk": 553,
+  "name": "Jarred Vanderbilt\\vandeja01",
+  "age": 22,
+  "WS": "6",
+  "salary": "$705598"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a06"
+  },
+  "Rk": 554,
+  "name": "Fred VanVleet\\vanvlfr01",
+  "age": 27,
+  "WS": "6.7",
+  "salary": "$29814",
+  "projSalary": "$1878720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a07"
+  },
+  "Rk": 555,
+  "name": "Devin Vassell\\vassede01",
+  "age": 21,
+  "WS": "3.3"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a08"
+  },
+  "Rk": 556,
+  "name": "Gabe Vincent\\vincega01",
+  "age": 25,
+  "WS": "2.5",
+  "salary": "$29814",
+  "projSalary": "$1878720"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a09"
+  },
+  "Rk": 557,
+  "name": "Nikola Vučević\\vucevni01",
+  "age": 31,
+  "WS": "4.5"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a0a"
+  },
+  "Rk": 558,
+  "name": "Dean Wade\\wadede01",
+  "age": 25,
+  "WS": "2.3"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a0b"
+  },
+  "Rk": 559,
+  "name": "Franz Wagner\\wagnefr01",
+  "age": 20,
+  "WS": "4"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a0c"
+  },
+  "Rk": 560,
+  "name": "Moritz Wagner\\wagnemo01",
+  "age": 24,
+  "WS": "2.8",
+  "salary": "$1720779"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a0d"
+  },
+  "Rk": 561,
+  "name": "Ish Wainright\\wainris01",
+  "age": 27,
+  "WS": "0.6",
+  "salary": "$1720779"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a0e"
+  },
+  "Rk": 562,
+  "name": "Kemba Walker\\walkeke02",
+  "age": 31,
+  "WS": "1.8"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a0f"
+  },
+  "Rk": 563,
+  "name": "Lonnie Walker IV\\walkelo01",
+  "age": 23,
+  "WS": "1.2"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a10"
+  },
+  "Rk": 564,
+  "name": "M.J. Walker\\walkemj01",
+  "age": 23,
+  "WS": "0",
+  "salary": "$19186",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a11"
+  },
+  "Rk": 565,
+  "name": "Tyrone Wallace\\wallaty01",
+  "age": 27,
+  "WS": "-0.1",
+  "salary": "$19186",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a12"
+  },
+  "Rk": 566,
+  "name": "Derrick Walton\\waltode01",
+  "age": 26,
+  "WS": "-0.2"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a13"
+  },
+  "Rk": 567,
+  "name": "Brad Wanamaker\\wanambr01",
+  "age": 32,
+  "WS": "0",
+  "salary": "$850331"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a14"
+  },
+  "Rk": 568,
+  "name": "Duane Washington Jr.\\washidu02",
+  "age": 21,
+  "WS": "0"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a15"
+  },
+  "Rk": 569,
+  "name": "P.J. Washington\\washipj01",
+  "age": 23,
+  "WS": "3.4",
+  "salary": "$28779",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a16"
+  },
+  "Rk": 570,
+  "name": "Yuta Watanabe\\watanyu01",
+  "age": 27,
+  "WS": "0.7"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a17"
+  },
+  "Rk": 571,
+  "name": "Lindy Waters III\\waterli01",
+  "age": 24,
+  "WS": "0.8",
+  "salary": "$28779",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a18"
+  },
+  "Rk": 572,
+  "name": "Tremont Waters\\watertr01",
+  "age": 24,
+  "WS": "0"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a19"
+  },
+  "Rk": 573,
+  "name": "Trendon Watford\\watfotr01",
+  "age": 21,
+  "WS": "1.9"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a1a"
+  },
+  "Rk": 574,
+  "name": "Paul Watson\\watsopa01",
+  "age": 27,
+  "WS": "0",
+  "salary": "$92857",
+  "projSalary": "$92857"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a1b"
+  },
+  "Rk": 575,
+  "name": "Quinndary Weatherspoon\\weathqu01",
+  "age": 25,
+  "WS": "0.2",
+  "salary": "$290967",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a1c"
+  },
+  "Rk": 576,
+  "name": "Russell Westbrook\\westbru01",
+  "age": 33,
+  "WS": "1.7",
+  "salary": "$290967",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a1d"
+  },
+  "Rk": 577,
+  "name": "Coby White\\whiteco01",
+  "age": 21,
+  "WS": "2.4",
+  "salary": "$290967",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a1e"
+  },
+  "Rk": 578,
+  "name": "Derrick White\\whitede01",
+  "age": 27,
+  "WS": "5.1",
+  "salary": "$231062",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a1f"
+  },
+  "Rk": 579,
+  "name": "Hassan Whiteside\\whiteha01",
+  "age": 32,
+  "WS": "5.8",
+  "salary": "$231062",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a20"
+  },
+  "Rk": 580,
+  "name": "Joe Wieskamp\\wieskjo01",
+  "age": 22,
+  "WS": "0.1",
+  "salary": "$1625991",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a21"
+  },
+  "Rk": 581,
+  "name": "Aaron Wiggins\\wiggiaa01",
+  "age": 23,
+  "WS": "1.2",
+  "salary": "$1625991",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a22"
+  },
+  "Rk": 582,
+  "name": "Andrew Wiggins\\wiggian01",
+  "age": 26,
+  "WS": "5.1",
+  "salary": "$100000",
+  "projSalary": "$1752638"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a23"
+  },
+  "Rk": 583,
+  "name": "Lindell Wigginton\\wiggili01",
+  "age": 23,
+  "WS": "0.2"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a24"
+  },
+  "Rk": 584,
+  "name": "Brandon Williams\\willibr03",
+  "age": 22,
+  "WS": "-0.5"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a25"
+  },
+  "Rk": 585,
+  "name": "Grant Williams\\willigr01",
+  "age": 23,
+  "WS": "5.1",
+  "salary": "$1517981",
+  "projSalary": "$1782621"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a26"
+  },
+  "Rk": 586,
+  "name": "Kenrich Williams\\willike04",
+  "age": 27,
+  "WS": "1.8"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a27"
+  },
+  "Rk": 587,
+  "name": "Lou Williams\\willilo02",
+  "age": 35,
+  "WS": "0.6"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a28"
+  },
+  "Rk": 588,
+  "name": "Patrick Williams\\willipa01",
+  "age": 20,
+  "WS": "0.9",
+  "salary": "$76744",
+  "projSalary": "$1815677"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a29"
+  },
+  "Rk": 589,
+  "name": "Robert Williams\\williro04",
+  "age": 24,
+  "WS": "9.9",
+  "salary": "$58493"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a2a"
+  },
+  "Rk": 590,
+  "name": "Ziaire Williams\\willizi02",
+  "age": 20,
+  "WS": "2.2",
+  "salary": "$55208"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a2b"
+  },
+  "Rk": 591,
+  "name": "D.J. Wilson\\wilsodj01",
+  "age": 25,
+  "WS": "0.4"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a2c"
+  },
+  "Rk": 592,
+  "name": "Dylan Windler\\windldy01",
+  "age": 25,
+  "WS": "0.8"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a2d"
+  },
+  "Rk": 593,
+  "name": "Justise Winslow\\winslju01",
+  "age": 25,
+  "WS": "0.8"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a2e"
+  },
+  "Rk": 594,
+  "name": "Cassius Winston\\winstca01",
+  "age": 23,
+  "WS": "0"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a2f"
+  },
+  "Rk": 595,
+  "name": "Christian Wood\\woodch01",
+  "age": 26,
+  "WS": "4.9"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a30"
+  },
+  "Rk": 596,
+  "name": "Robert Woodard II\\woodaro01",
+  "age": 22,
+  "WS": "-0.1"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a31"
+  },
+  "Rk": 597,
+  "name": "Delon Wright\\wrighde01",
+  "age": 29,
+  "WS": "3.6"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a32"
+  },
+  "Rk": 598,
+  "name": "McKinley Wright IV\\wrighmc01",
+  "age": 23,
+  "WS": "0"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a33"
+  },
+  "Rk": 599,
+  "name": "Moses Wright\\wrighmo01",
+  "age": 23,
+  "WS": "0.1",
+  "salary": "$462629"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a34"
+  },
+  "Rk": 600,
+  "name": "Gabe York\\yorkga01",
+  "age": 28,
+  "WS": "0"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a35"
+  },
+  "Rk": 601,
+  "name": "Thaddeus Young\\youngth01",
+  "age": 33,
+  "WS": "2.2"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a36"
+  },
+  "Rk": 602,
+  "name": "Trae Young\\youngtr01",
+  "age": 23,
+  "WS": "10"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a37"
+  },
+  "Rk": 603,
+  "name": "Omer Yurtseven\\yurtsom01",
+  "age": 23,
+  "WS": "2.1"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a38"
+  },
+  "Rk": 604,
+  "name": "Cody Zeller\\zelleco01",
+  "age": 29,
+  "WS": "1.1"
+},{
+  "_id": {
+    "$oid": "6274db2d67b2ba8ad6948a39"
+  },
+  "Rk": 605,
+  "name": "Ivica Zubac\\zubaciv01",
+  "age": 24,
+  "WS": "7.2"
+}]
