@@ -15,10 +15,10 @@ import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-public class PlayerParser {
+public class CsvFileToJsonFile {
     public static void main(String[] args) {
         // Read csv data file and store it in a string
-        InputStream is = PlayerParser.class.getResourceAsStream("/data.csv");
+        InputStream is = CsvFileToJsonFile.class.getResourceAsStream("/data.csv");
         String csv = new BufferedReader(
                 new InputStreamReader(Objects.requireNonNull(is), StandardCharsets.UTF_8))
                 .lines()
