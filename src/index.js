@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 // import firebase from 'firebase';
 import { initializeApp } from "firebase/app";
+import SearchBar from './Components/SearchBar';
+import Data from './Data.json'
 
 // Firebase configuration
 const firebaseConfig = {
@@ -24,3 +26,10 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App/>
+    <SearchBar data={}></SearchBar>
+  </React.StrictMode>
+)
