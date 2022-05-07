@@ -1,6 +1,4 @@
-package src.main.java;
-
-import javax.swing.ImageIcon;
+package pt;
 
 // A Player represents a basketball player that has stats, a PER, win shares,
 // salary, a projected salary, profile picture, name, and age.
@@ -12,7 +10,7 @@ public class Player {
   private double winShares; // An estimate of the number of wins contributed by a player.
   private double salary; // Player's salary.
   private double projSalary; // Player's projected salary.
-  private ImageIcon proPic; // Player's profile picture.
+  private String proPicSrc; // URL of the player's profile picture.
   private String name; // Player's name in the form "[FirstName] [LastName]".
   private int age; // Player's age.
   private String team; // Player's team in an abbreviated 3-letter form. Ex: "CLE".
@@ -30,13 +28,13 @@ public class Player {
    * @param age Player's age.
    */
   public Player(Stats stats, double per, double winShares, double salary, double projSalary,
-                ImageIcon proPic, String name, int age) {
+                String proPicSrc, String name, int age) {
     this.stats = stats;
     this.per = per;
     this.winShares = winShares;
     this.salary = salary;
     this.projSalary = projSalary;
-    this.proPic = proPic;
+    this.proPicSrc = proPicSrc;
     this.name = name;
     this.age = age;
   }
@@ -82,11 +80,11 @@ public class Player {
   }
 
   /**
-   * Returns the player's profile picture.
-   * @return Player's profile picture.
+   * Returns the URL of the player's profile picture..
+   * @return URL of the player's profile picture..
    */
-  public ImageIcon getProPic() {
-    return this.proPic;
+  public String getProPicSrc() {
+    return this.proPicSrc;
   }
 
   /**

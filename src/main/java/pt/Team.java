@@ -1,8 +1,8 @@
-package src.main.java;
+package pt;
 import java.util.*;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
+// import org.json.simple.parser.JSONParser;
+// import org.json.simple.JSONArray;
+// import org.json.simple.JSONObject;
 import java.io.*;
 import java.sql.*;
 
@@ -84,7 +84,19 @@ public class Team {
 		// 	Connection conn = DriverManager.
     //         getConnection("jdbc:h2:~/test", "sa", "");
     //     // add application code here
-    //     await conn.query("SELECT * FROM CSVREAD('test.csv');")
+    //   String qry = "SELECT * FROM CSVREAD('test.csv');";
+    //   // create the java statement
+    //   Statement st = conn.createStatement();
+
+    //   // execute the query, and get a java resultset
+    //   ResultSet rs = st.executeQuery(qry);
+
+    //   // iterate through the java resultset
+    //   while (rs.next())
+    //   {
+    //     System.out.println(rs);
+    //   }
+    //   st.close();
     //     conn.close();
 		// } catch (Exception e) {
 		// 	e.printStackTrace();
@@ -98,5 +110,10 @@ public class Team {
    */
   public void setSalaryCap(double salaryCap) {
     this.salaryCap = salaryCap;
+  }
+
+  public static void main(String[] args) {
+    Team team = new Team(100);
+    team.quickAdd("CLE");
   }
 }
