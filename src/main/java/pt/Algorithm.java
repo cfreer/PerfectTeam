@@ -1,6 +1,6 @@
-package src.main.java;
+package pt;
 
-//This is the Alrgorithm class for PerfectTeam.
+//This is the Algorithm class for PerfectTeam.
 //This will take any potential 12 person team and predict its potential Win/Loss record over a season.
 
 public class Algorithm {
