@@ -1,0 +1,17 @@
+plugins {
+  id 'application'
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  testImplementation 'junit:junit:4.11'
+  implementation 'org.json:json:20220320'
+  implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+}
+
+application {
+  mainClassName 'Team'
+}
