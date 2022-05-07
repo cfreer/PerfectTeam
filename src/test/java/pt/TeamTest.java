@@ -1,9 +1,6 @@
-package src.test.java;
+package pt;
 
 import org.junit.Test;
-import src.main.java.Player;
-import src.main.java.Stats;
-import src.main.java.Team;
 import java.util.*;
 
 import javax.swing.ImageIcon;
@@ -21,7 +18,7 @@ public class TeamTest {
   }
 
   public Player getPlayer() {
-    return new Player(getStats(), 1, 1, 1, 1, new ImageIcon(), "Player Test", 30);
+    return new Player(getStats(), 1, 1, 1, 1, "https://image.png", "Player Test", 30);
   }
 
   @Test
@@ -29,7 +26,7 @@ public class TeamTest {
     Team team = new Team(1000);
     Stats stats = getStats();
     for (int i = 0; i < 12; i++) {
-      team.addPlayer(new Player(stats, 1, 1, 1, 1, new ImageIcon(), "Player " + i, 30));
+      team.addPlayer(new Player(stats, 1, 1, 1, 1, "https://image.png", "Player " + i, 30));
     }
     Player player = getPlayer();
     assertFalse(team.addPlayer(player));
