@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function CreateTeamBtn() {
   return(
     <Link to="/createteam">
-      <Button color='primary' data-testid='create-team-btn'>Create a Team!</Button>
+      <Button variant='primary' data-testid='create-team-btn'>Create a Team!</Button>
     </Link>
   );
 }

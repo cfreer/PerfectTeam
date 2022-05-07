@@ -14,7 +14,7 @@ function App(props : any) {
 
   // returns rendered routes and specified components
   return (
-    <div>
+    <div id='page-container'>
       <div id='header-bar'>
         <p></p>
       </div>
@@ -24,7 +24,7 @@ function App(props : any) {
       <hr />
       <Route path="/" component={NavBar} />
       <hr />
-      <main>
+      <main id='content'>
         <Switch>
           <Route exact path="/" >
             <Home />
@@ -44,7 +44,7 @@ function App(props : any) {
           <Redirect to="/" />
         </Switch>
       </main>
-      <footer>
+      <footer id='footer'>
         <Route path="/" component={Footer} />
       </footer>
     </div>
