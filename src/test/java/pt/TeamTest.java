@@ -3,8 +3,6 @@ package pt;
 import org.junit.Test;
 import java.util.*;
 
-import javax.swing.ImageIcon;
-
 import static org.junit.Assert.*;
 
 /**
