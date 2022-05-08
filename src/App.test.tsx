@@ -10,12 +10,12 @@ const currRender = (ui : any, {route = '/'} = {}) => {
 
 test('renders home page', () => {
   currRender(<App />);
-  expect(screen.getByTestId(/create-team-btn/i)).toBeInTheDocument();
+  expect(screen.getByTestId(/home-container/i)).toBeInTheDocument();
 });
 
 test('renders create team page', () => {
   currRender(<App />, {route: '/createteam'});
-  expect((screen.getByText(/create team page/i))).toBeInTheDocument();
+  expect(screen.getByTestId(/create-team-container/i)).toBeInTheDocument();
 });
 
 test('renders games page', () => {

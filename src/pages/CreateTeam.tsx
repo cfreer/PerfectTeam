@@ -15,7 +15,7 @@ function CreateTeam(props : any) {
 
   // renders create team page
   return (
-    <div className='create-team-container'>
+    <div className='create-team-container' data-testid='create-team-container'>
       <InputGroup className='mb-3'>
         <FormControl
           placeholder='Enter player name'

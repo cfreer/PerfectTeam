@@ -6,7 +6,7 @@ function Home(props : any) {
 
   // renders home page
   return (
-    <div className='home-container'>
+    <div className='home-container' data-testid='home-container'>
       <Slideshow />
       <div id='tutorial-description'>
         <p>
