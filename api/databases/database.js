@@ -5,7 +5,7 @@ main().catch(err => console.log(err));
 let db = {};
 
 async function main() {
-    await mongoose.connect('mongodb+srv://nandojfg:PerfectTeam@clusterjuan.khmci.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+    await mongoose.connect('mongodb+srv://nandojfg:PerfectTeam@clusterjuan.khmci.mongodb.net/PerfectTeam?retryWrites=true&w=majority');
 
     const playerSchema = new mongoose.Schema({
         Rk: Number,
