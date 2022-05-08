@@ -7,6 +7,7 @@ const logger = require('morgan');
 //Routers
 const playerRouter = require('./routes/player');
 //const statsRouter = require('./routes/stats');
+const teamRouter = require('./routes/team');
 
 //Database
 const db = require('./databases/database');
@@ -34,6 +35,7 @@ app.use((req, res, next) => {
 
 app.use('/player', playerRouter);
 //app.use('/stats', statsRouter);
+app.use('/team', teamRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -51,7 +53,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-// mongoose.connect('mongodb+srv://nandojfg:PerfectTeam@clusterjuan.khmci.mongodb.net/PerfectTeam?retryWrites=true&w=majority', 
+// mongoose.connect('mongodb+srv://nandojfg:PerfectTeam@clusterjuan.khmci.mongodb.net/PerfectTeam?retryWrites=true&w=majority',
 // () => console.log('conected to DB!')
 // );
 

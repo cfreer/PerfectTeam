@@ -14,8 +14,8 @@ async function main() {
         proPic: String,
         WS: String,
         salary: String,
-        projSalary: String
-        
+        projSalary: String,
+        //image: String, //1.png
     });
 
     const statsSchema = new mongoose.Schema({
@@ -29,12 +29,19 @@ async function main() {
         BLK: Number,
         TOV: Number,
         PF: Number,
-        PTS: Number,
-        //image: String, //1.png
+        PTS: Number
+    })
+
+    const teamSchema = new mongoose.Schema({
+        Rk: Number,
+        Players: String,
+        Score: Number,
+        Salary: Number
     })
 
     db.Player = mongoose.model('players', playerSchema);
     db.Stats = mongoose.model('stats', statsSchema);
+    db.Team = mongoose.model('team', teamSchema);
 }
 
 module.exports = db;
