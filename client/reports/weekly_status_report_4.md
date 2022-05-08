@@ -7,8 +7,12 @@
 - Set up testing and write tests for Team and Player (Caroline)
 
 ### Progress and Issues
+We got our CI and testing set up through GitHub for both the frontend and backend this week. We were able to fix the React version and library issues for the frontend and finish the NavBar, App, and Home page components. We also added unit testing for React components using Jest. Besides meeting on Zoom for our weekly team meeting, meeting in person to work on the homework assignment worked well for us. We learned how to set up GitHub Actions to automate testing.
 
 ### Plans and Goals
+- Finish first draft of backend (Caroline, Ned, Juan)
+- Finish first draft of frontend (Aaron, Amanda)
+- Combine front and backend to create a beta release (Everyone)
 
 
 ## Team Member Contributions
@@ -18,8 +22,15 @@
 - Continue progress on the games page for a static mock up.
 
 #### Progress and Issues
+This week my primary focus was to finish up the autofill search bar component, which I was successfully able to complete thanks to the JSON file being done.
+I also continued to work on the games page, but need to decide how we plan to update the page based on current games, which may just require weekly work to 
+be accurate. I am planning to finish the basic setup for the games page and work on the players page. Meeting in person was incredibly beneficial to me, as it 
+streamlined the processes that I was currently working on. We plan to continue this this week. Otherwise I have been fixing bugs as they come up, but not too many errors so far.
 
 #### Plans and Goals
+- Finsih a basic games page
+- decide how we intend to keep the games page up to date.
+- Begin work on players page.
 
 ### 2. Amanda
 #### Goals From Last Week
@@ -53,14 +64,19 @@ This week I got our CI of choice, GitHub Actions, set up. I also added JUnit tes
 - Finishing the structure of our JSON files that will be send to the frontend.
 
 #### Progress and Issues
+This week I was able to finished querying the data and putting together some of the data tables necessary for the project to follow. At the same time, I created some JUnit tests to test how the data flow into the different parameters. Finishing the structure of our JSON files helped us to understand what is the necessary that we need for our algorithm and make sure it aligns with the parameters in our statical model.
 
 #### Plans and Goals
+- Finish the integration of the Module APIs
+- Have a beta where the data can flow from end-to-end
+
 
 ### 5. Ned
 #### Goals From Last Week
 My plan is to distribute the playing time minutes dependant on how much time they get on their current teams and scale the minutes to fit the 240 minutes that each team plays. I also need to find another source of stats that contain the missing variables that I need for the formula. Another plan I have is to work with Juan on helping him filter the data. My goal for this coming week is to have the algorithm done.
 
 #### Progress and Issues
+This week I finished the algorithm and helped other group members work through any problems they had. I also helped with hw 5 adding justifications for different design choices. One issue we had was a miscomunication I had with Ardi but we dealt with it. Another issue we may have is finishing the beta.
 
 #### Plans and Goals
-
+The main goal is to finish the beta release by friday hopefully before our weekly meeting so we can show Ardi our progress. My personal goal is to have our algorithm working and being somewhat accurate before we spend time testing it.
