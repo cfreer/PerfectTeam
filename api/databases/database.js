@@ -18,7 +18,7 @@ async function main() {
         //image: String, //1.png
     });
 
-    // TODO: remove rank and minutes played(?), add BLKA, add playerId
+    // TODO: remove minutes played(?), add BLKA
     const statsSchema = new mongoose.Schema({
         Rk: Number,
         MP: Number,
