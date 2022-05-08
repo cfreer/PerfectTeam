@@ -1,5 +1,4 @@
-//Juan
-package src.main.java;
+package pt;
 
 //This class help us to search for specific players based on specific data metrics. Here we want to create
 // a global search for the web app.
