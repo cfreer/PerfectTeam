@@ -1,25 +1,19 @@
 package pt;
 import java.util.*;
-// import org.json.simple.parser.JSONParser;
-// import org.json.simple.JSONArray;
-// import org.json.simple.JSONObject;
-import java.io.*;
-import java.sql.*;
 
 // A Team represents a list of 12 Players that is able to be modified and
 // also keeps track of a salary cap.
 public class Team {
   private List<Player> players; // 12 players on the team.
   private double totalSalary; // Total salary of the team.
-  private double salaryCap; // Maximum salary allowed of the team.
+  // add real salary cap
+  private final double SALARY_CAP = 0; // Maximum salary allowed of the team.
 
   /**
    * Creates a new Team with the given salary cap.
-   * @param salaryCap Maximum salary allowed of the team.
    */
-  public Team(double salaryCap) {
+  public Team() {
     this.players = new ArrayList<Player>();
-    this.salaryCap = salaryCap;
     this.totalSalary = 0;
   }
 
@@ -48,7 +42,7 @@ public class Team {
   public boolean addPlayer(Player player) {
     double salary = player.getSalary();
     if (this.players.size() < 12) {
-      if (this.totalSalary + salary > this.salaryCap) {
+      if (this.totalSalary + salary > this.SALARY_CAP) {
         // TODO: display this message to user in UI
         System.out.println("Error: Player cannot be added to the team." +
                            "Player's salary causes the total team salary to exceed the salary cap.");
@@ -79,41 +73,6 @@ public class Team {
 
   public boolean quickAdd(String team) {
     // Query where team = team and player != any players already on team
-    // JSONParser parser = new JSONParser();
-    // try {
-		// 	Connection conn = DriverManager.
-    //         getConnection("jdbc:h2:~/test", "sa", "");
-    //     // add application code here
-    //   String qry = "SELECT * FROM CSVREAD('test.csv');";
-    //   // create the java statement
-    //   Statement st = conn.createStatement();
-
-    //   // execute the query, and get a java resultset
-    //   ResultSet rs = st.executeQuery(qry);
-
-    //   // iterate through the java resultset
-    //   while (rs.next())
-    //   {
-    //     System.out.println(rs);
-    //   }
-    //   st.close();
-    //     conn.close();
-		// } catch (Exception e) {
-		// 	e.printStackTrace();
-		// }
     return true;
-  }
-
-  /**
-   * Sets the salary cap of the team to the given salary cap.
-   * @param salaryCap Maximum salary allowed of the team.
-   */
-  public void setSalaryCap(double salaryCap) {
-    this.salaryCap = salaryCap;
-  }
-
-  public static void main(String[] args) {
-    Team team = new Team(100);
-    team.quickAdd("CLE");
   }
 }
