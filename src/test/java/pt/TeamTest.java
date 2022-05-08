@@ -21,7 +21,7 @@ public class TeamTest {
 
   @Test
   public void testAddPlayer_LargeTeam() {
-    Team team = new Team(1000);
+    Team team = new Team();
     Stats stats = getStats();
     for (int i = 0; i < 12; i++) {
       team.addPlayer(new Player(stats, 1, 1, 1, 1, "https://image.png", "Player " + i, 30));
@@ -32,14 +32,14 @@ public class TeamTest {
 
   @Test
   public void testAddPlayer_PastSalaryCap() {
-    Team team = new Team(0);
-    Player player = getPlayer();
+    Team team = new Team();
+    Player player = new Player(getStats(), 1, 1, 1000000000, 1, "https://image.png", "Player Test", 30);
     assertFalse(team.addPlayer(player));
   }
 
   @Test
   public void testAddPlayer_DuplicatePlayer() {
-    Team team = new Team(100);
+    Team team = new Team();
     Player player = getPlayer();
     assertTrue(team.addPlayer(player));
     assertFalse(team.addPlayer(player));
@@ -47,7 +47,7 @@ public class TeamTest {
 
   @Test
   public void testAddPlayer_PlayerAdded() {
-    Team team = new Team(100);
+    Team team = new Team();
     Player player = getPlayer();
     assertTrue(team.addPlayer(player));
     assertEquals(Arrays.asList(player), team.getPlayers());
@@ -55,7 +55,7 @@ public class TeamTest {
 
   @Test
   public void testAddPlayer_TotalSalaryUpdated() {
-    Team team = new Team(100);
+    Team team = new Team();
     Player player = getPlayer();
     assertTrue(team.addPlayer(player));
     assertEquals(1, team.getTotalSalary(), EPS);
@@ -63,7 +63,7 @@ public class TeamTest {
 
   @Test
   public void testRemovePlayer() {
-    Team team = new Team(100);
+    Team team = new Team();
     Player player = getPlayer();
     team.addPlayer(player);
     assertTrue(team.removePlayer(player));
@@ -72,7 +72,7 @@ public class TeamTest {
 
   @Test
   public void testQuickAdd() {
-    Team team = new Team(100);
+    Team team = new Team();
     assertTrue(team.quickAdd("CLE"));
   }
 }

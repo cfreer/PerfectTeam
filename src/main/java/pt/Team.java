@@ -5,9 +5,9 @@ import java.util.*;
 // also keeps track of a salary cap.
 public class Team {
   private List<Player> players; // 12 players on the team.
-  private double totalSalary; // Total salary of the team.
+  private int totalSalary; // Total salary of the team.
   // add real salary cap
-  private final double SALARY_CAP = 0; // Maximum salary allowed of the team.
+  private final int SALARY_CAP = 100000; // Maximum salary allowed of the team.
 
   /**
    * Creates a new Team with the given salary cap.
@@ -21,7 +21,7 @@ public class Team {
    * Returns the team's total salary.
    * @return Team's total salary.
    */
-  public double getTotalSalary() {
+  public int getTotalSalary() {
     return this.totalSalary;
   }
 
@@ -40,7 +40,7 @@ public class Team {
    * @return True if the player is successfully added to the team and false if not.
    */
   public boolean addPlayer(Player player) {
-    double salary = player.getSalary();
+    int salary = player.getSalary();
     if (this.players.size() < 12) {
       if (this.totalSalary + salary > this.SALARY_CAP) {
         // TODO: display this message to user in UI
