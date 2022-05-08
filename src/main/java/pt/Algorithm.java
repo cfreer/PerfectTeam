@@ -5,6 +5,16 @@ package pt;
 
 public class Algorithm {
   private final double totalMins = 240.0;
+  private double pts;
+  private double ftm;
+  private double oreb;
+  private double dreb;
+  private double ast;
+  private double tov;
+  private double stl;
+  private double blk;
+  private double blka;
+  private double pf;
   /*  This takes the data from the team and stores it to be used later for calculating winP.
 
       @Spec.requires team size to be 12
@@ -14,7 +24,20 @@ public class Algorithm {
     double playingTimeScale = 0;
     double totalPlayingTime = 0.0;
     for (Player player : team.getPlayers()) {
-      player.getStats().getPlayingTime();
+      totalPlayingTime += player.getStats().getPlayingTime();
+    }
+    playingTimeScale = totalPlayingTime/totalMins;
+    for (Player player : team.getPlayers()) {
+      pts += player.getStats().getPoints() * playingTimeScale;
+      ftm += player.getStats().getFreeThrows() * playingTimeScale;
+      oreb += player.getStats().getOffRebounds() * playingTimeScale;
+      dreb += player.getStats().getDefRebounds() * playingTimeScale;
+      ast += player.getStats().getAssists() * playingTimeScale;
+      tov += player.getStats().getTurnovers() * playingTimeScale;
+      stl += player.getStats().getSteals() * playingTimeScale;
+      blk += player.getStats().getBlocks() * playingTimeScale;
+      blka += player.getStats().getBlocksAgainst() * playingTimeScale;
+      pf += player.getStats().getPersonalFouls() * playingTimeScale;
     }
   }
   /*

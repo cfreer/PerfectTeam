@@ -8,8 +8,8 @@ public class Player {
   private double per; // Player Efficiency Rating: A measure of per-minute
                       // production standardized such that the league average is 15.
   private double winShares; // An estimate of the number of wins contributed by a player.
-  private double salary; // Player's salary.
-  private double projSalary; // Player's projected salary.
+  private int salary; // Player's salary.
+  private int projSalary; // Player's projected salary.
   private String proPicSrc; // URL of the player's profile picture.
   private String name; // Player's name in the form "[FirstName] [LastName]".
   private int age; // Player's age.
@@ -27,7 +27,7 @@ public class Player {
    * @param name Player's name in the form "[FirstName] [LastName]".
    * @param age Player's age.
    */
-  public Player(Stats stats, double per, double winShares, double salary, double projSalary,
+  public Player(Stats stats, double per, double winShares, int salary, int projSalary,
                 String proPicSrc, String name, int age) {
     this.stats = stats;
     this.per = per;
@@ -67,7 +67,7 @@ public class Player {
    * Returns the player's salary.
    * @return Player's salary.
    */
-  public double getSalary() {
+  public int getSalary() {
     return this.salary;
   }
 
@@ -75,7 +75,7 @@ public class Player {
    * Returns the player's projected salary.
    * @return Player's projected salary.
    */
-  public double getProjSalary() {
+  public int getProjSalary() {
     return this.projSalary;
   }
 
