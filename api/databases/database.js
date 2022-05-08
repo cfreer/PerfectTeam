@@ -18,6 +18,7 @@ async function main() {
         //image: String, //1.png
     });
 
+    // TODO: remove rank and minutes played(?), add BLKA, add playerId
     const statsSchema = new mongoose.Schema({
         Rk: Number,
         MP: Number,
@@ -33,7 +34,6 @@ async function main() {
     })
 
     const teamSchema = new mongoose.Schema({
-        Rk: Number,
         Players: String,
         Score: Number,
         Salary: Number

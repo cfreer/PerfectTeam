@@ -1,8 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET player listing.
-Can add an id to query just one player. Example request: ?_id=6274db2d67b2ba8ad69487dd.*/
+/**
+ * GET player listing.
+ * Can add an id to query just one player.
+ * Example request: ?_id=6274db2d67b2ba8ad69487dd.
+ */
 router.get('/', async (req, res) => {
   try {
     let posts;
@@ -17,7 +20,7 @@ router.get('/', async (req, res) => {
     console.log(players);
     res.json(posts);
   } catch (err) {
-    res.json({ status: 'error', error: err});
+    res.json({status: 'error', error: err.message});
   }
 });
 
