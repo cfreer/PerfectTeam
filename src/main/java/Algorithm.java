@@ -31,15 +31,15 @@ public class Algorithm {
     playingTimeScale = totalPlayingTime/totalMins;
     for (Player player : team.getPlayers()) {
       pts += player.getStats().getPoints() * playingTimeScale;
-      pts += player.getStats().getFreeThrows() * playingTimeScale;
-      pts += player.getStats().getOffRebounds() * playingTimeScale;
-      pts += player.getStats().getDefRebounds() * playingTimeScale;
-      pts += player.getStats().getAssists() * playingTimeScale;
-      pts += player.getStats().getTurnovers() * playingTimeScale;
-      pts += player.getStats().getSteals() * playingTimeScale;
-      pts += player.getStats().getBlocks() * playingTimeScale;
-      pts += player.getStats().getBlocksAgainst() * playingTimeScale;
-      pts += player.getStats().getPersonalFouls() * playingTimeScale;
+      ftm += player.getStats().getFreeThrows() * playingTimeScale;
+      oreb += player.getStats().getOffRebounds() * playingTimeScale;
+      dreb += player.getStats().getDefRebounds() * playingTimeScale;
+      ast += player.getStats().getAssists() * playingTimeScale;
+      tov += player.getStats().getTurnovers() * playingTimeScale;
+      stl += player.getStats().getSteals() * playingTimeScale;
+      blk += player.getStats().getBlocks() * playingTimeScale;
+      blka += player.getStats().getBlocksAgainst() * playingTimeScale;
+      pf += player.getStats().getPersonalFouls() * playingTimeScale;
     }
   }
   /*
