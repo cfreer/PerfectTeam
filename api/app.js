@@ -6,7 +6,6 @@ const logger = require('morgan');
 
 //Routers
 const playerRouter = require('./routes/player');
-const statsRouter = require('./routes/stats');
 const teamRouter = require('./routes/team');
 
 //Database
@@ -33,7 +32,6 @@ app.use((req, res, next) => {
 })
 
 app.use('/player', playerRouter);
-app.use('/stats', statsRouter);
 app.use('/team', teamRouter);
 
 // catch 404 and forward to error handler
