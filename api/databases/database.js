@@ -9,12 +9,12 @@ async function main() {
 
     const playerSchema = new mongoose.Schema({
         Rk: Number,
-        name: String,
+        Player: String,
         age: Number,
-        proPic: String,
         WS: String,
         salary: String,
         projSalary: String,
+        playerTeam: String
         //image: String, //1.png
     });
 

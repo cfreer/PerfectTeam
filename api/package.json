@@ -17,6 +17,7 @@
     "http-errors": "^2.0.0",
     "http-proxy-middleware": "^2.0.6",
     "jade": "^1.11.0",
+    "marked": "^4.0.15",
     "mongoose": "^6.3.2",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.16"

@@ -11,6 +11,9 @@ const teamRouter = require('./routes/team');
 //Database
 const db = require('./databases/database');
 
+const fs = require('fs');
+const { marked } = require('marked');
+
 var app = express();
 var cors = require('cors')
 
@@ -45,10 +48,16 @@ app.use((req, res, next) => {
 app.use('/players', playerRouter);
 app.use('/team', teamRouter);
 
-// catch 404 and forward to error handler
-// app.use(function(req, res, next) {
-//   next(createError(404));
-// });
+app.use("/", function(req, res) {
+  try {
+    var path = __dirname + '/APIDOC.md';
+    var file = fs.readFileSync(path, 'utf8');
+    res.send(marked(file.toString()));
+    //res.send("API Doc: <a href=https://github.com/cfreer/PerfectTeam/blob/main/api/APIDOC.md>Documentation<a>");
+  } catch(err) {
+    res.json({status: 'error', error: err.message});
+  }
+});
 
 // error handler
 app.use(function(err, req, res, next) {
