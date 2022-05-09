@@ -3,17 +3,18 @@ var router = express.Router();
 
 /**
  * GET player listing.
- * Can add a rank to query just one player.
- * Example request: ?Rk=1.
+ * Can add a name to query just one player.
+ * Example request: ?name="Steven Adams".
  */
 router.get('/', async (req, res) => {
   try {
     let posts;
     const players = req.db.Player;
-    // checks to see if the user added a player id
+    // checks to see if the user added a player name
     if (Object.keys(req.query).length !== 0) {
-      const rank = req.query.Rk;
-      posts = await players.findOne({ Rk: rank }).exec();
+      const fullName = req.query.name;
+      const nameRegex = new RegExp(fullName);
+      posts = await players.findOne({ name: { $regex: nameRegex } }).exec();
     } else {
       posts = await players.find();
     }
