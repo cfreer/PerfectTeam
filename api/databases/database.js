@@ -15,6 +15,7 @@ async function main() {
         WS: String,
         salary: String,
         projSalary: String,
+        playerTeam: String
         //image: String, //1.png
     });
 
