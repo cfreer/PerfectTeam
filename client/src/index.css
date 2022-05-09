@@ -53,7 +53,7 @@ div nav a:hover {
   color: #F1600D;
 }
 
-li {
+nav li {
   display: inline;
   margin-right: 1rem;
 }
@@ -113,6 +113,10 @@ li {
 #team-stats {
   background-color: #c4c4c4;
   padding: 2rem;
+}
+
+.section-title {
+  font-weight: bold;
 }
 
 /* Slideshow */
