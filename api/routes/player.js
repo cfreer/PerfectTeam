@@ -14,11 +14,10 @@ router.get('/', async (req, res) => {
     if (Object.keys(req.query).length !== 0) {
       const fullName = req.query.name;
       const nameRegex = new RegExp(fullName);
-      posts = await players.findOne({ name: { $regex: nameRegex } }).exec();
+      posts = await players.findOne({ Player: { $regex: nameRegex } }).exec();
     } else {
       posts = await players.find();
     }
-    console.log(players);
     res.json(posts);
   } catch (err) {
     res.json({status: 'error', error: err.message});
