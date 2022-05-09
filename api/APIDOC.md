@@ -61,21 +61,22 @@ The Perfect Team API lets the user get various information about NBA players and
 - Returns a JSON with an error status and descriptive error message.
 
 
-## Get synergy score for a given set of players.
-**Request Format:** /team/get/score/:players
+## Get synergy score and luxury tax for a given set of players.
+**Request Format:** /team/get/team/:players
 
 **Request Type:** GET
 
 **Returned Data Format**: JSON
 
-**Description:** Returns the synergy score of the given set of players using our algorithm.
+**Description:** Returns the synergy score and luxury tax of the given set of players using our algorithm.
 
-**Example Request:** /team/get/score/1,2,3,4,5,6,7,8,9,10,11,12
+**Example Request:** /team/get/team/1,2,3,4,5,6,7,8,9,10,11,12
 
 **Example Response:**
 ```json
 {
-  "score": 3680.0441030811808
+  "score": 3680.0441030811808,
+  "luxuryTax": 9122626936
 }
 ```
 
