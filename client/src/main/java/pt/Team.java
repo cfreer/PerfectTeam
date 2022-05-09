@@ -7,7 +7,8 @@ public class Team {
   private List<Player> players; // 12 players on the team.
   private int totalSalary; // Total salary of the team.
   // add real salary cap
-  private final int SALARY_CAP = 100000; // Maximum salary allowed of the team.
+  private int luxuryTax;
+  private final int SALARY_CAP = 112400000; // Maximum salary allowed of the team.
 
   /**
    * Creates a new Team with the given salary cap.
@@ -31,6 +32,33 @@ public class Team {
    */
   public List<Player> getPlayers() {
     return players;
+  }
+
+  public void luxuryTax() {
+    double limitOverage = totalSalary - SALARY_CAP;
+    if(limitOverage >= 20000000) {
+      double currentTax = 3.75;
+      for(int i = 0; i < ((int)limitOverage - 20000000)/5000000; i++) {
+        luxuryTax += currentTax*5000000;
+        currentTax += .5;
+      }
+      luxuryTax += (limitOverage%5000000) * (currentTax + .5);
+    }
+    if(limitOverage >= 15000000) {
+      luxuryTax += (limitOverage - 15000000)*3.25;
+      limitOverage -= limitOverage - 15000000;
+    }
+    if(limitOverage >= 10000000) {
+      luxuryTax += (limitOverage - 10000000)*2.50;
+      limitOverage -= limitOverage - 10000000;
+    }
+    if(limitOverage >= 5000000) {
+      luxuryTax += (limitOverage - 5000000)*1.75;
+      limitOverage -= limitOverage - 5000000;
+    }
+    if(limitOverage >= 0) {
+      luxuryTax += (limitOverage)*1.50;
+    }
   }
 
   /**
