@@ -13,7 +13,6 @@ public class Algorithm {
   private double tov;
   private double stl;
   private double blk;
-  private double blka;
   private double pf;
   /*  This takes the data from the team and stores it to be used later for calculating winP.
 
@@ -36,7 +35,6 @@ public class Algorithm {
       tov += player.getStats().getTurnovers() * playingTimeScale;
       stl += player.getStats().getSteals() * playingTimeScale;
       blk += player.getStats().getBlocks() * playingTimeScale;
-      blka += player.getStats().getBlocksAgainst() * playingTimeScale;
       pf += player.getStats().getPersonalFouls() * playingTimeScale;
     }
   }
@@ -46,6 +44,6 @@ public class Algorithm {
   */
   public double winPercentage(double pts, double ftm, double oreb, double dreb, double ast, double tov, double stl, double blk, double blka, double pf) {
     return 0.5 - 0.033 * Math.log(pts) + 0.0587 * ftm + 0.0186 * Math.log(oreb) + 0.0543 * Math.log(dreb) + 0.0376 * Math.log(ast)
-    - 0.048 * tov + 0.0408 * stl + 0.0186 * Math.log(blk) - 0.0639 * Math.log(blka) - 0.0107 * pf;
+    - 0.048 * tov + 0.0408 * stl + 0.0186 * Math.log(blk) - .0988 - 0.0107 * pf;
   }
 }
