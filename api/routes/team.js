@@ -2,13 +2,13 @@ var express = require('express');
 var router = express.Router();
 
 /**
- * Takes a request of the form "/add/team?players=1,2,3,4,5,6,7,8,9,10,11,12",
+ * Takes a request of the form "/get/score/1,2,3,4,5,6,7,8,9,10,11,12",
  * where each number is the rank of one player on the team. Returns the synergy
  * score.
  */
-router.get('/add/team', async (req, res) => {
+router.get('/get/score/:players', async (req, res) => {
   try {
-    const players = req.query.players;
+    const players = req.params.players;
     const ranks = players.split(',');
     const stats = req.db.Stats;
     let playerJSONs = [];
@@ -25,7 +25,11 @@ router.get('/add/team', async (req, res) => {
   }
 });
 
-// Returns the synergy score of the given players.
+/**
+ * Returns the synergy score of the given players.
+ * @param {JSON[]} playerJSONs list of stats of the 12 players
+ * @returns "synergy" score determined by the algorithm.
+ */
 function getAlgorithmScore(playerJSONs) {
   let totalPlayingTime = 0;
     for (let i = 0; i < playerJSONs.length; i++) {
