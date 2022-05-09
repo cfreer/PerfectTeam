@@ -8,9 +8,35 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Button, InputGroup, FormControl, Card } from 'react-bootstrap';
 
 function CreateTeam(props : any) {
-
+  const [state, setState] = useState<object>({});
   const [input, setInput] = useState<string>('');
   const [team, setTeam] = useState<string[]>([]);
+
+  // Base URL for Perfect Team API
+  // const API_URL = 'https://perfect-team-api.herokuapp.com/';
+  const API_URL = 'http://localhost:4567/';
+
+  // Get all player data from Perfect Team API
+  function getPlayersRequest() {
+    fetch(API_URL + 'players')
+      .then(statusCheck)
+      .then(res => res.json())
+      .then(res => console.log(res))
+      .catch(console.error);
+  }
+
+  async function statusCheck(res : Response) {
+    if (!res.ok) {
+      throw new Error(await res.text());
+    }
+    return res;
+  }
+
+  function processPlayersData(response : Response) {
+
+  }
+
+  getPlayersRequest();
 
   //
   const inputChangeHandler = (event : React.ChangeEvent) => {
