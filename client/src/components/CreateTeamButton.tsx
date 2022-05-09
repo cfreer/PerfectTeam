@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function CreateTeamBtn() {
-  return(
+  return (
     <Link to="/createteam">
       <Button variant='primary' data-testid='create-team-btn'>Create a Team!</Button>
     </Link>

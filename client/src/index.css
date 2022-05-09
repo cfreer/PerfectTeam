@@ -101,15 +101,30 @@ nav li {
 }
 
 #player-list {
-  background-color: #c4c4c4;
-  height: 500px;
+  background-color: #E1E1E1;
+  height: 80vh;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #team-stats {
   background-color: #F2F0F0;
   padding: 2rem;
 }
+
+.material-icons.md-100 {
+  font-size: 100px;
+  background-color: #c4c4c4;
+}
+
+.player-card {
+  max-width: 140px;
+  margin: 5px;
+}
+
 
 /* Slideshow */
 
