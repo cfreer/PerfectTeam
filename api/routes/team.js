@@ -44,7 +44,6 @@ function getAlgorithmScore(statsJSONs) {
     let playerJSON = statsJSONs[i];
     totalPlayingTime += playerJSON.MP;
   }
-  const playingTimeScale = totalPlayingTime / 240; // 240 total minutes in a game
 
   let pts = 0;
   let ftm = 0;
@@ -55,17 +54,19 @@ function getAlgorithmScore(statsJSONs) {
   let stl = 0;
   let blk = 0;
   let pf = 0;
+
   for (let i = 0; i < statsJSONs.length; i++) {
     let playerJSON = statsJSONs[i];
-    pts += playerJSON.PTS * playingTimeScale;
-    ftm += playerJSON.FT * playingTimeScale;
-    oreb += playerJSON.ORB * playingTimeScale;
-    dreb += playerJSON.DRB * playingTimeScale;
-    ast += playerJSON.AST * playingTimeScale;
-    tov += playerJSON.TOV * playingTimeScale;
-    stl += playerJSON.STL * playingTimeScale;
-    blk += playerJSON.BLK * playingTimeScale;
-    pf += playerJSON.PF * playingTimeScale;
+    let playingRatio = totalPlayingTime / 240;
+    pts += playerJSON.PTS / playingRatio;
+    ftm += playerJSON.FT / playingRatio;
+    oreb += playerJSON.ORB / playingRatio;
+    dreb += playerJSON.DRB / playingRatio;
+    ast += playerJSON.AST / playingRatio;
+    tov += playerJSON.TOV / playingRatio;
+    stl += playerJSON.STL / playingRatio;
+    blk += playerJSON.BLK / playingRatio;
+    pf += playerJSON.PF / playingRatio;
   }
 
   const score = 0.5 - 0.033 * Math.log(pts) + 0.0587 * ftm + 0.0186 * Math.log(oreb) +
