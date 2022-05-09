@@ -8,10 +8,6 @@ function CreateTeam(props : any) {
   const [newPlayer, setNewPlayer] = useState<string>('');
   const [team, setTeam] = useState<string[]>([]);
 
-  const createPlayerCard = () => {
-
-  }
-
   const inputChangeHandler = (event : React.ChangeEvent) => {
     setInput((event?.target as HTMLInputElement)?.value);
     setNewPlayer(input);
@@ -19,22 +15,18 @@ function CreateTeam(props : any) {
 
   const submitHandler = (event : React.MouseEvent) => {
     event.preventDefault();
-    // let player : string = (document.getElementById('player-search') as HTMLInputElement)?.value;
-    setTeam(arr => [...arr, newPlayer]);
-    console.log(team);
-    setInput('');
+    if (input !== '') {
+      // let player : string = (document.getElementById('player-search') as HTMLInputElement)?.value;
+      setTeam(arr => [...arr, newPlayer]);
+      console.log(team);
+      setInput('');
+    }
+
   }
 
-  function createTeamList() {
-    console.log(team);
-    return (
-      <ol>
-         {team.map((p) =>
-           <li>{p}</li>
-         )}
-      </ol>
-    )
-  }
+  let teamList = team.map((player) => {
+    return (<li>{player}</li>)
+  });
 
   // renders create team page
   return (
@@ -52,21 +44,22 @@ function CreateTeam(props : any) {
         </InputGroup.Append>
       </InputGroup>
       <Container id='team-container'>
-        <Row id='team-container-row'>
+        <Row>
           <Col sm={4} id='player-list'>
-            <p className='section-title'>Current Team</p>
-            {createTeamList()}
+            <p><b>Current Team</b></p>
+            <ol>
+              {teamList}
+            </ol>
           </Col>
-          <Col sm={8} id='player-cards'>
-          <Container>
+          <Col sm={8} id='team'>
             <Row id='team-stats'>
               <div className="col-8 col-sm-8 col-md-8 col-lg-8">
-                <p className='section-title'>Win/Loss Prediction: </p>{props.prediction}
-                <p className='section-title'>Salary: </p>{props.salary}
-                <p>{props.genre}</p>
+                <p><b>Win Prediction:</b> {props.prediction}</p>
+                <p><b>Salary:</b> {props.salary}</p>
+                <p><b>Luxury Tax:</b> {props.tax}</p>
+                <p><b>Salary Cap:</b> {props.salaryCap}</p>
               </div>
             </Row>
-          </Container>
           </Col>
         </Row>
       </Container>

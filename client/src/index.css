@@ -100,10 +100,6 @@ nav li {
   padding: 0;
 }
 
-#team-container-row {
-  margin: 0;
-}
-
 #player-list {
   background-color: #c4c4c4;
   height: 500px;
@@ -111,12 +107,8 @@ nav li {
 }
 
 #team-stats {
-  background-color: #c4c4c4;
+  background-color: #F2F0F0;
   padding: 2rem;
-}
-
-.section-title {
-  font-weight: bold;
 }
 
 /* Slideshow */
