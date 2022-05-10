@@ -31,9 +31,30 @@ async function main() {
         PF: Number,
         PTS: Number
     })
+    const teamSchema = new mongoose.Schema({
+        Players: String,
+        Score: Number,
+        Salary: Number
+    })
+
+    const nbateamSchema = new mongoose.Schema({
+        teamId: Number,
+        teamName: String,
+        Conf: String,
+        Div: String,
+        W: Number,
+        L: Number,
+        WL:String,
+        MOV: String,
+        ORtg: String,
+        DRtg: String,
+        NRtg: String,
+    })
 
     db.Player = mongoose.model('players', playerSchema);
     db.Stats = mongoose.model('stats', statsSchema);
+    db.Team = mongoose.model('team', teamSchema);
+    db.NbaTeams = mongoose.model('nbateams', nbateamSchema);
 }
 
 module.exports = db;

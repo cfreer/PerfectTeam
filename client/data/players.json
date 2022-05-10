@@ -1,5784 +1,6389 @@
 [{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487dd"
+    "$oid": "6278b895318b04fff3e8d810"
   },
   "Rk": 1,
-  "name": "Precious Achiuwa\\achiupr01",
+  "Player": "Precious AChicago Bullsuwa\\aChicago Bullsupr01",
   "age": 22,
   "WS": "2.5",
   "salary": "$45780966",
-  "projSalary": "$48070014"
+  "projSalary": "$48070014",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487de"
+    "$oid": "6278b895318b04fff3e8d811"
   },
   "Rk": 2,
-  "name": "Steven Adams\\adamsst01",
+  "Player": "Steven Adams\\adamsst01",
   "age": 28,
   "WS": "6.8",
   "salary": "$44310840",
-  "projSalary": "$47366760"
+  "projSalary": "$47366760",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487df"
+    "$oid": "6278b895318b04fff3e8d812"
   },
   "Rk": 3,
-  "name": "Bam Adebayo\\adebaba01",
+  "Player": "Bam Adebayo\\adebaba01",
   "age": 24,
   "WS": "7.2",
   "salary": "$44211146",
-  "projSalary": "$47063478"
+  "projSalary": "$47063478",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487e0"
+    "$oid": "6278b895318b04fff3e8d813"
   },
   "Rk": 4,
-  "name": "Santi Aldama\\aldamsa01",
+  "Player": "Santi Aldama\\aldamsa01",
   "age": 21,
   "WS": "0.3",
   "salary": "$43848000",
-  "projSalary": "$46872000"
+  "projSalary": "$46872000",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487e1"
+    "$oid": "6278b895318b04fff3e8d814"
   },
   "Rk": 5,
-  "name": "LaMarcus Aldridge\\aldrila01",
+  "Player": "LaMarcus Aldridge\\aldrila01",
   "age": 36,
   "WS": "3.1",
   "salary": "$41180544",
-  "projSalary": "$44474988"
+  "projSalary": "$44474988",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487e2"
+    "$oid": "6278b895318b04fff3e8d815"
   },
   "Rk": 6,
-  "name": "Nickeil Alexander-Walker\\alexani01",
+  "Player": "Nickeil Alexander-Walker\\alexani01",
   "age": 23,
   "WS": "0.1",
   "salary": "$40918900",
-  "projSalary": "$44119845"
+  "projSalary": "$44119845",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487e3"
+    "$oid": "6278b895318b04fff3e8d816"
   },
   "Rk": 7,
-  "name": "Grayson Allen\\allengr01",
+  "Player": "Grayson Allen\\allengr01",
   "age": 26,
   "WS": "4.2",
   "salary": "$39344970",
-  "projSalary": "$42492568"
+  "projSalary": "$42492568",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487e4"
+    "$oid": "6278b895318b04fff3e8d817"
   },
   "Rk": 8,
-  "name": "Jarrett Allen\\allenja01",
+  "Player": "Jarrett Allen\\allenja01",
   "age": 23,
   "WS": "8.5",
   "salary": "$39344970",
-  "projSalary": "$42492568"
+  "projSalary": "$42492568",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487e5"
+    "$oid": "6278b895318b04fff3e8d818"
   },
   "Rk": 9,
-  "name": "Jose Alvarado\\alvarjo01",
+  "Player": "Jose Alvarado\\alvarjo01",
   "age": 23,
   "WS": "2.1",
   "salary": "$39344900",
-  "projSalary": "$42492492"
+  "projSalary": "$42492492",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487e6"
+    "$oid": "6278b895318b04fff3e8d819"
   },
   "Rk": 10,
-  "name": "Justin Anderson\\anderju01",
+  "Player": "Justin Anderson\\anderju01",
   "age": 28,
   "WS": "0.4",
   "salary": "$39344900",
-  "projSalary": "$42492492"
+  "projSalary": "$42492492",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487e7"
+    "$oid": "6278b895318b04fff3e8d81a"
   },
   "Rk": 11,
-  "name": "Kyle Anderson\\anderky01",
+  "Player": "Kyle Anderson\\anderky01",
   "age": 28,
   "WS": "3.5",
   "salary": "$37980720",
-  "projSalary": "$40600080"
+  "projSalary": "$40600080",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487e8"
+    "$oid": "6278b895318b04fff3e8d81b"
   },
   "Rk": 12,
-  "name": "Giannis Antetokounmpo\\antetgi01",
+  "Player": "Giannis Antetokounmpo\\antetgi01",
   "age": 27,
   "WS": "12.9",
   "salary": "$36016200",
-  "projSalary": "$37653300"
+  "projSalary": "$37653300",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487e9"
+    "$oid": "6278b895318b04fff3e8d81c"
   },
   "Rk": 13,
-  "name": "Thanasis Antetokounmpo\\antetth01",
+  "Player": "Thanasis Antetokounmpo\\antetth01",
   "age": 29,
   "WS": "0.9",
   "salary": "$36000000",
-  "projSalary": "$38482759"
+  "projSalary": "$38482759",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487ea"
+    "$oid": "6278b895318b04fff3e8d81d"
   },
   "Rk": 14,
-  "name": "Carmelo Anthony\\anthoca01",
+  "Player": "Carmelo Anthony\\anthoca01",
   "age": 37,
   "WS": "3.6",
   "salary": "$35500000",
-  "projSalary": "$37948276"
+  "projSalary": "$37948276",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487eb"
+    "$oid": "6278b895318b04fff3e8d81e"
   },
   "Rk": 15,
-  "name": "Cole Anthony\\anthoco01",
+  "Player": "Cole Anthony\\anthoco01",
   "age": 21,
   "WS": "1.6",
   "salary": "$35361360",
-  "projSalary": "$37980720"
+  "projSalary": "$37980720",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487ec"
+    "$oid": "6278b895318b04fff3e8d81f"
   },
   "Rk": 16,
-  "name": "OG Anunoby\\anunoog01",
+  "Player": "OG Anunoby\\anunoog01",
   "age": 24,
   "WS": "3.7",
   "salary": "$35344828",
-  "projSalary": "$38172414"
+  "projSalary": "$38172414",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487ed"
+    "$oid": "6278b895318b04fff3e8d820"
   },
   "Rk": 17,
-  "name": "Ryan Arcidiacono\\arcidry01",
+  "Player": "Ryan Arcidiacono\\arcidry01",
   "age": 27,
   "WS": "0.1",
   "salary": "$34916200",
-  "projSalary": "$36503300"
+  "projSalary": "$36503300",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487ee"
+    "$oid": "6278b895318b04fff3e8d821"
   },
   "Rk": 18,
-  "name": "Trevor Ariza\\arizatr01",
+  "Player": "Trevor Ariza\\arizatr01",
   "age": 36,
   "WS": "0.2",
   "salary": "$34502130",
-  "projSalary": "$37262300"
+  "projSalary": "$37262300",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487ef"
+    "$oid": "6278b895318b04fff3e8d822"
   },
   "Rk": 19,
-  "name": "D.J. Augustin\\augusdj01",
+  "Player": "D.J. Augustin\\augusdj01",
   "age": 34,
   "WS": "0.8",
   "salary": "$31650600",
-  "projSalary": "$33833400"
+  "projSalary": "$33833400",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487f0"
+    "$oid": "6278b895318b04fff3e8d823"
   },
   "Rk": 20,
-  "name": "Deni Avdija\\avdijde01",
+  "Player": "Denver Nuggetsi Avdija\\avdijde01",
   "age": 21,
   "WS": "2.4",
   "salary": "$31610000",
-  "projSalary": "$33790000"
+  "projSalary": "$33790000",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487f1"
+    "$oid": "6278b895318b04fff3e8d824"
   },
   "Rk": 21,
-  "name": "Joel Ayayi\\ayayijo01",
+  "Player": "Joel Ayayi\\ayayijo01",
   "age": 21,
   "WS": "0",
   "salary": "$31610000",
-  "projSalary": "$33790000"
+  "projSalary": "$33790000",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487f2"
+    "$oid": "6278b895318b04fff3e8d825"
   },
   "Rk": 22,
-  "name": "Deandre Ayton\\aytonde01",
+  "Player": "Deandre Ayton\\aytonde01",
   "age": 23,
   "WS": "7.3",
   "salary": "$31590000",
-  "projSalary": "$33930000"
+  "projSalary": "$33930000",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487f3"
+    "$oid": "6278b895318b04fff3e8d826"
   },
   "Rk": 23,
-  "name": "Udoka Azubuike\\azubuud01",
+  "Player": "Udoka Azubuike\\azubuud01",
   "age": 22,
   "WS": "0.6",
   "salary": "$31590000",
-  "projSalary": "$33930000"
+  "projSalary": "$33930000",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487f4"
+    "$oid": "6278b895318b04fff3e8d827"
   },
   "Rk": 24,
-  "name": "Marvin Bagley III\\baglema01",
+  "Player": "Marvin Bagley III\\baglema01",
   "age": 22,
   "WS": "2",
   "salary": "$31579390",
-  "projSalary": "$33616770"
+  "projSalary": "$33616770",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487f5"
+    "$oid": "6278b895318b04fff3e8d828"
   },
   "Rk": 25,
-  "name": "LaMelo Ball\\ballla01",
+  "Player": "LaMelo Ball\\ballla01",
   "age": 20,
   "WS": "5.8",
   "salary": "$31579390",
-  "projSalary": "$33616770"
+  "projSalary": "$33616770",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487f6"
+    "$oid": "6278b895318b04fff3e8d829"
   },
   "Rk": 26,
-  "name": "Lonzo Ball\\balllo01",
+  "Player": "Lonzo Ball\\balllo01",
   "age": 24,
   "WS": "2.2",
   "salary": "$31320000",
-  "projSalary": "$33640000"
+  "projSalary": "$33640000",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487f7"
+    "$oid": "6278b895318b04fff3e8d82a"
   },
   "Rk": 27,
-  "name": "Mo Bamba\\bambamo01",
+  "Player": "Mo Bamba\\bambamo01",
   "age": 23,
   "WS": "4.5",
   "salary": "$31300000",
-  "projSalary": "$28900000"
+  "projSalary": "$28900000",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487f8"
+    "$oid": "6278b895318b04fff3e8d82b"
   },
   "Rk": 28,
-  "name": "Desmond Bane\\banede01",
+  "Player": "Desmond Bane\\banede01",
   "age": 23,
   "WS": "7.2",
   "salary": "$30864198",
-  "projSalary": "$33333333"
+  "projSalary": "$33333333",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487f9"
+    "$oid": "6278b895318b04fff3e8d82c"
   },
   "Rk": 29,
-  "name": "Dalano Banton\\bantoda01",
+  "Player": "Dallas Mavericksano Banton\\bantoda01",
   "age": 22,
   "WS": "0.4",
   "salary": "$30800000",
-  "projSalary": "$28400000"
+  "projSalary": "$28400000",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487fa"
+    "$oid": "6278b895318b04fff3e8d82d"
   },
   "Rk": 30,
-  "name": "Cat Barber\\barbeca01",
+  "Player": "Cat Barber\\barbeca01",
   "age": 27,
   "WS": "-0.1",
   "salary": "$30510423",
-  "projSalary": "$32478837"
+  "projSalary": "$32478837",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487fb"
+    "$oid": "6278b895318b04fff3e8d82e"
   },
   "Rk": 31,
-  "name": "Harrison Barnes\\barneha02",
+  "Player": "Harrison Barnes\\barneha02",
   "age": 29,
   "WS": "6",
   "salary": "$30133333",
-  "projSalary": "$32393333"
+  "projSalary": "$32393333",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487fc"
+    "$oid": "6278b895318b04fff3e8d82f"
   },
   "Rk": 32,
-  "name": "Scottie Barnes\\barnesc01",
+  "Player": "Scottie Barnes\\barnesc01",
   "age": 20,
   "WS": "6.6",
   "salary": "$30013500",
-  "projSalary": "$31377750"
+  "projSalary": "$31377750",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487fd"
+    "$oid": "6278b895318b04fff3e8d830"
   },
   "Rk": 33,
-  "name": "RJ Barrett\\barrerj01",
+  "Player": "RJ Barrett\\barrerj01",
   "age": 21,
   "WS": "2.3",
   "salary": "$29900000",
-  "projSalary": "$30100000"
+  "projSalary": "$30100000",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487fe"
+    "$oid": "6278b895318b04fff3e8d831"
   },
   "Rk": 34,
-  "name": "Will Barton\\bartowi01",
+  "Player": "Will Barton\\bartowi01",
   "age": 31,
   "WS": "3.2",
-  "salary": "$32405817"
+  "salary": "$32405817",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69487ff"
+    "$oid": "6278b895318b04fff3e8d832"
   },
   "Rk": 35,
-  "name": "Paris Bass\\basspa01",
+  "Player": "Paris Bass\\basspa01",
   "age": 26,
   "WS": "0",
   "salary": "$29467800",
-  "projSalary": "$31650600"
+  "projSalary": "$31650600",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948800"
+    "$oid": "6278b895318b04fff3e8d833"
   },
   "Rk": 36,
-  "name": "Charles Bassey\\bassech01",
+  "Player": "Charlotte Hornetsrles Bassey\\bassech01",
   "age": 21,
   "WS": "0.8",
   "salary": "$28103550",
-  "projSalary": "$30351834"
+  "projSalary": "$30351834",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948801"
+    "$oid": "6278b895318b04fff3e8d834"
   },
   "Rk": 37,
-  "name": "Keita Bates-Diop\\bateske01",
+  "Player": "Keita Bates-Diop\\bateske01",
   "age": 26,
   "WS": "1.6",
   "salary": "$28103550",
-  "projSalary": "$30351834"
+  "projSalary": "$30351834",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948802"
+    "$oid": "6278b895318b04fff3e8d835"
   },
   "Rk": 38,
-  "name": "Nicolas Batum\\batumni01",
+  "Player": "Nicolas Batum\\batumni01",
   "age": 33,
   "WS": "3.7",
   "salary": "$28103550",
-  "projSalary": "$30351834"
+  "projSalary": "$30351834",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948803"
+    "$oid": "6278b895318b04fff3e8d836"
   },
   "Rk": 39,
-  "name": "Kent Bazemore\\bazemke01",
+  "Player": "Kent Bazemore\\bazemke01",
   "age": 32,
   "WS": "0.1",
   "salary": "$28103550",
-  "projSalary": "$30351834"
+  "projSalary": "$30351834",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948804"
+    "$oid": "6278b895318b04fff3e8d837"
   },
   "Rk": 40,
-  "name": "Darius Bazley\\bazleda01",
+  "Player": "Darius Bazley\\bazleda01",
   "age": 21,
   "WS": "1.8",
   "salary": "$27000000",
-  "projSalary": "$26500000"
+  "projSalary": "$26500000",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948805"
+    "$oid": "6278b895318b04fff3e8d838"
   },
   "Rk": 41,
-  "name": "Bradley Beal\\bealbr01",
+  "Player": "Bradley Beal\\bealbr01",
   "age": 28,
   "WS": "1.4",
   "salary": "$26984128",
-  "projSalary": "$28333334"
+  "projSalary": "$28333334",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948806"
+    "$oid": "6278b895318b04fff3e8d839"
   },
   "Rk": 42,
-  "name": "Malik Beasley\\beaslma01",
+  "Player": "Malik Beasley\\beaslma01",
   "age": 25,
   "WS": "2.9",
   "salary": "$34967442",
-  "projSalary": "$36596549"
+  "projSalary": "$36596549",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948807"
+    "$oid": "6278b895318b04fff3e8d83a"
   },
   "Rk": 43,
-  "name": "Jordan Bell\\belljo01",
+  "Player": "Jordan Bell\\belljo01",
   "age": 27,
   "WS": "0",
   "salary": "$26000000",
-  "projSalary": "$27300000"
+  "projSalary": "$27300000",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948808"
+    "$oid": "6278b895318b04fff3e8d83b"
   },
   "Rk": 44,
-  "name": "DeAndre' Bembry\\bembrde01",
+  "Player": "DeAndre' Bembry\\bembrde01",
   "age": 27,
   "WS": "2.2",
   "salary": "$24830357",
-  "projSalary": "$26669643"
+  "projSalary": "$26669643",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948809"
+    "$oid": "6278b895318b04fff3e8d83c"
   },
   "Rk": 45,
-  "name": "Dāvis Bertāns\\bertada01",
+  "Player": "Dāvis Bertāns\\bertada01",
   "age": 29,
   "WS": "0.9",
   "salary": "$24026712",
-  "projSalary": "$25806469"
+  "projSalary": "$25806469",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694880a"
+    "$oid": "6278b895318b04fff3e8d83d"
   },
   "Rk": 46,
-  "name": "Patrick Beverley\\beverpa01",
+  "Player": "Patrick Beverley\\beverpa01",
   "age": 33,
   "WS": "4.1",
   "salary": "$24000000",
-  "projSalary": "$22000000"
+  "projSalary": "$22000000",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694880b"
+    "$oid": "6278b895318b04fff3e8d83e"
   },
   "Rk": 47,
-  "name": "Saddiq Bey\\beysa01",
+  "Player": "Saddiq Bey\\beysa01",
   "age": 22,
   "WS": "4",
   "salary": "$23000000",
-  "projSalary": "$23500000"
+  "projSalary": "$23500000",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694880c"
+    "$oid": "6278b895318b04fff3e8d83f"
   },
   "Rk": 48,
-  "name": "Khem Birch\\birchkh01",
+  "Player": "Khem Birch\\birchkh01",
   "age": 29,
   "WS": "2.6",
   "salary": "$22477273",
-  "projSalary": "$20522727"
+  "projSalary": "$20522727",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694880d"
+    "$oid": "6278b895318b04fff3e8d840"
   },
   "Rk": 49,
-  "name": "Goga Bitadze\\bitadgo01",
+  "Player": "Goga Bitadze\\bitadgo01",
   "age": 22,
   "WS": "1.9",
   "salary": "$21700000",
-  "projSalary": "$22600000"
+  "projSalary": "$22600000",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694880e"
+    "$oid": "6278b895318b04fff3e8d841"
   },
   "Rk": 50,
-  "name": "Bismack Biyombo\\biyombi01",
+  "Player": "Bismack Biyombo\\biyombi01",
   "age": 29,
   "WS": "1.8",
   "salary": "$21306816",
-  "projSalary": "$19602273"
+  "projSalary": "$19602273",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694880f"
+    "$oid": "6278b895318b04fff3e8d842"
   },
   "Rk": 51,
-  "name": "Nemanja Bjelica\\bjeline01",
+  "Player": "Nemanja Bjelica\\bjeline01",
   "age": 33,
   "WS": "3",
   "salary": "$21000000",
-  "projSalary": "$22680000"
+  "projSalary": "$22680000",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948810"
+    "$oid": "6278b895318b04fff3e8d843"
   },
   "Rk": 52,
-  "name": "Eric Bledsoe\\bledser01",
+  "Player": "Eric Bledsoe\\bledser01",
   "age": 32,
   "WS": "1.3",
-  "salary": "$20482143"
+  "salary": "$20482143",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948811"
+    "$oid": "6278b895318b04fff3e8d844"
   },
   "Rk": 53,
-  "name": "Keljin Blevins\\blevike01",
+  "Player": "Keljin Blevins\\blevike01",
   "age": 26,
   "WS": "-0.5",
   "salary": "$20475000",
-  "projSalary": "$21450000"
+  "projSalary": "$21450000",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948812"
+    "$oid": "6278b895318b04fff3e8d845"
   },
   "Rk": 54,
-  "name": "Bogdan Bogdanović\\bogdabo01",
+  "Player": "Bogdan Bogdanović\\bogdabo01",
   "age": 29,
   "WS": "3.7",
   "salary": "$20284091",
-  "projSalary": "$18352273"
+  "projSalary": "$18352273",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948813"
+    "$oid": "6278b895318b04fff3e8d846"
   },
   "Rk": 55,
-  "name": "Bojan Bogdanović\\bogdabo02",
+  "Player": "Bojan Bogdanović\\bogdabo02",
   "age": 32,
   "WS": "5.2",
   "salary": "$20000000",
-  "projSalary": "$20000000"
+  "projSalary": "$20000000",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948814"
+    "$oid": "6278b895318b04fff3e8d847"
   },
   "Rk": 56,
-  "name": "Bol Bol\\bolbo01",
+  "Player": "Bol Bol\\bolbo01",
   "age": 22,
   "WS": "0.1",
   "salary": "$20000000",
-  "projSalary": "$20952381"
+  "projSalary": "$20952381",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948815"
+    "$oid": "6278b895318b04fff3e8d848"
   },
   "Rk": 57,
-  "name": "Leandro Bolmaro\\bolmale01",
+  "Player": "Leandro Bolmaro\\bolmale01",
   "age": 21,
   "WS": "0",
   "salary": "$19800000",
-  "projSalary": "$23760000"
+  "projSalary": "$23760000",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948816"
+    "$oid": "6278b895318b04fff3e8d849"
   },
   "Rk": 58,
-  "name": "Isaac Bonga\\bongais01",
+  "Player": "Isaac Bonga\\bongais01",
   "age": 22,
   "WS": "0.1",
   "salary": "$19675926",
-  "projSalary": "$21250000"
+  "projSalary": "$21250000",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948817"
+    "$oid": "6278b895318b04fff3e8d84a"
   },
   "Rk": 59,
-  "name": "Devin Booker\\bookede01",
+  "Player": "Devin Booker\\bookede01",
   "age": 25,
   "WS": "7.6",
-  "salary": "$19500000"
+  "salary": "$19500000",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948818"
+    "$oid": "6278b895318b04fff3e8d84b"
   },
   "Rk": 60,
-  "name": "Brandon Boston Jr.\\bostobr01",
+  "Player": "Brandon Boston Celticston Jr.\\Boston Celticstobr01",
   "age": 20,
   "WS": "0.4",
-  "salary": "$20168742"
+  "salary": "$20168742",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948819"
+    "$oid": "6278b895318b04fff3e8d84c"
   },
   "Rk": 61,
-  "name": "Chris Boucher\\bouchch01",
+  "Player": "Chris Boucher\\bouchch01",
   "age": 29,
   "WS": "6",
   "salary": "$18700000",
-  "projSalary": "$19550000"
+  "projSalary": "$19550000",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694881a"
+    "$oid": "6278b895318b04fff3e8d84d"
   },
   "Rk": 62,
-  "name": "James Bouknight\\bouknja01",
+  "Player": "James Bouknight\\bouknja01",
   "age": 21,
   "WS": "0",
   "salary": "$18604651",
-  "projSalary": "$19534884"
+  "projSalary": "$19534884",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694881b"
+    "$oid": "6278b895318b04fff3e8d84e"
   },
   "Rk": 63,
-  "name": "Avery Bradley\\bradlav01",
+  "Player": "Avery Bradley\\bradlav01",
   "age": 31,
   "WS": "1.2",
   "salary": "$18562500",
-  "projSalary": "$19937500"
+  "projSalary": "$19937500",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694881c"
+    "$oid": "6278b895318b04fff3e8d84f"
   },
   "Rk": 64,
-  "name": "Tony Bradley\\bradlto01",
+  "Player": "Tony Bradley\\bradlto01",
   "age": 24,
   "WS": "1.3",
   "salary": "$18218818",
-  "projSalary": "$19568360"
+  "projSalary": "$19568360",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694881d"
+    "$oid": "6278b895318b04fff3e8d850"
   },
   "Rk": 65,
-  "name": "Ignas Brazdeikis\\brazdig01",
+  "Player": "Ignas Brazdeikis\\brazdig01",
   "age": 23,
   "WS": "0.5",
   "salary": "$18139535",
-  "projSalary": "$19046512"
+  "projSalary": "$19046512",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694881e"
+    "$oid": "6278b895318b04fff3e8d851"
   },
   "Rk": 66,
-  "name": "Mikal Bridges\\bridgmi01",
+  "Player": "Mikal Bridges\\bridgmi01",
   "age": 25,
   "WS": "8.9",
   "salary": "$18125000",
-  "projSalary": "$19375000"
+  "projSalary": "$19375000",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694881f"
+    "$oid": "6278b895318b04fff3e8d852"
   },
   "Rk": 67,
-  "name": "Miles Bridges\\bridgmi02",
+  "Player": "Milwaukee Buckses Bridges\\bridgmi02",
   "age": 23,
   "WS": "7.2",
   "salary": "$18000000",
-  "projSalary": "$18000000"
+  "projSalary": "$18000000",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948820"
+    "$oid": "6278b895318b04fff3e8d853"
   },
   "Rk": 68,
-  "name": "Oshae Brissett\\brissos01",
+  "Player": "Oshae Brissett\\brissos01",
   "age": 23,
   "WS": "2.2",
   "salary": "$18000000",
-  "projSalary": "$18000000"
+  "projSalary": "$18000000",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948821"
+    "$oid": "6278b895318b04fff3e8d854"
   },
   "Rk": 69,
-  "name": "Malcolm Brogdon\\brogdma01",
+  "Player": "Malcolm Brogdon\\brogdma01",
   "age": 29,
   "WS": "2.7",
   "salary": "$17905263",
-  "projSalary": "$21486316"
+  "projSalary": "$21486316",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948822"
+    "$oid": "6278b895318b04fff3e8d855"
   },
   "Rk": 70,
-  "name": "Armoni Brooks\\brookar01",
+  "Player": "Armoni Brooks\\brookar01",
   "age": 23,
   "WS": "0.2",
-  "salary": "$17809524"
+  "salary": "$17809524",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948823"
+    "$oid": "6278b895318b04fff3e8d856"
   },
   "Rk": 71,
-  "name": "Dillon Brooks\\brookdi01",
+  "Player": "Dillon Brooks\\brookdi01",
   "age": 26,
   "WS": "1.6",
   "salary": "$17500000",
-  "projSalary": "$18796296"
+  "projSalary": "$18796296",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948824"
+    "$oid": "6278b895318b04fff3e8d857"
   },
   "Rk": 72,
-  "name": "Bruce Brown\\brownbr01",
+  "Player": "Bruce Brown\\brownbr01",
   "age": 25,
   "WS": "4.8",
   "salary": "$17400000",
-  "projSalary": "$17400000"
+  "projSalary": "$17400000",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948825"
+    "$oid": "6278b895318b04fff3e8d858"
   },
   "Rk": 73,
-  "name": "Charlie Brown Jr.\\brownch02",
+  "Player": "Charlotte Hornetsrlie Brown Jr.\\brownch02",
   "age": 24,
   "WS": "0",
   "salary": "$17357143",
-  "projSalary": "$18642857"
+  "projSalary": "$18642857",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948826"
+    "$oid": "6278b895318b04fff3e8d859"
   },
   "Rk": 74,
-  "name": "Chaundee Brown Jr.\\brownch05",
+  "Player": "Charlotte Hornetsundee Brown Jr.\\brownch05",
   "age": 23,
   "WS": "0",
   "salary": "$17142857",
-  "projSalary": "$18000000"
+  "projSalary": "$18000000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948827"
+    "$oid": "6278b895318b04fff3e8d85a"
   },
   "Rk": 75,
-  "name": "Greg Brown III\\browngr01",
+  "Player": "Greg Brown III\\browngr01",
   "age": 20,
   "WS": "0.4",
   "salary": "$17103448",
-  "projSalary": "$18206897"
+  "projSalary": "$18206897",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948828"
+    "$oid": "6278b895318b04fff3e8d85b"
   },
   "Rk": 76,
-  "name": "Jaylen Brown\\brownja02",
+  "Player": "Jaylen Brown\\brownja02",
   "age": 25,
   "WS": "5.8",
   "salary": "$17073171",
-  "projSalary": "$17926829"
+  "projSalary": "$17926829",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948829"
+    "$oid": "6278b895318b04fff3e8d85c"
   },
   "Rk": 77,
-  "name": "Moses Brown\\brownmo01",
+  "Player": "Moses Brown\\brownmo01",
   "age": 22,
   "WS": "1.2",
   "salary": "$16500000",
-  "projSalary": "$16500000"
+  "projSalary": "$16500000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694882a"
+    "$oid": "6278b895318b04fff3e8d85d"
   },
   "Rk": 78,
-  "name": "Sterling Brown\\brownst02",
+  "Player": "Sterling Brown\\brownst02",
   "age": 26,
   "WS": "0.8",
   "salary": "$16409091",
-  "projSalary": "$19690909"
+  "projSalary": "$19690909",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694882b"
+    "$oid": "6278b895318b04fff3e8d85e"
   },
   "Rk": 79,
-  "name": "Troy Brown Jr.\\browntr01",
+  "Player": "Troy Brown Jr.\\browntr01",
   "age": 22,
   "WS": "1.4",
   "salary": "$16071429",
-  "projSalary": "$17357143"
+  "projSalary": "$17357143",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694882c"
+    "$oid": "6278b895318b04fff3e8d85f"
   },
   "Rk": 80,
-  "name": "Jalen Brunson\\brunsja01",
+  "Player": "Jalen Brunson\\brunsja01",
   "age": 25,
   "WS": "7.5",
   "salary": "$16000000",
-  "projSalary": "$16000000"
+  "projSalary": "$16000000",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694882d"
+    "$oid": "6278b895318b04fff3e8d860"
   },
   "Rk": 81,
-  "name": "Thomas Bryant\\bryanth01",
+  "Player": "Thomas Bryant\\bryanth01",
   "age": 24,
   "WS": "1.1",
   "salary": "$16000000",
-  "projSalary": "$17280000"
+  "projSalary": "$17280000",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694882e"
+    "$oid": "6278b895318b04fff3e8d861"
   },
   "Rk": 82,
-  "name": "Shaq Buchanan\\buchash01",
+  "Player": "Shaq BuCharlotte Hornetsnan\\buCharlotte Hornetssh01",
   "age": 25,
   "WS": "0",
   "salary": "$15690909",
-  "projSalary": "$16475454"
+  "projSalary": "$16475454",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694882f"
+    "$oid": "6278b895318b04fff3e8d862"
   },
   "Rk": 83,
-  "name": "Reggie Bullock\\bullore01",
+  "Player": "Reggie Bullock\\bullore01",
   "age": 30,
   "WS": "3.2",
   "salary": "$15627907",
-  "projSalary": "$16372093"
+  "projSalary": "$16372093",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948830"
+    "$oid": "6278b895318b04fff3e8d863"
   },
   "Rk": 84,
-  "name": "Trey Burke\\burketr01",
+  "Player": "Trey Burke\\burketr01",
   "age": 29,
   "WS": "0",
   "salary": "$15560000",
-  "projSalary": "$16902000"
+  "projSalary": "$16902000",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948831"
+    "$oid": "6278b895318b04fff3e8d864"
   },
   "Rk": 85,
-  "name": "Alec Burks\\burksal01",
+  "Player": "Alec Burks\\burksal01",
   "age": 30,
   "WS": "6.1",
   "salary": "$15517242",
-  "projSalary": "$16758621"
+  "projSalary": "$16758621",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948832"
+    "$oid": "6278b895318b04fff3e8d865"
   },
   "Rk": 86,
-  "name": "Jared Butler\\butleja02",
+  "Player": "Jared Butler\\butleja02",
   "age": 21,
   "WS": "0.4",
   "salary": "$15428571",
-  "projSalary": "$16571429"
+  "projSalary": "$16571429",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948833"
+    "$oid": "6278b895318b04fff3e8d866"
   },
   "Rk": 87,
-  "name": "Jimmy Butler\\butleji01",
+  "Player": "Jimmy Butler\\butleji01",
   "age": 32,
   "WS": "9.2",
   "salary": "$15384615",
-  "projSalary": "$16615385"
+  "projSalary": "$16615385",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948834"
+    "$oid": "6278b895318b04fff3e8d867"
   },
   "Rk": 88,
-  "name": "Devontae Cacok\\cacokde01",
+  "Player": "Devontae Cacok\\cacokde01",
   "age": 25,
   "WS": "0.5",
   "salary": "$15178571",
-  "projSalary": "$16392857"
+  "projSalary": "$16392857",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948835"
+    "$oid": "6278b895318b04fff3e8d868"
   },
   "Rk": 89,
-  "name": "Kentavious Caldwell-Pope\\caldwke01",
+  "Player": "Kentavious Caldwell-Pope\\caldwke01",
   "age": 28,
   "WS": "2.8",
-  "salary": "$15057692"
+  "salary": "$15057692",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948836"
+    "$oid": "6278b895318b04fff3e8d869"
   },
   "Rk": 90,
-  "name": "Facundo Campazzo\\campafa01",
+  "Player": "Facundo Campazzo\\campafa01",
   "age": 30,
   "WS": "2",
   "salary": "$14391964",
-  "projSalary": "$15458035"
+  "projSalary": "$15458035",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948837"
+    "$oid": "6278b895318b04fff3e8d86a"
   },
   "Rk": 91,
-  "name": "Vlatko Čančar\\cancavl01",
+  "Player": "Vlatko Čančar\\cancavl01",
   "age": 24,
   "WS": "0.4",
   "salary": "$14339285",
-  "projSalary": "$16607142"
+  "projSalary": "$16607142",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948838"
+    "$oid": "6278b895318b04fff3e8d86b"
   },
   "Rk": 92,
-  "name": "Devin Cannady\\cannade01",
+  "Player": "Devin Cannady\\cannade01",
   "age": 25,
   "WS": "0.1",
   "salary": "$14320988",
-  "projSalary": "$13000000"
+  "projSalary": "$13000000",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948839"
+    "$oid": "6278b895318b04fff3e8d86c"
   },
   "Rk": 93,
-  "name": "Clint Capela\\capelca01",
+  "Player": "Clint Capela\\capelca01",
   "age": 27,
   "WS": "8.3",
-  "salary": "$14190000"
+  "salary": "$14190000",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694883a"
+    "$oid": "6278b895318b04fff3e8d86d"
   },
   "Rk": 94,
-  "name": "Vernon Carey Jr.\\careyve01",
+  "Player": "Vernon Carey Jr.\\careyve01",
   "age": 20,
   "WS": "0.1",
   "salary": "$14000000",
-  "projSalary": "$14700000"
+  "projSalary": "$14700000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694883b"
+    "$oid": "6278b895318b04fff3e8d86e"
   },
   "Rk": 95,
-  "name": "Jevon Carter\\carteje01",
+  "Player": "Jevon Carter\\carteje01",
   "age": 26,
   "WS": "1.2",
-  "salary": "$14000000"
+  "salary": "$14000000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694883c"
+    "$oid": "6278b895318b04fff3e8d86f"
   },
   "Rk": 96,
-  "name": "Wendell Carter Jr.\\cartewe01",
+  "Player": "Wendell Carter Jr.\\cartewe01",
   "age": 22,
   "WS": "5",
   "salary": "$13750000",
-  "projSalary": "$13750000"
+  "projSalary": "$13750000",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694883d"
+    "$oid": "6278b895318b04fff3e8d870"
   },
   "Rk": 97,
-  "name": "Alex Caruso\\carusal01",
+  "Player": "Alex Caruso\\carusal01",
   "age": 27,
   "WS": "2",
   "salary": "$13666667",
-  "projSalary": "$14317459"
+  "projSalary": "$14317459",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694883e"
+    "$oid": "6278b895318b04fff3e8d871"
   },
   "Rk": 98,
-  "name": "Willie Cauley-Stein\\caulewi01",
+  "Player": "Willie Cauley-Stein\\caulewi01",
   "age": 28,
   "WS": "0.2",
   "salary": "$13445120",
-  "projSalary": "$14520730"
+  "projSalary": "$14520730",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694883f"
+    "$oid": "6278b895318b04fff3e8d872"
   },
   "Rk": 99,
-  "name": "Ahmad Caver\\caverah01",
+  "Player": "Ahmad Caver\\caverah01",
   "age": 25,
   "WS": "0",
   "salary": "$13302325",
-  "projSalary": "$13906976"
+  "projSalary": "$13906976",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948840"
+    "$oid": "6278b895318b04fff3e8d873"
   },
   "Rk": 100,
-  "name": "Justin Champagnie\\champju01",
+  "Player": "Justin Charlotte Hornetsmpagnie\\Charlotte Hornetsmpju01",
   "age": 20,
   "WS": "0.8",
   "salary": "$13038862",
-  "projSalary": "$14004703"
+  "projSalary": "$14004703",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948841"
+    "$oid": "6278b895318b04fff3e8d874"
   },
   "Rk": 101,
-  "name": "Zylan Cheatham\\cheatzy01",
+  "Player": "Zylan Cheatham\\cheatzy01",
   "age": 26,
   "WS": "-0.1",
   "salary": "$13000000",
-  "projSalary": "$13000000"
+  "projSalary": "$13000000",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948842"
+    "$oid": "6278b895318b04fff3e8d875"
   },
   "Rk": 102,
-  "name": "Chris Chiozza\\chiozch01",
+  "Player": "Chris Chicago Bullsozza\\Chicago Bullsozch01",
   "age": 26,
   "WS": "0",
-  "salary": "$12975471"
+  "salary": "$12975471",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948843"
+    "$oid": "6278b895318b04fff3e8d876"
   },
   "Rk": 103,
-  "name": "Marquese Chriss\\chrisma01",
+  "Player": "Marquese Chriss\\chrisma01",
   "age": 24,
   "WS": "0.8",
   "salary": "$12727273",
-  "projSalary": "$13745455"
+  "projSalary": "$13745455",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948844"
+    "$oid": "6278b895318b04fff3e8d877"
   },
   "Rk": 104,
-  "name": "Josh Christopher\\chrisjo01",
+  "Player": "Josh Christopher\\chrisjo01",
   "age": 20,
   "WS": "0.3",
-  "salary": "$12690000"
+  "salary": "$12690000",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948845"
+    "$oid": "6278b895318b04fff3e8d878"
   },
   "Rk": 105,
-  "name": "Gary Clark\\clarkga01",
+  "Player": "Gary Clark\\clarkga01",
   "age": 27,
   "WS": "0.7",
-  "salary": "$12632950"
+  "salary": "$12632950",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948846"
+    "$oid": "6278b895318b04fff3e8d879"
   },
   "Rk": 106,
-  "name": "Brandon Clarke\\clarkbr01",
+  "Player": "Brandon Clarke\\clarkbr01",
   "age": 25,
   "WS": "6.3",
   "salary": "$12500000",
-  "projSalary": "$11500000"
+  "projSalary": "$11500000",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948847"
+    "$oid": "6278b895318b04fff3e8d87a"
   },
   "Rk": 107,
-  "name": "Jordan Clarkson\\clarkjo01",
+  "Player": "Jordan Clarkson\\clarkjo01",
   "age": 29,
   "WS": "3.5",
   "salary": "$12420000",
-  "projSalary": "$13340000"
+  "projSalary": "$13340000",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948848"
+    "$oid": "6278b895318b04fff3e8d87b"
   },
   "Rk": 108,
-  "name": "Nic Claxton\\claxtni01",
+  "Player": "Nic Claxton\\claxtni01",
   "age": 22,
   "WS": "3.5",
   "salary": "$12200000",
-  "projSalary": "$11400000"
+  "projSalary": "$11400000",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948849"
+    "$oid": "6278b895318b04fff3e8d87c"
   },
   "Rk": 109,
-  "name": "Amir Coffey\\coffeam01",
+  "Player": "Amir Coffey\\coffeam01",
   "age": 24,
   "WS": "3.8",
   "salary": "$12195122",
-  "projSalary": "$12804878"
+  "projSalary": "$12804878",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694884a"
+    "$oid": "6278b895318b04fff3e8d87d"
   },
   "Rk": 110,
-  "name": "John Collins\\collijo01",
+  "Player": "John Collins\\collijo01",
   "age": 24,
   "WS": "5.1",
   "salary": "$12000000",
-  "projSalary": "$12600000"
+  "projSalary": "$12600000",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694884b"
+    "$oid": "6278b895318b04fff3e8d87e"
   },
   "Rk": 111,
-  "name": "Zach Collins\\colliza01",
+  "Player": "Zach Collins\\colliza01",
   "age": 24,
   "WS": "1.2",
   "salary": "$12000000",
-  "projSalary": "$12960000"
+  "projSalary": "$12960000",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694884c"
+    "$oid": "6278b895318b04fff3e8d87f"
   },
   "Rk": 112,
-  "name": "Darren Collison\\collida01",
+  "Player": "Darren Collison\\collida01",
   "age": 34,
   "WS": "-0.1",
-  "salary": "$12000000"
+  "salary": "$12000000",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694884d"
+    "$oid": "6278b895318b04fff3e8d880"
   },
   "Rk": 113,
-  "name": "Mike Conley\\conlemi01",
+  "Player": "Mike Conley\\conlemi01",
   "age": 34,
   "WS": "6.7",
   "salary": "$11615328",
-  "projSalary": "$12196094"
+  "projSalary": "$12196094",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694884e"
+    "$oid": "6278b895318b04fff3e8d881"
   },
   "Rk": 114,
-  "name": "Pat Connaughton\\connapa01",
+  "Player": "Pat Connaughton\\connapa01",
   "age": 29,
   "WS": "4.4",
-  "salary": "$11312114"
+  "salary": "$11312114",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694884f"
+    "$oid": "6278b895318b04fff3e8d882"
   },
   "Rk": 115,
-  "name": "Tyler Cook\\cookty01",
+  "Player": "Tyler Cook\\cookty01",
   "age": 24,
   "WS": "0.5",
   "salary": "$11000000",
-  "projSalary": "$11550000"
+  "projSalary": "$11550000",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948850"
+    "$oid": "6278b895318b04fff3e8d883"
   },
   "Rk": 116,
-  "name": "Sharife Cooper\\coopesh01",
+  "Player": "Sharife Cooper\\coopesh01",
   "age": 20,
   "WS": "-0.2",
   "salary": "$11000000",
-  "projSalary": "$11814815"
+  "projSalary": "$11814815",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948851"
+    "$oid": "6278b895318b04fff3e8d884"
   },
   "Rk": 117,
-  "name": "Petr Cornelie\\cornepe01",
+  "Player": "Petr Cornelie\\cornepe01",
   "age": 26,
   "WS": "0",
   "salary": "$10733400",
-  "projSalary": "$13534817"
+  "projSalary": "$13534817",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948852"
+    "$oid": "6278b895318b04fff3e8d885"
   },
   "Rk": 118,
-  "name": "DeMarcus Cousins\\couside01",
+  "Player": "DeMarcus Cousins\\couside01",
   "age": 31,
   "WS": "1.6",
   "salary": "$10690909",
-  "projSalary": "$9672727"
+  "projSalary": "$9672727",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948853"
+    "$oid": "6278b895318b04fff3e8d886"
   },
   "Rk": 119,
-  "name": "Robert Covington\\covinro01",
+  "Player": "Robert Covington\\covinro01",
   "age": 31,
   "WS": "3.2",
-  "salary": "$10500000"
+  "salary": "$10500000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948854"
+    "$oid": "6278b895318b04fff3e8d887"
   },
   "Rk": 120,
-  "name": "Torrey Craig\\craigto01",
+  "Player": "Toronto Raptorssrey Craig\\craigto01",
   "age": 31,
   "WS": "2.3",
   "salary": "$10384500",
-  "projSalary": "$11215260"
+  "projSalary": "$11215260",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948855"
+    "$oid": "6278b895318b04fff3e8d888"
   },
   "Rk": 121,
-  "name": "Jae Crowder\\crowdja01",
+  "Player": "Jae Crowder\\crowdja01",
   "age": 31,
   "WS": "4.3",
   "salary": "$10384500",
-  "projSalary": "$11215260"
+  "projSalary": "$11215260",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948856"
+    "$oid": "6278b895318b04fff3e8d889"
   },
   "Rk": 122,
-  "name": "Jarrett Culver\\culveja01",
+  "Player": "Jarrett Culver\\culveja01",
   "age": 22,
   "WS": "0.1",
   "salary": "$10245480",
-  "projSalary": "$10733400"
+  "projSalary": "$10733400",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948857"
+    "$oid": "6278b895318b04fff3e8d88a"
   },
   "Rk": 123,
-  "name": "Jarron Cumberland\\cumbeja01",
+  "Player": "Jarron Cumberland\\cumbeja01",
   "age": 24,
   "WS": "0",
   "salary": "$10174391",
-  "projSalary": "$35700000"
+  "projSalary": "$35700000",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948858"
+    "$oid": "6278b895318b04fff3e8d88b"
   },
   "Rk": 124,
-  "name": "Cade Cunningham\\cunnica01",
+  "Player": "Cade Cunningham\\cunnica01",
   "age": 20,
   "WS": "-0.5",
   "salary": "$10050120",
-  "projSalary": "$10552800"
+  "projSalary": "$10552800",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948859"
+    "$oid": "6278b895318b04fff3e8d88c"
   },
   "Rk": 125,
-  "name": "Seth Curry\\curryse01",
+  "Player": "Seth Curry\\curryse01",
   "age": 31,
   "WS": "4.2",
-  "salary": "$10468119"
+  "salary": "$10468119",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694885a"
+    "$oid": "6278b895318b04fff3e8d88d"
   },
   "Rk": 126,
-  "name": "Stephen Curry\\curryst01",
+  "Player": "Stephen Curry\\curryst01",
   "age": 33,
   "WS": "8",
   "salary": "$10000000",
-  "projSalary": "$10000000"
+  "projSalary": "$10000000",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694885b"
+    "$oid": "6278b895318b04fff3e8d88e"
   },
   "Rk": 127,
-  "name": "Anthony Davis\\davisan02",
+  "Player": "Anthony Davis\\davisan02",
   "age": 28,
   "WS": "4.5",
-  "salary": "$9937150"
+  "salary": "$9937150",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694885c"
+    "$oid": "6278b895318b04fff3e8d88f"
   },
   "Rk": 128,
-  "name": "Ed Davis\\davised01",
+  "Player": "Ed Davis\\davised01",
   "age": 32,
   "WS": "0.5",
-  "salary": "$9742000"
+  "salary": "$9742000",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694885d"
+    "$oid": "6278b895318b04fff3e8d890"
   },
   "Rk": 129,
-  "name": "Terence Davis\\daviste02",
+  "Player": "Terence Davis\\daviste02",
   "age": 24,
   "WS": "0.5",
   "salary": "$9720900",
-  "projSalary": "$10183800"
+  "projSalary": "$10183800",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694885e"
+    "$oid": "6278b895318b04fff3e8d891"
   },
   "Rk": 130,
-  "name": "Gabriel Deck\\deckga01",
+  "Player": "Gabriel Deck\\deckga01",
   "age": 26,
   "WS": "0.1",
   "salary": "$9720900",
-  "projSalary": "$10183800"
+  "projSalary": "$10183800",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694885f"
+    "$oid": "6278b895318b04fff3e8d892"
   },
   "Rk": 131,
-  "name": "Dewayne Dedmon\\dedmode01",
+  "Player": "Dewayne Dedmon\\dedmode01",
   "age": 32,
   "WS": "3.5",
-  "salary": "$10720900"
+  "salary": "$10720900",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948860"
+    "$oid": "6278b895318b04fff3e8d893"
   },
   "Rk": 132,
-  "name": "Sam Dekker\\dekkesa01",
+  "Player": "Sam Dekker\\dekkesa01",
   "age": 27,
   "WS": "0",
-  "salary": "$9720900"
+  "salary": "$9720900",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948861"
+    "$oid": "6278b895318b04fff3e8d894"
   },
   "Rk": 133,
-  "name": "Javin DeLaurier\\delauja01",
+  "Player": "Javin DeLaurier\\delauja01",
   "age": 23,
   "WS": "0",
-  "salary": "$9720900"
+  "salary": "$9720900",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948862"
+    "$oid": "6278b895318b04fff3e8d895"
   },
   "Rk": 134,
-  "name": "DeMar DeRozan\\derozde01",
+  "Player": "DeMar DeRozan\\derozde01",
   "age": 32,
   "WS": "8.8",
   "salary": "$9603360",
-  "projSalary": "$12119440"
+  "projSalary": "$12119440",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948863"
+    "$oid": "6278b895318b04fff3e8d896"
   },
   "Rk": 135,
-  "name": "Mamadi Diakite\\diakima01",
+  "Player": "Mamadi Diakite\\diakima01",
   "age": 25,
   "WS": "0.3",
   "salary": "$9536000",
-  "projSalary": "$10012800"
+  "projSalary": "$10012800",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948864"
+    "$oid": "6278b895318b04fff3e8d897"
   },
   "Rk": 136,
-  "name": "Cheick Diallo\\diallch01",
+  "Player": "Cheick Diallo\\diallch01",
   "age": 25,
   "WS": "0.1",
   "salary": "$9536000",
-  "projSalary": "$10012800"
+  "projSalary": "$10012800",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948865"
+    "$oid": "6278b895318b04fff3e8d898"
   },
   "Rk": 137,
-  "name": "Hamidou Diallo\\diallha01",
+  "Player": "Hamidou Diallo\\diallha01",
   "age": 23,
   "WS": "2.1",
   "salary": "$9500000",
-  "projSalary": "$10260000"
+  "projSalary": "$10260000",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948866"
+    "$oid": "6278b895318b04fff3e8d899"
   },
   "Rk": 138,
-  "name": "Gorgui Dieng\\dienggo01",
+  "Player": "Gorgui Dieng\\dienggo01",
   "age": 32,
   "WS": "1.2",
   "salary": "$9180560",
-  "projSalary": "$23437500"
+  "projSalary": "$23437500",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948867"
+    "$oid": "6278b895318b04fff3e8d89a"
   },
   "Rk": 139,
-  "name": "Spencer Dinwiddie\\dinwisp01",
+  "Player": "Spencer Dinwiddie\\dinwisp01",
   "age": 28,
   "WS": "4.1",
   "salary": "$9166800",
-  "projSalary": "$9603360"
+  "projSalary": "$9603360",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948868"
+    "$oid": "6278b895318b04fff3e8d89b"
   },
   "Rk": 140,
-  "name": "Donte DiVincenzo\\divindo01",
+  "Player": "Donte DiVincenzo\\divIndiana Pacerso01",
   "age": 25,
   "WS": "0.7",
   "salary": "$12213507",
-  "projSalary": "$12372008"
+  "projSalary": "$12372008",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948869"
+    "$oid": "6278b895318b04fff3e8d89c"
   },
   "Rk": 141,
-  "name": "Luka Dončić\\doncilu01",
+  "Player": "Luka Dončić\\doncilu01",
   "age": 22,
   "WS": "7.6",
   "salary": "$9000000",
-  "projSalary": "$9666667"
+  "projSalary": "$9666667",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694886a"
+    "$oid": "6278b895318b04fff3e8d89d"
   },
   "Rk": 142,
-  "name": "Luguentz Dort\\dortlu01",
+  "Player": "Luguentz Dort\\dortlu01",
   "age": 22,
   "WS": "1.4",
   "salary": "$8992200",
-  "projSalary": "$9441720"
+  "projSalary": "$9441720",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694886b"
+    "$oid": "6278b895318b04fff3e8d89e"
   },
   "Rk": 143,
-  "name": "Ayo Dosunmu\\dosunay01",
+  "Player": "Ayo Dosunmu\\dosunay01",
   "age": 22,
   "WS": "3",
   "salary": "$8800000",
-  "projSalary": "$9240000"
+  "projSalary": "$9240000",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694886c"
+    "$oid": "6278b895318b04fff3e8d89f"
   },
   "Rk": 144,
-  "name": "Damyean Dotson\\dotsoda01",
+  "Player": "Damyean Dotson\\dotsoda01",
   "age": 27,
   "WS": "0",
   "salary": "$8750000",
-  "projSalary": "$9398148"
+  "projSalary": "$9398148",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694886d"
+    "$oid": "6278b895318b04fff3e8d8a0"
   },
   "Rk": 145,
-  "name": "Devon Dotson\\dotsode01",
+  "Player": "Devon Dotson\\dotsode01",
   "age": 22,
   "WS": "0.1",
   "salary": "$8750000",
-  "projSalary": "$9000000"
+  "projSalary": "$9000000",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694886e"
+    "$oid": "6278b895318b04fff3e8d8a1"
   },
   "Rk": 146,
-  "name": "Sekou Doumbouya\\doumbse01",
+  "Player": "Sekou Doumbouya\\doumbse01",
   "age": 21,
   "WS": "0.1",
-  "salary": "$8730159"
+  "salary": "$8730159",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694886f"
+    "$oid": "6278b895318b04fff3e8d8a2"
   },
   "Rk": 147,
-  "name": "Jeff Dowtin\\dowtije01",
+  "Player": "Jeff Dowtin\\dowtije01",
   "age": 24,
   "WS": "0",
   "salary": "$34967442",
-  "projSalary": "$36596549"
+  "projSalary": "$36596549",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948870"
+    "$oid": "6278b895318b04fff3e8d8a3"
   },
   "Rk": 148,
-  "name": "PJ Dozier\\doziepj01",
+  "Player": "PJ Dozier\\doziepj01",
   "age": 25,
   "WS": "0.3",
   "salary": "$8678571",
-  "projSalary": "$9321429"
+  "projSalary": "$9321429",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948871"
+    "$oid": "6278b895318b04fff3e8d8a4"
   },
   "Rk": 149,
-  "name": "Goran Dragić\\dragigo01",
+  "Player": "Goran Dragić\\dragigo01",
   "age": 35,
   "WS": "0.4",
   "salary": "$8623920",
-  "projSalary": "$10900635"
+  "projSalary": "$10900635",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948872"
+    "$oid": "6278b895318b04fff3e8d8a5"
   },
   "Rk": 150,
-  "name": "Andre Drummond\\drumman01",
+  "Player": "Andre Drummond\\drumman01",
   "age": 28,
   "WS": "5.1",
   "salary": "$8604651",
-  "projSalary": "$9034884"
+  "projSalary": "$9034884",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948873"
+    "$oid": "6278b895318b04fff3e8d8a6"
   },
   "Rk": 151,
-  "name": "Chris Duarte\\duartch01",
+  "Player": "Chris Duarte\\duartch01",
   "age": 24,
   "WS": "0.9",
-  "salary": "$8526316"
+  "salary": "$8526316",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948874"
+    "$oid": "6278b895318b04fff3e8d8a7"
   },
   "Rk": 152,
-  "name": "David Duke Jr.\\dukeda01",
+  "Player": "David Duke Jr.\\dukeda01",
   "age": 22,
   "WS": "0.3",
   "salary": "$8437500",
-  "projSalary": "$9062500"
+  "projSalary": "$9062500",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948875"
+    "$oid": "6278b895318b04fff3e8d8a8"
   },
   "Rk": 153,
-  "name": "Kris Dunn\\dunnkr01",
+  "Player": "Kris Dunn\\dunnkr01",
   "age": 27,
   "WS": "0.2",
   "salary": "$8372093",
-  "projSalary": "$8790698"
+  "projSalary": "$8790698",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948876"
+    "$oid": "6278b895318b04fff3e8d8a9"
   },
   "Rk": 154,
-  "name": "Kevin Durant\\duranke01",
+  "Player": "Kevin Durant\\duranke01",
   "age": 33,
   "WS": "8.4",
   "salary": "$8333333",
-  "projSalary": "$9000000"
+  "projSalary": "$9000000",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948877"
+    "$oid": "6278b895318b04fff3e8d8aa"
   },
   "Rk": 155,
-  "name": "Jaime Echenique\\echenja01",
+  "Player": "Jaime Echenique\\echenja01",
   "age": 24,
   "WS": "0",
   "salary": "$8326471",
-  "projSalary": "$29750000"
+  "projSalary": "$29750000",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948878"
+    "$oid": "6278b895318b04fff3e8d8ab"
   },
   "Rk": 156,
-  "name": "Anthony Edwards\\edwaran01",
+  "Player": "Anthony Edwards\\edwaran01",
   "age": 20,
   "WS": "4.3",
   "salary": "$8292683",
-  "projSalary": "$8707317"
+  "projSalary": "$8707317",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948879"
+    "$oid": "6278b895318b04fff3e8d8ac"
   },
   "Rk": 157,
-  "name": "Carsen Edwards\\edwarca01",
+  "Player": "Carsen Edwards\\edwarca01",
   "age": 23,
   "WS": "-0.1",
   "salary": "$8231760",
-  "projSalary": "$8623920"
+  "projSalary": "$8623920",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694887a"
+    "$oid": "6278b895318b04fff3e8d8ad"
   },
   "Rk": 158,
-  "name": "Kessler Edwards\\edwarke02",
+  "Player": "Kessler Edwards\\edwarke02",
   "age": 21,
   "WS": "0.6",
   "salary": "$8186047",
-  "projSalary": "$8558140"
+  "projSalary": "$8558140",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694887b"
+    "$oid": "6278b895318b04fff3e8d8ae"
   },
   "Rk": 159,
-  "name": "Rob Edwards\\edwarro01",
+  "Player": "Rob Edwards\\edwarro01",
   "age": 25,
   "WS": "0",
   "salary": "$8137500",
-  "projSalary": "$8525000"
+  "projSalary": "$8525000",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694887c"
+    "$oid": "6278b895318b04fff3e8d8af"
   },
   "Rk": 160,
-  "name": "CJ Elleby\\ellebcj01",
+  "Player": "CJ Elleby\\ellebcj01",
   "age": 21,
   "WS": "0.4",
   "salary": "$8075160",
-  "projSalary": "$8478720"
+  "projSalary": "$8478720",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694887d"
+    "$oid": "6278b895318b04fff3e8d8b0"
   },
   "Rk": 161,
-  "name": "Wayne Ellington\\ellinwa01",
+  "Player": "Wayne Ellington\\ellinwa01",
   "age": 34,
   "WS": "1",
   "salary": "$8050000",
-  "projSalary": "$7350000"
+  "projSalary": "$7350000",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694887e"
+    "$oid": "6278b895318b04fff3e8d8b1"
   },
   "Rk": 162,
-  "name": "Joel Embiid\\embiijo01",
+  "Player": "Joel Embiid\\embiijo01",
   "age": 27,
   "WS": "12",
   "salary": "$11109327",
-  "projSalary": "$7827907"
+  "projSalary": "$7827907",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694887f"
+    "$oid": "6278b895318b04fff3e8d8b2"
   },
   "Rk": 163,
-  "name": "James Ennis III\\ennisja01",
+  "Player": "James Ennis III\\ennisja01",
   "age": 31,
   "WS": "0.1",
   "salary": "$7775400",
-  "projSalary": "$9835881"
+  "projSalary": "$9835881",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948880"
+    "$oid": "6278b895318b04fff3e8d8b3"
   },
   "Rk": 164,
-  "name": "Drew Eubanks\\eubandr01",
+  "Player": "Drew Eubanks\\eubandr01",
   "age": 24,
   "WS": "3.4",
-  "salary": "$7568742"
+  "salary": "$7568742",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948881"
+    "$oid": "6278b895318b04fff3e8d8b4"
   },
   "Rk": 165,
-  "name": "Tacko Fall\\fallta01",
+  "Player": "Tacko Fall\\fallta01",
   "age": 26,
   "WS": "0.1",
-  "salary": "$7522200"
+  "salary": "$7522200",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948882"
+    "$oid": "6278b895318b04fff3e8d8b5"
   },
   "Rk": 166,
-  "name": "Derrick Favors\\favorde01",
+  "Player": "Derrick Favors\\favorde01",
   "age": 30,
   "WS": "1.4",
   "salary": "$7518518",
-  "projSalary": "$7518518"
+  "projSalary": "$7518518",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948883"
+    "$oid": "6278b895318b04fff3e8d8b6"
   },
   "Rk": 167,
-  "name": "Bruno Fernando\\fernabr01",
+  "Player": "Bruno Fernando\\fernabr01",
   "age": 23,
   "WS": "0.4",
   "salary": "$7500000",
-  "projSalary": "$8100000"
+  "projSalary": "$8100000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948884"
+    "$oid": "6278b895318b04fff3e8d8b7"
   },
   "Rk": 168,
-  "name": "Dorian Finney-Smith\\finnedo01",
+  "Player": "Dorian Finney-Smith\\finnedo01",
   "age": 28,
   "WS": "6.6",
   "salary": "$7422000",
-  "projSalary": "$7775400"
+  "projSalary": "$7775400",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948885"
+    "$oid": "6278b895318b04fff3e8d8b8"
   },
   "Rk": 169,
-  "name": "Malik Fitts\\fittsma01",
+  "Player": "Malik Fitts\\fittsma01",
   "age": 24,
   "WS": "0.1",
   "salary": "$7280520",
-  "projSalary": "$7644720"
+  "projSalary": "$7644720",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948886"
+    "$oid": "6278b895318b04fff3e8d8b9"
   },
   "Rk": 170,
-  "name": "Malachi Flynn\\flynnma01",
+  "Player": "MaLos Angeles Clippershicago Bulls Flynn\\flynnma01",
   "age": 23,
   "WS": "1",
   "salary": "$7040880",
-  "projSalary": "$8920795"
+  "projSalary": "$8920795",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948887"
+    "$oid": "6278b895318b04fff3e8d8ba"
   },
   "Rk": 171,
-  "name": "Bryn Forbes\\forbebr01",
+  "Player": "Bryn Forbes\\forbebr01",
   "age": 28,
   "WS": "1.4",
-  "salary": "$7009615"
+  "salary": "$7009615",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948888"
+    "$oid": "6278b895318b04fff3e8d8bb"
   },
   "Rk": 172,
-  "name": "Aleem Ford\\fordal03",
+  "Player": "Aleem Ford\\forDallas Mavericks03",
   "age": 24,
   "WS": "-0.2",
   "salary": "$7622467",
-  "projSalary": "$333333"
+  "projSalary": "$333333",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948889"
+    "$oid": "6278b895318b04fff3e8d8bc"
   },
   "Rk": 173,
-  "name": "Trent Forrest\\forretr01",
+  "Player": "Trent Forrest\\forretr01",
   "age": 23,
   "WS": "1.3",
   "salary": "$7000000",
-  "projSalary": "$7350000"
+  "projSalary": "$7350000",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694888a"
+    "$oid": "6278b895318b04fff3e8d8bd"
   },
   "Rk": 174,
-  "name": "Evan Fournier\\fournev01",
+  "Player": "Evan Fournier\\fournev01",
   "age": 29,
   "WS": "3.7",
   "salary": "$6984127",
-  "projSalary": "$7333333"
+  "projSalary": "$7333333",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694888b"
+    "$oid": "6278b895318b04fff3e8d8be"
   },
   "Rk": 175,
-  "name": "De'Aaron Fox\\foxde01",
+  "Player": "De'Aaron Fox\\foxde01",
   "age": 24,
   "WS": "2.5",
   "salary": "$6920027",
-  "projSalary": "$14150000"
+  "projSalary": "$14150000",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694888c"
+    "$oid": "6278b895318b04fff3e8d8bf"
   },
   "Rk": 176,
-  "name": "Melvin Frazier\\frazime01",
+  "Player": "Melvin Frazier\\frazime01",
   "age": 25,
   "WS": "-0.4",
   "salary": "$6720720",
-  "projSalary": "$7040880"
+  "projSalary": "$7040880",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694888d"
+    "$oid": "6278b895318b04fff3e8d8c0"
   },
   "Rk": 177,
-  "name": "Tim Frazier\\fraziti01",
+  "Player": "Tim Frazier\\fraziti01",
   "age": 31,
   "WS": "-0.2",
   "salary": "$6593040",
-  "projSalary": "$6922440"
+  "projSalary": "$6922440",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694888e"
+    "$oid": "6278b895318b04fff3e8d8c1"
   },
   "Rk": 178,
-  "name": "Enes Freedom\\kanteen01",
+  "Player": "Enes Freedom\\kanteen01",
   "age": 29,
   "WS": "1.4",
   "salary": "$6500000",
-  "projSalary": "$6000000"
+  "projSalary": "$6000000",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694888f"
+    "$oid": "6278b895318b04fff3e8d8c2"
   },
   "Rk": 179,
-  "name": "Markelle Fultz\\fultzma01",
+  "Player": "Markelle Fultz\\fultzma01",
   "age": 23,
   "WS": "0.4",
-  "salary": "$6431666"
+  "salary": "$6431666",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948890"
+    "$oid": "6278b895318b04fff3e8d8c3"
   },
   "Rk": 180,
-  "name": "Wenyen Gabriel\\gabriwe01",
+  "Player": "Wenyen Gabriel\\gabriwe01",
   "age": 24,
   "WS": "0.7",
   "salary": "$6395160",
-  "projSalary": "$8109063"
+  "projSalary": "$8109063",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948891"
+    "$oid": "6278b895318b04fff3e8d8c4"
   },
   "Rk": 181,
-  "name": "Daniel Gafford\\gaffoda01",
+  "Player": "Daniel Gafford\\gaffoda01",
   "age": 23,
   "WS": "6",
   "salary": "$6350000",
-  "projSalary": "$6667750"
+  "projSalary": "$6667750",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948892"
+    "$oid": "6278b895318b04fff3e8d8c5"
   },
   "Rk": 182,
-  "name": "Danilo Gallinari\\gallida01",
+  "Player": "Danilo Gallinari\\gallida01",
   "age": 33,
   "WS": "3.6",
-  "salary": "$6349671"
+  "salary": "$6349671",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948893"
+    "$oid": "6278b895318b04fff3e8d8c6"
   },
   "Rk": 183,
-  "name": "Langston Galloway\\gallola01",
+  "Player": "Langston Galloway\\gallola01",
   "age": 30,
   "WS": "-0.2",
   "salary": "$6175440",
-  "projSalary": "$6632880"
+  "projSalary": "$6632880",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948894"
+    "$oid": "6278b895318b04fff3e8d8c7"
   },
   "Rk": 184,
-  "name": "Darius Garland\\garlada01",
+  "Player": "Darius Garland\\garlada01",
   "age": 22,
   "WS": "6.3",
   "salary": "$6104280",
-  "projSalary": "$6395160"
+  "projSalary": "$6395160",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948895"
+    "$oid": "6278b895318b04fff3e8d8c8"
   },
   "Rk": 185,
-  "name": "Marcus Garrett\\garrema01",
+  "Player": "Marcus Garrett\\garrema01",
   "age": 23,
   "WS": "0.1",
   "salary": "$6006420",
-  "projSalary": "$6292440"
+  "projSalary": "$6292440",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948896"
+    "$oid": "6278b895318b04fff3e8d8c9"
   },
   "Rk": 186,
-  "name": "Usman Garuba\\garubus01",
+  "Player": "Usman Garuba\\garubus01",
   "age": 19,
   "WS": "0.5",
   "salary": "$5988000",
-  "projSalary": "$6287400"
+  "projSalary": "$6287400",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948897"
+    "$oid": "6278b895318b04fff3e8d8ca"
   },
   "Rk": 187,
-  "name": "Luka Garza\\garzalu01",
+  "Player": "Luka Garza\\garzalu01",
   "age": 23,
   "WS": "0.8",
   "salary": "$5890000",
-  "projSalary": "$6184500"
+  "projSalary": "$6184500",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948898"
+    "$oid": "6278b895318b04fff3e8d8cb"
   },
   "Rk": 188,
-  "name": "Rudy Gay\\gayru01",
+  "Player": "Rudy Gay\\gayru01",
   "age": 35,
   "WS": "2.1",
-  "salary": "$5890000"
+  "salary": "$5890000",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948899"
+    "$oid": "6278b895318b04fff3e8d8cc"
   },
   "Rk": 189,
-  "name": "Paul George\\georgpa01",
+  "Player": "Paul George\\georgpa01",
   "age": 31,
   "WS": "1.3",
   "salary": "$5890000",
-  "projSalary": "$6184500"
+  "projSalary": "$6184500",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694889a"
+    "$oid": "6278b895318b04fff3e8d8cd"
   },
   "Rk": 190,
-  "name": "Taj Gibson\\gibsota01",
+  "Player": "Taj Gibson\\gibsota01",
   "age": 36,
   "WS": "2.7",
-  "salary": "$5845978"
+  "salary": "$5845978",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694889b"
+    "$oid": "6278b895318b04fff3e8d8ce"
   },
   "Rk": 191,
-  "name": "Josh Giddey\\giddejo01",
+  "Player": "Josh Giddey\\giddejo01",
   "age": 19,
   "WS": "0.4",
   "salary": "$5837760",
-  "projSalary": "$7413955"
+  "projSalary": "$7413955",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694889c"
+    "$oid": "6278b895318b04fff3e8d8cf"
   },
   "Rk": 192,
-  "name": "Shai Gilgeous-Alexander\\gilgesh01",
+  "Player": "Shai Gilgeous-Alexander\\gilgesh01",
   "age": 23,
   "WS": "4.6",
-  "salary": "$5573334"
+  "salary": "$5573334",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694889d"
+    "$oid": "6278b895318b04fff3e8d8d0"
   },
   "Rk": 193,
-  "name": "Anthony Gill\\gillan01",
+  "Player": "Anthony Gill\\gillan01",
   "age": 29,
   "WS": "1.4",
   "salary": "$5572680",
-  "projSalary": "$5837760"
+  "projSalary": "$5837760",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694889e"
+    "$oid": "6278b895318b04fff3e8d8d1"
   },
   "Rk": 194,
-  "name": "Freddie Gillespie\\gillefr01",
+  "Player": "Freddie Gillespie\\gillefr01",
   "age": 24,
   "WS": "0.1",
   "salary": "$5557725",
-  "projSalary": "$20089286"
+  "projSalary": "$20089286",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694889f"
+    "$oid": "6278b895318b04fff3e8d8d2"
   },
   "Rk": 195,
-  "name": "Rudy Gobert\\goberru01",
+  "Player": "Rudy Gobert\\goberru01",
   "age": 29,
   "WS": "11.7",
   "salary": "$5495532",
-  "projSalary": "$29750000"
+  "projSalary": "$29750000",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488a0"
+    "$oid": "6278b895318b04fff3e8d8d3"
   },
   "Rk": 196,
-  "name": "Brandon Goodwin\\goodwbr01",
+  "Player": "Brandon Goodwin\\goodwbr01",
   "age": 26,
   "WS": "0.7",
   "salary": "$5466360",
-  "projSalary": "$5739960"
+  "projSalary": "$5739960",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488a1"
+    "$oid": "6278b895318b04fff3e8d8d4"
   },
   "Rk": 197,
-  "name": "Jordan Goodwin\\goodwjo01",
+  "Player": "Jordan Goodwin\\goodwjo01",
   "age": 23,
   "WS": "-0.1",
-  "salary": "$5421493"
+  "salary": "$5421493",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488a2"
+    "$oid": "6278b895318b04fff3e8d8d5"
   },
   "Rk": 198,
-  "name": "Aaron Gordon\\gordoaa01",
+  "Player": "Aaron Gordon\\gordoaa01",
   "age": 26,
   "WS": "5.2",
   "salary": "$5348280",
-  "projSalary": "$6803012"
+  "projSalary": "$6803012",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488a3"
+    "$oid": "6278b895318b04fff3e8d8d6"
   },
   "Rk": 199,
-  "name": "Eric Gordon\\gordoer01",
+  "Player": "Eric Gordon\\gordoer01",
   "age": 33,
   "WS": "1.4",
   "salary": "$5333333",
-  "projSalary": "$5728395"
+  "projSalary": "$5728395",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488a4"
+    "$oid": "6278b895318b04fff3e8d8d7"
   },
   "Rk": 200,
-  "name": "Devonte' Graham\\grahade01",
+  "Player": "Devonte' Graham\\grahade01",
   "age": 26,
   "WS": "2.8",
   "salary": "$5258735",
-  "projSalary": "$29750000"
+  "projSalary": "$29750000",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488a5"
+    "$oid": "6278b895318b04fff3e8d8d8"
   },
   "Rk": 201,
-  "name": "Jerami Grant\\grantje01",
+  "Player": "Jerami Grant\\grantje01",
   "age": 27,
   "WS": "2.3",
-  "salary": "$5214584"
+  "salary": "$5214584",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488a6"
+    "$oid": "6278b895318b04fff3e8d8d9"
   },
   "Rk": 202,
-  "name": "Hassani Gravett\\graveha01",
+  "Player": "Hassani Gravett\\graveha01",
   "age": 25,
   "WS": "0.3",
   "salary": "$5200000",
-  "projSalary": "$5200000"
+  "projSalary": "$5200000",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488a7"
+    "$oid": "6278b895318b04fff3e8d8da"
   },
   "Rk": 203,
-  "name": "Danny Green\\greenda02",
+  "Player": "Danny Green\\greenda02",
   "age": 34,
   "WS": "1.9",
-  "salary": "$5178572"
+  "salary": "$5178572",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488a8"
+    "$oid": "6278b895318b04fff3e8d8db"
   },
   "Rk": 204,
-  "name": "Draymond Green\\greendr01",
+  "Player": "Draymond Green\\greendr01",
   "age": 31,
   "WS": "3.6",
-  "salary": "$5170564"
+  "salary": "$5170564",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488a9"
+    "$oid": "6278b895318b04fff3e8d8dc"
   },
   "Rk": 205,
-  "name": "Jalen Green\\greenja05",
+  "Player": "Jalen Green\\greenja05",
   "age": 19,
   "WS": "0.7",
   "salary": "$5105160",
-  "projSalary": "$5348280"
+  "projSalary": "$5348280",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488aa"
+    "$oid": "6278b895318b04fff3e8d8dd"
   },
   "Rk": 206,
-  "name": "JaMychal Green\\greenja01",
+  "Player": "JaMyCharlotte Hornetsl Green\\greenja01",
   "age": 31,
   "WS": "2.7",
   "salary": "$5007840",
-  "projSalary": "$5258280"
+  "projSalary": "$5258280",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ab"
+    "$oid": "6278b895318b04fff3e8d8de"
   },
   "Rk": 207,
-  "name": "Javonte Green\\greenja02",
+  "Player": "Javonte Green\\greenja02",
   "age": 28,
   "WS": "4.4",
-  "salary": "$5005350"
+  "salary": "$5005350",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ac"
+    "$oid": "6278b895318b04fff3e8d8df"
   },
   "Rk": 208,
-  "name": "Jeff Green\\greenje02",
+  "Player": "Jeff Green\\greenje02",
   "age": 35,
   "WS": "3.9",
-  "salary": "$5000000"
+  "salary": "$5000000",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ad"
+    "$oid": "6278b895318b04fff3e8d8e0"
   },
   "Rk": 209,
-  "name": "Josh Green\\greenjo02",
+  "Player": "Josh Green\\greenjo02",
   "age": 21,
   "WS": "2.4",
-  "salary": "$5000000"
+  "salary": "$5000000",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ae"
+    "$oid": "6278b895318b04fff3e8d8e1"
   },
   "Rk": 210,
-  "name": "Blake Griffin\\griffbl01",
+  "Player": "Blake Griffin\\griffbl01",
   "age": 32,
   "WS": "2.1",
   "salary": "$5000000",
-  "projSalary": "$5250000"
+  "projSalary": "$5250000",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488af"
+    "$oid": "6278b895318b04fff3e8d8e2"
   },
   "Rk": 211,
-  "name": "Quentin Grimes\\grimequ01",
+  "Player": "Quentin Grimes\\grimequ01",
   "age": 21,
   "WS": "1.4",
-  "salary": "$5000000"
+  "salary": "$5000000",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488b0"
+    "$oid": "6278b895318b04fff3e8d8e3"
   },
   "Rk": 212,
-  "name": "Kyle Guy\\guyky01",
+  "Player": "Kyle Guy\\guyky01",
   "age": 24,
   "WS": "0.1",
-  "salary": "$4990000"
+  "salary": "$4990000",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488b1"
+    "$oid": "6278b895318b04fff3e8d8e4"
   },
   "Rk": 213,
-  "name": "Rui Hachimura\\hachiru01",
+  "Player": "Rui HaChicago Bullsmura\\haChicago Bullsru01",
   "age": 23,
   "WS": "1.4",
   "salary": "$4916160",
-  "projSalary": "$6263188"
+  "projSalary": "$6263188",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488b2"
+    "$oid": "6278b895318b04fff3e8d8e5"
   },
   "Rk": 214,
-  "name": "Tyrese Haliburton\\halibty01",
+  "Player": "Tyrese Haliburton\\halibty01",
   "age": 21,
   "WS": "7",
   "salary": "$4910000",
-  "projSalary": "$5155500"
+  "projSalary": "$5155500",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488b3"
+    "$oid": "6278b895318b04fff3e8d8e6"
   },
   "Rk": 215,
-  "name": "Tyler Hall\\hallty01",
+  "Player": "Tyler Hall\\hallty01",
   "age": 24,
   "WS": "0",
   "salary": "$7310000",
-  "projSalary": "$5155000"
+  "projSalary": "$5155000",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488b4"
+    "$oid": "6278b895318b04fff3e8d8e7"
   },
   "Rk": 216,
-  "name": "R.J. Hampton\\hamptrj01",
+  "Player": "R.J. Hampton\\hamptrj01",
   "age": 20,
   "WS": "-0.2",
   "salary": "$4910000",
-  "projSalary": "$5155500"
+  "projSalary": "$5155500",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488b5"
+    "$oid": "6278b895318b04fff3e8d8e8"
   },
   "Rk": 217,
-  "name": "Tim Hardaway Jr.\\hardati02",
+  "Player": "Tim Hardaway Jr.\\hardati02",
   "age": 29,
   "WS": "2",
   "salary": "$4878049",
-  "projSalary": "$5121951"
+  "projSalary": "$5121951",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488b6"
+    "$oid": "6278b895318b04fff3e8d8e9"
   },
   "Rk": 218,
-  "name": "James Harden\\hardeja01",
+  "Player": "James HarDenver Nuggets\\hardeja01",
   "age": 32,
   "WS": "7.6",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488b7"
+    "$oid": "6278b895318b04fff3e8d8ea"
   },
   "Rk": 219,
-  "name": "Maurice Harkless\\harklma01",
+  "Player": "Maurice Harkless\\harklma01",
   "age": 28,
   "WS": "0.5",
-  "salary": "$4736102"
+  "salary": "$4736102",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488b8"
+    "$oid": "6278b895318b04fff3e8d8eb"
   },
   "Rk": 220,
-  "name": "Jared Harper\\harpeja01",
+  "Player": "Jared Harper\\harpeja01",
   "age": 24,
   "WS": "0.4",
   "salary": "$4692840",
-  "projSalary": "$4916160"
+  "projSalary": "$4916160",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488b9"
+    "$oid": "6278b895318b04fff3e8d8ec"
   },
   "Rk": 221,
-  "name": "Montrezl Harrell\\harremo01",
+  "Player": "Montrezl Harrell\\harremo01",
   "age": 28,
   "WS": "7.3",
-  "salary": "$4675830"
+  "salary": "$4675830",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ba"
+    "$oid": "6278b895318b04fff3e8d8ed"
   },
   "Rk": 222,
-  "name": "Gary Harris\\harriga01",
+  "Player": "Gary Harris\\harriga01",
   "age": 27,
   "WS": "2.2",
   "salary": "$4670160",
-  "projSalary": "$5954454"
+  "projSalary": "$5954454",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488bb"
+    "$oid": "6278b895318b04fff3e8d8ee"
   },
   "Rk": 223,
-  "name": "Joe Harris\\harrijo01",
+  "Player": "Joe Harris\\harrijo01",
   "age": 30,
   "WS": "0.5",
   "salary": "$4650000",
-  "projSalary": "$5022000"
+  "projSalary": "$5022000",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488bc"
+    "$oid": "6278b895318b04fff3e8d8ef"
   },
   "Rk": 224,
-  "name": "Tobias Harris\\harrito02",
+  "Player": "Tobias Harris\\harrito02",
   "age": 29,
   "WS": "5.6",
   "salary": "$4629630",
-  "projSalary": "$5000000"
+  "projSalary": "$5000000",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488bd"
+    "$oid": "6278b895318b04fff3e8d8f0"
   },
   "Rk": 225,
-  "name": "Shaquille Harrison\\harrish01",
+  "Player": "Shaquille Harrison\\harrish01",
   "age": 28,
   "WS": "0",
   "salary": "$4603320",
-  "projSalary": "$4833600"
+  "projSalary": "$4833600",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488be"
+    "$oid": "6278b895318b04fff3e8d8f1"
   },
   "Rk": 226,
-  "name": "Josh Hart\\hartjo01",
+  "Player": "Josh Hart\\hartjo01",
   "age": 26,
   "WS": "4.4",
   "salary": "$4500000",
-  "projSalary": "$4725000"
+  "projSalary": "$4725000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488bf"
+    "$oid": "6278b895318b04fff3e8d8f2"
   },
   "Rk": 227,
-  "name": "Isaiah Hartenstein\\harteis01",
+  "Player": "Isaiah Hartenstein\\harteis01",
   "age": 23,
   "WS": "5.5",
   "salary": "$4500000",
-  "projSalary": "$4500000"
+  "projSalary": "$4500000",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488c0"
+    "$oid": "6278b895318b04fff3e8d8f3"
   },
   "Rk": 228,
-  "name": "Udonis Haslem\\hasleud01",
+  "Player": "Udonis Haslem\\hasleud01",
   "age": 41,
   "WS": "0.1",
   "salary": "$4458000",
-  "projSalary": "$4670160"
+  "projSalary": "$4670160",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488c1"
+    "$oid": "6278b895318b04fff3e8d8f4"
   },
   "Rk": 229,
-  "name": "Sam Hauser\\hausesa01",
+  "Player": "Sam Hauser\\hausesa01",
   "age": 24,
   "WS": "0.6",
-  "salary": "$4447896"
+  "salary": "$4447896",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488c2"
+    "$oid": "6278b895318b04fff3e8d8f5"
   },
   "Rk": 230,
-  "name": "Jaxson Hayes\\hayesja02",
+  "Player": "Jaxson Hayes\\hayesja02",
   "age": 21,
   "WS": "5.1",
   "salary": "$4437000",
-  "projSalary": "$5887899"
+  "projSalary": "$5887899",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488c3"
+    "$oid": "6278b895318b04fff3e8d8f6"
   },
   "Rk": 231,
-  "name": "Killian Hayes\\hayeski01",
+  "Player": "Killian Hayes\\hayeski01",
   "age": 20,
   "WS": "0.5",
   "salary": "$4373160",
-  "projSalary": "$4591920"
+  "projSalary": "$4591920",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488c4"
+    "$oid": "6278b895318b04fff3e8d8f7"
   },
   "Rk": 232,
-  "name": "Gordon Hayward\\haywago01",
+  "Player": "Gordon Hayward\\haywago01",
   "age": 31,
   "WS": "2.8",
   "salary": "$4347600",
-  "projSalary": "$4564980"
+  "projSalary": "$4564980",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488c5"
+    "$oid": "6278b895318b04fff3e8d8f8"
   },
   "Rk": 233,
-  "name": "Aaron Henry\\henryaa01",
+  "Player": "Aaron Henry\\henryaa01",
   "age": 22,
   "WS": "-0.1",
   "salary": "$4347600",
-  "projSalary": "$4564980"
+  "projSalary": "$4564980",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488c6"
+    "$oid": "6278b895318b04fff3e8d8f9"
   },
   "Rk": 234,
-  "name": "Juancho Hernangómez\\hernaju01",
+  "Player": "Juancho Hernangómez\\hernaju01",
   "age": 26,
   "WS": "0.9",
   "salary": "$4259259",
-  "projSalary": "$4600000"
+  "projSalary": "$4600000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488c7"
+    "$oid": "6278b895318b04fff3e8d8fa"
   },
   "Rk": 235,
-  "name": "Willy Hernangómez\\hernawi01",
+  "Player": "Willy Hernangómez\\hernawi01",
   "age": 27,
   "WS": "3.2",
   "salary": "$4253357",
-  "projSalary": "$14508929"
+  "projSalary": "$14508929",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488c8"
+    "$oid": "6278b895318b04fff3e8d8fb"
   },
   "Rk": 236,
-  "name": "Tyler Herro\\herroty01",
+  "Player": "Tyler Herro\\herroty01",
   "age": 22,
   "WS": "3.8",
   "salary": "$4235160",
-  "projSalary": "$4437000"
+  "projSalary": "$4437000",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488c9"
+    "$oid": "6278b895318b04fff3e8d8fc"
   },
   "Rk": 237,
-  "name": "Buddy Hield\\hieldbu01",
+  "Player": "Buddy Hield\\hieldbu01",
   "age": 29,
   "WS": "1.9",
   "salary": "$4215120",
-  "projSalary": "$5808435"
+  "projSalary": "$5808435",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ca"
+    "$oid": "6278b895318b04fff3e8d8fd"
   },
   "Rk": 238,
-  "name": "Haywood Highsmith\\highsha01",
+  "Player": "Haywood Highsmith\\highsha01",
   "age": 25,
   "WS": "0.1",
   "salary": "$4154400",
-  "projSalary": "$4362240"
+  "projSalary": "$4362240",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488cb"
+    "$oid": "6278b895318b04fff3e8d8fe"
   },
   "Rk": 239,
-  "name": "George Hill\\hillge01",
+  "Player": "George Hill\\hillge01",
   "age": 35,
   "WS": "2.3",
-  "salary": "$4087904"
+  "salary": "$4087904",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488cc"
+    "$oid": "6278b895318b04fff3e8d8ff"
   },
   "Rk": 240,
-  "name": "Malcolm Hill\\hillma01",
+  "Player": "Malcolm Hill\\hillma01",
   "age": 26,
   "WS": "0.6",
   "salary": "$4054695",
-  "projSalary": "$9615385"
+  "projSalary": "$9615385",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488cd"
+    "$oid": "6278b895318b04fff3e8d900"
   },
   "Rk": 241,
-  "name": "Solomon Hill\\hillso01",
+  "Player": "Solomon Hill\\hillso01",
   "age": 30,
   "WS": "0",
   "salary": "$4023600",
-  "projSalary": "$4215120"
+  "projSalary": "$4215120",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ce"
+    "$oid": "6278b895318b04fff3e8d901"
   },
   "Rk": 242,
-  "name": "Nate Hinton\\hintona01",
+  "Player": "Nate Hinton\\hintona01",
   "age": 22,
   "WS": "-0.1",
   "salary": "$4004280",
-  "projSalary": "$5722116"
+  "projSalary": "$5722116",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488cf"
+    "$oid": "6278b895318b04fff3e8d902"
   },
   "Rk": 243,
-  "name": "Jaylen Hoard\\hoardja01",
+  "Player": "Jaylen Hoard\\hoardja01",
   "age": 22,
   "WS": "0.6",
   "salary": "$4000000",
-  "projSalary": "$12402000"
+  "projSalary": "$12402000",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488d0"
+    "$oid": "6278b895318b04fff3e8d903"
   },
   "Rk": 244,
-  "name": "Aaron Holiday\\holidaa01",
+  "Player": "Aaron Holiday\\holidaa01",
   "age": 25,
   "WS": "1.5",
   "salary": "$4000000",
-  "projSalary": "$4000000"
+  "projSalary": "$4000000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488d1"
+    "$oid": "6278b895318b04fff3e8d904"
   },
   "Rk": 245,
-  "name": "Jrue Holiday\\holidjr01",
+  "Player": "Jrue Holiday\\holidjr01",
   "age": 31,
   "WS": "6.9",
   "salary": "$4000000",
-  "projSalary": "$4000000"
+  "projSalary": "$4000000",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488d2"
+    "$oid": "6278b895318b04fff3e8d905"
   },
   "Rk": 246,
-  "name": "Justin Holiday\\holidju01",
+  "Player": "Justin Holiday\\holidju01",
   "age": 32,
   "WS": "1.4",
-  "salary": "$4000000"
+  "salary": "$4000000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488d3"
+    "$oid": "6278b895318b04fff3e8d906"
   },
   "Rk": 247,
-  "name": "Richaun Holmes\\holmeri01",
+  "Player": "RiCharlotte Hornetsun Holmes\\holmeri01",
   "age": 28,
   "WS": "3.2",
-  "salary": "$3980551"
+  "salary": "$3980551",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488d4"
+    "$oid": "6278b895318b04fff3e8d907"
   },
   "Rk": 248,
-  "name": "Rodney Hood\\hoodro01",
+  "Player": "Rodney Hood\\hoodro01",
   "age": 29,
   "WS": "0.7",
   "salary": "$3946800",
-  "projSalary": "$4144320"
+  "projSalary": "$4144320",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488d5"
+    "$oid": "6278b895318b04fff3e8d908"
   },
   "Rk": 249,
-  "name": "Scotty Hopson\\hopsosc01",
+  "Player": "Scotty Hopson\\hopsosc01",
   "age": 32,
   "WS": "0",
-  "salary": "$3940184"
+  "salary": "$3940184",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488d6"
+    "$oid": "6278b895318b04fff3e8d909"
   },
   "Rk": 250,
-  "name": "Al Horford\\horfoal01",
+  "Player": "Al Horford\\horfoal01",
   "age": 35,
   "WS": "7.6",
-  "salary": "$3938818"
+  "salary": "$3938818",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488d7"
+    "$oid": "6278b895318b04fff3e8d90a"
   },
   "Rk": 251,
-  "name": "Talen Horton-Tucker\\hortota01",
+  "Player": "Talen Horton-Tucker\\hortota01",
   "age": 21,
   "WS": "1.1",
   "salary": "$3902439",
-  "projSalary": "$4097561"
+  "projSalary": "$4097561",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488d8"
+    "$oid": "6278b895318b04fff3e8d90b"
   },
   "Rk": 252,
-  "name": "Danuel House Jr.\\houseda01",
+  "Player": "Danuel Houston Rocketsse Jr.\\Houston Rocketsseda01",
   "age": 28,
   "WS": "1",
   "salary": "$3822240",
-  "projSalary": "$4004280"
+  "projSalary": "$4004280",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488d9"
+    "$oid": "6278b895318b04fff3e8d90c"
   },
   "Rk": 253,
-  "name": "Dwight Howard\\howardw01",
+  "Player": "Dwight Howard\\howardw01",
   "age": 36,
   "WS": "3.5",
   "salary": "$3804360",
-  "projSalary": "$5634257"
+  "projSalary": "$5634257",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488da"
+    "$oid": "6278b895318b04fff3e8d90d"
   },
   "Rk": 254,
-  "name": "Markus Howard\\howarma02",
+  "Player": "Markus Howard\\howarma02",
   "age": 22,
   "WS": "0.3",
-  "salary": "$3804150"
+  "salary": "$3804150",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488db"
+    "$oid": "6278b895318b04fff3e8d90e"
   },
   "Rk": 255,
-  "name": "Kevin Huerter\\huertke01",
+  "Player": "Kevin Huerter\\huertke01",
   "age": 23,
   "WS": "2.8",
   "salary": "$3768342",
-  "projSalary": "$9598214"
+  "projSalary": "$9598214",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488dc"
+    "$oid": "6278b895318b04fff3e8d90f"
   },
   "Rk": 256,
-  "name": "Jay Huff\\huffja01",
+  "Player": "Jay Huff\\huffja01",
   "age": 23,
   "WS": "0",
   "salary": "$3749520",
-  "projSalary": "$3936960"
+  "projSalary": "$3936960",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488dd"
+    "$oid": "6278b895318b04fff3e8d910"
   },
   "Rk": 257,
-  "name": "Elijah Hughes\\hugheel01",
+  "Player": "Elijah Hughes\\hugheel01",
   "age": 23,
   "WS": "-0.4",
   "salary": "$3731707",
-  "projSalary": "$3918293"
+  "projSalary": "$3918293",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488de"
+    "$oid": "6278b895318b04fff3e8d911"
   },
   "Rk": 258,
-  "name": "Feron Hunt\\huntfe01",
+  "Player": "Feron Hunt\\huntfe01",
   "age": 22,
   "WS": "0",
   "salary": "$3661976",
-  "projSalary": "$10700000"
+  "projSalary": "$10700000",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488df"
+    "$oid": "6278b895318b04fff3e8d912"
   },
   "Rk": 259,
-  "name": "De'Andre Hunter\\huntede01",
+  "Player": "De'Andre Hunter\\huntede01",
   "age": 24,
   "WS": "1.1",
   "salary": "$4107149",
-  "projSalary": "$3925000"
+  "projSalary": "$3925000",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488e0"
+    "$oid": "6278b895318b04fff3e8d913"
   },
   "Rk": 260,
-  "name": "Chandler Hutchison\\hutchch01",
+  "Player": "Charlotte Hornetsndler HutChicago Bullsson\\hutchch01",
   "age": 25,
   "WS": "0",
   "salary": "$3631200",
-  "projSalary": "$3804360"
+  "projSalary": "$3804360",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488e1"
+    "$oid": "6278b895318b04fff3e8d914"
   },
   "Rk": 261,
-  "name": "Bones Hyland\\hylanbo01",
+  "Player": "Bones Hyland\\hylanbo01",
   "age": 21,
   "WS": "2.4",
   "salary": "$3562080",
-  "projSalary": "$3740160"
+  "projSalary": "$3740160",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488e2"
+    "$oid": "6278b895318b04fff3e8d915"
   },
   "Rk": 262,
-  "name": "Serge Ibaka\\ibakase01",
+  "Player": "Serge Ibaka\\ibakase01",
   "age": 32,
   "WS": "2",
   "salary": "$3500000",
-  "projSalary": "$3500000"
+  "projSalary": "$3500000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488e3"
+    "$oid": "6278b895318b04fff3e8d916"
   },
   "Rk": 263,
-  "name": "Andre Iguodala\\iguodan01",
+  "Player": "Andre IguoDallas Mavericksa\\iguodan01",
   "age": 38,
   "WS": "1.6",
   "salary": "$3500000",
-  "projSalary": "$3500000"
+  "projSalary": "$3500000",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488e4"
+    "$oid": "6278b895318b04fff3e8d917"
   },
   "Rk": 264,
-  "name": "Joe Ingles\\inglejo01",
+  "Player": "Joe Ingles\\inglejo01",
   "age": 34,
   "WS": "2.2",
   "salary": "$3449400",
-  "projSalary": "$3613680"
+  "projSalary": "$3613680",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488e5"
+    "$oid": "6278b895318b04fff3e8d918"
   },
   "Rk": 265,
-  "name": "Brandon Ingram\\ingrabr01",
+  "Player": "Brandon Ingram\\ingrabr01",
   "age": 24,
   "WS": "3.9",
   "salary": "$3383640",
-  "projSalary": "$3552960"
+  "projSalary": "$3552960",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488e6"
+    "$oid": "6278b895318b04fff3e8d919"
   },
   "Rk": 266,
-  "name": "Kyrie Irving\\irvinky01",
+  "Player": "Kyrie Irving\\irvinky01",
   "age": 29,
   "WS": "3.3",
   "salary": "$3333333",
-  "projSalary": "$3492063"
+  "projSalary": "$3492063",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488e7"
+    "$oid": "6278b895318b04fff3e8d91a"
   },
   "Rk": 267,
-  "name": "Wes Iwundu\\iwundwe01",
+  "Player": "Wes Iwundu\\iwundwe01",
   "age": 27,
   "WS": "0.1",
   "salary": "$3300000",
-  "projSalary": "$3465000"
+  "projSalary": "$3465000",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488e8"
+    "$oid": "6278b895318b04fff3e8d91b"
   },
   "Rk": 268,
-  "name": "Frank Jackson\\jacksfr01",
+  "Player": "Frank Jackson\\jacksfr01",
   "age": 23,
   "WS": "0.7",
   "salary": "$3277080",
-  "projSalary": "$3433320"
+  "projSalary": "$3433320",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488e9"
+    "$oid": "6278b895318b04fff3e8d91c"
   },
   "Rk": 269,
-  "name": "Isaiah Jackson\\jacksis01",
+  "Player": "Isaiah Jackson\\jacksis01",
   "age": 20,
   "WS": "1.4",
   "salary": "$3277080",
-  "projSalary": "$3433320"
+  "projSalary": "$3433320",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ea"
+    "$oid": "6278b895318b04fff3e8d91d"
   },
   "Rk": 270,
-  "name": "Jaren Jackson Jr.\\jacksja02",
+  "Player": "Jaren Jackson Jr.\\jacksja02",
   "age": 22,
   "WS": "5.4",
   "salary": "$3261480",
-  "projSalary": "$5009633"
+  "projSalary": "$5009633",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488eb"
+    "$oid": "6278b895318b04fff3e8d91e"
   },
   "Rk": 271,
-  "name": "Josh Jackson\\jacksjo02",
+  "Player": "Josh Jackson\\jacksjo02",
   "age": 24,
   "WS": "0",
   "salary": "$3214680",
-  "projSalary": "$3375480"
+  "projSalary": "$3375480",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ec"
+    "$oid": "6278b895318b04fff3e8d91f"
   },
   "Rk": 272,
-  "name": "Justin Jackson\\jacksju01",
+  "Player": "Justin Jackson\\jacksju01",
   "age": 26,
   "WS": "0",
   "salary": "$12213507",
-  "projSalary": "$12372008"
+  "projSalary": "$12372008",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ed"
+    "$oid": "6278b895318b04fff3e8d920"
   },
   "Rk": 273,
-  "name": "Reggie Jackson\\jacksre01",
+  "Player": "Reggie Jackson\\jacksre01",
   "age": 31,
   "WS": "0.4",
-  "salary": "$3169347"
+  "salary": "$3169347",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ee"
+    "$oid": "6278b895318b04fff3e8d921"
   },
   "Rk": 274,
-  "name": "LeBron James\\jamesle01",
+  "Player": "LeBron James\\jamesle01",
   "age": 37,
   "WS": "7.5",
   "salary": "$3113160",
-  "projSalary": "$3261480"
+  "projSalary": "$3261480",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ef"
+    "$oid": "6278b895318b04fff3e8d922"
   },
   "Rk": 275,
-  "name": "DeJon Jarreau\\jarrede01",
+  "Player": "DeJon Jarreau\\jarrede01",
   "age": 24,
   "WS": "0",
   "salary": "$3098400",
-  "projSalary": "$4765339"
+  "projSalary": "$4765339",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488f0"
+    "$oid": "6278b895318b04fff3e8d923"
   },
   "Rk": 276,
-  "name": "DaQuan Jeffries\\jeffrda01",
+  "Player": "DaQuan Jeffries\\jeffrda01",
   "age": 24,
   "WS": "0",
   "salary": "$3053760",
-  "projSalary": "$3206640"
+  "projSalary": "$3206640",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488f1"
+    "$oid": "6278b895318b04fff3e8d924"
   },
   "Rk": 277,
-  "name": "Ty Jerome\\jeromty01",
+  "Player": "Ty Jerome\\jeromty01",
   "age": 24,
   "WS": "0.5",
   "salary": "$3000000",
-  "projSalary": "$3000000"
+  "projSalary": "$3000000",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488f2"
+    "$oid": "6278b895318b04fff3e8d925"
   },
   "Rk": 278,
-  "name": "Isaiah Joe\\joeis01",
+  "Player": "Isaiah Joe\\joeis01",
   "age": 22,
   "WS": "0.4",
-  "salary": "$3000000"
+  "salary": "$3000000",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488f3"
+    "$oid": "6278b895318b04fff3e8d926"
   },
   "Rk": 279,
-  "name": "Alize Johnson\\johnsal02",
+  "Player": "Alize Johnson\\johnsal02",
   "age": 25,
   "WS": "0.1",
   "salary": "$3000000",
-  "projSalary": "$3150000"
+  "projSalary": "$3150000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488f4"
+    "$oid": "6278b895318b04fff3e8d927"
   },
   "Rk": 280,
-  "name": "B.J. Johnson\\johnsbj01",
+  "Player": "B.J. Johnson\\johnsbj01",
   "age": 26,
   "WS": "0.1",
   "salary": "$2957520",
-  "projSalary": "$3098400"
+  "projSalary": "$3098400",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488f5"
+    "$oid": "6278b895318b04fff3e8d928"
   },
   "Rk": 281,
-  "name": "Cameron Johnson\\johnsca02",
+  "Player": "Cameron Johnson\\johnsca02",
   "age": 25,
   "WS": "5.6",
   "salary": "$2901240",
-  "projSalary": "$3046200"
+  "projSalary": "$3046200",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488f6"
+    "$oid": "6278b895318b04fff3e8d929"
   },
   "Rk": 282,
-  "name": "David Johnson\\johnsda08",
+  "Player": "David Johnson\\johnsda08",
   "age": 20,
   "WS": "0",
   "salary": "$5256308",
-  "projSalary": "$2866667"
+  "projSalary": "$2866667",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488f7"
+    "$oid": "6278b895318b04fff3e8d92a"
   },
   "Rk": 283,
-  "name": "Jalen Johnson\\johnsja05",
+  "Player": "Jalen Johnson\\johnsja05",
   "age": 20,
   "WS": "0",
   "salary": "$2844429",
-  "projSalary": "$2844429"
+  "projSalary": "$2844429",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488f8"
+    "$oid": "6278b895318b04fff3e8d92b"
   },
   "Rk": 284,
-  "name": "James Johnson\\johnsja01",
+  "Player": "James Johnson\\johnsja01",
   "age": 34,
   "WS": "1.7",
   "salary": "$2840160",
-  "projSalary": "$4379527"
+  "projSalary": "$4379527",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488f9"
+    "$oid": "6278b895318b04fff3e8d92c"
   },
   "Rk": 285,
-  "name": "Joe Johnson\\johnsjo02",
+  "Player": "Joe Johnson\\johnsjo02",
   "age": 40,
   "WS": "0",
   "salary": "$2824320",
-  "projSalary": "$2959080"
+  "projSalary": "$2959080",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488fa"
+    "$oid": "6278b895318b04fff3e8d92d"
   },
   "Rk": 286,
-  "name": "Keldon Johnson\\johnske04",
+  "Player": "Keldon Johnson\\johnske04",
   "age": 22,
   "WS": "4.9",
   "salary": "$2770560",
-  "projSalary": "$2909160"
+  "projSalary": "$2909160",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488fb"
+    "$oid": "6278b895318b04fff3e8d92e"
   },
   "Rk": 287,
-  "name": "Keon Johnson\\johnske07",
+  "Player": "Keon Johnson\\johnske07",
   "age": 19,
   "WS": "-0.5",
   "salary": "$2726880",
-  "projSalary": "$4343920"
+  "projSalary": "$4343920",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488fc"
+    "$oid": "6278b895318b04fff3e8d92f"
   },
   "Rk": 288,
-  "name": "Stanley Johnson\\johnsst04",
+  "Player": "Stanley Johnson\\johnsst04",
   "age": 25,
   "WS": "1.8",
   "salary": "$2711280",
-  "projSalary": "$2840160"
+  "projSalary": "$2840160",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488fd"
+    "$oid": "6278b895318b04fff3e8d930"
   },
   "Rk": 289,
-  "name": "Tyler Johnson\\johnsty01",
+  "Player": "Tyler Johnson\\johnsty01",
   "age": 29,
   "WS": "0.1",
   "salary": "$2659560",
-  "projSalary": "$2792520"
+  "projSalary": "$2792520",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488fe"
+    "$oid": "6278b895318b04fff3e8d931"
   },
   "Rk": 290,
-  "name": "Nikola Jokić\\jokicni01",
+  "Player": "Nikola Jokić\\jokicni01",
   "age": 26,
   "WS": "15.2",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69488ff"
+    "$oid": "6278b895318b04fff3e8d932"
   },
   "Rk": 291,
-  "name": "Carlik Jones\\jonesca03",
+  "Player": "Carlik Jones\\jonesca03",
   "age": 24,
   "WS": "-0.1",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948900"
+    "$oid": "6278b895318b04fff3e8d933"
   },
   "Rk": 292,
-  "name": "Damian Jones\\jonesda03",
+  "Player": "DaMiami Heatn Jones\\jonesda03",
   "age": 26,
   "WS": "3.3",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948901"
+    "$oid": "6278b895318b04fff3e8d934"
   },
   "Rk": 293,
-  "name": "Derrick Jones Jr.\\jonesde02",
+  "Player": "Derrick Jones Jr.\\jonesde02",
   "age": 24,
   "WS": "2.2",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948902"
+    "$oid": "6278b895318b04fff3e8d935"
   },
   "Rk": 294,
-  "name": "Herbert Jones\\joneshe01",
+  "Player": "Herbert Jones\\joneshe01",
   "age": 23,
   "WS": "4.6",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948903"
+    "$oid": "6278b895318b04fff3e8d936"
   },
   "Rk": 295,
-  "name": "Jemerrio Jones\\jonesje01",
+  "Player": "Jemerrio Jones\\jonesje01",
   "age": 26,
   "WS": "0.1",
   "salary": "$11109327",
-  "projSalary": "$7827907"
+  "projSalary": "$7827907",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948904"
+    "$oid": "6278b895318b04fff3e8d937"
   },
   "Rk": 296,
-  "name": "Kai Jones\\joneska01",
+  "Player": "Kai Jones\\joneska01",
   "age": 21,
   "WS": "0",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948905"
+    "$oid": "6278b895318b04fff3e8d938"
   },
   "Rk": 297,
-  "name": "Mason Jones\\jonesma05",
+  "Player": "Mason Jones\\jonesma05",
   "age": 23,
   "WS": "0.2",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948906"
+    "$oid": "6278b895318b04fff3e8d939"
   },
   "Rk": 298,
-  "name": "Tre Jones\\jonestr01",
+  "Player": "Tre Jones\\jonestr01",
   "age": 22,
   "WS": "2.9",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948907"
+    "$oid": "6278b895318b04fff3e8d93a"
   },
   "Rk": 299,
-  "name": "Tyus Jones\\jonesty01",
+  "Player": "Tyus Jones\\jonesty01",
   "age": 25,
   "WS": "5.1",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948908"
+    "$oid": "6278b895318b04fff3e8d93b"
   },
   "Rk": 300,
-  "name": "DeAndre Jordan\\jordade01",
+  "Player": "DeAndre Jordan\\jordade01",
   "age": 33,
   "WS": "1.9",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948909"
+    "$oid": "6278b895318b04fff3e8d93c"
   },
   "Rk": 301,
-  "name": "Cory Joseph\\josepco01",
+  "Player": "Cory Joseph\\josepco01",
   "age": 30,
   "WS": "2.5",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694890a"
+    "$oid": "6278b895318b04fff3e8d93d"
   },
   "Rk": 302,
-  "name": "Georgios Kalaitzakis\\kalaige01",
+  "Player": "Georgios Kalaitzakis\\kalaige01",
   "age": 23,
   "WS": "-0.1",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694890b"
+    "$oid": "6278b895318b04fff3e8d93e"
   },
   "Rk": 303,
-  "name": "Frank Kaminsky\\kaminfr01",
+  "Player": "Frank KaMinnesota Timberwolvessky\\kaMinnesota Timberwolvesfr01",
   "age": 28,
   "WS": "0.9",
-  "salary": "$32405817"
+  "salary": "$32405817",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694890c"
+    "$oid": "6278b895318b04fff3e8d93f"
   },
   "Rk": 304,
-  "name": "Luke Kennard\\kennalu01",
+  "Player": "Luke Kennard\\kennalu01",
   "age": 25,
   "WS": "4.5",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694890d"
+    "$oid": "6278b895318b04fff3e8d940"
   },
   "Rk": 305,
-  "name": "Braxton Key\\keybr01",
+  "Player": "Braxton Key\\keybr01",
   "age": 24,
   "WS": "0.2",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694890e"
+    "$oid": "6278b895318b04fff3e8d941"
   },
   "Rk": 306,
-  "name": "George King\\kingge03",
+  "Player": "George King\\kingge03",
   "age": 28,
   "WS": "-0.1",
-  "salary": "$2641691"
+  "salary": "$2641691",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694890f"
+    "$oid": "6278b895318b04fff3e8d942"
   },
   "Rk": 307,
-  "name": "Louis King\\kinglo02",
+  "Player": "Louis King\\kinglo02",
   "age": 22,
   "WS": "0",
   "salary": "$2617800",
-  "projSalary": "$4306281"
+  "projSalary": "$4306281",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948910"
+    "$oid": "6278b895318b04fff3e8d943"
   },
   "Rk": 308,
-  "name": "Corey Kispert\\kispeco01",
+  "Player": "Corey Kispert\\kispeco01",
   "age": 22,
   "WS": "2.3",
   "salary": "$2602920",
-  "projSalary": "$2726880"
+  "projSalary": "$2726880",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948911"
+    "$oid": "6278b895318b04fff3e8d944"
   },
   "Rk": 309,
-  "name": "Maxi Kleber\\klebima01",
+  "Player": "Maxi Kleber\\klebima01",
   "age": 30,
   "WS": "3",
   "salary": "$2553120",
-  "projSalary": "$2681040"
+  "projSalary": "$2681040",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948912"
+    "$oid": "6278b895318b04fff3e8d945"
   },
   "Rk": 310,
-  "name": "Brandon Knight\\knighbr03",
+  "Player": "Brandon Knight\\knighbr03",
   "age": 30,
   "WS": "0.1",
   "salary": "$2513040",
-  "projSalary": "$4264629"
+  "projSalary": "$4264629",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948913"
+    "$oid": "6278b895318b04fff3e8d946"
   },
   "Rk": 311,
-  "name": "Nathan Knight\\knighna01",
+  "Player": "Nathan Knight\\knighna01",
   "age": 24,
   "WS": "1",
   "salary": "$2500000",
-  "projSalary": "$2625000"
+  "projSalary": "$2625000",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948914"
+    "$oid": "6278b895318b04fff3e8d947"
   },
   "Rk": 312,
-  "name": "Kevin Knox\\knoxke01",
+  "Player": "Kevin Knox\\knoxke01",
   "age": 22,
   "WS": "0.2",
   "salary": "$2498760",
-  "projSalary": "$2617800"
+  "projSalary": "$2617800",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948915"
+    "$oid": "6278b895318b04fff3e8d948"
   },
   "Rk": 313,
-  "name": "John Konchar\\konchjo01",
+  "Player": "John KonCharlotte Hornetsr\\konchjo01",
   "age": 25,
   "WS": "4.2",
   "salary": "$2451120",
-  "projSalary": "$2573760"
+  "projSalary": "$2573760",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948916"
+    "$oid": "6278b895318b04fff3e8d949"
   },
   "Rk": 314,
-  "name": "Furkan Korkmaz\\korkmfu01",
+  "Player": "Furkan Korkmaz\\korkmfu01",
   "age": 24,
   "WS": "1.2",
   "salary": "$2412840",
-  "projSalary": "$4220057"
+  "projSalary": "$4220057",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948917"
+    "$oid": "6278b895318b04fff3e8d94a"
   },
   "Rk": 315,
-  "name": "Luke Kornet\\kornelu01",
+  "Player": "Luke Kornet\\kornelu01",
   "age": 26,
   "WS": "0.4",
-  "salary": "$2401537"
+  "salary": "$2401537",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948918"
+    "$oid": "6278b895318b04fff3e8d94b"
   },
   "Rk": 316,
-  "name": "Vit Krejci\\krejcvi01",
+  "Player": "Vit Krejci\\krejcvi01",
   "age": 21,
   "WS": "0.6",
-  "salary": "$2401537"
+  "salary": "$2401537",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948919"
+    "$oid": "6278b895318b04fff3e8d94c"
   },
   "Rk": 317,
-  "name": "Arnoldas Kulboka\\kulboar01",
+  "Player": "Arnoldas Kulboka\\kulboar01",
   "age": 24,
   "WS": "0",
-  "salary": "$2401537"
+  "salary": "$2401537",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694891a"
+    "$oid": "6278b895318b04fff3e8d94d"
   },
   "Rk": 318,
-  "name": "Jonathan Kuminga\\kuminjo01",
+  "Player": "Jonathan KuMinnesota Timberwolvesga\\kuMinnesota Timberwolvesjo01",
   "age": 19,
   "WS": "3",
-  "salary": "$2401537"
+  "salary": "$2401537",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694891b"
+    "$oid": "6278b895318b04fff3e8d94e"
   },
   "Rk": 319,
-  "name": "Kyle Kuzma\\kuzmaky01",
+  "Player": "Kyle Kuzma\\kuzmaky01",
   "age": 26,
   "WS": "2",
   "salary": "$7310000",
-  "projSalary": "$5155000"
+  "projSalary": "$5155000",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694891c"
+    "$oid": "6278b895318b04fff3e8d94f"
   },
   "Rk": 320,
-  "name": "Anthony Lamb\\lamban01",
+  "Player": "Anthony Lamb\\lamban01",
   "age": 24,
   "WS": "0",
-  "salary": "$2389641"
+  "salary": "$2389641",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694891d"
+    "$oid": "6278b895318b04fff3e8d950"
   },
   "Rk": 321,
-  "name": "Jeremy Lamb\\lambje01",
+  "Player": "Jeremy Lamb\\lambje01",
   "age": 29,
   "WS": "1.2",
-  "salary": "$2389641"
+  "salary": "$2389641",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694891e"
+    "$oid": "6278b895318b04fff3e8d951"
   },
   "Rk": 322,
-  "name": "Jock Landale\\landajo01",
+  "Player": "Jock LanDallas Maverickse\\landajo01",
   "age": 26,
   "WS": "1.5",
-  "salary": "$2389641"
+  "salary": "$2389641",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694891f"
+    "$oid": "6278b895318b04fff3e8d952"
   },
   "Rk": 323,
-  "name": "Romeo Langford\\langfro01",
+  "Player": "Romeo Langford\\langfro01",
   "age": 22,
   "WS": "1.3",
-  "salary": "$2389641"
+  "salary": "$2389641",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948920"
+    "$oid": "6278b895318b04fff3e8d953"
   },
   "Rk": 324,
-  "name": "Zach LaVine\\lavinza01",
+  "Player": "Zach LaVine\\lavinza01",
   "age": 26,
   "WS": "5.8",
-  "salary": "$2389641"
+  "salary": "$2389641",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948921"
+    "$oid": "6278b895318b04fff3e8d954"
   },
   "Rk": 325,
-  "name": "Jake Layman\\laymaja01",
+  "Player": "Jake Layman\\laymaja01",
   "age": 27,
   "WS": "0.1",
   "salary": "$5256308",
-  "projSalary": "$2866667"
+  "projSalary": "$2866667",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948922"
+    "$oid": "6278b895318b04fff3e8d955"
   },
   "Rk": 326,
-  "name": "Damion Lee\\leeda03",
+  "Player": "Damion Lee\\leeda03",
   "age": 29,
   "WS": "2.7",
-  "salary": "$2389641"
+  "salary": "$2389641",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948923"
+    "$oid": "6278b895318b04fff3e8d956"
   },
   "Rk": 327,
-  "name": "Saben Lee\\leesa01",
+  "Player": "Saben Lee\\leesa01",
   "age": 22,
   "WS": "0.9",
   "salary": "$2353320",
-  "projSalary": "$2471160"
+  "projSalary": "$2471160",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948924"
+    "$oid": "6278b895318b04fff3e8d957"
   },
   "Rk": 328,
-  "name": "Alex Len\\lenal01",
+  "Player": "Alex Len\\lenal01",
   "age": 28,
   "WS": "0.9",
   "salary": "$2353320",
-  "projSalary": "$2471160"
+  "projSalary": "$2471160",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948925"
+    "$oid": "6278b895318b04fff3e8d958"
   },
   "Rk": 329,
-  "name": "Caris LeVert\\leverca01",
+  "Player": "Caris LeVert\\leverca01",
   "age": 27,
   "WS": "2.2",
   "salary": "$2327220",
-  "projSalary": "$2443581"
+  "projSalary": "$2443581",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948926"
+    "$oid": "6278b895318b04fff3e8d959"
   },
   "Rk": 330,
-  "name": "Kira Lewis Jr.\\lewiski01",
+  "Player": "Kira Lewis Jr.\\lewiski01",
   "age": 20,
   "WS": "-0.1",
   "salary": "$2316240",
-  "projSalary": "$4171548"
+  "projSalary": "$4171548",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948927"
+    "$oid": "6278b895318b04fff3e8d95a"
   },
   "Rk": 331,
-  "name": "Scottie Lewis\\lewissc01",
+  "Player": "Scottie Lewis\\lewissc01",
   "age": 21,
   "WS": "0",
   "salary": "$2303040",
-  "projSalary": "$2412840"
+  "projSalary": "$2412840",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948928"
+    "$oid": "6278b895318b04fff3e8d95b"
   },
   "Rk": 332,
-  "name": "Damian Lillard\\lillada01",
+  "Player": "DaMiami Heatn Lillard\\lillada01",
   "age": 31,
   "WS": "1.7",
   "salary": "$2259240",
-  "projSalary": "$2372160"
+  "projSalary": "$2372160",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948929"
+    "$oid": "6278b895318b04fff3e8d95c"
   },
   "Rk": 333,
-  "name": "Nassir Little\\littlna01",
+  "Player": "Nassir Little\\littlna01",
   "age": 21,
   "WS": "1.7",
-  "salary": "$2245400"
+  "salary": "$2245400",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694892a"
+    "$oid": "6278b895318b04fff3e8d95d"
   },
   "Rk": 334,
-  "name": "Isaiah Livers\\liveris01",
+  "Player": "Isaiah Livers\\liveris01",
   "age": 23,
   "WS": "0.7",
-  "salary": "$2239544"
+  "salary": "$2239544",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694892b"
+    "$oid": "6278b895318b04fff3e8d95e"
   },
   "Rk": 335,
-  "name": "Kevon Looney\\looneke01",
+  "Player": "Kevon Looney\\looneke01",
   "age": 25,
   "WS": "6.8",
-  "salary": "$2239544"
+  "salary": "$2239544",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694892c"
+    "$oid": "6278b895318b04fff3e8d95f"
   },
   "Rk": 336,
-  "name": "Brook Lopez\\lopezbr01",
+  "Player": "Brook Lopez\\lopezbr01",
   "age": 33,
   "WS": "0.7",
   "salary": "$2239200",
-  "projSalary": "$4037278"
+  "projSalary": "$4037278",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694892d"
+    "$oid": "6278b895318b04fff3e8d960"
   },
   "Rk": 337,
-  "name": "Robin Lopez\\lopezro01",
+  "Player": "Robin Lopez\\lopezro01",
   "age": 33,
   "WS": "0.8",
   "salary": "$2210640",
-  "projSalary": "$2316240"
+  "projSalary": "$2316240",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694892e"
+    "$oid": "6278b895318b04fff3e8d961"
   },
   "Rk": 338,
-  "name": "Didi Louzada\\louzama01",
+  "Player": "Didi Louzada\\louzama01",
   "age": 22,
   "WS": "0",
   "salary": "$2197674",
-  "projSalary": "$2302326"
+  "projSalary": "$2302326",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694892f"
+    "$oid": "6278b895318b04fff3e8d962"
   },
   "Rk": 339,
-  "name": "Kevin Love\\loveke01",
+  "Player": "Kevin Love\\loveke01",
   "age": 33,
   "WS": "5.7",
   "salary": "$2168760",
-  "projSalary": "$2277000"
+  "projSalary": "$2277000",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948930"
+    "$oid": "6278b895318b04fff3e8d963"
   },
   "Rk": 340,
-  "name": "Kyle Lowry\\lowryky01",
+  "Player": "Kyle Lowry\\lowryky01",
   "age": 35,
   "WS": "6.4",
   "salary": "$2161440",
-  "projSalary": "$3901399"
+  "projSalary": "$3901399",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948931"
+    "$oid": "6278b895318b04fff3e8d964"
   },
   "Rk": 341,
-  "name": "Gabriel Lundberg\\lundbga01",
+  "Player": "Gabriel Lundberg\\lundbga01",
   "age": 27,
   "WS": "0",
-  "salary": "$2161152"
+  "salary": "$2161152",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948932"
+    "$oid": "6278b895318b04fff3e8d965"
   },
   "Rk": 342,
-  "name": "Timothé Luwawu-Cabarrot\\luwawti01",
+  "Player": "Timothé Luwawu-Cabarrot\\luwawti01",
   "age": 26,
   "WS": "0.9",
   "salary": "$2145720",
-  "projSalary": "$3873025"
+  "projSalary": "$3873025",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948933"
+    "$oid": "6278b895318b04fff3e8d966"
   },
   "Rk": 343,
-  "name": "Trey Lyles\\lylestr01",
+  "Player": "Trey Lyles\\lylestr01",
   "age": 26,
   "WS": "3.5",
   "salary": "$2137440",
-  "projSalary": "$2239200"
+  "projSalary": "$2239200",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948934"
+    "$oid": "6278b895318b04fff3e8d967"
   },
   "Rk": 344,
-  "name": "Théo Maledon\\maledth01",
+  "Player": "Théo Maledon\\maledth01",
   "age": 20,
   "WS": "0.3",
   "salary": "$2130240",
-  "projSalary": "$3845083"
+  "projSalary": "$3845083",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948935"
+    "$oid": "6278b895318b04fff3e8d968"
   },
   "Rk": 345,
-  "name": "Sandro Mamukelashvili\\mamuksa01",
+  "Player": "Sandro Mamukelashvili\\mamuksa01",
   "age": 22,
   "WS": "1.1",
   "salary": "$2096880",
-  "projSalary": "$2201400"
+  "projSalary": "$2201400",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948936"
+    "$oid": "6278b895318b04fff3e8d969"
   },
   "Rk": 346,
-  "name": "Terance Mann\\mannte01",
+  "Player": "Terance Mann\\mannte01",
   "age": 25,
   "WS": "5.5",
-  "salary": "$2089448"
+  "salary": "$2089448",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948937"
+    "$oid": "6278b895318b04fff3e8d96a"
   },
   "Rk": 347,
-  "name": "Tre Mann\\manntr01",
+  "Player": "Tre Mann\\manntr01",
   "age": 20,
   "WS": "0.1",
-  "salary": "$2089448"
+  "salary": "$2089448",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948938"
+    "$oid": "6278b895318b04fff3e8d96b"
   },
   "Rk": 348,
-  "name": "Boban Marjanović\\marjabo01",
+  "Player": "Boban Marjanović\\marjabo01",
   "age": 33,
   "WS": "0.1",
-  "salary": "$2089448"
+  "salary": "$2089448",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948939"
+    "$oid": "6278b895318b04fff3e8d96c"
   },
   "Rk": 349,
-  "name": "Lauri Markkanen\\markkla01",
+  "Player": "Lauri Markkanen\\markkla01",
   "age": 24,
   "WS": "5",
   "salary": "$2075880",
-  "projSalary": "$2174880"
+  "projSalary": "$2174880",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694893a"
+    "$oid": "6278b895318b04fff3e8d96d"
   },
   "Rk": 350,
-  "name": "Naji Marshall\\marshna01",
+  "Player": "Naji Marshall\\marshna01",
   "age": 24,
   "WS": "0.8",
   "salary": "$2063280",
-  "projSalary": "$2161440"
+  "projSalary": "$2161440",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694893b"
+    "$oid": "6278b895318b04fff3e8d96e"
   },
   "Rk": 351,
-  "name": "Caleb Martin\\martica02",
+  "Player": "Caleb Martin\\martica02",
   "age": 26,
   "WS": "4",
   "salary": "$2048040",
-  "projSalary": "$2145720"
+  "projSalary": "$2145720",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694893c"
+    "$oid": "6278b895318b04fff3e8d96f"
   },
   "Rk": 352,
-  "name": "Cody Martin\\martico01",
+  "Player": "Cody Martin\\martico01",
   "age": 26,
   "WS": "3.9",
   "salary": "$2036280",
-  "projSalary": "$2138160"
+  "projSalary": "$2138160",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694893d"
+    "$oid": "6278b895318b04fff3e8d970"
   },
   "Rk": 353,
-  "name": "Kelan Martin\\martike03",
+  "Player": "Kelan Martin\\martike03",
   "age": 26,
   "WS": "0",
   "salary": "$2033160",
-  "projSalary": "$2130240"
+  "projSalary": "$2130240",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694893e"
+    "$oid": "6278b895318b04fff3e8d971"
   },
   "Rk": 354,
-  "name": "Kenyon Martin Jr.\\martike04",
+  "Player": "Kenyon Martin Jr.\\martike04",
   "age": 21,
   "WS": "2.9",
   "salary": "$2023800",
-  "projSalary": "$2125200"
+  "projSalary": "$2125200",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694893f"
+    "$oid": "6278b895318b04fff3e8d972"
   },
   "Rk": 355,
-  "name": "Garrison Mathews\\mathega01",
+  "Player": "Garrison Mathews\\mathega01",
   "age": 25,
   "WS": "2.8",
   "salary": "$2009040",
-  "projSalary": "$2109360"
+  "projSalary": "$2109360",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948940"
+    "$oid": "6278b895318b04fff3e8d973"
   },
   "Rk": 356,
-  "name": "Dakota Mathias\\mathida01",
+  "Player": "Dakota Mathias\\mathida01",
   "age": 26,
   "WS": "0",
   "salary": "$2000000",
-  "projSalary": "$2000000"
+  "projSalary": "$2000000",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948941"
+    "$oid": "6278b895318b04fff3e8d974"
   },
   "Rk": 357,
-  "name": "Wesley Matthews\\matthwe02",
+  "Player": "Wesley Matthews\\matthwe02",
   "age": 35,
   "WS": "1.2",
   "salary": "$2000000",
-  "projSalary": "$2000000"
+  "projSalary": "$2000000",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948942"
+    "$oid": "6278b895318b04fff3e8d975"
   },
   "Rk": 358,
-  "name": "Tyrese Maxey\\maxeyty01",
+  "Player": "Tyrese Maxey\\maxeyty01",
   "age": 21,
   "WS": "7.3",
-  "salary": "$2000000"
+  "salary": "$2000000",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948943"
+    "$oid": "6278b895318b04fff3e8d976"
   },
   "Rk": 359,
-  "name": "Skylar Mays\\mayssk01",
+  "Player": "Skylar Mays\\mayssk01",
   "age": 24,
   "WS": "0.3",
   "salary": "$2000000",
-  "projSalary": "$1900000"
+  "projSalary": "$1900000",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948944"
+    "$oid": "6278b895318b04fff3e8d977"
   },
   "Rk": 360,
-  "name": "Miles McBride\\mcbrimi01",
+  "Player": "Milwaukee Buckses McBride\\mcbrimi01",
   "age": 21,
   "WS": "0.2",
   "salary": "$2000000",
-  "projSalary": "$2000000"
+  "projSalary": "$2000000",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948945"
+    "$oid": "6278b895318b04fff3e8d978"
   },
   "Rk": 361,
-  "name": "Mac McClung\\mccluma01",
+  "Player": "Mac McClung\\mccluma01",
   "age": 23,
   "WS": "0",
   "salary": "$1994520",
-  "projSalary": "$2094240"
+  "projSalary": "$2094240",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948946"
+    "$oid": "6278b895318b04fff3e8d979"
   },
   "Rk": 362,
-  "name": "CJ McCollum\\mccolcj01",
+  "Player": "CJ McCollum\\mccolcj01",
   "age": 30,
   "WS": "3.6",
-  "salary": "$1977011"
+  "salary": "$1977011",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948947"
+    "$oid": "6278b895318b04fff3e8d97a"
   },
   "Rk": 363,
-  "name": "T.J. McConnell\\mccontj01",
+  "Player": "T.J. McConnell\\mccontj01",
   "age": 29,
   "WS": "1.3",
-  "salary": "$1958501"
+  "salary": "$1958501",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948948"
+    "$oid": "6278b895318b04fff3e8d97b"
   },
   "Rk": 364,
-  "name": "Jaden McDaniels\\mcdanja02",
+  "Player": "JaDenver Nuggets McDaniels\\mcdanja02",
   "age": 21,
   "WS": "2.4",
-  "salary": "$1939350"
+  "salary": "$1939350",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948949"
+    "$oid": "6278b895318b04fff3e8d97c"
   },
   "Rk": 365,
-  "name": "Jalen McDaniels\\mcdanja01",
+  "Player": "Jalen McDaniels\\mcdanja01",
   "age": 24,
   "WS": "1.7",
-  "salary": "$2541217"
+  "salary": "$2541217",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694894a"
+    "$oid": "6278b895318b04fff3e8d97d"
   },
   "Rk": 366,
-  "name": "Doug McDermott\\mcderdo01",
+  "Player": "Doug McDermott\\mcderdo01",
   "age": 30,
   "WS": "1.6",
-  "salary": "$1939350"
+  "salary": "$1939350",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694894b"
+    "$oid": "6278b895318b04fff3e8d97e"
   },
   "Rk": 367,
-  "name": "JaVale McGee\\mcgeeja01",
+  "Player": "JaVale McGee\\mcgeeja01",
   "age": 34,
   "WS": "4.9",
-  "salary": "$1939350"
+  "salary": "$1939350",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694894c"
+    "$oid": "6278b895318b04fff3e8d97f"
   },
   "Rk": 368,
-  "name": "Cameron McGriff\\mcgrica01",
+  "Player": "Cameron McGriff\\mcgrica01",
   "age": 24,
   "WS": "0.1",
-  "salary": "$1910860"
+  "salary": "$1910860",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694894d"
+    "$oid": "6278b895318b04fff3e8d980"
   },
   "Rk": 369,
-  "name": "Rodney McGruder\\mcgruro01",
+  "Player": "Rodney McGruder\\mcgruro01",
   "age": 30,
   "WS": "1.2",
-  "salary": "$1910860"
+  "salary": "$1910860",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694894e"
+    "$oid": "6278b895318b04fff3e8d981"
   },
   "Rk": 370,
-  "name": "Alfonzo McKinnie\\mckinal01",
+  "Player": "Alfonzo McKinnie\\mckinal01",
   "age": 29,
   "WS": "-0.1",
-  "salary": "$1865547"
+  "salary": "$1865547",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694894f"
+    "$oid": "6278b895318b04fff3e8d982"
   },
   "Rk": 371,
-  "name": "JaQuori McLaughlin\\mclauja01",
+  "Player": "JaQuori McLaughlin\\mclauja01",
   "age": 24,
   "WS": "0",
   "salary": "$1846738",
-  "projSalary": "$1997718"
+  "projSalary": "$1997718",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948950"
+    "$oid": "6278b895318b04fff3e8d983"
   },
   "Rk": 372,
-  "name": "Jordan McLaughlin\\mclaujo01",
+  "Player": "Jordan McLaughlin\\mclaujo01",
   "age": 25,
   "WS": "2.3",
-  "salary": "$1802057"
+  "salary": "$1802057",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948951"
+    "$oid": "6278b895318b04fff3e8d984"
   },
   "Rk": 373,
-  "name": "Ben McLemore\\mclembe01",
+  "Player": "Ben MCleveland Cavaliersmore\\mCleveland Cavaliersmbe01",
   "age": 28,
   "WS": "0.8",
-  "salary": "$1802057"
+  "salary": "$1802057",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948952"
+    "$oid": "6278b895318b04fff3e8d985"
   },
   "Rk": 374,
-  "name": "De'Anthony Melton\\meltode01",
+  "Player": "De'Anthony Melton\\meltode01",
   "age": 23,
   "WS": "3.7",
-  "salary": "$1789256"
+  "salary": "$1789256",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948953"
+    "$oid": "6278b895318b04fff3e8d986"
   },
   "Rk": 375,
-  "name": "Sam Merrill\\merrisa01",
+  "Player": "Sam Merrill\\merrisa01",
   "age": 25,
   "WS": "0",
-  "salary": "$1789256"
+  "salary": "$1789256",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948954"
+    "$oid": "6278b895318b04fff3e8d987"
   },
   "Rk": 376,
-  "name": "Chimezie Metu\\metuch01",
+  "Player": "Chicago Bullsmezie Metu\\metuch01",
   "age": 24,
   "WS": "1.5",
-  "salary": "$1789256"
+  "salary": "$1789256",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948955"
+    "$oid": "6278b895318b04fff3e8d988"
   },
   "Rk": 377,
-  "name": "Khris Middleton\\middlkh01",
+  "Player": "Khris Middleton\\middlkh01",
   "age": 30,
   "WS": "5.3",
   "salary": "$1789256",
-  "projSalary": "$2036318"
+  "projSalary": "$2036318",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948956"
+    "$oid": "6278b895318b04fff3e8d989"
   },
   "Rk": 378,
-  "name": "C.J. Miles\\milescj01",
+  "Player": "C.J. Milwaukee Buckses\\Milwaukee Bucksescj01",
   "age": 34,
   "WS": "0",
   "salary": "$1789256",
-  "projSalary": "$2036318"
+  "projSalary": "$2036318",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948957"
+    "$oid": "6278b895318b04fff3e8d98a"
   },
   "Rk": 379,
-  "name": "Patty Mills\\millspa02",
+  "Player": "Patty Milwaukee Bucksls\\Milwaukee Buckslspa02",
   "age": 33,
   "WS": "2.8",
   "salary": "$1786878",
-  "projSalary": "$1876222"
+  "projSalary": "$1876222",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948958"
+    "$oid": "6278b895318b04fff3e8d98b"
   },
   "Rk": 380,
-  "name": "Paul Millsap\\millspa01",
+  "Player": "Paul Milwaukee Buckslsap\\Milwaukee Buckslspa01",
   "age": 36,
   "WS": "0.5",
   "salary": "$1782621",
-  "projSalary": "$1930681"
+  "projSalary": "$1930681",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948959"
+    "$oid": "6278b895318b04fff3e8d98c"
   },
   "Rk": 381,
-  "name": "Shake Milton\\miltosh01",
+  "Player": "Shake Milwaukee Buckston\\Milwaukee Buckstosh01",
   "age": 25,
   "WS": "1.7",
   "salary": "$1782621",
-  "projSalary": "$1930681"
+  "projSalary": "$1930681",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694895a"
+    "$oid": "6278b895318b04fff3e8d98d"
   },
   "Rk": 382,
-  "name": "Davion Mitchell\\mitchda01",
+  "Player": "Davion Mitchell\\mitchda01",
   "age": 23,
   "WS": "0.1",
-  "salary": "$1782621"
+  "salary": "$1782621",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694895b"
+    "$oid": "6278b895318b04fff3e8d98e"
   },
   "Rk": 383,
-  "name": "Donovan Mitchell\\mitchdo01",
+  "Player": "Donovan Mitchell\\mitchdo01",
   "age": 25,
   "WS": "7.2",
-  "salary": "$1782621"
+  "salary": "$1782621",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694895c"
+    "$oid": "6278b895318b04fff3e8d98f"
   },
   "Rk": 384,
-  "name": "Evan Mobley\\mobleev01",
+  "Player": "Evan Mobley\\mobleev01",
   "age": 20,
   "WS": "5.2",
   "salary": "$76744",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694895d"
+    "$oid": "6278b895318b04fff3e8d990"
   },
   "Rk": 385,
-  "name": "Malik Monk\\monkma01",
+  "Player": "Malik Monk\\monkma01",
   "age": 23,
   "WS": "3.6",
-  "salary": "$1782621"
+  "salary": "$1782621",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694895e"
+    "$oid": "6278b895318b04fff3e8d991"
   },
   "Rk": 386,
-  "name": "Greg Monroe\\monrogr01",
+  "Player": "Greg Monroe\\monrogr01",
   "age": 31,
   "WS": "0.7",
-  "salary": "$1782621"
+  "salary": "$1782621",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694895f"
+    "$oid": "6278b895318b04fff3e8d992"
   },
   "Rk": 387,
-  "name": "Moses Moody\\moodymo01",
+  "Player": "Moses Moody\\moodymo01",
   "age": 19,
   "WS": "1.3",
-  "salary": "$1782621"
+  "salary": "$1782621",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948960"
+    "$oid": "6278b895318b04fff3e8d993"
   },
   "Rk": 388,
-  "name": "Xavier Moon\\moonxa01",
+  "Player": "Xavier Moon\\moonxa01",
   "age": 27,
   "WS": "0.3",
   "salary": "$1782621",
-  "projSalary": "$1930681"
+  "projSalary": "$1930681",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948961"
+    "$oid": "6278b895318b04fff3e8d994"
   },
   "Rk": 389,
-  "name": "Matt Mooney\\moonema01",
+  "Player": "Matt Mooney\\moonema01",
   "age": 24,
   "WS": "0",
   "salary": "$1782621",
-  "projSalary": "$1930681"
+  "projSalary": "$1930681",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948962"
+    "$oid": "6278b895318b04fff3e8d995"
   },
   "Rk": 390,
-  "name": "Ja Morant\\moranja01",
+  "Player": "Ja Morant\\moranja01",
   "age": 22,
   "WS": "6.7",
   "salary": "$1782621",
-  "projSalary": "$1930681"
+  "projSalary": "$1930681",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948963"
+    "$oid": "6278b895318b04fff3e8d996"
   },
   "Rk": 391,
-  "name": "Juwan Morgan\\morgaju01",
+  "Player": "Juwan Morgan\\morgaju01",
   "age": 24,
   "WS": "0.1",
   "salary": "$1782621",
-  "projSalary": "$1930681"
+  "projSalary": "$1930681",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948964"
+    "$oid": "6278b895318b04fff3e8d997"
   },
   "Rk": 392,
-  "name": "Jaylen Morris\\morrija01",
+  "Player": "Jaylen Morris\\morrija01",
   "age": 26,
   "WS": "-0.1",
-  "salary": "$1782621"
+  "salary": "$1782621",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948965"
+    "$oid": "6278b895318b04fff3e8d998"
   },
   "Rk": 393,
-  "name": "Marcus Morris\\morrima03",
+  "Player": "Marcus Morris\\morrima03",
   "age": 32,
   "WS": "2.4",
   "salary": "$1782621",
-  "projSalary": "$1930681"
+  "projSalary": "$1930681",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948966"
+    "$oid": "6278b895318b04fff3e8d999"
   },
   "Rk": 394,
-  "name": "Markieff Morris\\morrima02",
+  "Player": "Markieff Morris\\morrima02",
   "age": 32,
   "WS": "0.3",
   "salary": "$1782621",
-  "projSalary": "$1930681"
+  "projSalary": "$1930681",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948967"
+    "$oid": "6278b895318b04fff3e8d99a"
   },
   "Rk": 395,
-  "name": "Monte Morris\\morrimo01",
+  "Player": "Monte Morris\\morrimo01",
   "age": 26,
   "WS": "5.4",
-  "salary": "$1762796"
+  "salary": "$1762796",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948968"
+    "$oid": "6278b895318b04fff3e8d99b"
   },
   "Rk": 396,
-  "name": "Emmanuel Mudiay\\mudiaem01",
+  "Player": "Emmanuel Mudiay\\mudiaem01",
   "age": 25,
   "WS": "0",
   "salary": "$1762796",
-  "projSalary": "$1910860"
+  "projSalary": "$1910860",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948969"
+    "$oid": "6278b895318b04fff3e8d99c"
   },
   "Rk": 397,
-  "name": "Mychal Mulder\\muldemy01",
+  "Player": "MyCharlotte Hornetsl Mulder\\muldemy01",
   "age": 27,
   "WS": "-0.2",
-  "salary": "$1762769"
+  "salary": "$1762769",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694896a"
+    "$oid": "6278b895318b04fff3e8d99d"
   },
   "Rk": 398,
-  "name": "Ade Murkey\\murkead01",
+  "Player": "Ade Murkey\\murkead01",
   "age": 24,
   "WS": "0",
   "salary": "$1729217",
-  "projSalary": "$1878720"
+  "projSalary": "$1878720",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694896b"
+    "$oid": "6278b895318b04fff3e8d99e"
   },
   "Rk": 399,
-  "name": "Trey Murphy III\\murphtr02",
+  "Player": "Trey Murphy III\\murphtr02",
   "age": 21,
   "WS": "1.9",
   "salary": "$1729217",
-  "projSalary": "$1878720"
+  "projSalary": "$1878720",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694896c"
+    "$oid": "6278b895318b04fff3e8d99f"
   },
   "Rk": 400,
-  "name": "Dejounte Murray\\murrade01",
+  "Player": "Dejounte Murray\\murrade01",
   "age": 25,
   "WS": "7.3",
   "salary": "$1729217",
-  "projSalary": "$1878720"
+  "projSalary": "$1878720",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694896d"
+    "$oid": "6278b895318b04fff3e8d9a0"
   },
   "Rk": 401,
-  "name": "Mike Muscala\\muscami01",
+  "Player": "Mike Muscala\\muscami01",
   "age": 30,
   "WS": "2.1",
   "salary": "$1729217",
-  "projSalary": "$1878720"
+  "projSalary": "$1878720",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694896e"
+    "$oid": "6278b895318b04fff3e8d9a1"
   },
   "Rk": 402,
-  "name": "Svi Mykhailiuk\\mykhasv01",
+  "Player": "Svi Mykhailiuk\\mykhasv01",
   "age": 24,
   "WS": "0.8",
-  "salary": "$1729217"
+  "salary": "$1729217",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694896f"
+    "$oid": "6278b895318b04fff3e8d9a2"
   },
   "Rk": 403,
-  "name": "Abdel Nader\\naderab01",
+  "Player": "Abdel Nader\\naderab01",
   "age": 28,
   "WS": "0",
-  "salary": "$3430810"
+  "salary": "$3430810",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948970"
+    "$oid": "6278b895318b04fff3e8d9a3"
   },
   "Rk": 404,
-  "name": "Larry Nance Jr.\\nancela02",
+  "Player": "Larry Nance Jr.\\nancela02",
   "age": 29,
   "WS": "2.3",
-  "salary": "$1701593"
+  "salary": "$1701593",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948971"
+    "$oid": "6278b895318b04fff3e8d9a4"
   },
   "Rk": 405,
-  "name": "RJ Nembhard Jr.\\nembhrj01",
+  "Player": "RJ Nembhard Jr.\\nembhrj01",
   "age": 22,
   "WS": "0",
-  "salary": "$1720779"
+  "salary": "$1720779",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948972"
+    "$oid": "6278b895318b04fff3e8d9a5"
   },
   "Rk": 406,
-  "name": "Aaron Nesmith\\nesmiaa01",
+  "Player": "Aaron Nesmith\\nesMiami Heata01",
   "age": 22,
   "WS": "0.4",
   "salary": "$1701593",
-  "projSalary": "$1846738"
+  "projSalary": "$1846738",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948973"
+    "$oid": "6278b895318b04fff3e8d9a6"
   },
   "Rk": 407,
-  "name": "Raul Neto\\netora01",
+  "Player": "Raul Neto\\neToronto Raptorssa01",
   "age": 29,
   "WS": "1.5",
-  "salary": "$3430810"
+  "salary": "$3430810",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948974"
+    "$oid": "6278b895318b04fff3e8d9a7"
   },
   "Rk": 408,
-  "name": "Malik Newman\\newmama01",
+  "Player": "Malik Newman\\newmama01",
   "age": 24,
   "WS": "0",
   "salary": "$1700000",
-  "projSalary": "$1785000"
+  "projSalary": "$1785000",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948975"
+    "$oid": "6278b895318b04fff3e8d9a8"
   },
   "Rk": 409,
-  "name": "Georges Niang\\niangge01",
+  "Player": "Georges Niang\\niangge01",
   "age": 28,
   "WS": "2.8",
-  "salary": "$1690507"
+  "salary": "$1690507",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948976"
+    "$oid": "6278b895318b04fff3e8d9a9"
   },
   "Rk": 410,
-  "name": "Daishen Nix\\nixda01",
+  "Player": "Daishen Nix\\nixda01",
   "age": 19,
   "WS": "-0.2",
   "salary": "$1669178",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948977"
+    "$oid": "6278b895318b04fff3e8d9aa"
   },
   "Rk": 411,
-  "name": "Zeke Nnaji\\nnajize01",
+  "Player": "Zeke Nnaji\\nnajize01",
   "age": 21,
   "WS": "1.8",
   "salary": "$1669178",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948978"
+    "$oid": "6278b895318b04fff3e8d9ab"
   },
   "Rk": 412,
-  "name": "Nerlens Noel\\noelne01",
+  "Player": "Nerlens Noel\\noelne01",
   "age": 27,
   "WS": "1.5",
   "salary": "$1669178",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948979"
+    "$oid": "6278b895318b04fff3e8d9ac"
   },
   "Rk": 413,
-  "name": "Jaylen Nowell\\nowelja01",
+  "Player": "Jaylen Nowell\\nowelja01",
   "age": 22,
   "WS": "2.8",
   "salary": "$1669178",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694897a"
+    "$oid": "6278b895318b04fff3e8d9ad"
   },
   "Rk": 414,
-  "name": "Frank Ntilikina\\ntilila01",
+  "Player": "Frank Ntilikina\\ntilila01",
   "age": 23,
   "WS": "0.9",
-  "salary": "$1669178"
+  "salary": "$1669178",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694897b"
+    "$oid": "6278b895318b04fff3e8d9ae"
   },
   "Rk": 415,
-  "name": "Jusuf Nurkić\\nurkiju01",
+  "Player": "Jusuf Nurkić\\nurkiju01",
   "age": 27,
   "WS": "3.6",
-  "salary": "$1669178"
+  "salary": "$1669178",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694897c"
+    "$oid": "6278b895318b04fff3e8d9af"
   },
   "Rk": 416,
-  "name": "David Nwaba\\nwabada01",
+  "Player": "David Nwaba\\nwabada01",
   "age": 29,
   "WS": "1.3",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694897d"
+    "$oid": "6278b895318b04fff3e8d9b0"
   },
   "Rk": 417,
-  "name": "Jordan Nwora\\nworajo01",
+  "Player": "Jordan Nwora\\nworajo01",
   "age": 23,
   "WS": "0.6",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694897e"
+    "$oid": "6278b895318b04fff3e8d9b1"
   },
   "Rk": 418,
-  "name": "Royce O'Neale\\onealro01",
+  "Player": "Royce O'Neale\\onealro01",
   "age": 28,
   "WS": "5.5",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694897f"
+    "$oid": "6278b895318b04fff3e8d9b2"
   },
   "Rk": 419,
-  "name": "Semi Ojeleye\\ojelese01",
+  "Player": "Semi Ojeleye\\ojelese01",
   "age": 27,
   "WS": "0.2",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948980"
+    "$oid": "6278b895318b04fff3e8d9b3"
   },
   "Rk": 420,
-  "name": "Chuma Okeke\\okekech01",
+  "Player": "Chuma Okeke\\okekech01",
   "age": 23,
   "WS": "2.2",
-  "salary": "$1517981"
+  "salary": "$1517981",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948981"
+    "$oid": "6278b895318b04fff3e8d9b4"
   },
   "Rk": 421,
-  "name": "Josh Okogie\\okogijo01",
+  "Player": "Josh Okogie\\okogijo01",
   "age": 23,
   "WS": "0.7",
-  "salary": "$1517981"
+  "salary": "$1517981",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948982"
+    "$oid": "6278b895318b04fff3e8d9b5"
   },
   "Rk": 422,
-  "name": "Onyeka Okongwu\\okongon01",
+  "Player": "Onyeka Okongwu\\okongon01",
   "age": 21,
   "WS": "4.2",
-  "salary": "$1517981"
+  "salary": "$1517981",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948983"
+    "$oid": "6278b895318b04fff3e8d9b6"
   },
   "Rk": 423,
-  "name": "Isaac Okoro\\okorois01",
+  "Player": "Isaac Okoro\\okorois01",
   "age": 21,
   "WS": "4.2",
-  "salary": "$1517981"
+  "salary": "$1517981",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948984"
+    "$oid": "6278b895318b04fff3e8d9b7"
   },
   "Rk": 424,
-  "name": "KZ Okpala\\okpalkz01",
+  "Player": "KZ Okpala\\okpalkz01",
   "age": 22,
   "WS": "0.5",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948985"
+    "$oid": "6278b895318b04fff3e8d9b8"
   },
   "Rk": 425,
-  "name": "Victor Oladipo\\oladivi01",
+  "Player": "VicToronto Raptorss Oladipo\\oladivi01",
   "age": 29,
   "WS": "0.4",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948986"
+    "$oid": "6278b895318b04fff3e8d9b9"
   },
   "Rk": 426,
-  "name": "Cameron Oliver\\oliveca01",
+  "Player": "Cameron Oliver\\oliveca01",
   "age": 25,
   "WS": "0.2",
-  "salary": "$1517981"
+  "salary": "$1517981",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948987"
+    "$oid": "6278b895318b04fff3e8d9ba"
   },
   "Rk": 427,
-  "name": "Kelly Olynyk\\olynyke01",
+  "Player": "Kelly OlyNew York Knicks\\olyNew York Knickse01",
   "age": 30,
   "WS": "1.6",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948988"
+    "$oid": "6278b895318b04fff3e8d9bb"
   },
   "Rk": 428,
-  "name": "Eugene Omoruyi\\omorueu01",
+  "Player": "Eugene Omoruyi\\omorueu01",
   "age": 24,
   "WS": "0.1",
-  "salary": "$1517981"
+  "salary": "$1517981",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948989"
+    "$oid": "6278b895318b04fff3e8d9bc"
   },
   "Rk": 429,
-  "name": "Miye Oni\\onimi01",
+  "Player": "Miye Oni\\onimi01",
   "age": 24,
   "WS": "0",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694898a"
+    "$oid": "6278b895318b04fff3e8d9bd"
   },
   "Rk": 430,
-  "name": "Cedi Osman\\osmande01",
+  "Player": "Cedi Osman\\osmande01",
   "age": 26,
   "WS": "2.9",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694898b"
+    "$oid": "6278b895318b04fff3e8d9be"
   },
   "Rk": 431,
-  "name": "Daniel Oturu\\oturuda01",
+  "Player": "Daniel Oturu\\oturuda01",
   "age": 22,
   "WS": "0.1",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694898c"
+    "$oid": "6278b895318b04fff3e8d9bf"
   },
   "Rk": 432,
-  "name": "Kelly Oubre Jr.\\oubreke01",
+  "Player": "Kelly Oubre Jr.\\oubreke01",
   "age": 26,
   "WS": "3.3",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694898d"
+    "$oid": "6278b895318b04fff3e8d9c0"
   },
   "Rk": 433,
-  "name": "Jaysean Paige\\paigeja01",
+  "Player": "Jaysean Paige\\paigeja01",
   "age": 27,
   "WS": "-0.1",
   "salary": "$1500000",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694898e"
+    "$oid": "6278b895318b04fff3e8d9c1"
   },
   "Rk": 434,
-  "name": "Trayvon Palmer\\palmetr01",
+  "Player": "Trayvon Palmer\\palmetr01",
   "age": 27,
   "WS": "0",
   "salary": "$1500000",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694898f"
+    "$oid": "6278b895318b04fff3e8d9c2"
   },
   "Rk": 435,
-  "name": "Kevin Pangos\\pangoke01",
+  "Player": "Kevin Pangos\\pangoke01",
   "age": 29,
   "WS": "0.1",
   "salary": "$1489065",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948990"
+    "$oid": "6278b895318b04fff3e8d9c3"
   },
   "Rk": 436,
-  "name": "Jabari Parker\\parkeja01",
+  "Player": "Jabari Parker\\parkeja01",
   "age": 26,
   "WS": "0.3",
   "salary": "$1489065",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948991"
+    "$oid": "6278b895318b04fff3e8d9c4"
   },
   "Rk": 437,
-  "name": "Eric Paschall\\pascher01",
+  "Player": "Eric PasCharlotte Hornetsll\\pascher01",
   "age": 25,
   "WS": "2",
   "salary": "$1625991",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948992"
+    "$oid": "6278b895318b04fff3e8d9c5"
   },
   "Rk": 438,
-  "name": "Chris Paul\\paulch01",
+  "Player": "Chris Paul\\paulch01",
   "age": 36,
   "WS": "9.4",
-  "salary": "$1456666"
+  "salary": "$1456666",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948993"
+    "$oid": "6278b895318b04fff3e8d9c6"
   },
   "Rk": 439,
-  "name": "Cameron Payne\\payneca01",
+  "Player": "Cameron Payne\\payneca01",
   "age": 27,
   "WS": "1.9",
-  "salary": "$2045094"
+  "salary": "$2045094",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948994"
+    "$oid": "6278b895318b04fff3e8d9c7"
   },
   "Rk": 440,
-  "name": "Elfrid Payton\\paytoel01",
+  "Player": "Elfrid Payton\\paytoel01",
   "age": 27,
   "WS": "-0.2",
-  "salary": "$1366392"
+  "salary": "$1366392",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948995"
+    "$oid": "6278b895318b04fff3e8d9c8"
   },
   "Rk": 441,
-  "name": "Gary Payton II\\paytoga02",
+  "Player": "Gary Payton II\\paytoga02",
   "age": 29,
   "WS": "5.2",
   "salary": "$4000000",
-  "projSalary": "$4000000"
+  "projSalary": "$4000000",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948996"
+    "$oid": "6278b895318b04fff3e8d9c9"
   },
   "Rk": 442,
-  "name": "Norvel Pelle\\pelleno01",
+  "Player": "Norvel Pelle\\pelleno01",
   "age": 28,
   "WS": "0",
-  "salary": "$1252127"
+  "salary": "$1252127",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948997"
+    "$oid": "6278b895318b04fff3e8d9ca"
   },
   "Rk": 443,
-  "name": "Reggie Perry\\perryre01",
+  "Player": "Reggie Perry\\perryre01",
   "age": 21,
   "WS": "0.2",
   "salary": "$1250000",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948998"
+    "$oid": "6278b895318b04fff3e8d9cb"
   },
   "Rk": 444,
-  "name": "Jamorko Pickett\\pickeja01",
+  "Player": "Jamorko Pickett\\pickeja01",
   "age": 24,
   "WS": "0.1",
   "salary": "$1093598",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948999"
+    "$oid": "6278b895318b04fff3e8d9cc"
   },
   "Rk": 445,
-  "name": "Theo Pinson\\pinsoth01",
+  "Player": "Theo Pinson\\pinsoth01",
   "age": 26,
   "WS": "0.4",
-  "salary": "$1090007"
+  "salary": "$1090007",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694899a"
+    "$oid": "6278b895318b04fff3e8d9cd"
   },
   "Rk": 446,
-  "name": "Mason Plumlee\\plumlma01",
+  "Player": "Mason Plumlee\\plumlma01",
   "age": 31,
   "WS": "4.7",
-  "salary": "$1068288"
+  "salary": "$1068288",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694899b"
+    "$oid": "6278b895318b04fff3e8d9ce"
   },
   "Rk": 447,
-  "name": "Jakob Poeltl\\poeltja01",
+  "Player": "Jakob Poeltl\\poeltja01",
   "age": 26,
   "WS": "6.9",
   "salary": "$1062303",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694899c"
+    "$oid": "6278b895318b04fff3e8d9cf"
   },
   "Rk": 448,
-  "name": "Aleksej Pokusevski\\pokusal01",
+  "Player": "Aleksej Pokusevski\\pokusal01",
   "age": 20,
   "WS": "0.4",
   "salary": "$1057260",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694899d"
+    "$oid": "6278b895318b04fff3e8d9d0"
   },
   "Rk": 449,
-  "name": "Yves Pons\\ponsyv01",
+  "Player": "Yves Pons\\ponsyv01",
   "age": 22,
   "WS": "0",
-  "salary": "$1039080"
+  "salary": "$1039080",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694899e"
+    "$oid": "6278b895318b04fff3e8d9d1"
   },
   "Rk": 450,
-  "name": "Jordan Poole\\poolejo01",
+  "Player": "Jordan Poole\\poolejo01",
   "age": 22,
   "WS": "6",
   "salary": "$1000000",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad694899f"
+    "$oid": "6278b895318b04fff3e8d9d2"
   },
   "Rk": 451,
-  "name": "Kevin Porter Jr.\\porteke02",
+  "Player": "Kevin Portland Trail Blazerster Jr.\\Portland Trail Blazersteke02",
   "age": 21,
   "WS": "0.8",
-  "salary": "$10720900"
+  "salary": "$10720900",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489a0"
+    "$oid": "6278b895318b04fff3e8d9d3"
   },
   "Rk": 452,
-  "name": "Michael Porter Jr.\\portemi01",
+  "Player": "MiCharlotte Hornetsel Portland Trail Blazerster Jr.\\Portland Trail Blazerstemi01",
   "age": 23,
   "WS": "-0.2",
   "salary": "$999200",
-  "projSalary": "$999200"
+  "projSalary": "$999200",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489a1"
+    "$oid": "6278b895318b04fff3e8d9d4"
   },
   "Rk": 453,
-  "name": "Otto Porter Jr.\\porteot01",
+  "Player": "Otto Portland Trail Blazerster Jr.\\Portland Trail Blazersteot01",
   "age": 28,
   "WS": "4.9",
   "salary": "$958529",
-  "projSalary": "$2193920"
+  "projSalary": "$2193920",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489a2"
+    "$oid": "6278b895318b04fff3e8d9d5"
   },
   "Rk": 454,
-  "name": "Bobby Portis\\portibo01",
+  "Player": "Bobby Portland Trail Blazerstis\\Portland Trail Blazerstibo01",
   "age": 26,
   "WS": "5.5",
   "salary": "$925258",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489a3"
+    "$oid": "6278b895318b04fff3e8d9d6"
   },
   "Rk": 455,
-  "name": "Kristaps Porziņģis\\porzikr01",
+  "Player": "Kristaps Portland Trail Blazersziņģis\\Portland Trail Blazerszikr01",
   "age": 26,
   "WS": "5.6",
   "salary": "$925258",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489a4"
+    "$oid": "6278b895318b04fff3e8d9d7"
   },
   "Rk": 456,
-  "name": "Micah Potter\\pottemi01",
+  "Player": "Micah Potter\\pottemi01",
   "age": 23,
   "WS": "0",
   "salary": "$925258",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489a5"
+    "$oid": "6278b895318b04fff3e8d9d8"
   },
   "Rk": 457,
-  "name": "Dwight Powell\\poweldw01",
+  "Player": "Dwight Powell\\poweldw01",
   "age": 30,
   "WS": "8.2",
   "salary": "$925258",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Dallas Mavericks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489a6"
+    "$oid": "6278b895318b04fff3e8d9d9"
   },
   "Rk": 458,
-  "name": "Myles Powell\\powelmy01",
+  "Player": "Myles Powell\\powelmy01",
   "age": 24,
   "WS": "-0.1",
   "salary": "$925258",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489a7"
+    "$oid": "6278b895318b04fff3e8d9da"
   },
   "Rk": 459,
-  "name": "Norman Powell\\powelno01",
+  "Player": "Norman Powell\\powelno01",
   "age": 28,
   "WS": "2.8",
   "salary": "$925258",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489a8"
+    "$oid": "6278b895318b04fff3e8d9db"
   },
   "Rk": 460,
-  "name": "Joshua Primo\\primojo01",
+  "Player": "Joshua Primo\\primojo01",
   "age": 19,
   "WS": "0",
   "salary": "$925258",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489a9"
+    "$oid": "6278b895318b04fff3e8d9dc"
   },
   "Rk": 461,
-  "name": "Taurean Prince\\princta02",
+  "Player": "Taurean Prince\\princta02",
   "age": 27,
   "WS": "2.2",
   "salary": "$925258",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489aa"
+    "$oid": "6278b895318b04fff3e8d9dd"
   },
   "Rk": 462,
-  "name": "Payton Pritchard\\pritcpa01",
+  "Player": "Payton PritCharlotte Hornetsrd\\pritcpa01",
   "age": 24,
   "WS": "3.1",
   "salary": "$925258",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ab"
+    "$oid": "6278b895318b04fff3e8d9de"
   },
   "Rk": 463,
-  "name": "Trevelin Queen\\queentr01",
+  "Player": "Trevelin Queen\\queentr01",
   "age": 24,
   "WS": "0.1",
   "salary": "$925258",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ac"
+    "$oid": "6278b895318b04fff3e8d9df"
   },
   "Rk": 464,
-  "name": "Neemias Queta\\quetane01",
+  "Player": "NeeMiami Heats Queta\\quetane01",
   "age": 22,
   "WS": "0.1",
-  "salary": "$925258"
+  "salary": "$925258",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ad"
+    "$oid": "6278b895318b04fff3e8d9e0"
   },
   "Rk": 465,
-  "name": "Immanuel Quickley\\quickim01",
+  "Player": "Immanuel Quickley\\quickim01",
   "age": 22,
   "WS": "4.2",
-  "salary": "$925258"
+  "salary": "$925258",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ae"
+    "$oid": "6278b895318b04fff3e8d9e1"
   },
   "Rk": 466,
-  "name": "Jahmi'us Ramsey\\ramseja01",
+  "Player": "Jahmi'us Ramsey\\ramseja01",
   "age": 20,
   "WS": "-0.1",
-  "salary": "$924730"
+  "salary": "$924730",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489af"
+    "$oid": "6278b895318b04fff3e8d9e2"
   },
   "Rk": 467,
-  "name": "Julius Randle\\randlju01",
+  "Player": "Julius Randle\\randlju01",
   "age": 27,
   "WS": "3.1",
   "salary": "$888616",
-  "projSalary": "$2351521"
+  "projSalary": "$2351521",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489b0"
+    "$oid": "6278b895318b04fff3e8d9e3"
   },
   "Rk": 468,
-  "name": "Austin Reaves\\reaveau01",
+  "Player": "Austin Reaves\\reaveau01",
   "age": 23,
   "WS": "2.9",
-  "salary": "$850331"
+  "salary": "$850331",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489b1"
+    "$oid": "6278b895318b04fff3e8d9e4"
   },
   "Rk": 469,
-  "name": "Cam Reddish\\reddica01",
+  "Player": "Cam Reddish\\reddica01",
   "age": 22,
   "WS": "1",
-  "salary": "$785102"
+  "salary": "$785102",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489b2"
+    "$oid": "6278b895318b04fff3e8d9e5"
   },
   "Rk": 470,
-  "name": "Davon Reed\\reedda01",
+  "Player": "Davon Reed\\reedda01",
   "age": 26,
   "WS": "1.6",
-  "salary": "$20168742"
+  "salary": "$20168742",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489b3"
+    "$oid": "6278b895318b04fff3e8d9e6"
   },
   "Rk": 471,
-  "name": "Paul Reed\\reedpa01",
+  "Player": "Paul Reed\\reedpa01",
   "age": 22,
   "WS": "1.3",
-  "salary": "$705598"
+  "salary": "$705598",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489b4"
+    "$oid": "6278b895318b04fff3e8d9e7"
   },
   "Rk": 472,
-  "name": "Naz Reid\\reidna01",
+  "Player": "Naz Reid\\reidna01",
   "age": 22,
   "WS": "3.2",
-  "salary": "$705598"
+  "salary": "$705598",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489b5"
+    "$oid": "6278b895318b04fff3e8d9e8"
   },
   "Rk": 473,
-  "name": "Nick Richards\\richani01",
+  "Player": "Nick RiCharlotte Hornetsrds\\riCharlotte Hornetsni01",
   "age": 24,
   "WS": "1",
-  "salary": "$1290481"
+  "salary": "$1290481",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489b6"
+    "$oid": "6278b895318b04fff3e8d9e9"
   },
   "Rk": 474,
-  "name": "Josh Richardson\\richajo01",
+  "Player": "Josh RiCharlotte Hornetsrdson\\riCharlotte Hornetsjo01",
   "age": 28,
   "WS": "3.5",
-  "salary": "$666666"
+  "salary": "$666666",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489b7"
+    "$oid": "6278b895318b04fff3e8d9ea"
   },
   "Rk": 475,
-  "name": "Austin Rivers\\riverau01",
+  "Player": "Austin Rivers\\riverau01",
   "age": 29,
   "WS": "1.2",
-  "salary": "$663024"
+  "salary": "$663024",
+  "playerTeam": "Denver Nuggets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489b8"
+    "$oid": "6278b895318b04fff3e8d9eb"
   },
   "Rk": 476,
-  "name": "Duncan Robinson\\robindu01",
+  "Player": "Duncan Robinson\\robIndiana Pacersu01",
   "age": 27,
   "WS": "3.9",
-  "salary": "$2045094"
+  "salary": "$2045094",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489b9"
+    "$oid": "6278b895318b04fff3e8d9ec"
   },
   "Rk": 477,
-  "name": "Justin Robinson\\robinju01",
+  "Player": "Justin Robinson\\robinju01",
   "age": 24,
   "WS": "-0.3",
   "salary": "$7622467",
-  "projSalary": "$333333"
+  "projSalary": "$333333",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ba"
+    "$oid": "6278b895318b04fff3e8d9ed"
   },
   "Rk": 478,
-  "name": "Mitchell Robinson\\robinmi01",
+  "Player": "Mitchell Robinson\\robinmi01",
   "age": 23,
   "WS": "8.5",
-  "salary": "$1290481"
+  "salary": "$1290481",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489bb"
+    "$oid": "6278b895318b04fff3e8d9ee"
   },
   "Rk": 479,
-  "name": "Jeremiah Robinson-Earl\\robinje02",
+  "Player": "JereMiami Heath Robinson-Earl\\robinje02",
   "age": 21,
   "WS": "1.5",
-  "salary": "$606702"
+  "salary": "$606702",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489bc"
+    "$oid": "6278b895318b04fff3e8d9ef"
   },
   "Rk": 480,
-  "name": "Isaiah Roby\\robyis01",
+  "Player": "Isaiah Roby\\robyis01",
   "age": 23,
   "WS": "2.9",
-  "salary": "$2541217"
+  "salary": "$2541217",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489bd"
+    "$oid": "6278b895318b04fff3e8d9f0"
   },
   "Rk": 481,
-  "name": "Rajon Rondo\\rondora01",
+  "Player": "Rajon Rondo\\rondora01",
   "age": 35,
   "WS": "0.7",
   "salary": "$11109327",
-  "projSalary": "$7827907"
+  "projSalary": "$7827907",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489be"
+    "$oid": "6278b895318b04fff3e8d9f1"
   },
   "Rk": 482,
-  "name": "Derrick Rose\\rosede01",
+  "Player": "Derrick Rose\\rosede01",
   "age": 33,
   "WS": "1.4",
-  "salary": "$586136"
+  "salary": "$586136",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489bf"
+    "$oid": "6278b895318b04fff3e8d9f2"
   },
   "Rk": 483,
-  "name": "Terrence Ross\\rosste01",
+  "Player": "Terrence Ross\\rosste01",
   "age": 30,
   "WS": "0.3",
-  "salary": "$558345"
+  "salary": "$558345",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489c0"
+    "$oid": "6278b895318b04fff3e8d9f3"
   },
   "Rk": 484,
-  "name": "Terry Rozier\\roziete01",
+  "Player": "Terry Rozier\\roziete01",
   "age": 27,
   "WS": "5.9",
-  "salary": "$527614"
+  "salary": "$527614",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489c1"
+    "$oid": "6278b895318b04fff3e8d9f4"
   },
   "Rk": 485,
-  "name": "Ricky Rubio\\rubiori01",
+  "Player": "Ricky Rubio\\rubiori01",
   "age": 31,
   "WS": "1.3",
-  "salary": "$10468119"
+  "salary": "$10468119",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489c2"
+    "$oid": "6278b895318b04fff3e8d9f5"
   },
   "Rk": 486,
-  "name": "D'Angelo Russell\\russeda01",
+  "Player": "D'Angelo Russell\\russeda01",
   "age": 25,
   "WS": "4.4",
-  "salary": "$462629"
+  "salary": "$462629",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489c3"
+    "$oid": "6278b895318b04fff3e8d9f6"
   },
   "Rk": 487,
-  "name": "Matt Ryan\\ryanma01",
+  "Player": "Matt Ryan\\ryanma01",
   "age": 24,
   "WS": "0",
   "salary": "$4107149",
-  "projSalary": "$3925000"
+  "projSalary": "$3925000",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489c4"
+    "$oid": "6278b895318b04fff3e8d9f7"
   },
   "Rk": 488,
-  "name": "Domantas Sabonis\\sabondo01",
+  "Player": "Domantas Sabonis\\sabondo01",
   "age": 25,
   "WS": "7.1",
-  "salary": "$377645"
+  "salary": "$377645",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489c5"
+    "$oid": "6278b895318b04fff3e8d9f8"
   },
   "Rk": 489,
-  "name": "Olivier Sarr\\sarrol01",
+  "Player": "Olivier Sarr\\sarrol01",
   "age": 22,
   "WS": "1",
-  "salary": "$364533"
+  "salary": "$364533",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489c6"
+    "$oid": "6278b895318b04fff3e8d9f9"
   },
   "Rk": 490,
-  "name": "Tomáš Satoranský\\satorto01",
+  "Player": "Tomáš SaToronto Raptorssanský\\saToronto Raptorssto01",
   "age": 30,
   "WS": "1",
-  "salary": "$350000"
+  "salary": "$350000",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489c7"
+    "$oid": "6278b895318b04fff3e8d9fa"
   },
   "Rk": 491,
-  "name": "Jordan Schakel\\schakjo01",
+  "Player": "Jordan SCharlotte Hornetskel\\sCharlotte Hornetskjo01",
   "age": 23,
   "WS": "-0.1",
   "salary": "$313737",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489c8"
+    "$oid": "6278b895318b04fff3e8d9fb"
   },
   "Rk": 492,
-  "name": "Admiral Schofield\\schofad01",
+  "Player": "Admiral Schofield\\schofad01",
   "age": 24,
-  "WS": "0.3"
+  "WS": "0.3",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489c9"
+    "$oid": "6278b895318b04fff3e8d9fc"
   },
   "Rk": 493,
-  "name": "Dennis Schröder\\schrode01",
+  "Player": "Denver Nuggetsnis Schröder\\schrode01",
   "age": 28,
   "WS": "2.9",
   "salary": "$292466",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ca"
+    "$oid": "6278b895318b04fff3e8d9fd"
   },
   "Rk": 494,
-  "name": "Tre Scott\\scotttr01",
+  "Player": "Tre Scott\\scotttr01",
   "age": 25,
   "WS": "0",
   "salary": "$290967",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489cb"
+    "$oid": "6278b895318b04fff3e8d9fe"
   },
   "Rk": 495,
-  "name": "Jay Scrubb\\scrubja01",
+  "Player": "Jay Scrubb\\scrubja01",
   "age": 21,
   "WS": "0",
-  "salary": "$276039"
+  "salary": "$276039",
+  "playerTeam": "Los Angeles Clippers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489cc"
+    "$oid": "6278b895318b04fff3e8d9ff"
   },
   "Rk": 496,
-  "name": "Wayne Selden\\seldewa01",
+  "Player": "Wayne SelDenver Nuggets\\seldewa01",
   "age": 27,
   "WS": "0",
   "salary": "$260561",
-  "projSalary": "$1563518"
+  "projSalary": "$1563518",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489cd"
+    "$oid": "6278b895318b04fff3e8da00"
   },
   "Rk": 497,
-  "name": "Alperen Şengün\\sengual01",
+  "Player": "Alperen Şengün\\sengual01",
   "age": 19,
   "WS": "2.1",
-  "salary": "$8558"
+  "salary": "$8558",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ce"
+    "$oid": "6278b895318b04fff3e8da01"
   },
   "Rk": 498,
-  "name": "Collin Sexton\\sextoco01",
+  "Player": "Collin Sexton\\sextoco01",
   "age": 23,
   "WS": "-0.1",
   "salary": "$231062",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489cf"
+    "$oid": "6278b895318b04fff3e8da02"
   },
   "Rk": 499,
-  "name": "Landry Shamet\\shamela01",
+  "Player": "Landry Shamet\\shamela01",
   "age": 24,
   "WS": "2.6",
-  "salary": "$202068"
+  "salary": "$202068",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489d0"
+    "$oid": "6278b895318b04fff3e8da03"
   },
   "Rk": 500,
-  "name": "Day'Ron Sharpe\\sharpda01",
+  "Player": "Day'Ron Sharpe\\sharpda01",
   "age": 20,
   "WS": "1.2",
-  "salary": "$153488"
+  "salary": "$153488",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489d1"
+    "$oid": "6278b895318b04fff3e8da04"
   },
   "Rk": 501,
-  "name": "Pascal Siakam\\siakapa01",
+  "Player": "Pascal Siakam\\siakapa01",
   "age": 27,
   "WS": "8.1",
-  "salary": "$1366392"
+  "salary": "$1366392",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489d2"
+    "$oid": "6278b895318b04fff3e8da05"
   },
   "Rk": 502,
-  "name": "Chris Silva\\silvach01",
+  "Player": "Chris Silva\\silvach01",
   "age": 25,
   "WS": "0.3",
-  "salary": "$1290481"
+  "salary": "$1290481",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489d3"
+    "$oid": "6278b895318b04fff3e8da06"
   },
   "Rk": 503,
-  "name": "Marko Simonovic\\simonma01",
+  "Player": "Marko Simonovic\\simonma01",
   "age": 22,
   "WS": "0",
-  "salary": "$1290481"
+  "salary": "$1290481",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489d4"
+    "$oid": "6278b895318b04fff3e8da07"
   },
   "Rk": 504,
-  "name": "Anfernee Simons\\simonan01",
+  "Player": "Anfernee Simons\\simonan01",
   "age": 22,
   "WS": "1.9",
-  "salary": "$1290481"
+  "salary": "$1290481",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489d5"
+    "$oid": "6278b895318b04fff3e8da08"
   },
   "Rk": 505,
-  "name": "Zavier Simpson\\simpsza01",
+  "Player": "Zavier Simpson\\simpsza01",
   "age": 24,
   "WS": "-0.1",
-  "salary": "$924730"
+  "salary": "$924730",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489d6"
+    "$oid": "6278b895318b04fff3e8da09"
   },
   "Rk": 506,
-  "name": "Jericho Sims\\simsje01",
+  "Player": "Jericho Sims\\simsje01",
   "age": 23,
   "WS": "1.5",
-  "salary": "$924730"
+  "salary": "$924730",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489d7"
+    "$oid": "6278b895318b04fff3e8da0a"
   },
   "Rk": 507,
-  "name": "Deividas Sirvydis\\sirvyde01",
+  "Player": "Deividas Sirvydis\\sirvyde01",
   "age": 21,
   "WS": "-0.1",
-  "salary": "$924730"
+  "salary": "$924730",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489d8"
+    "$oid": "6278b895318b04fff3e8da0b"
   },
   "Rk": 508,
-  "name": "Javonte Smart\\smartja01",
+  "Player": "Javonte Smart\\smartja01",
   "age": 22,
   "WS": "-0.2",
-  "salary": "$924730"
+  "salary": "$924730",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489d9"
+    "$oid": "6278b895318b04fff3e8da0c"
   },
   "Rk": 509,
-  "name": "Marcus Smart\\smartma01",
+  "Player": "Marcus Smart\\smartma01",
   "age": 27,
   "WS": "5.6",
-  "salary": "$276039"
+  "salary": "$276039",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489da"
+    "$oid": "6278b895318b04fff3e8da0d"
   },
   "Rk": 510,
-  "name": "Dennis Smith Jr.\\smithde03",
+  "Player": "Denver Nuggetsnis Smith Jr.\\smithde03",
   "age": 24,
   "WS": "0.4",
-  "salary": "$276039"
+  "salary": "$276039",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489db"
+    "$oid": "6278b895318b04fff3e8da0e"
   },
   "Rk": 511,
-  "name": "Ish Smith\\smithis01",
+  "Player": "Ish Smith\\smithis01",
   "age": 33,
-  "WS": "0.5"
+  "WS": "0.5",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489dc"
+    "$oid": "6278b895318b04fff3e8da0f"
   },
   "Rk": 512,
-  "name": "Jalen Smith\\smithja04",
+  "Player": "Jalen Smith\\smithja04",
   "age": 21,
-  "WS": "2.8"
+  "WS": "2.8",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489dd"
+    "$oid": "6278b895318b04fff3e8da10"
   },
   "Rk": 513,
-  "name": "Xavier Sneed\\sneedxa01",
+  "Player": "Xavier Sneed\\sneedxa01",
   "age": 24,
   "WS": "0",
-  "salary": "$55208"
+  "salary": "$55208",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489de"
+    "$oid": "6278b895318b04fff3e8da11"
   },
   "Rk": 514,
-  "name": "Tony Snell\\snellto01",
+  "Player": "Tony Snell\\snellto01",
   "age": 30,
   "WS": "0.4",
-  "salary": "$55208"
+  "salary": "$55208",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489df"
+    "$oid": "6278b895318b04fff3e8da12"
   },
   "Rk": 515,
-  "name": "Jaden Springer\\sprinja01",
+  "Player": "JaDenver Nuggets Springer\\sprinja01",
   "age": 19,
   "WS": "0",
-  "salary": "$55208"
+  "salary": "$55208",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489e0"
+    "$oid": "6278b895318b04fff3e8da13"
   },
   "Rk": 516,
-  "name": "Cassius Stanley\\stanlca01",
+  "Player": "Cassius Stanley\\stanlca01",
   "age": 22,
   "WS": "0.1",
-  "salary": "$55208"
+  "salary": "$55208",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489e1"
+    "$oid": "6278b895318b04fff3e8da14"
   },
   "Rk": 517,
-  "name": "Nik Stauskas\\stausni01",
+  "Player": "Nik Stauskas\\stausni01",
   "age": 28,
   "WS": "0.1",
-  "salary": "$276039"
+  "salary": "$276039",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489e2"
+    "$oid": "6278b895318b04fff3e8da15"
   },
   "Rk": 518,
-  "name": "Lance Stephenson\\stephla01",
+  "Player": "Lance Stephenson\\stephla01",
   "age": 31,
   "WS": "0.8",
-  "salary": "$924730"
+  "salary": "$924730",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489e3"
+    "$oid": "6278b895318b04fff3e8da16"
   },
   "Rk": 519,
-  "name": "Lamar Stevens\\stevela01",
+  "Player": "Lamar Stevens\\stevela01",
   "age": 24,
   "WS": "1.6",
   "salary": "$1625991",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489e4"
+    "$oid": "6278b895318b04fff3e8da17"
   },
   "Rk": 520,
-  "name": "Isaiah Stewart\\stewais01",
+  "Player": "Isaiah Stewart\\stewais01",
   "age": 20,
   "WS": "3.4",
-  "salary": "$276039"
+  "salary": "$276039",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489e5"
+    "$oid": "6278b895318b04fff3e8da18"
   },
   "Rk": 521,
-  "name": "Max Strus\\strusma01",
+  "Player": "Max Strus\\strusma01",
   "age": 25,
   "WS": "3.6",
   "salary": "$122741",
-  "projSalary": "$122741"
+  "projSalary": "$122741",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489e6"
+    "$oid": "6278b895318b04fff3e8da19"
   },
   "Rk": 522,
-  "name": "Jalen Suggs\\suggsja01",
+  "Player": "Jalen Suggs\\suggsja01",
   "age": 20,
   "WS": "-1.6",
   "salary": "$888616",
-  "projSalary": "$2351521"
+  "projSalary": "$2351521",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489e7"
+    "$oid": "6278b895318b04fff3e8da1a"
   },
   "Rk": 523,
-  "name": "Craig Sword\\swordcr01",
+  "Player": "Craig Sword\\swordcr01",
   "age": 28,
   "WS": "0.1",
   "salary": "$888616",
-  "projSalary": "$2351521"
+  "projSalary": "$2351521",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489e8"
+    "$oid": "6278b895318b04fff3e8da1b"
   },
   "Rk": 524,
-  "name": "Keifer Sykes\\sykeske01",
+  "Player": "Keifer Sykes\\sykeske01",
   "age": 28,
   "WS": "-0.5",
   "salary": "$888616",
-  "projSalary": "$2351521"
+  "projSalary": "$2351521",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489e9"
+    "$oid": "6278b895318b04fff3e8da1c"
   },
   "Rk": 525,
-  "name": "Jae'Sean Tate\\tateja01",
+  "Player": "Jae'Sean Tate\\tateja01",
   "age": 26,
   "WS": "3",
   "salary": "$888616",
-  "projSalary": "$2351521"
+  "projSalary": "$2351521",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ea"
+    "$oid": "6278b895318b04fff3e8da1d"
   },
   "Rk": 526,
-  "name": "Jayson Tatum\\tatumja01",
+  "Player": "Jayson Tatum\\tatumja01",
   "age": 23,
   "WS": "9.6",
   "salary": "$958529",
-  "projSalary": "$2193920"
+  "projSalary": "$2193920",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489eb"
+    "$oid": "6278b895318b04fff3e8da1e"
   },
   "Rk": 527,
-  "name": "Terry Taylor\\taylote01",
+  "Player": "Terry Taylor\\taylote01",
   "age": 22,
   "WS": "2.4",
   "salary": "$958529",
-  "projSalary": "$2193920"
+  "projSalary": "$2193920",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ec"
+    "$oid": "6278b895318b04fff3e8da1f"
   },
   "Rk": 528,
-  "name": "Garrett Temple\\templga01",
+  "Player": "Garrett Temple\\templga01",
   "age": 35,
   "WS": "0.8",
   "salary": "$958529",
-  "projSalary": "$2193920"
+  "projSalary": "$2193920",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ed"
+    "$oid": "6278b895318b04fff3e8da20"
   },
   "Rk": 529,
-  "name": "Emanuel Terry\\terryem01",
+  "Player": "Emanuel Terry\\terryem01",
   "age": 25,
   "WS": "-0.1",
-  "salary": "$2045094"
+  "salary": "$2045094",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ee"
+    "$oid": "6278b895318b04fff3e8da21"
   },
   "Rk": 530,
-  "name": "Tyrell Terry\\terryty01",
+  "Player": "Tyrell Terry\\terryty01",
   "age": 21,
   "WS": "0",
-  "salary": "$2045094"
+  "salary": "$2045094",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ef"
+    "$oid": "6278b895318b04fff3e8da22"
   },
   "Rk": 531,
-  "name": "Jon Teske\\teskejo01",
+  "Player": "Jon Teske\\teskejo01",
   "age": 24,
   "WS": "0",
-  "salary": "$2045094"
+  "salary": "$2045094",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489f0"
+    "$oid": "6278b895318b04fff3e8da23"
   },
   "Rk": 532,
-  "name": "Daniel Theis\\theisda01",
+  "Player": "Daniel Theis\\theisda01",
   "age": 29,
   "WS": "1.9",
-  "salary": "$2045094"
+  "salary": "$2045094",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489f1"
+    "$oid": "6278b895318b04fff3e8da24"
   },
   "Rk": 533,
-  "name": "Brodric Thomas\\thomabr01",
+  "Player": "Brodric Thomas\\thomabr01",
   "age": 25,
-  "WS": "0.1"
+  "WS": "0.1",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489f2"
+    "$oid": "6278b895318b04fff3e8da25"
   },
   "Rk": 534,
-  "name": "Cam Thomas\\thomaca02",
+  "Player": "Cam Thomas\\thomaca02",
   "age": 20,
   "WS": "0.8",
-  "salary": "$586136"
+  "salary": "$586136",
+  "playerTeam": "BRK"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489f3"
+    "$oid": "6278b895318b04fff3e8da26"
   },
   "Rk": 535,
-  "name": "Isaiah Thomas\\thomais02",
+  "Player": "Isaiah Thomas\\thomais02",
   "age": 32,
   "WS": "0.2",
-  "salary": "$586136"
+  "salary": "$586136",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489f4"
+    "$oid": "6278b895318b04fff3e8da27"
   },
   "Rk": 536,
-  "name": "Matt Thomas\\thomama02",
+  "Player": "Matt Thomas\\thomama02",
   "age": 27,
   "WS": "0.6",
-  "salary": "$606702"
+  "salary": "$606702",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489f5"
+    "$oid": "6278b895318b04fff3e8da28"
   },
   "Rk": 537,
-  "name": "Klay Thompson\\thompkl01",
+  "Player": "Klay Thompson\\thompkl01",
   "age": 31,
   "WS": "1.8",
-  "salary": "$606702"
+  "salary": "$606702",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489f6"
+    "$oid": "6278b895318b04fff3e8da29"
   },
   "Rk": 538,
-  "name": "Tristan Thompson\\thomptr01",
+  "Player": "Tristan Thompson\\thomptr01",
   "age": 30,
   "WS": "1.6",
-  "salary": "$1090007"
+  "salary": "$1090007",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489f7"
+    "$oid": "6278b895318b04fff3e8da2a"
   },
   "Rk": 539,
-  "name": "JT Thor\\thorjt01",
+  "Player": "JT Thor\\thorjt01",
   "age": 19,
   "WS": "0.3",
-  "salary": "$1090007"
+  "salary": "$1090007",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489f8"
+    "$oid": "6278b895318b04fff3e8da2b"
   },
   "Rk": 540,
-  "name": "Matisse Thybulle\\thybuma01",
+  "Player": "Matisse Thybulle\\thybuma01",
   "age": 24,
   "WS": "3.7",
-  "salary": "$1068288"
+  "salary": "$1068288",
+  "playerTeam": "Philadelphia 76ers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489f9"
+    "$oid": "6278b895318b04fff3e8da2c"
   },
   "Rk": 541,
-  "name": "Killian Tillie\\tilliki02",
+  "Player": "Killian Tillie\\tilliki02",
   "age": 23,
   "WS": "0.6",
   "salary": "$100000",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489fa"
+    "$oid": "6278b895318b04fff3e8da2d"
   },
   "Rk": 542,
-  "name": "Xavier Tillman Sr.\\tillmxa01",
+  "Player": "Xavier Tillman Sr.\\tillmxa01",
   "age": 23,
   "WS": "1.8",
-  "salary": "$1762796"
+  "salary": "$1762796",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489fb"
+    "$oid": "6278b895318b04fff3e8da2e"
   },
   "Rk": 543,
-  "name": "Isaiah Todd\\toddis01",
+  "Player": "Isaiah Todd\\toddis01",
   "age": 20,
   "WS": "-0.2",
-  "salary": "$1762796"
+  "salary": "$1762796",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489fc"
+    "$oid": "6278b895318b04fff3e8da2f"
   },
   "Rk": 544,
-  "name": "Obi Toppin\\toppiob01",
+  "Player": "Obi Toppin\\toppiob01",
   "age": 23,
   "WS": "3.9",
-  "salary": "$1762796"
+  "salary": "$1762796",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489fd"
+    "$oid": "6278b895318b04fff3e8da30"
   },
   "Rk": 545,
-  "name": "Juan Toscano-Anderson\\toscaju01",
+  "Player": "Juan Toscano-Anderson\\toscaju01",
   "age": 28,
   "WS": "2",
-  "salary": "$1762796"
+  "salary": "$1762796",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489fe"
+    "$oid": "6278b895318b04fff3e8da31"
   },
   "Rk": 546,
-  "name": "Karl-Anthony Towns\\townska01",
+  "Player": "Karl-Anthony Towns\\townska01",
   "age": 26,
   "WS": "10.3",
-  "salary": "$1762796"
+  "salary": "$1762796",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad69489ff"
+    "$oid": "6278b895318b04fff3e8da32"
   },
   "Rk": 547,
-  "name": "Gary Trent Jr.\\trentga02",
+  "Player": "Gary Trent Jr.\\trentga02",
   "age": 23,
   "WS": "5.6",
-  "salary": "$705598"
+  "salary": "$705598",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a00"
+    "$oid": "6278b895318b04fff3e8da33"
   },
   "Rk": 548,
-  "name": "P.J. Tucker\\tuckepj01",
+  "Player": "P.J. Tucker\\tuckepj01",
   "age": 36,
   "WS": "5",
-  "salary": "$705598"
+  "salary": "$705598",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a01"
+    "$oid": "6278b895318b04fff3e8da34"
   },
   "Rk": 549,
-  "name": "Rayjon Tucker\\tuckera01",
+  "Player": "Rayjon Tucker\\tuckera01",
   "age": 24,
   "WS": "0.4",
   "salary": "$29814",
-  "projSalary": "$1878720"
+  "projSalary": "$1878720",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a02"
+    "$oid": "6278b895318b04fff3e8da35"
   },
   "Rk": 550,
-  "name": "Myles Turner\\turnemy01",
+  "Player": "Myles Turner\\turnemy01",
   "age": 25,
   "WS": "3.1",
   "salary": "$29814",
-  "projSalary": "$1878720"
+  "projSalary": "$1878720",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a03"
+    "$oid": "6278b895318b04fff3e8da36"
   },
   "Rk": 551,
-  "name": "Jonas Valančiūnas\\valanjo01",
+  "Player": "Jonas Valančiūnas\\valanjo01",
   "age": 29,
-  "WS": "7.3"
+  "WS": "7.3",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a04"
+    "$oid": "6278b895318b04fff3e8da37"
   },
   "Rk": 552,
-  "name": "Denzel Valentine\\valende01",
+  "Player": "Denver Nuggetszel Valentine\\valende01",
   "age": 28,
   "WS": "0.2",
-  "salary": "$705598"
+  "salary": "$705598",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a05"
+    "$oid": "6278b895318b04fff3e8da38"
   },
   "Rk": 553,
-  "name": "Jarred Vanderbilt\\vandeja01",
+  "Player": "Jarred Vanderbilt\\vandeja01",
   "age": 22,
   "WS": "6",
-  "salary": "$705598"
+  "salary": "$705598",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a06"
+    "$oid": "6278b895318b04fff3e8da39"
   },
   "Rk": 554,
-  "name": "Fred VanVleet\\vanvlfr01",
+  "Player": "Fred VanVleet\\vanvlfr01",
   "age": 27,
   "WS": "6.7",
   "salary": "$29814",
-  "projSalary": "$1878720"
+  "projSalary": "$1878720",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a07"
+    "$oid": "6278b895318b04fff3e8da3a"
   },
   "Rk": 555,
-  "name": "Devin Vassell\\vassede01",
+  "Player": "Devin Vassell\\vassede01",
   "age": 21,
-  "WS": "3.3"
+  "WS": "3.3",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a08"
+    "$oid": "6278b895318b04fff3e8da3b"
   },
   "Rk": 556,
-  "name": "Gabe Vincent\\vincega01",
+  "Player": "Gabe Vincent\\vincega01",
   "age": 25,
   "WS": "2.5",
   "salary": "$29814",
-  "projSalary": "$1878720"
+  "projSalary": "$1878720",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a09"
+    "$oid": "6278b895318b04fff3e8da3c"
   },
   "Rk": 557,
-  "name": "Nikola Vučević\\vucevni01",
+  "Player": "Nikola Vučević\\vucevni01",
   "age": 31,
-  "WS": "4.5"
+  "WS": "4.5",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a0a"
+    "$oid": "6278b895318b04fff3e8da3d"
   },
   "Rk": 558,
-  "name": "Dean Wade\\wadede01",
+  "Player": "Dean Wade\\wadede01",
   "age": 25,
-  "WS": "2.3"
+  "WS": "2.3",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a0b"
+    "$oid": "6278b895318b04fff3e8da3e"
   },
   "Rk": 559,
-  "name": "Franz Wagner\\wagnefr01",
+  "Player": "Franz Wagner\\wagnefr01",
   "age": 20,
-  "WS": "4"
+  "WS": "4",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a0c"
+    "$oid": "6278b895318b04fff3e8da3f"
   },
   "Rk": 560,
-  "name": "Moritz Wagner\\wagnemo01",
+  "Player": "Moritz Wagner\\wagnemo01",
   "age": 24,
   "WS": "2.8",
-  "salary": "$1720779"
+  "salary": "$1720779",
+  "playerTeam": "Orlando Magic"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a0d"
+    "$oid": "6278b895318b04fff3e8da40"
   },
   "Rk": 561,
-  "name": "Ish Wainright\\wainris01",
+  "Player": "Ish Wainright\\wainris01",
   "age": 27,
   "WS": "0.6",
-  "salary": "$1720779"
+  "salary": "$1720779",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a0e"
+    "$oid": "6278b895318b04fff3e8da41"
   },
   "Rk": 562,
-  "name": "Kemba Walker\\walkeke02",
+  "Player": "Kemba Walker\\walkeke02",
   "age": 31,
-  "WS": "1.8"
+  "WS": "1.8",
+  "playerTeam": "New York Knicks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a0f"
+    "$oid": "6278b895318b04fff3e8da42"
   },
   "Rk": 563,
-  "name": "Lonnie Walker IV\\walkelo01",
+  "Player": "Lonnie Walker IV\\walkelo01",
   "age": 23,
-  "WS": "1.2"
+  "WS": "1.2",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a10"
+    "$oid": "6278b895318b04fff3e8da43"
   },
   "Rk": 564,
-  "name": "M.J. Walker\\walkemj01",
+  "Player": "M.J. Walker\\walkemj01",
   "age": 23,
   "WS": "0",
   "salary": "$19186",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "Phoenix Suns"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a11"
+    "$oid": "6278b895318b04fff3e8da44"
   },
   "Rk": 565,
-  "name": "Tyrone Wallace\\wallaty01",
+  "Player": "Tyrone WalLos Angeles Clipperse\\wallaty01",
   "age": 27,
   "WS": "-0.1",
   "salary": "$19186",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "NOP"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a12"
+    "$oid": "6278b895318b04fff3e8da45"
   },
   "Rk": 566,
-  "name": "Derrick Walton\\waltode01",
+  "Player": "Derrick Walton\\waltode01",
   "age": 26,
-  "WS": "-0.2"
+  "WS": "-0.2",
+  "playerTeam": "Detroit Pistons"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a13"
+    "$oid": "6278b895318b04fff3e8da46"
   },
   "Rk": 567,
-  "name": "Brad Wanamaker\\wanambr01",
+  "Player": "Brad Wanamaker\\wanambr01",
   "age": 32,
   "WS": "0",
-  "salary": "$850331"
+  "salary": "$850331",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a14"
+    "$oid": "6278b895318b04fff3e8da47"
   },
   "Rk": 568,
-  "name": "Duane Washington Jr.\\washidu02",
+  "Player": "Duane Washington Wizardshington Jr.\\Washington Wizardshidu02",
   "age": 21,
-  "WS": "0"
+  "WS": "0",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a15"
+    "$oid": "6278b895318b04fff3e8da48"
   },
   "Rk": 569,
-  "name": "P.J. Washington\\washipj01",
+  "Player": "P.J. Washington Wizardshington\\Washington Wizardshipj01",
   "age": 23,
   "WS": "3.4",
   "salary": "$28779",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "CHO"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a16"
+    "$oid": "6278b895318b04fff3e8da49"
   },
   "Rk": 570,
-  "name": "Yuta Watanabe\\watanyu01",
+  "Player": "YUtah Jazz Watanabe\\watanyu01",
   "age": 27,
-  "WS": "0.7"
+  "WS": "0.7",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a17"
+    "$oid": "6278b895318b04fff3e8da4a"
   },
   "Rk": 571,
-  "name": "Lindy Waters III\\waterli01",
+  "Player": "LIndiana Pacersy Waters III\\waterli01",
   "age": 24,
   "WS": "0.8",
   "salary": "$28779",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a18"
+    "$oid": "6278b895318b04fff3e8da4b"
   },
   "Rk": 572,
-  "name": "Tremont Waters\\watertr01",
+  "Player": "Tremont Waters\\watertr01",
   "age": 24,
-  "WS": "0"
+  "WS": "0",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a19"
+    "$oid": "6278b895318b04fff3e8da4c"
   },
   "Rk": 573,
-  "name": "Trendon Watford\\watfotr01",
+  "Player": "Trendon Watford\\watfotr01",
   "age": 21,
-  "WS": "1.9"
+  "WS": "1.9",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a1a"
+    "$oid": "6278b895318b04fff3e8da4d"
   },
   "Rk": 574,
-  "name": "Paul Watson\\watsopa01",
+  "Player": "Paul Watson\\watsopa01",
   "age": 27,
   "WS": "0",
   "salary": "$92857",
-  "projSalary": "$92857"
+  "projSalary": "$92857",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a1b"
+    "$oid": "6278b895318b04fff3e8da4e"
   },
   "Rk": 575,
-  "name": "Quinndary Weatherspoon\\weathqu01",
+  "Player": "Quinndary Weatherspoon\\weathqu01",
   "age": 25,
   "WS": "0.2",
   "salary": "$290967",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a1c"
+    "$oid": "6278b895318b04fff3e8da4f"
   },
   "Rk": 576,
-  "name": "Russell Westbrook\\westbru01",
+  "Player": "Russell Westbrook\\westbru01",
   "age": 33,
   "WS": "1.7",
   "salary": "$290967",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Los Angeles Lakers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a1d"
+    "$oid": "6278b895318b04fff3e8da50"
   },
   "Rk": 577,
-  "name": "Coby White\\whiteco01",
+  "Player": "Coby White\\whiteco01",
   "age": 21,
   "WS": "2.4",
   "salary": "$290967",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a1e"
+    "$oid": "6278b895318b04fff3e8da51"
   },
   "Rk": 578,
-  "name": "Derrick White\\whitede01",
+  "Player": "Derrick White\\whitede01",
   "age": 27,
   "WS": "5.1",
   "salary": "$231062",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a1f"
+    "$oid": "6278b895318b04fff3e8da52"
   },
   "Rk": 579,
-  "name": "Hassan Whiteside\\whiteha01",
+  "Player": "Hassan Whiteside\\whiteha01",
   "age": 32,
   "WS": "5.8",
   "salary": "$231062",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Utah Jazz"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a20"
+    "$oid": "6278b895318b04fff3e8da53"
   },
   "Rk": 580,
-  "name": "Joe Wieskamp\\wieskjo01",
+  "Player": "Joe Wieskamp\\wieskjo01",
   "age": 22,
   "WS": "0.1",
   "salary": "$1625991",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "San Antonio Spurs"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a21"
+    "$oid": "6278b895318b04fff3e8da54"
   },
   "Rk": 581,
-  "name": "Aaron Wiggins\\wiggiaa01",
+  "Player": "Aaron Wiggins\\wiggiaa01",
   "age": 23,
   "WS": "1.2",
   "salary": "$1625991",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a22"
+    "$oid": "6278b895318b04fff3e8da55"
   },
   "Rk": 582,
-  "name": "Andrew Wiggins\\wiggian01",
+  "Player": "Andrew Wiggins\\wiggian01",
   "age": 26,
   "WS": "5.1",
   "salary": "$100000",
-  "projSalary": "$1752638"
+  "projSalary": "$1752638",
+  "playerTeam": "Golden State Warriors"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a23"
+    "$oid": "6278b895318b04fff3e8da56"
   },
   "Rk": 583,
-  "name": "Lindell Wigginton\\wiggili01",
+  "Player": "LIndiana Pacersell Wigginton\\wiggili01",
   "age": 23,
-  "WS": "0.2"
+  "WS": "0.2",
+  "playerTeam": "Milwaukee Bucks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a24"
+    "$oid": "6278b895318b04fff3e8da57"
   },
   "Rk": 584,
-  "name": "Brandon Williams\\willibr03",
+  "Player": "Brandon Williams\\willibr03",
   "age": 22,
-  "WS": "-0.5"
+  "WS": "-0.5",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a25"
+    "$oid": "6278b895318b04fff3e8da58"
   },
   "Rk": 585,
-  "name": "Grant Williams\\willigr01",
+  "Player": "Grant Williams\\willigr01",
   "age": 23,
   "WS": "5.1",
   "salary": "$1517981",
-  "projSalary": "$1782621"
+  "projSalary": "$1782621",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a26"
+    "$oid": "6278b895318b04fff3e8da59"
   },
   "Rk": 586,
-  "name": "Kenrich Williams\\willike04",
+  "Player": "Kenrich Williams\\willike04",
   "age": 27,
-  "WS": "1.8"
+  "WS": "1.8",
+  "playerTeam": "Oklahoma City Thunder"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a27"
+    "$oid": "6278b895318b04fff3e8da5a"
   },
   "Rk": 587,
-  "name": "Lou Williams\\willilo02",
+  "Player": "Lou Williams\\willilo02",
   "age": 35,
-  "WS": "0.6"
+  "WS": "0.6",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a28"
+    "$oid": "6278b895318b04fff3e8da5b"
   },
   "Rk": 588,
-  "name": "Patrick Williams\\willipa01",
+  "Player": "Patrick Williams\\willipa01",
   "age": 20,
   "WS": "0.9",
   "salary": "$76744",
-  "projSalary": "$1815677"
+  "projSalary": "$1815677",
+  "playerTeam": "Chicago Bulls"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a29"
+    "$oid": "6278b895318b04fff3e8da5c"
   },
   "Rk": 589,
-  "name": "Robert Williams\\williro04",
+  "Player": "Robert Williams\\williro04",
   "age": 24,
   "WS": "9.9",
-  "salary": "$58493"
+  "salary": "$58493",
+  "playerTeam": "Boston Celtics"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a2a"
+    "$oid": "6278b895318b04fff3e8da5d"
   },
   "Rk": 590,
-  "name": "Ziaire Williams\\willizi02",
+  "Player": "Ziaire Williams\\willizi02",
   "age": 20,
   "WS": "2.2",
-  "salary": "$55208"
+  "salary": "$55208",
+  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a2b"
+    "$oid": "6278b895318b04fff3e8da5e"
   },
   "Rk": 591,
-  "name": "D.J. Wilson\\wilsodj01",
+  "Player": "D.J. Wilson\\wilsodj01",
   "age": 25,
-  "WS": "0.4"
+  "WS": "0.4",
+  "playerTeam": "Toronto Raptorss"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a2c"
+    "$oid": "6278b895318b04fff3e8da5f"
   },
   "Rk": 592,
-  "name": "Dylan Windler\\windldy01",
+  "Player": "Dylan WIndiana Pacersler\\wIndiana Pacersldy01",
   "age": 25,
-  "WS": "0.8"
+  "WS": "0.8",
+  "playerTeam": "Cleveland Cavaliers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a2d"
+    "$oid": "6278b895318b04fff3e8da60"
   },
   "Rk": 593,
-  "name": "Justise Winslow\\winslju01",
+  "Player": "Justise Winslow\\winslju01",
   "age": 25,
-  "WS": "0.8"
+  "WS": "0.8",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a2e"
+    "$oid": "6278b895318b04fff3e8da61"
   },
   "Rk": 594,
-  "name": "Cassius Winston\\winstca01",
+  "Player": "Cassius Winston\\winstca01",
   "age": 23,
-  "WS": "0"
+  "WS": "0",
+  "playerTeam": "Washington Wizards"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a2f"
+    "$oid": "6278b895318b04fff3e8da62"
   },
   "Rk": 595,
-  "name": "Christian Wood\\woodch01",
+  "Player": "Christian Wood\\woodch01",
   "age": 26,
-  "WS": "4.9"
+  "WS": "4.9",
+  "playerTeam": "Houston Rockets"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a30"
+    "$oid": "6278b895318b04fff3e8da63"
   },
   "Rk": 596,
-  "name": "Robert Woodard II\\woodaro01",
+  "Player": "Robert Woodard II\\woodaro01",
   "age": 22,
-  "WS": "-0.1"
+  "WS": "-0.1",
+  "playerTeam": "Sacramento Kings"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a31"
+    "$oid": "6278b895318b04fff3e8da64"
   },
   "Rk": 597,
-  "name": "Delon Wright\\wrighde01",
+  "Player": "Delon Wright\\wrighde01",
   "age": 29,
-  "WS": "3.6"
+  "WS": "3.6",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a32"
+    "$oid": "6278b895318b04fff3e8da65"
   },
   "Rk": 598,
-  "name": "McKinley Wright IV\\wrighmc01",
+  "Player": "McKinley Wright IV\\wrighmc01",
   "age": 23,
-  "WS": "0"
+  "WS": "0",
+  "playerTeam": "Minnesota Timberwolves"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a33"
+    "$oid": "6278b895318b04fff3e8da66"
   },
   "Rk": 599,
-  "name": "Moses Wright\\wrighmo01",
+  "Player": "Moses Wright\\wrighmo01",
   "age": 23,
   "WS": "0.1",
-  "salary": "$462629"
+  "salary": "$462629",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a34"
+    "$oid": "6278b895318b04fff3e8da67"
   },
   "Rk": 600,
-  "name": "Gabe York\\yorkga01",
+  "Player": "Gabe York\\yorkga01",
   "age": 28,
-  "WS": "0"
+  "WS": "0",
+  "playerTeam": "Indiana Pacers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a35"
+    "$oid": "6278b895318b04fff3e8da68"
   },
   "Rk": 601,
-  "name": "Thaddeus Young\\youngth01",
+  "Player": "Thaddeus Young\\youngth01",
   "age": 33,
-  "WS": "2.2"
+  "WS": "2.2",
+  "playerTeam": "TOT"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a36"
+    "$oid": "6278b895318b04fff3e8da69"
   },
   "Rk": 602,
-  "name": "Trae Young\\youngtr01",
+  "Player": "Trae Young\\youngtr01",
   "age": 23,
-  "WS": "10"
+  "WS": "10",
+  "playerTeam": "Atlanta Hawks"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a37"
+    "$oid": "6278b895318b04fff3e8da6a"
   },
   "Rk": 603,
-  "name": "Omer Yurtseven\\yurtsom01",
+  "Player": "Omer Yurtseven\\yurtsom01",
   "age": 23,
-  "WS": "2.1"
+  "WS": "2.1",
+  "playerTeam": "Miami Heat"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a38"
+    "$oid": "6278b895318b04fff3e8da6b"
   },
   "Rk": 604,
-  "name": "Cody Zeller\\zelleco01",
+  "Player": "Cody Zeller\\zelleco01",
   "age": 29,
-  "WS": "1.1"
+  "WS": "1.1",
+  "playerTeam": "Portland Trail Blazers"
 },{
   "_id": {
-    "$oid": "6274db2d67b2ba8ad6948a39"
+    "$oid": "6278b895318b04fff3e8da6c"
   },
   "Rk": 605,
-  "name": "Ivica Zubac\\zubaciv01",
+  "Player": "Ivica Zubac\\zubaciv01",
   "age": 24,
-  "WS": "7.2"
+  "WS": "7.2",
+  "playerTeam": "Los Angeles Clippers"
 }]
