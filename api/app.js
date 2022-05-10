@@ -53,7 +53,6 @@ app.use("/", function(req, res) {
     var path = __dirname + '/APIDOC.md';
     var file = fs.readFileSync(path, 'utf8');
     res.send(marked(file.toString()));
-    //res.send("API Doc: <a href=https://github.com/cfreer/PerfectTeam/blob/main/api/APIDOC.md>Documentation<a>");
   } catch(err) {
     res.json({status: 'error', error: err.message});
   }
