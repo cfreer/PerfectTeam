@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Home from './pages/Home';
 import CreateTeam from './pages/CreateTeam';
@@ -9,8 +9,46 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import './index.css';
 
+interface Player {
+  id: string,
+  Rk: number,
+  Player: string,
+  age: number,
+  WS: string,
+  salary: string,
+  projSalary: string,
+  playerTeam: string,
+}
 
 function App(props : any) {
+
+  const [data, setData] = useState<Player[]>([]);
+
+  // Base URL for Perfect Team API
+  // const API_URL = 'https://perfect-team-api.herokuapp.com/';
+  const API_URL = 'http://localhost:4567/';
+
+
+
+  async function statusCheck(res : Response) {
+    if (!res.ok) {
+      throw new Error(await res.text());
+    }
+    return res;
+  }
+
+  useEffect(() => {
+    // Get all player data from Perfect Team API
+    function getPlayersRequest() {
+      fetch(API_URL + 'players')
+        .then(statusCheck)
+        .then(res => res.json())
+        .then(setData)
+        .catch(console.error);
+    }
+    
+    getPlayersRequest();
+  });
 
   // returns rendered routes and specified components
   return (
@@ -30,7 +68,7 @@ function App(props : any) {
             <Home />
           </Route>
           <Route path="/createteam">
-            <CreateTeam />
+            <CreateTeam data={data}/>
           </Route>
           <Route path="/games">
             <Games />
@@ -38,7 +76,7 @@ function App(props : any) {
           <Route path="/teams">
             <Teams />
           </Route>
-          <Route path="/players" >
+          <Route path="/players">
             <Players />
           </Route>
           <Redirect to="/" />

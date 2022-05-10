@@ -98,11 +98,35 @@ nav li {
 
 #team-container {
   padding: 0;
+  margin-bottom: 20px;
+}
+
+#search-bar-inputs {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#search {
+  width: 85%;
+}
+
+#add-btn {
+  background-color: #F1600D;
+  border-color: #F1600D;
+}
+
+#create-team-content {
+  position: relative;
+  width: 100%;
+  z-index: 1;
 }
 
 #player-list {
   background-color: #E1E1E1;
-  height: 80vh;
+  min-height: 100vh;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -113,6 +137,19 @@ nav li {
 #team-stats {
   background-color: #F2F0F0;
   padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#player-cards {
+  display: flex;
+  justify-content: center;
+}
+
+#stats-table {
+  margin: 0;
+  width: 90%;
+
 }
 
 .material-icons.md-100 {
@@ -125,6 +162,9 @@ nav li {
   margin: 5px;
 }
 
+.player-name {
+  margin: 20px 0;
+}
 
 /* Slideshow */
 
