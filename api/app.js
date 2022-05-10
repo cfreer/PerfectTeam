@@ -7,9 +7,14 @@ const logger = require('morgan');
 //Routers
 const playerRouter = require('./routes/player');
 const teamRouter = require('./routes/team');
+const quickAddRouter = require('./routes/quickadd');
+const nbateamsRouter = require('./routes/nbateams');
 
 //Database
 const db = require('./databases/database');
+
+const fs = require('fs');
+const { marked } = require('marked');
 
 var app = express();
 
@@ -33,10 +38,18 @@ app.use((req, res, next) => {
 
 app.use('/players', playerRouter);
 app.use('/team', teamRouter);
+app.use('/quickadd', quickAddRouter);
+app.use('/nbateams', nbateamsRouter);
 
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
+app.use("/", function(req, res) {
+  try {
+    var path = __dirname + '/APIDOC.md';
+    var file = fs.readFileSync(path, 'utf8');
+    res.send(marked(file.toString()));
+    //res.send("API Doc: <a href=https://github.com/cfreer/PerfectTeam/blob/main/api/APIDOC.md>Documentation<a>");
+  } catch(err) {
+    res.json({status: 'error', error: err.message});
+  }
 });
 
 // error handler
