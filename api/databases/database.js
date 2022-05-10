@@ -9,9 +9,8 @@ async function main() {
 
     const playerSchema = new mongoose.Schema({
         Rk: Number,
-        name: String,
+        Player: String,
         age: Number,
-        proPic: String,
         WS: String,
         salary: String,
         projSalary: String,
@@ -19,7 +18,6 @@ async function main() {
         //image: String, //1.png
     });
 
-    // TODO: remove minutes played(?), add BLKA
     const statsSchema = new mongoose.Schema({
         Rk: Number,
         MP: Number,
