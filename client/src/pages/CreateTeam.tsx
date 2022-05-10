@@ -147,7 +147,7 @@ function CreateTeam(props : any) {
   return (
     <div className='create-team-container' data-testid='create-team-container'>
       <div id='search-bar-inputs'>
-        <div id='search'>
+        <div id='search' data-testid='search'>
           <SearchBar
             placeholder='Enter player name'
             aria-label='Enter player name'
@@ -157,16 +157,16 @@ function CreateTeam(props : any) {
             data={props.data}
             />
         </div>
-        <Button id='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Add Player</Button>
+        <Button id='add-btn' data-testid='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Add Player</Button>
       </div>
       <div id='create-team-content'>
-        <Alert variant='warning' hidden={true} id='input-alert'>Please enter a valid NBA player.</Alert>
-        <Alert variant='warning' hidden={true} id='input-alert-duplicate'>Please enter another NBA player that is not already included in your current team.</Alert>
-        <Alert variant='warning' hidden={true} id='input-alert-salary'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
-        <Alert variant='danger' hidden={true} id='input-alert-error'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
+        <Alert variant='warning' hidden={true} id='input-alert' data-testid='input-alert'>Please enter a valid NBA player.</Alert>
+        <Alert variant='warning' hidden={true} id='input-alert-duplicate'data-testid='input-alert-duplicate'>Please enter another NBA player that is not already included in your current team.</Alert>
+        <Alert variant='warning' hidden={true} id='input-alert-salary' data-testid='input-alert-salary'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
+        <Alert variant='danger' hidden={true} id='input-alert-error' data-testid='input-alert-error'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
         <Container id='team-container'>
           <Row>
-            <Col sm={4} id='player-list'>
+            <Col sm={4} id='player-list' data-testid='player-list'>
               <p><b>Current Team</b></p>
               <ol>
                 {teamList}
@@ -175,26 +175,28 @@ function CreateTeam(props : any) {
             </Col>
             <Col sm={8} id='team'>
               <Row id='team-stats'>
-                <Table id='stats-table'>
-                  <tr>
-                    <td><b>Win Prediction:</b></td>
-                    <td>{score}</td>
-                  </tr>
-                  <tr>
-                    <td><b>Luxury Tax:</b></td>
-                    <td>${tax}</td>
-                  </tr>
-                  <tr>
-                    <td><b>Salary:</b></td>
-                    <td>${totalSalary.toLocaleString()}</td>
-                  </tr>
-                  <tr>
-                    <td><b>Salary Cap:</b></td>
-                    <td>$112,400,000</td>
-                  </tr>
+                <Table id='stats-table' data-testid='stats-table'>
+                  <tbody>
+                    <tr>
+                      <td><b>Win Prediction:</b></td>
+                      <td>{score}</td>
+                    </tr>
+                    <tr>
+                      <td><b>Luxury Tax:</b></td>
+                      <td>${tax}</td>
+                    </tr>
+                    <tr>
+                      <td><b>Salary:</b></td>
+                      <td>${totalSalary.toLocaleString()}</td>
+                    </tr>
+                    <tr>
+                      <td><b>Salary Cap:</b></td>
+                      <td>$112,400,000</td>
+                    </tr>
+                  </tbody>
                 </Table>
               </Row>
-              <Row id='player-cards'>
+              <Row id='player-cards' data-testid='player-cards'>
                 {playerCards}
               </Row>
             </Col>

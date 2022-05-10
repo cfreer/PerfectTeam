@@ -29,7 +29,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom --verbose --watchAll=false",
+    "test": "react-scripts test --env=jsdom --verbose --watchAll=false --runInBand --detectOpenHandles",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

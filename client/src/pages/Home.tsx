@@ -11,8 +11,8 @@ function Home(props : any) {
   // renders home page
   return (
     <div className='home-container' data-testid='home-container'>
-      <Slideshow />
-      <div id='tutorial-description'>
+      <Slideshow data-testid='slideshow'/>
+      <div id='tutorial-description' data-testid='tutorial-description'>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui
