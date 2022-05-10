@@ -100,6 +100,29 @@ nav li {
   padding: 0;
 }
 
+#search-bar-inputs {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#search {
+  width: 85%;
+}
+
+#add-btn {
+  background-color: #F1600D;
+  border-color: #F1600D;
+}
+
+#create-team-content {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
 #player-list {
   background-color: #E1E1E1;
   min-height: 100vh;

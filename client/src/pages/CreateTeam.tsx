@@ -5,7 +5,8 @@
  * display win prediction feature.
  */
 import React, { useState } from 'react';
-import { Container, Row, Col, Button, InputGroup, FormControl, Card, Alert } from 'react-bootstrap';
+import { Container, Row, Col, Button, Card, Alert } from 'react-bootstrap';
+import SearchBar from './../components/SearchBar';
 
 interface Player {
   id: string,
@@ -32,14 +33,14 @@ function CreateTeam(props : any) {
   const API_URL = 'http://localhost:4567/';
 
   // Updates stored value of player search bar input
-  const inputChangeHandler = (event : React.ChangeEvent) => {
-    setInput((event?.target as HTMLInputElement)?.value);
+  const inputChangeHandler = (value : string) => {
+    setInput(value);
   }
 
   // Adds a player to the team
   const submitPlayerHandler = (event : React.MouseEvent) => {
     event.preventDefault();
-    let player : string = (document.getElementById('player-search') as HTMLInputElement)?.value;
+    let player : string = input;
     let regex = new RegExp(players.join('|'),'i');
     if (teamNames.includes(player)) {
       // Shows alert for duplicate player
@@ -129,45 +130,47 @@ function CreateTeam(props : any) {
   // renders create team page
   return (
     <div className='create-team-container' data-testid='create-team-container'>
-      <InputGroup className='mb-3'>
-        <FormControl
-          placeholder='Enter player name'
-          aria-label='Enter player name'
-          id='player-search'
-          value={input}
-          onChange={inputChangeHandler}
-        />
-        <InputGroup.Append>
-          <Button id='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Add Player</Button>
-        </InputGroup.Append>
-      </InputGroup>
-      <Alert variant='warning' hidden={true} id='input-alert'>Please enter a valid NBA player.</Alert>
-      <Alert variant='warning' hidden={true} id='input-alert-duplicate'>Please enter another NBA player that is not already included in your current team.</Alert>
-      <Container id='team-container'>
-        <Row>
-          <Col sm={4} id='player-list'>
-            <p><b>Current Team</b></p>
-            <ol>
-              {teamList}
-            </ol>
-            <Button variant='primary' data-testid='create-team-btn' id='create-team-btn' hidden={true} onClick={submitTeamHandler}>Create Team!</Button>
-          </Col>
-          <Col sm={8} id='team'>
-            <Row id='team-stats'>
-              <div className="col-8 col-sm-8 col-md-8 col-lg-8">
-                <p><b>Win Prediction:</b> {score}</p>
-                <p><b>Salary:</b> ${totalSalary}</p>
-                <p><b>Luxury Tax:</b> ${tax}</p>
-                <p><b>Salary Cap:</b> $112400000</p>
-              </div>
-            </Row>
-            <Row id='player-cards'>
-              {playerCards}
-            </Row>
-          </Col>
-        </Row>
-      </Container>
-      <p></p>
+      <div id='search-bar-inputs'>
+        <div id='search'>
+          <SearchBar
+            placeholder='Enter player name'
+            aria-label='Enter player name'
+            id='player-search'
+            value={input}
+            setInput={inputChangeHandler}
+            data={props.data}
+            />
+        </div>
+        <Button id='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Add Player</Button>
+      </div>
+      <div id='create-team-content'>
+        <Alert variant='warning' hidden={true} id='input-alert'>Please enter a valid NBA player.</Alert>
+        <Alert variant='warning' hidden={true} id='input-alert-duplicate'>Please enter another NBA player that is not already included in your current team.</Alert>
+        <Container id='team-container'>
+          <Row>
+            <Col sm={4} id='player-list'>
+              <p><b>Current Team</b></p>
+              <ol>
+                {teamList}
+              </ol>
+              <Button variant='primary' data-testid='create-team-btn' id='create-team-btn' hidden={true} onClick={submitTeamHandler}>Create Team!</Button>
+            </Col>
+            <Col sm={8} id='team'>
+              <Row id='team-stats'>
+                <div className="col-8 col-sm-8 col-md-8 col-lg-8">
+                  <p><b>Win Prediction:</b> {score}</p>
+                  <p><b>Salary:</b> ${totalSalary}</p>
+                  <p><b>Luxury Tax:</b> ${tax}</p>
+                  <p><b>Salary Cap:</b> $112400000</p>
+                </div>
+              </Row>
+              <Row id='player-cards'>
+                {playerCards}
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 }

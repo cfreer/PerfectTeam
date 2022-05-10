@@ -28,14 +28,7 @@ function App(props : any) {
   // const API_URL = 'https://perfect-team-api.herokuapp.com/';
   const API_URL = 'http://localhost:4567/';
 
-  // Get all player data from Perfect Team API
-  function getPlayersRequest() {
-    fetch(API_URL + 'players')
-      .then(statusCheck)
-      .then(res => res.json())
-      .then(setData)
-      .catch(console.error);
-  }
+
 
   async function statusCheck(res : Response) {
     if (!res.ok) {
@@ -45,8 +38,17 @@ function App(props : any) {
   }
 
   useEffect(() => {
+    // Get all player data from Perfect Team API
+    function getPlayersRequest() {
+      fetch(API_URL + 'players')
+        .then(statusCheck)
+        .then(res => res.json())
+        .then(setData)
+        .catch(console.error);
+    }
+    
     getPlayersRequest();
-  }, []);
+  });
 
   // returns rendered routes and specified components
   return (

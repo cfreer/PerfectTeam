@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 
 type Item = {
@@ -26,7 +26,7 @@ function SearchBar(props : any) {
     name: (obj.Player).substring(0, obj.Player.indexOf('\\'))
   }));
 
-  const handleOnSearch = (string : string, results : unknown[]) => {
+  const handleOnSearch = (string : string, results : Item[]) => {
     console.log(string, results);
     setSearchString(string);
   };
@@ -36,26 +36,21 @@ function SearchBar(props : any) {
     setSearchString("");
   };
 
-  const clearSearchBox = () => {
-    setSearchString("");
-  };
+  const handleOnSelect = (result : Item) => {
+    setSearchString(result.name);
+    props.setInput(result.name);
+  }
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <button onClick={clearSearchBox}>Clear input!</button>
-        <div style={{ width: 200, margin: 20 }}>
-          <div style={{ marginBottom: 20 }}>Try to type "JavaScript"</div>
-          <ReactSearchAutocomplete
-            items={items}
-            onSearch={handleOnSearch}
-            onClear={handleOnClear}
-            inputSearchString={searchString}
-            autoFocus
-          />
-          <div style={{ marginTop: 20 }}>This text will be covered!</div>
-        </div>
-      </header>
+    <div>
+      <ReactSearchAutocomplete
+        items={items}
+        onSearch={handleOnSearch}
+        onClear={handleOnClear}
+        onSelect={handleOnSelect}
+        inputSearchString={searchString}
+        autoFocus
+      />
     </div>
   );
 }
