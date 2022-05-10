@@ -98,6 +98,30 @@ nav li {
 
 #team-container {
   padding: 0;
+  margin-bottom: 20px;
+}
+
+#search-bar-inputs {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#search {
+  width: 85%;
+}
+
+#add-btn {
+  background-color: #F1600D;
+  border-color: #F1600D;
+}
+
+#create-team-content {
+  position: relative;
+  width: 100%;
+  z-index: 1;
 }
 
 #player-list {
@@ -113,6 +137,8 @@ nav li {
 #team-stats {
   background-color: #F2F0F0;
   padding: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 #player-cards {
@@ -122,6 +148,11 @@ nav li {
 
 #quick-add-btn {
   margin-bottom: 15px;
+}
+
+#stats-table {
+  margin: 0;
+  width: 90%;
 }
 
 .material-icons.md-100 {

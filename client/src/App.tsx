@@ -44,7 +44,6 @@ function App() {
         .then(setData)
         .catch(console.error);
     }
-
     getPlayersRequest();
   });
 
