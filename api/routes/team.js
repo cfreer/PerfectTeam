@@ -85,11 +85,14 @@ function getLuxuryTax(totalSalary) {
   let limitOverage = totalSalary - SALARY_CAP;
   if (limitOverage >= 20000000) {
     let currentTax = 3.75;
-    for (let i = 0; i < (limitOverage - 20000000)/5000000; i++) {
+    let currentLimitOverage = (limitOverage - 20000000)/5000000
+    for (let i = 0; i < currentLimitOverage; i++) {
       luxuryTax += currentTax * 5000000;
       currentTax += .5;
+      limitOverage -= 5000000
     }
     luxuryTax += (limitOverage % 5000000) * (currentTax + .5);
+    limitOverage -= limitOverage % 5000000
   }
   if (limitOverage >= 15000000) {
     luxuryTax += (limitOverage - 15000000) * 3.25;
