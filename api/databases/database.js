@@ -9,16 +9,15 @@ async function main() {
 
     const playerSchema = new mongoose.Schema({
         Rk: Number,
-        name: String,
+        Player: String,
         age: Number,
-        proPic: String,
         WS: String,
         salary: String,
         projSalary: String,
+        playerTeam: String
         //image: String, //1.png
     });
 
-    // TODO: remove minutes played(?), add BLKA
     const statsSchema = new mongoose.Schema({
         Rk: Number,
         MP: Number,
@@ -32,16 +31,30 @@ async function main() {
         PF: Number,
         PTS: Number
     })
-
     const teamSchema = new mongoose.Schema({
         Players: String,
         Score: Number,
         Salary: Number
     })
 
+    const nbateamSchema = new mongoose.Schema({
+        teamId: Number,
+        teamName: String,
+        Conf: String,
+        Div: String,
+        W: Number,
+        L: Number,
+        WL:String,
+        MOV: String,
+        ORtg: String,
+        DRtg: String,
+        NRtg: String,
+    })
+
     db.Player = mongoose.model('players', playerSchema);
     db.Stats = mongoose.model('stats', statsSchema);
     db.Team = mongoose.model('team', teamSchema);
+    db.NbaTeams = mongoose.model('nbateams', nbateamSchema);
 }
 
 module.exports = db;
