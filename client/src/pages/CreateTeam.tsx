@@ -85,7 +85,7 @@ function CreateTeam(props : any) {
       createButton.hidden = false;
       addButton.disabled = true;
     }
-    return (<li key={players.indexOf(player)}>{player}</li>)
+    return (<li key={players.indexOf(player)} className='player-name'>{player}</li>)
   });
 
   // Create player cards
@@ -148,7 +148,7 @@ function CreateTeam(props : any) {
             <ol>
               {teamList}
             </ol>
-            <Button variant='primary' data-testid='create-team-btn' id='create-team-btn' hidden={true} onClick={submitTeamHandler}>Create a Team!</Button>
+            <Button variant='primary' data-testid='create-team-btn' id='create-team-btn' hidden={true} onClick={submitTeamHandler}>Create Team!</Button>
           </Col>
           <Col sm={8} id='team'>
             <Row id='team-stats'>
