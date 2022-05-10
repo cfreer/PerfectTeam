@@ -17,6 +17,17 @@ const fs = require('fs');
 const { marked } = require('marked');
 
 var app = express();
+var cors = require('cors')
+
+app.use(cors());
+const { createProxyMiddleware } = require('http-proxy-middleware');
+app.use('/api', createProxyMiddleware({
+    target: 'http://localhost:4567/', //original url
+    changeOrigin: true,
+    onProxyRes: function (proxyRes, req, res) {
+       proxyRes.headers['Access-Control-Allow-Origin'] = '*';
+    }
+}));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -62,6 +73,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
 
 module.exports = app;
 const PORT = process.env.PORT || 4567;

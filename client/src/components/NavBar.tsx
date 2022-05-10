@@ -1,3 +1,8 @@
+/**
+ * This file contains the function NavBar that returns the render for the
+ * navigation bar displayed on all pages. It contains links to the different pages.
+ */
+
 import { Dropdown } from 'react-bootstrap';
 import { Navbar } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
@@ -17,7 +22,7 @@ function NavBar() {
           <Dropdown.Item><NavLink to="/players">Players</NavLink></Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Navbar>
+      <Navbar className="justify-content-center">
         <div id="navLinks">
           <ul className="ul-menu">
             <li><NavLink className="menuLinks" to="/">Home</NavLink></li>
