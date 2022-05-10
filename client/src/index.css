@@ -120,6 +120,10 @@ nav li {
   justify-content: center;
 }
 
+#quick-add-btn {
+  margin-bottom: 15px;
+}
+
 .material-icons.md-100 {
   font-size: 100px;
   background-color: #c4c4c4;

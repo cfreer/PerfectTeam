@@ -20,7 +20,7 @@ interface Player {
   playerTeam: string,
 }
 
-function App(props : any) {
+function App() {
 
   const [data, setData] = useState<Player[]>([]);
 
@@ -28,25 +28,25 @@ function App(props : any) {
   // const API_URL = 'https://perfect-team-api.herokuapp.com/';
   const API_URL = 'http://localhost:4567/';
 
-  // Get all player data from Perfect Team API
-  function getPlayersRequest() {
-    fetch(API_URL + 'players')
-      .then(statusCheck)
-      .then(res => res.json())
-      .then(setData)
-      .catch(console.error);
-  }
-
   async function statusCheck(res : Response) {
     if (!res.ok) {
-      throw new Error(await res.text());
+      throw new Error(await res.json());
     }
     return res;
   }
 
   useEffect(() => {
+    // Get all player data from Perfect Team API
+    function getPlayersRequest() {
+      fetch(API_URL + 'players')
+        .then(statusCheck)
+        .then(res => res.json())
+        .then(setData)
+        .catch(console.error);
+    }
+
     getPlayersRequest();
-  }, []);
+  });
 
   // returns rendered routes and specified components
   return (
