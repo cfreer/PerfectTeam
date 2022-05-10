@@ -31,7 +31,6 @@ async function main() {
         PF: Number,
         PTS: Number
     })
-
     const teamSchema = new mongoose.Schema({
         Players: String,
         Score: Number,
