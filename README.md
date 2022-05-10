@@ -1,5 +1,6 @@
 # PerfectTeam
-PerfectTeam is an NBA predictive modeling software that takes any twelve-person lineup for a basketball team and accurately predicts their wins for an 82 game season. It uses algorithms and potentially machine learning for data analysis to predict their wins and losses. It includes major features like a wins prediction, team customization, salary cap, and a quick add team function. PerfectTeam is a web application that users may access easily using a public URL ([https://perfect-team-75839.web.app](https://perfect-team-75839.web.app)).
+PerfectTeam is an NBA predictive modeling software that takes any twelve-person lineup for a basketball team and accurately predicts their wins for an 82 game season. It uses algorithms and potentially machine learning for data analysis to predict their wins and losses. It includes major features like a wins prediction, team customization, salary cap, and a quick add team function. PerfectTeam is a web application that users may access easily using a public URL.
+> Perfect Team Public URL: [https://perfect-team-75839.web.app](https://perfect-team-75839.web.app)
 
 ## Major Features & Goals:
 - Wins Prediction - Clearly present a statistic that represents the potential for the team that the user has selected to win a given game.
@@ -16,37 +17,44 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 
 # Git Repo
 ## Layout
-**data**
+**api**
+- Stores all files for Perfect Team API.
+
+**client**
+- Stores all files for Perfect Team frontend application.
+
+**client/data**
 - Stores all of the basketball data used for the application.
 
-**lib**
+**client/lib**
 - Stores the .jar files needed for JUnit.
+
+**client/public**
+- Stores the index.html file that hosts the application.
+
+**client/src/Components**
+- Stores all the components needed to create the frontend server.
+
+**client/src/Pages**
+- Stores all the pages needed to create the frontend server.
+
+**client/src/main/java**
+- Stores all of the .java classes for the backend server.
+
+**client/src/test/java**
+- Stores all of the JUnit tests for the backend server.
 
 **gradle/wrapper**
 - Store the Gradle wrapper files so GitHub Actions can use Gradle.
 
-**public**
-- Stores the index.html file that hosts the application.
-
-**src/Components**
-- Stores all the components needed to create the frontend server.
-
-**src/Pages**
-- Stores all the pages needed to create the frontend server.
-
-**src/main/java**
-- Stores all of the .java classes for the backend server.
-
-**src/test/java**
-- Stores all of the JUnit tests for the backend server.
-
 ## Policies
 Branches will be in the format "name/feature_name" for each new feature and will be merged through a pull request that must be approved by another team member.
 
-# How to Run
-Clone this repo using the following command:
+# How to Run Frontend
+Clone this repo and change into the client directory using the following commands:
 ```
 git clone https://github.com/cfreer/PerfectTeam.git
+cd client
 ```
 
 Install the latest version of Node from [Nodejs.org](https://nodejs.org/en/). Once Node is installed, run the following command in the root directory:
@@ -64,6 +72,7 @@ To create a production build and deploy it to Firebase, run the following comman
 npm run build
 firebase deploy
 ```
+> Note: Firebase should be installed by using `npm install -g firebase-tools` and logged into before running the `firebase deploy` command.
 
 Firebase hosting URL: [https://perfect-team-75839.web.app](https://perfect-team-75839.web.app)
 
