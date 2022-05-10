@@ -1,3 +1,8 @@
+/**
+ * This file contains the function NavBar that returns the render for the
+ * navigation bar displayed on all pages. It contains links to the different pages.
+ */
+
 import { Dropdown } from 'react-bootstrap';
 import { Navbar } from 'reactstrap';
 import { NavLink } from 'react-router-dom';

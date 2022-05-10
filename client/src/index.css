@@ -98,6 +98,7 @@ nav li {
 
 #team-container {
   padding: 0;
+  margin-bottom: 20px;
 }
 
 #search-bar-inputs {
@@ -136,11 +137,19 @@ nav li {
 #team-stats {
   background-color: #F2F0F0;
   padding: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 #player-cards {
   display: flex;
   justify-content: center;
+}
+
+#stats-table {
+  margin: 0;
+  width: 90%;
+
 }
 
 .material-icons.md-100 {

@@ -5,7 +5,7 @@
  * display win prediction feature.
  */
 import React, { useState } from 'react';
-import { Container, Row, Col, Button, Card, Alert } from 'react-bootstrap';
+import { Container, Row, Col, Button, Card, Alert, Table } from 'react-bootstrap';
 import SearchBar from './../components/SearchBar';
 
 interface Player {
@@ -42,14 +42,19 @@ function CreateTeam(props : any) {
     event.preventDefault();
     let player : string = input;
     let regex = new RegExp(players.join('|'),'i');
+    let warning = document.getElementById('input-alert') as HTMLElement;
+    let warningDuplicate = document.getElementById('input-alert-duplicate') as HTMLElement;
+    let warningSalary = document.getElementById('input-alert-salary') as HTMLElement;
     if (teamNames.includes(player)) {
       // Shows alert for duplicate player
-      (document.getElementById('input-alert-duplicate') as HTMLElement).hidden = false;
-      (document.getElementById('input-alert') as HTMLElement).hidden = true;
+      warningDuplicate.hidden = false;
+      warning.hidden = true;
+      warningSalary.hidden = true;
     } else if (player !== '' && regex.test(player)) {
       // Hides all alerts
-      (document.getElementById('input-alert') as HTMLElement).hidden = true;
-      (document.getElementById('input-alert-duplicate') as HTMLElement).hidden = true;
+      warning.hidden = true;
+      warningDuplicate.hidden = true;
+      warningSalary.hidden = true;
 
       // Gets player info from data
       let p : Player[] = props.data.filter((obj : Player) => {
@@ -57,23 +62,28 @@ function CreateTeam(props : any) {
       });
       let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
       if (playerInfo !== null) {
-        // Adds player name, rank, and salary to current team
-        let name = (playerInfo.Player).substring(0, playerInfo.Player.indexOf('\\'));
-        let rank = playerInfo.Rk;
-        let salary = parseInt(playerInfo.salary.substring(1));
-        setTeamNames(arr => [...arr, name]);
-        setTeamRks(arr => [...arr, rank]);
-        setTotalSalary(totalSalary + salary);
-        setInput('');
+        if (!playerInfo.hasOwnProperty('salary')) {
+          warningSalary.hidden = false;
+        } else {
+          // Adds player name, rank, and salary to current team
+          let name = (playerInfo.Player).substring(0, playerInfo.Player.indexOf('\\'));
+          let rank = playerInfo.Rk;
+          let salary = parseInt(playerInfo.salary.substring(1));
+          setTeamNames(arr => [...arr, name]);
+          setTeamRks(arr => [...arr, rank]);
+          setTotalSalary(totalSalary + salary);
+        }
       } else {
         // Shows alert for invalid NBA player
-        (document.getElementById('input-alert') as HTMLElement).hidden = false;
-        (document.getElementById('input-alert-duplicate') as HTMLElement).hidden = true;
+        warning.hidden = false;
+        warningDuplicate.hidden = true;
+        warningSalary.hidden = true;
       }
     } else {
       // Shows alert for invalid NBA player
-      (document.getElementById('input-alert') as HTMLElement).hidden = false;
-      (document.getElementById('input-alert-duplicate') as HTMLElement).hidden = true;
+      warning.hidden = false;
+      warningDuplicate.hidden = true;
+      warningSalary.hidden = true;
     }
   }
 
@@ -82,13 +92,11 @@ function CreateTeam(props : any) {
     // Disables add button and shows create team button when the team has 12 players
     const createButton = document.getElementById('create-team-btn') as HTMLButtonElement;
     const addButton = document.getElementById('add-btn') as HTMLButtonElement;
-    const searchBar = document.getElementById('player-search') as HTMLInputElement;
     if (createButton != null && addButton != null && teamNames.length === 12) {
       createButton.hidden = false;
       addButton.disabled = true;
-      searchBar.disabled = true;
     }
-    return (<li key={players.indexOf(player)} className='player-name'>{player}</li>)
+    return (<li key={teamNames.indexOf(player)} className='player-name'>{player}</li>)
   });
 
   // Creates player cards
@@ -109,8 +117,16 @@ function CreateTeam(props : any) {
     fetch(API_URL + 'team/get/team/' + teamRks.join(','))
       .then(statusCheck)
       .then(res => res.json())
+      .then(checkError)
       .then(updateStats)
       .catch(console.error);
+  }
+
+  function checkError(res : any) {
+    if (res.hasOwnProperty('status') && res.status === 'error') {
+      let alert = document.getElementById('input-alert-error') as HTMLElement;
+      alert.hidden = false;
+    }
   }
 
   // Checks the status of request
@@ -146,6 +162,8 @@ function CreateTeam(props : any) {
       <div id='create-team-content'>
         <Alert variant='warning' hidden={true} id='input-alert'>Please enter a valid NBA player.</Alert>
         <Alert variant='warning' hidden={true} id='input-alert-duplicate'>Please enter another NBA player that is not already included in your current team.</Alert>
+        <Alert variant='warning' hidden={true} id='input-alert-salary'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
+        <Alert variant='danger' hidden={true} id='input-alert-error'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
         <Container id='team-container'>
           <Row>
             <Col sm={4} id='player-list'>
@@ -157,12 +175,24 @@ function CreateTeam(props : any) {
             </Col>
             <Col sm={8} id='team'>
               <Row id='team-stats'>
-                <div className="col-8 col-sm-8 col-md-8 col-lg-8">
-                  <p><b>Win Prediction:</b> {score}</p>
-                  <p><b>Salary:</b> ${totalSalary}</p>
-                  <p><b>Luxury Tax:</b> ${tax}</p>
-                  <p><b>Salary Cap:</b> $112400000</p>
-                </div>
+                <Table id='stats-table'>
+                  <tr>
+                    <td><b>Win Prediction:</b></td>
+                    <td>{score}</td>
+                  </tr>
+                  <tr>
+                    <td><b>Luxury Tax:</b></td>
+                    <td>${tax}</td>
+                  </tr>
+                  <tr>
+                    <td><b>Salary:</b></td>
+                    <td>${totalSalary.toLocaleString()}</td>
+                  </tr>
+                  <tr>
+                    <td><b>Salary Cap:</b></td>
+                    <td>$112,400,000</td>
+                  </tr>
+                </Table>
               </Row>
               <Row id='player-cards'>
                 {playerCards}

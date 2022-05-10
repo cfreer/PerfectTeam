@@ -1,4 +1,8 @@
-import React from 'react';
+/**
+ * This file contains the function Home that returns the render for the
+ * home page. It features a slideshow and a description of Perfect Team's Create
+ * a Team feature.
+ */
 import Slideshow from '../components/Slideshow';
 import CreateTeamBtn from '../components/CreateTeamButton';
 

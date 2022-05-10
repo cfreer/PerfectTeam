@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { ReactSearchAutocomplete } from "react-search-autocomplete";
+import { useState } from 'react';
+import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 
 type Item = {
   id: number;
@@ -18,7 +18,7 @@ type Player = {
 }
 
 function SearchBar(props : any) {
-  const [searchString, setSearchString] = useState("");
+  const [searchString, setSearchString] = useState('');
   const data : Player[] = props.data;
 
   const items : Item[] = data.map((obj : Player) => ({
@@ -29,11 +29,13 @@ function SearchBar(props : any) {
   const handleOnSearch = (string : string, results : Item[]) => {
     console.log(string, results);
     setSearchString(string);
+    props.setInput(string);
   };
 
   const handleOnClear = () => {
-    console.log("Cleared");
-    setSearchString("");
+    console.log('Cleared');
+    setSearchString('');
+    props.setInput('');
   };
 
   const handleOnSelect = (result : Item) => {
@@ -49,6 +51,7 @@ function SearchBar(props : any) {
         onClear={handleOnClear}
         onSelect={handleOnSelect}
         inputSearchString={searchString}
+        inputDebounce={0}
         autoFocus
       />
     </div>

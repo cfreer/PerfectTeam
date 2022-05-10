@@ -1,3 +1,7 @@
+/**
+ * This file contains the unit test functions for the NavBar component.
+ */
+
 import { render, screen } from '@testing-library/react';
 import NavBar from './NavBar';
 import { BrowserRouter } from 'react-router-dom';
