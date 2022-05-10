@@ -20,9 +20,25 @@ interface Player {
   playerTeam: string,
 }
 
+interface Team {
+  id: string,
+  teamId: number,
+  teamName: string,
+  Conf: string,
+  Div: string,
+  W: number,
+  L: number,
+  WL: string,
+  MOV: string,
+  ORtg: string,
+  DRtg: string,
+  NRtg: string
+}
+
 function App() {
 
-  const [data, setData] = useState<Player[]>([]);
+  const [playerData, setPlayerData] = useState<Player[]>([]);
+  const [teamData, setTeamData] = useState<Team[]>([]);
 
   // Base URL for Perfect Team API
   // const API_URL = 'https://perfect-team-api.herokuapp.com/';
@@ -41,10 +57,19 @@ function App() {
       fetch(API_URL + 'players')
         .then(statusCheck)
         .then(res => res.json())
-        .then(setData)
+        .then(setPlayerData)
+        .catch(console.error);
+    }
+    // Get all team data from Perfect Team API
+    function getTeamsRequest() {
+      fetch(API_URL + 'nbateams')
+        .then(statusCheck)
+        .then(res => res.json())
+        .then(setTeamData)
         .catch(console.error);
     }
     getPlayersRequest();
+    getTeamsRequest();
   });
 
   // returns rendered routes and specified components
@@ -65,7 +90,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/createteam">
-            <CreateTeam data={data}/>
+            <CreateTeam data={playerData} teamData={teamData}/>
           </Route>
           <Route path="/games">
             <Games />

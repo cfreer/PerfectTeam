@@ -7,8 +7,9 @@
 import React, { useCallback, useState } from 'react';
 import { Container, Row, Col, Button, Card, Alert, Table } from 'react-bootstrap';
 import SearchBar from './../components/SearchBar';
+import QuickAdd from './../components/QuickAdd';
 
-type Player = {
+interface Player {
   id: string,
   Rk: number,
   Player: string,
@@ -26,7 +27,7 @@ function CreateTeam(props : any) {
   const [ptTeamRks, setPTRks] = useState<number[]>([]);
   const [totalSalary, setTotalSalary] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
-  const [tax, setTax] = useState<number>(0);
+  const [tax, setTax] = useState<number>(-1);
   const [modalShow, setModalShow] = React.useState(false);
 
   // Base URL for Perfect Team API
@@ -145,6 +146,14 @@ function CreateTeam(props : any) {
     setPTNames(val);
   }, [setPTNames]);
 
+  const updateTeamRks = useCallback((val : number[]) => {
+    setPTRks(val);
+  }, [setPTRks]);
+
+  const updateSalary = useCallback((val : number) => {
+    setTotalSalary(val);
+  }, [setTotalSalary]);
+
   // renders create team page
   return (
     <div className='create-team-container' data-testid='create-team-container'>
@@ -166,6 +175,15 @@ function CreateTeam(props : any) {
         <Alert variant='warning' hidden={true} id='input-alert-duplicate'data-testid='input-alert-duplicate'>Please enter another NBA player that is not already included in your current team.</Alert>
         <Alert variant='warning' hidden={true} id='input-alert-salary' data-testid='input-alert-salary'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
         <Alert variant='danger' hidden={true} id='input-alert-error' data-testid='input-alert-error'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
+        <Button variant="primary" onClick={() =>setModalShow(true)} id='quick-add-btn'>Quick Add NBA Team</Button>
+        <QuickAdd
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+          parentTeamNamesSetter={updateTeamNames}
+          parentTeamRksSetter={updateTeamRks}
+          parentSalarySetter={updateSalary}
+          data={props.teamData}
+        />
         <Container id='team-container'>
           <Row>
             <Col sm={4} id='player-list' data-testid='player-list'>
@@ -185,7 +203,7 @@ function CreateTeam(props : any) {
                     </tr>
                     <tr>
                       <td><b>Luxury Tax:</b></td>
-                      <td>{tax === 0 ? '---' : '$' + tax.toString()}</td>
+                      <td>{tax === -1 ? '---' : (tax === 0 ? 'None' : '$' + tax.toString())}</td>
                     </tr>
                     <tr>
                       <td><b>Salary:</b></td>

@@ -127,7 +127,7 @@ nav li {
 #player-list {
   background-color: #E1E1E1;
   min-height: 100vh;
-  padding: 2rem;
+  padding: 2.8rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
