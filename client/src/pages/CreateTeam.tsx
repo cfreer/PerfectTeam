@@ -10,7 +10,7 @@ import SearchBar from './../components/SearchBar';
 
 interface Player {
   id: string,
-  Rk: number,
+  Rk: string,
   Player: string,
   age: number,
   WS: string,
@@ -23,7 +23,7 @@ function CreateTeam(props : any) {
   const players = props.data.map((obj : Player) => (obj.Player).substring(0, obj.Player.indexOf('\\')));
   const [input, setInput] = useState<string>('');
   const [teamNames, setTeamNames] = useState<string[]>([]);
-  const [teamRks, setTeamRks] = useState<number[]>([]);
+  const [teamRks, setTeamRks] = useState<string[]>([]);
   const [totalSalary, setTotalSalary] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [tax, setTax] = useState<number>(0);
@@ -127,6 +127,7 @@ function CreateTeam(props : any) {
       let alert = document.getElementById('input-alert-error') as HTMLElement;
       alert.hidden = false;
     }
+    return res;
   }
 
   // Checks the status of request
@@ -179,11 +180,11 @@ function CreateTeam(props : any) {
                   <tbody>
                     <tr>
                       <td><b>Win Prediction:</b></td>
-                      <td>{score}</td>
+                      <td>{score === 0 ? '---' : score}</td>
                     </tr>
                     <tr>
                       <td><b>Luxury Tax:</b></td>
-                      <td>${tax}</td>
+                      <td>{tax === 0 ? '---' : '$' + tax.toString()}</td>
                     </tr>
                     <tr>
                       <td><b>Salary:</b></td>
