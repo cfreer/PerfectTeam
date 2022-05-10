@@ -49,16 +49,12 @@ async function main() {
         ORtg: String,
         DRtg: String,
         NRtg: String,
-        MOV: String,
-        ORtg: String,
-        DRtg: String,
-        NRtg: String,
     })
 
     db.Player = mongoose.model('players', playerSchema);
     db.Stats = mongoose.model('stats', statsSchema);
     db.Team = mongoose.model('team', teamSchema);
-    db.NbaTeams = mongoose.model('nbaTeams', nbateamSchema);
+    db.NbaTeams = mongoose.model('nbateams', nbateamSchema);
 }
 
 module.exports = db;

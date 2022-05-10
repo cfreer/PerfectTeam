@@ -8,6 +8,7 @@ const logger = require('morgan');
 const playerRouter = require('./routes/player');
 const teamRouter = require('./routes/team');
 const quickAddRouter = require('./routes/quickadd');
+const nbateamsRouter = require('./routes/nbateams');
 
 //Database
 const db = require('./databases/database');
@@ -38,6 +39,7 @@ app.use((req, res, next) => {
 app.use('/players', playerRouter);
 app.use('/team', teamRouter);
 app.use('/quickadd', quickAddRouter);
+app.use('/nbateams', nbateamsRouter);
 
 app.use("/", function(req, res) {
   try {
