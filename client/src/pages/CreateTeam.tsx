@@ -31,32 +31,32 @@ function CreateTeam(props : any) {
   // const API_URL = 'https://perfect-team-api.herokuapp.com/';
   const API_URL = 'http://localhost:4567/';
 
-  // Track input in player search bar
+  // Updates stored value of player search bar input
   const inputChangeHandler = (event : React.ChangeEvent) => {
     setInput((event?.target as HTMLInputElement)?.value);
   }
 
-  // Add a player to the team
+  // Adds a player to the team
   const submitPlayerHandler = (event : React.MouseEvent) => {
     event.preventDefault();
     let player : string = (document.getElementById('player-search') as HTMLInputElement)?.value;
     let regex = new RegExp(players.join('|'),'i');
     if (teamNames.includes(player)) {
-      // Show alert for duplicate player
+      // Shows alert for duplicate player
       (document.getElementById('input-alert-duplicate') as HTMLElement).hidden = false;
       (document.getElementById('input-alert') as HTMLElement).hidden = true;
     } else if (player !== '' && regex.test(player)) {
-      // Hide all alerts
+      // Hides all alerts
       (document.getElementById('input-alert') as HTMLElement).hidden = true;
       (document.getElementById('input-alert-duplicate') as HTMLElement).hidden = true;
 
-      // Get player info from data
+      // Gets player info from data
       let p : Player[] = props.data.filter((obj : Player) => {
         return obj.Player.includes(player);
       });
       let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
       if (playerInfo !== null) {
-        // Add player name, rank, and salary to current team
+        // Adds player name, rank, and salary to current team
         let name = (playerInfo.Player).substring(0, playerInfo.Player.indexOf('\\'));
         let rank = playerInfo.Rk;
         let salary = parseInt(playerInfo.salary.substring(1));
@@ -65,30 +65,32 @@ function CreateTeam(props : any) {
         setTotalSalary(totalSalary + salary);
         setInput('');
       } else {
-        // Show alert for invalid NBA player
+        // Shows alert for invalid NBA player
         (document.getElementById('input-alert') as HTMLElement).hidden = false;
         (document.getElementById('input-alert-duplicate') as HTMLElement).hidden = true;
       }
     } else {
-      // Show alert for invalid NBA player
+      // Shows alert for invalid NBA player
       (document.getElementById('input-alert') as HTMLElement).hidden = false;
       (document.getElementById('input-alert-duplicate') as HTMLElement).hidden = true;
     }
   }
 
-  // Update team list
+  // Updates team list
   let teamList = teamNames.map((player) => {
-    // Disable add button and show create team button when the team has 12 players
+    // Disables add button and shows create team button when the team has 12 players
     const createButton = document.getElementById('create-team-btn') as HTMLButtonElement;
     const addButton = document.getElementById('add-btn') as HTMLButtonElement;
+    const searchBar = document.getElementById('player-search') as HTMLInputElement;
     if (createButton != null && addButton != null && teamNames.length === 12) {
       createButton.hidden = false;
       addButton.disabled = true;
+      searchBar.disabled = true;
     }
     return (<li key={players.indexOf(player)} className='player-name'>{player}</li>)
   });
 
-  // Create player cards
+  // Creates player cards
   let playerCards = teamNames.map((player) => {
     return (
       <Card className="text-center player-card border-0">
@@ -118,7 +120,7 @@ function CreateTeam(props : any) {
     return res;
   }
 
-  // Update the win prediction and luxury tax values
+  // Updates the win prediction and luxury tax values
   function updateStats(res : any) {
     setScore(res.score);
     setTax(res.luxuryTax);
