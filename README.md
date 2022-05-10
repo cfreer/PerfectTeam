@@ -38,12 +38,6 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 **client/src/Pages**
 - Stores all the pages needed to create the frontend server.
 
-**client/src/main/java**
-- Stores all of the .java classes for the backend server.
-
-**client/src/test/java**
-- Stores all of the JUnit tests for the backend server.
-
 **gradle/wrapper**
 - Store the Gradle wrapper files so GitHub Actions can use Gradle.
 
