@@ -1,0 +1,43 @@
+name: Build and Test Application
+
+# Controls when the action will run.
+on: [push]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+
+  # install dependencies and run test command
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+
+      # 1: Setup node.
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      # 2: Checkout repository in the CWD.
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # 3: Install NPM dependencies for front end.
+      - name: Install dependencies
+        run: npm install
+        working-directory: client
+
+      # 4: Run test command for front end.
+      - name: Run test command
+        run: npm run test
+        working-directory: client
+
+      # 5: Install NPM dependencies for back end.
+      - name: Install dependencies
+        run: npm install
+        working-directory: api
+
+      # 6: Run test command for back end.
+      - name: Run test command
+        run: npm test
+        working-directory: api
