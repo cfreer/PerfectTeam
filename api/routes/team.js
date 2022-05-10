@@ -1,5 +1,7 @@
 var express = require('express');
 var router = express.Router();
+const Players = require('../models/players');
+const Stats = require('../models/stats');
 
 const SALARY_CAP = 112400000;
 
@@ -10,17 +12,15 @@ const SALARY_CAP = 112400000;
  */
 router.get('/get/team/:players', async (req, res) => {
   try {
-    const players = req.params.players;
-    const ranks = players.split(',');
-    const stats = req.db.Stats;
-    const player = req.db.Player;
+    const ranks = req.params.players;
+    const rankArr = ranks.split(',');
     let statsJSONs = [];
     let totalSalary = 0;
     for (let i = 0; i < ranks.length; i++) {
-      let rank = ranks[i];
-      let statsJSON = await stats.findOne({ Rk: rank }).exec();
+      let rank = rankArr[i];
+      let statsJSON = await Stats.findOne({ Rk: rank }).exec();
       statsJSONs.push(statsJSON);
-      let playerJSON = await player.findOne({ Rk: rank }).exec();
+      let playerJSON = await Players.findOne({ Rk: rank }).exec();
       const salary = parseInt(playerJSON.salary.substring(1));
       totalSalary += salary;
     }

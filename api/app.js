@@ -3,6 +3,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const mongoose = require("mongoose");
 
 //Routers
 const playerRouter = require('./routes/player');
@@ -11,7 +12,9 @@ const quickAddRouter = require('./routes/quickadd');
 const nbateamsRouter = require('./routes/nbateams');
 
 //Database
-const db = require('./databases/database');
+//const db = require('./databases/database');
+mongoose.connect('mongodb+srv://nandojfg:PerfectTeam@clusterjuan.khmci.mongodb.net/PerfectTeam?retryWrites=true&w=majority');
+let db = mongoose.connection;
 
 const fs = require('fs');
 const { marked } = require('marked');
@@ -40,13 +43,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Setup middleware
-
-// add db to request
-app.use((req, res, next) => {
-  req.db = db;
-  next();
-})
-
 app.use('/players', playerRouter);
 app.use('/team', teamRouter);
 app.use('/quickadd', quickAddRouter);

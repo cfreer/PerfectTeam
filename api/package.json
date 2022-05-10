@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha --timeout 10000"
   },
   "author": "",
   "license": "ISC",
@@ -21,5 +22,10 @@
     "mongoose": "^6.3.2",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
   }
 }
