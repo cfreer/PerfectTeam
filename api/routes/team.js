@@ -6,17 +6,17 @@ const Stats = require('../models/stats');
 const SALARY_CAP = 112400000;
 
 /**
- * Takes a request of the form "/get/team/1,2,3,4,5,6,7,8,9,10,11,12",
+ * Takes a request of the form "/1,2,3,4,5,6,7,8,9,10,11,12",
  * where each number is the rank of one player on the team. Returns the synergy
  * score and luxury tax.
  */
-router.get('/get/team/:players', async (req, res) => {
+router.get('/:players', async (req, res) => {
   try {
     const ranks = req.params.players;
     const rankArr = ranks.split(',');
     let statsJSONs = [];
     let totalSalary = 0;
-    for (let i = 0; i < ranks.length; i++) {
+    for (let i = 0; i < rankArr.length; i++) {
       let rank = rankArr[i];
       let statsJSON = await Stats.findOne({ Rk: rank }).exec();
       statsJSONs.push(statsJSON);

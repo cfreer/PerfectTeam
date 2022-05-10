@@ -62,7 +62,7 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 
 ## Get synergy score and luxury tax for a given set of players.
-**Request Format:** /team/get/team/:players
+**Request Format:** /team/:players
 
 **Request Type:** GET
 
@@ -70,7 +70,7 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 **Description:** Returns the synergy score and luxury tax of the given set of players using our algorithm.
 
-**Example Request:** /team/get/team/1,2,3,4,5,6,7,8,9,10,11,12
+**Example Request:** /team/1,2,3,4,5,6,7,8,9,10,11,12
 
 **Example Response:**
 ```json
@@ -107,7 +107,7 @@ Base URL: https://perfect-team-api.herokuapp.com
 }
 ```
 
-## Get quickadd functionally 
+## Get quickadd functionally
 **Request Format:** /quickadd/:playerTeam
 
 **Request Type:** GET
