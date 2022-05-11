@@ -140,7 +140,7 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 **Description:** Returns a complete team of 12 players on the same NBA team.
 
-**Example Request:** /nbateams/MemPhiladelphia%2076erss%20Grizzlies
+**Example Request:** /quickadd/Utah Jazz
 
 **Example Response:** (abbreviated)
 ```json
