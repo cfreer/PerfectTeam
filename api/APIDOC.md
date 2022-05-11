@@ -2,6 +2,7 @@
 The Perfect Team API lets the user get various information about NBA players and utilizes our algorithm to produce a synergy score.
 Base URL: https://perfect-team-api.herokuapp.com
 
+
 ## Get all players or players matching a given name.
 **Request Format:** /players
 
@@ -79,58 +80,94 @@ Base URL: https://perfect-team-api.herokuapp.com
   "luxuryTax": 9122626936
 }
 ```
-## Get NBA teams
+**Error Handling:**
+- Returns a JSON with an error status and descriptive error message.
+
+
+## Get all NBA teams.
 **Request Format:** /nbateams
 
 **Request Type:** GET
 
 **Returned Data Format**: JSON
 
-**Description:** Returns the information of each of the teams in the NBA
+**Description:** Returns data for all teams in the NBA.
 
 **Example Request:** /nbateams
 
-**Example Response:**
+**Example Response:** (abbreviated)
 ```json
-{
-  "teamId": 1,
-  "teamName": "Boston Celtics",
-  "Conf": "E",
-  "Div": "A",
-  "W": 51,
-  "L": 31,
-  "WL": ".622",
-  "MOV": "7.02",
-  "ORtg": "115.05",
-  "DRtg": "107.65",
-  "NRtg": "7.39"
-}
+[
+  {
+    "_id": "6279f9c6af95564d91af9c07",
+    "teamId": 1,
+    "teamName": "Boston Celtics",
+    "Conf": "E",
+    "Div": "A",
+    "W": 51,
+    "L": 31,
+    "WL": ".622",
+    "MOV": "7.02",
+    "ORtg": "115.05",
+    "DRtg": "107.65",
+    "NRtg": "7.39"
+  },
+  {
+    "_id": "6279f9c6af95564d91af9c08",
+    "teamId": 2,
+    "teamName": "Phoenix Suns",
+    "Conf": "W",
+    "Div": "P",
+    "W": 64,
+    "L": 18,
+    "WL": ".780",
+    "MOV": "6.94",
+    "ORtg": "115.41",
+    "DRtg": "108.50",
+    "NRtg": "6.91"
+  },
+  ...
+]
 ```
 
-## Get quickadd functionally
+
+## Get 12 players from the given team.
 **Request Format:** /quickadd/:playerTeam
 
 **Request Type:** GET
 
 **Returned Data Format**: JSON
 
-**Description:** Returns a complete team of 12 players on the same NBA team
+**Description:** Returns a complete team of 12 players on the same NBA team.
 
 **Example Request:** /nbateams/MemPhiladelphia%2076erss%20Grizzlies
 
-**Example Response:**
+**Example Response:** (abbreviated)
 ```json
-{
-  "Rk": 2,
-  "Player": "Steven Adams\\adamsst01",
-  "age": 28,
-  "WS": "6.8",
-  "salary": "$44310840",
-  "projSalary": "$47366760",
-  "playerTeam": "MemPhiladelphia 76erss Grizzlies"
-}
+[
+  {
+    "_id": "627a039daf95564d91af9c49",
+    "Rk": "23",
+    "Player": "Udoka Azubuike\\azubuud01",
+    "age": 22,
+    "WS": "0.6",
+    "salary": "$31590000.00",
+    "projSalary": "$33930000.00",
+    "playerTeam": "Utah Jazz"
+  },
+  {
+    "_id": "627a039daf95564d91af9c69",
+    "Rk": "55",
+    "Player": "Bojan Bogdanović\\bogdabo02",
+    "age": 32,
+    "WS": "5.2",
+    "salary": "$20000000.00",
+    "projSalary": "$20000000.00",
+    "playerTeam": "Utah Jazz"
+  },
+  ...
+]
 ```
-
 
 **Error Handling:**
 - Returns a JSON with an error status and descriptive error message.
