@@ -6,7 +6,7 @@ function Games(props : any) {
 
   // rendered games page
   return (
-      <div className='game-table'>
+      <div className='game-table' data-testid="game-table">
           <Table striped bordered hover>
             <thead>
               <tr>
