@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+let NbaTeams = require('../models/nbateams');
 
 /**
  * GET team listing.
@@ -7,8 +8,7 @@ var router = express.Router();
 router.get('/', async (req, res) => {
   try {
     let posts;
-    const teams = req.db.NbaTeams;
-    posts = await teams.find();
+    posts = await NbaTeams.find();
     res.json(posts);
   } catch (err) {
     res.json({status: 'error', error: err.message});
