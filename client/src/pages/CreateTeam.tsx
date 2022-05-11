@@ -9,6 +9,7 @@ import { Container, Row, Col, Button, Card, Alert, Table } from 'react-bootstrap
 import SearchBar from './../components/SearchBar';
 import QuickAdd from './../components/QuickAdd';
 import ErrorBoundary from './../components/ErrorBoundary';
+import SalaryEditor from './../components/SalaryEditor';
 
 interface Player {
   id: string,
@@ -29,7 +30,9 @@ function CreateTeam(props : any) {
   const [totalSalary, setTotalSalary] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [tax, setTax] = useState<number>(-1);
-  const [modalShow, setModalShow] = React.useState(false);
+  const [modalShowQA, setModalShowQA] = useState(false);
+  const [editing, setEditing] = useState(false);
+  const [salaryVal, setSalaryValue] = useState("112,400,000");
 
   // Base URL for Perfect Team API
   const API_URL = 'https://perfect-team-api.herokuapp.com/';
@@ -158,6 +161,11 @@ function CreateTeam(props : any) {
     setTotalSalary(val);
   }, [setTotalSalary]);
 
+  // Handle salary edit text
+  const handleSave = useCallback((value : string) => {
+    setSalaryValue(value);
+  }, [setSalaryValue]);
+
   // Renders create team page
   return (
     <div className='create-team-container' data-testid='create-team-container'>
@@ -179,11 +187,11 @@ function CreateTeam(props : any) {
         <Alert variant='warning' hidden={true} id='input-alert-duplicate'data-testid='input-alert-duplicate'>Please enter another NBA player that is not already included in your current team.</Alert>
         <Alert variant='warning' hidden={true} id='input-alert-salary' data-testid='input-alert-salary'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
         <Alert variant='danger' hidden={true} id='input-alert-error' data-testid='input-alert-error'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
-        <Button variant="primary" onClick={() =>setModalShow(true)} id='quick-add-btn'>Quick Add NBA Team</Button>
+        <Button variant='primary' onClick={() =>setModalShowQA(true)} id='quick-add-btn'>Quick Add NBA Team</Button>
         <ErrorBoundary>
           <QuickAdd
-            show={modalShow}
-            onHide={() => setModalShow(false)}
+            show={modalShowQA}
+            onHide={() => setModalShowQA(false)}
             parentTeamNamesSetter={updateTeamNames}
             parentTeamRksSetter={updateTeamRks}
             parentSalarySetter={updateSalary}
@@ -217,7 +225,20 @@ function CreateTeam(props : any) {
                     </tr>
                     <tr>
                       <td><b>Salary Cap:</b></td>
-                      <td>$112,400,000</td>
+                      <td>
+                        ${salaryVal}
+                      </td>
+                      <td>
+                        <Button variant='light' size='sm' onClick={() =>setEditing(true)} id='salary-btn'>Edit</Button>
+                        {/* <ErrorBoundary> */}
+                          <SalaryEditor
+                            show={editing}
+                            onHide={() => setEditing(false)}
+                            parentSave={handleSave}
+                            salary={salaryVal}
+                          />
+                        {/* </ErrorBoundary> */}
+                      </td>
                     </tr>
                   </tbody>
                 </Table>

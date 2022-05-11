@@ -70,7 +70,7 @@ function App() {
     }
     getPlayersRequest();
     getTeamsRequest();
-  });
+  }, []);
 
   // returns rendered routes and specified components
   return (
