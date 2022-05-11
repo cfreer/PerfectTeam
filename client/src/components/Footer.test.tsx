@@ -9,4 +9,3 @@ test('renders footer', () => {
   render(<Footer />);
   expect(screen.getByText(/Aaron Carter, Amanda Ki, Caroline Freer, Juan Gonzalez, Ned Harrison/i)).toBeInTheDocument();
 });
-

@@ -30,7 +30,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom --verbose --watchAll=false --runInBand --detectOpenHandles",
+    "test": "react-scripts test --env=jsdom --verbose --watchAll=false --silent --runInBand --detectOpenHandles",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
