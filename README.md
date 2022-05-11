@@ -60,7 +60,7 @@ git clone https://github.com/cfreer/PerfectTeam.git
 cd client
 ```
 
-Install the latest version of Node from [Nodejs.org](https://nodejs.org/en/). Once Node is installed, run the following command in the root directory:
+Install the latest version of Node from [Nodejs.org](https://nodejs.org/en/). Once Node is installed, run the following command in the client directory:
 ```
 npm install
 ```
@@ -127,6 +127,23 @@ git push origin master
 10. Open your new API.
 ```
 heroku open
+```
+
+# How to Start API Locally
+Clone this repo and change into the api directory using the following commands:
+```
+git clone https://github.com/cfreer/PerfectTeam.git
+cd api
+```
+
+Install the latest version of Node from [Nodejs.org](https://nodejs.org/en/). Once Node is installed, run the following command in the api directory:
+```
+npm install
+```
+
+To start the API locally on http://localhost:4567/, run the following command:
+```
+npm start
 ```
 
 # How to Test
