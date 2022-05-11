@@ -77,7 +77,7 @@ function App(props : any) {
             <Teams />
           </Route>
           <Route path="/players">
-            <Players />
+            <Players  data={data}/>
           </Route>
           <Redirect to="/" />
         </Switch>
