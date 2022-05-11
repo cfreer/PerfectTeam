@@ -1,3 +1,8 @@
+/**
+ * This file contains the function QuickAdd that returns the render for the
+ * modal that allows the user to select an NBA team.
+ */
+
 import { useState } from 'react';
 import { Button, Modal, Form } from 'react-bootstrap';
 

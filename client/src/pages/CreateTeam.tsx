@@ -30,9 +30,9 @@ function CreateTeam(props : any) {
   const [totalSalary, setTotalSalary] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [tax, setTax] = useState<number>(-1);
-  const [modalShowQA, setModalShowQA] = useState(false);
-  const [editing, setEditing] = useState(false);
-  const [salaryVal, setSalaryValue] = useState("112,400,000");
+  const [modalShowQA, setModalShowQA] = useState<boolean>(false);
+  const [editing, setEditing] = useState<boolean>(false);
+  const [salaryVal, setSalaryValue] = useState<number>(112400000);
 
   // Base URL for Perfect Team API
   const API_URL = 'https://perfect-team-api.herokuapp.com/';
@@ -162,7 +162,7 @@ function CreateTeam(props : any) {
   }, [setTotalSalary]);
 
   // Handle salary edit text
-  const handleSave = useCallback((value : string) => {
+  const handleSave = useCallback((value : number) => {
     setSalaryValue(value);
   }, [setSalaryValue]);
 
@@ -225,9 +225,7 @@ function CreateTeam(props : any) {
                     </tr>
                     <tr>
                       <td><b>Salary Cap:</b></td>
-                      <td>
-                        ${salaryVal}
-                      </td>
+                      <td>${salaryVal.toLocaleString()}</td>
                       <td>
                         <Button variant='light' size='sm' onClick={() =>setEditing(true)} id='salary-btn'>Edit</Button>
                         {/* <ErrorBoundary> */}

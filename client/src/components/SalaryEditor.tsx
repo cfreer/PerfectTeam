@@ -1,12 +1,35 @@
+/**
+ * This file contains the function SalaryEditor that returns the render for the
+ * modal that allows the user to set the salary cap.
+ */
+
 import { useState } from 'react';
-import { Button, Modal, Form } from 'react-bootstrap';
+import { Button, Modal, Form, Alert } from 'react-bootstrap';
 
 function SalaryEditor(props : any) {
 
-  const [salaryVal, setSalaryVal] = useState<string>(props.salary);
+  const [salaryVal, setSalaryVal] = useState<number>(props.salary);
+  const [hideWarning, setHideWarning] = useState<boolean>(true);
+  const [disableSave, setDisable] = useState<boolean>(false);
 
   function updateSalary() {
-    props.parentSave(salaryVal);
+    props.parentSave(salaryVal); 
+  }
+
+  function validateInput(input : string) {
+    let numbers = /^[0-9]+$/;
+    console.log(input);
+    if (input === '') {
+      setHideWarning(true);
+      setDisable(true);
+    } else if (!numbers.test(input)) {
+      setHideWarning(false);
+      setDisable(true);
+    } else {
+      setHideWarning(true);
+      setDisable(false);
+      setSalaryVal(parseInt(input));
+    }
   }
 
   return (
@@ -24,21 +47,29 @@ function SalaryEditor(props : any) {
       </Modal.Header>
       <Modal.Body>
         <p>
-          Please enter the amount that you would like to set the salary cap.
+          Please enter the amount that you would like to set the salary cap. Previous salary cap: {props.salary}
         </p>
         <Form>
-          <Form.Group className="mb-3">
-            <Form.Control type='text' onChange={(e) => setSalaryVal(e.target.value)}>
-              {salaryVal}
-            </Form.Control>
+          <Form.Group className='mb-3'>
+            <Form.Label>Salary Cap</Form.Label>
+            <Form.Control
+              type='text'
+              onChange={(e) => validateInput(e.target.value)}
+              autoFocus
+            />
           </Form.Group>
         </Form>
+        <Alert variant='warning' hidden={hideWarning} id='number-input-alert' data-testid='input-alert'>Please enter a value only containing numbers. (Example: 112400000)</Alert>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={() => {
-          updateSalary();
-          props.onHide();
-        }}>Save</Button>
+        <Button 
+          id='save-btn'
+          onClick={() => {
+            updateSalary();
+            props.onHide();
+          }}
+          disabled={disableSave}
+          >Save</Button>
       </Modal.Footer>
     </Modal>
   );
