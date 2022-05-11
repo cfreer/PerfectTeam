@@ -5,7 +5,7 @@ function Teams(props : any) {
 
   // renders teams page
   return (
-    <div className='teams-container' data-testid = "teams-container">
+    <div className='teams-container' data-testid="teams-container">
       <Table striped bordered hover>
         <thead>
           <tr>

@@ -20,15 +20,15 @@ test('renders create team page', () => {
 
 test('renders games page', () => {
   currRender(<App />, {route: '/games'});
-  expect((screen.getByText(/games page/i))).toBeInTheDocument();
+  expect((screen.getByTestId(/game-table/i))).toBeInTheDocument();
 });
 
 test('renders teams page', () => {
   currRender(<App />, {route: '/teams'});
-  expect((screen.getByText(/teams page/i))).toBeInTheDocument();
+  expect((screen.getByTestId(/teams-container/i))).toBeInTheDocument();
 });
 
 test('renders players page', () => {
   currRender(<App />, {route: '/players'});
-  expect((screen.getByText(/players page/i))).toBeInTheDocument();
+  expect((screen.getByTestId(/players-container/i))).toBeInTheDocument();
 });

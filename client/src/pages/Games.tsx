@@ -2,8 +2,6 @@ import React from 'react';
 import { Table } from 'react-bootstrap';
 
 function Games(props : any) {
-
-
   // rendered games page
   return (
       <div className='game-table' data-testid="game-table">

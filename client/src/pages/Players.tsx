@@ -64,7 +64,7 @@ function Players(props : any) {
 
   // renders players page
   return (
-    <div className='players-container'>
+    <div className='players-container' data-testid='players-container'>
       <div id='search-bar-inputs'>
         <div id='search' data-testid='search'>
           <SearchBar
