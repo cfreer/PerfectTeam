@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const Players = require('../models/players');
 
 /**
  * GET player listing.
@@ -9,14 +10,13 @@ var router = express.Router();
 router.get('/', async (req, res) => {
   try {
     let posts;
-    const players = req.db.Player;
     // checks to see if the user added a player name
     if (Object.keys(req.query).length !== 0) {
       const fullName = req.query.name;
       const nameRegex = new RegExp(fullName);
-      posts = await players.findOne({ Player: { $regex: nameRegex } }).exec();
+      posts = await Players.findOne({ Player: { $regex: nameRegex } }).exec();
     } else {
-      posts = await players.find();
+      posts = await Players.find();
     }
     res.json(posts);
   } catch (err) {

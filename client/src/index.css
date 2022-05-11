@@ -11,7 +11,6 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 h1, h2, h3 {
@@ -54,12 +53,25 @@ div nav a:hover {
   color: #F1600D;
 }
 
-li {
+nav li {
   display: inline;
   margin-right: 1rem;
 }
 
-footer {
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content {
+  padding-bottom: 2rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
   background-color: black;
   color: white;
   margin: 0;
@@ -82,6 +94,76 @@ footer {
   padding: 2rem;
   background-color: #F2F0F0;
   margin: 1rem 0;
+}
+
+#team-container {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#search-bar-inputs {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#search {
+  width: 85%;
+}
+
+#add-btn {
+  background-color: #F1600D;
+  border-color: #F1600D;
+}
+
+#create-team-content {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+#player-list {
+  background-color: #E1E1E1;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#team-stats {
+  background-color: #F2F0F0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#player-cards {
+  display: flex;
+  justify-content: center;
+}
+
+#stats-table {
+  margin: 0;
+  width: 90%;
+
+}
+
+.material-icons.md-100 {
+  font-size: 100px;
+  background-color: #c4c4c4;
+}
+
+.player-card {
+  max-width: 140px;
+  margin: 5px;
+}
+
+.player-name {
+  margin: 20px 0;
 }
 
 /* Slideshow */
@@ -122,7 +204,7 @@ footer {
 }
 
 .slideshowDot.active {
-  background-color: #6a0dad;
+  background-color: #F1600D;
 }
 
 .games-table {
