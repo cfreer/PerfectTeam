@@ -1,3 +1,8 @@
+/**
+ * This file contains the function QuickAdd that returns the render for the
+ * modal that allows the user to select an NBA team.
+ */
+
 import { useState } from 'react';
 import { Button, Modal, Form } from 'react-bootstrap';
 
@@ -59,7 +64,6 @@ function QuickAdd(props : any) {
     let names : string[] = [];
     let rks : number[] = [];
     let salary : number = 0;
-    console.log(res);
     res.forEach((obj : Player) => {
       names.push((obj.Player).substring(0, obj.Player.indexOf('\\')));
       rks.push(obj.Rk);
