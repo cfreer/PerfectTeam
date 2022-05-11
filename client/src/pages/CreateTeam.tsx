@@ -8,6 +8,7 @@ import React, { useCallback, useState } from 'react';
 import { Container, Row, Col, Button, Card, Alert, Table } from 'react-bootstrap';
 import SearchBar from './../components/SearchBar';
 import QuickAdd from './../components/QuickAdd';
+import ErrorBoundary from './../components/ErrorBoundary';
 
 interface Player {
   id: string,
@@ -31,8 +32,8 @@ function CreateTeam(props : any) {
   const [modalShow, setModalShow] = React.useState(false);
 
   // Base URL for Perfect Team API
-  const API_URL = 'https://perfect-team-api.herokuapp.com/';
-  // const API_URL = 'http://localhost:4567/';
+  // const API_URL = 'https://perfect-team-api.herokuapp.com/';
+  const API_URL = 'http://localhost:4567/';
 
   // Updates stored value of player search bar input
   const inputChangeHandler = (value : string) => {
@@ -179,14 +180,16 @@ function CreateTeam(props : any) {
         <Alert variant='warning' hidden={true} id='input-alert-salary' data-testid='input-alert-salary'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
         <Alert variant='danger' hidden={true} id='input-alert-error' data-testid='input-alert-error'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
         <Button variant="primary" onClick={() =>setModalShow(true)} id='quick-add-btn'>Quick Add NBA Team</Button>
-        <QuickAdd
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-          parentTeamNamesSetter={updateTeamNames}
-          parentTeamRksSetter={updateTeamRks}
-          parentSalarySetter={updateSalary}
-          data={props.teamData}
-        />
+        <ErrorBoundary>
+          <QuickAdd
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            parentTeamNamesSetter={updateTeamNames}
+            parentTeamRksSetter={updateTeamRks}
+            parentSalarySetter={updateSalary}
+            data={props.teamData}
+          />
+        </ErrorBoundary>
         <Container id='team-container'>
           <Row>
             <Col sm={4} id='player-list' data-testid='player-list'>
