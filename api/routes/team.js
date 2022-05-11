@@ -3,16 +3,16 @@ var router = express.Router();
 const Players = require('../models/players');
 const Stats = require('../models/stats');
 
-const SALARY_CAP = 112400000;
-
 /**
- * Takes a request of the form "/1,2,3,4,5,6,7,8,9,10,11,12",
- * where each number is the rank of one player on the team. Returns the synergy
- * score and luxury tax.
+ * Takes a request of the form "/1,2,3,4,5,6,7,8,9,10,11,12/1000000",
+ * where each number of the first parameter is the rank of one player on the team
+ * and the second parameter is the salary cap. Returns the synergy score and luxury
+ * tax of the given team.
  */
-router.get('/:players', async (req, res) => {
+router.get('/:players/:salaryCap', async (req, res) => {
   try {
     const ranks = req.params.players;
+    const salaryCap = req.params.salaryCap;
     const rankArr = ranks.split(',');
     let statsJSONs = [];
     let totalSalary = 0;
@@ -25,7 +25,7 @@ router.get('/:players', async (req, res) => {
       totalSalary += salary;
     }
     const score = getAlgorithmScore(statsJSONs);
-    const luxuryTax = getLuxuryTax(totalSalary);
+    const luxuryTax = getLuxuryTax(totalSalary, salaryCap);
 
     res.json({"score": score, "luxuryTax": luxuryTax});
   } catch (err) {
@@ -78,11 +78,12 @@ function getAlgorithmScore(statsJSONs) {
 /**
  * Returns the luxury tax for a team with the given total salary.
  * @param {Number} totalSalary the total salary of the team.
+ * @param {Number} salaryCap the salary cap for the team.
  * @returns the luxury tax for a team with the given total salary.
  */
-function getLuxuryTax(totalSalary) {
+function getLuxuryTax(totalSalary, salaryCap) {
   let luxuryTax = 0;
-  let limitOverage = totalSalary - SALARY_CAP;
+  let limitOverage = totalSalary - salaryCap;
   if (limitOverage >= 20000000) {
     let currentTax = 3.75;
     let currentLimitOverage = (limitOverage - 20000000) / 5000000
