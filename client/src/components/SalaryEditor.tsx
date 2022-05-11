@@ -4,7 +4,7 @@
  */
 
 import { useState } from 'react';
-import { Button, Modal, Form, Alert } from 'react-bootstrap';
+import { Button, Modal, Form, Alert, InputGroup } from 'react-bootstrap';
 
 function SalaryEditor(props : any) {
 
@@ -13,7 +13,7 @@ function SalaryEditor(props : any) {
   const [disableSave, setDisable] = useState<boolean>(false);
 
   function updateSalary() {
-    props.parentSave(salaryVal); 
+    props.parentSave(salaryVal);
   }
 
   function validateInput(input : string) {
@@ -46,23 +46,23 @@ function SalaryEditor(props : any) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p>
-          Please enter the amount that you would like to set the salary cap. Previous salary cap: {props.salary}
-        </p>
-        <Form>
-          <Form.Group className='mb-3'>
-            <Form.Label>Salary Cap</Form.Label>
-            <Form.Control
-              type='text'
-              onChange={(e) => validateInput(e.target.value)}
-              autoFocus
-            />
-          </Form.Group>
-        </Form>
+        <p>Please enter the amount that you would like to set the salary cap.</p>
+        <p>Previous salary cap: ${(props.salary).toLocaleString()}</p>
+        <Form.Label>Salary Cap</Form.Label>
+        <InputGroup className='mb-3'>
+          <InputGroup.Prepend>
+            <InputGroup.Text>$</InputGroup.Text>
+          </InputGroup.Prepend>
+          <Form.Control
+            type='text'
+            onChange={(e) => validateInput(e.target.value)}
+            autoFocus
+          />
+        </InputGroup>
         <Alert variant='warning' hidden={hideWarning} id='number-input-alert' data-testid='input-alert'>Please enter a value only containing numbers. (Example: 112400000)</Alert>
       </Modal.Body>
       <Modal.Footer>
-        <Button 
+        <Button
           id='save-btn'
           onClick={() => {
             updateSalary();
