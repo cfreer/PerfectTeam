@@ -116,7 +116,7 @@ function CreateTeam(props : any) {
   // Handles getting win prediction and luxury tax values from API
   const submitTeamHandler = (event : React.MouseEvent) => {
     event.preventDefault();
-    fetch(API_URL + 'team/' + ptTeamRks.join(','))
+    fetch(API_URL + 'team/' + ptTeamRks.join(',') + '/' + salaryVal.toString())
       .then(statusCheck)
       .then(res => res.json())
       .then(checkError)
