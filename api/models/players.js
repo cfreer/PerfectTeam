@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const playerSchema = new mongoose.Schema({
-  Rk: String,
+  Rk: Number,
   Player: String,
   age: Number,
   WS: String,
