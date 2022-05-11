@@ -32,8 +32,8 @@ function CreateTeam(props : any) {
   const [modalShow, setModalShow] = React.useState(false);
 
   // Base URL for Perfect Team API
-  // const API_URL = 'https://perfect-team-api.herokuapp.com/';
-  const API_URL = 'http://localhost:4567/';
+  const API_URL = 'https://perfect-team-api.herokuapp.com/';
+  // const API_URL = 'http://localhost:4567/';
 
   // Updates stored value of player search bar input
   const inputChangeHandler = (value : string) => {
@@ -205,11 +205,11 @@ function CreateTeam(props : any) {
                   <tbody>
                     <tr>
                       <td><b>Win Prediction:</b></td>
-                      <td>{score === 0 ? '---' : score}</td>
+                      <td>{score === 0 ? '---' : (score * 100).toFixed(2) + '%' }</td>
                     </tr>
                     <tr>
                       <td><b>Luxury Tax:</b></td>
-                      <td>{tax === -1 ? '---' : (tax === 0 ? 'None' : '$' + tax.toString())}</td>
+                      <td>{tax === -1 ? '---' : (tax === 0 ? 'None' : '$' + tax.toLocaleString())}</td>
                     </tr>
                     <tr>
                       <td><b>Salary:</b></td>
