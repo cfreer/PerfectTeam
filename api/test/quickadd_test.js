@@ -13,14 +13,18 @@ describe('Quick Add', () => {
   * Test the /GET route for quick add.
   */
   describe('/GET quick add', () => {
-      it('it should GET the score and luxury tax of the given team', (done) => {
+      it('it should GET 12 players from the given team', (done) => {
         chai.request(server)
-            .get('/team/1,2,35,23,52,500,34,77,99,100,11,12')
+            .get('/quickadd/Utah Jazz')
             .end((err, res) => {
+                  let players = res.body;
                   res.should.have.status(200);
-                  res.body.should.be.a('Object');
-                  res.body.score.should.be.eql(1.2673193554478226);
-                  res.body.luxuryTax.should.be.eql(2583127993.25);
+                  players.should.be.a('Array');
+                  players.length.should.be.eql(12);
+                  for (let i = 0; i < players.length; i++) {
+                    let player = players[i];
+                    player.playerTeam.should.be.eql("Utah Jazz");
+                  }
               done();
             });
       });

@@ -63,15 +63,15 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 
 ## Get synergy score and luxury tax for a given set of players.
-**Request Format:** /team/:players
+**Request Format:** /team/:players/:salaryCap
 
 **Request Type:** GET
 
 **Returned Data Format**: JSON
 
-**Description:** Returns the synergy score and luxury tax of the given set of players using our algorithm.
+**Description:** Returns the synergy score and luxury tax of the given set of players and salary cap using our algorithm.
 
-**Example Request:** /team/1,2,3,4,5,6,7,8,9,10,11,12
+**Example Request:** /team/1,2,3,4,5,6,7,8,9,10,11,12/112400000
 
 **Example Response:**
 ```json
