@@ -3,6 +3,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const mongoose = require("mongoose");
 
 //Routers
 const playerRouter = require('./routes/player');
@@ -11,12 +12,25 @@ const quickAddRouter = require('./routes/quickadd');
 const nbateamsRouter = require('./routes/nbateams');
 
 //Database
-const db = require('./databases/database');
+//const db = require('./databases/database');
+mongoose.connect('mongodb+srv://nandojfg:PerfectTeam@clusterjuan.khmci.mongodb.net/PerfectTeam?retryWrites=true&w=majority');
+let db = mongoose.connection;
 
 const fs = require('fs');
 const { marked } = require('marked');
 
 var app = express();
+var cors = require('cors')
+
+app.use(cors());
+const { createProxyMiddleware } = require('http-proxy-middleware');
+app.use('/api', createProxyMiddleware({
+    target: 'http://localhost:4567/', //original url
+    changeOrigin: true,
+    onProxyRes: function (proxyRes, req, res) {
+       proxyRes.headers['Access-Control-Allow-Origin'] = '*';
+    }
+}));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -29,13 +43,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Setup middleware
-
-// add db to request
-app.use((req, res, next) => {
-  req.db = db;
-  next();
-})
-
 app.use('/players', playerRouter);
 app.use('/team', teamRouter);
 app.use('/quickadd', quickAddRouter);
@@ -46,7 +53,6 @@ app.use("/", function(req, res) {
     var path = __dirname + '/APIDOC.md';
     var file = fs.readFileSync(path, 'utf8');
     res.send(marked(file.toString()));
-    //res.send("API Doc: <a href=https://github.com/cfreer/PerfectTeam/blob/main/api/APIDOC.md>Documentation<a>");
   } catch(err) {
     res.json({status: 'error', error: err.message});
   }
@@ -62,6 +68,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
 
 module.exports = app;
 const PORT = process.env.PORT || 4567;
