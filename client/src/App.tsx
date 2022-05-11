@@ -90,7 +90,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/createteam">
-            <CreateTeam data={playerData} teamData={teamData}/>
+            <CreateTeam data={playerData} teamData={teamData} />
           </Route>
           <Route path="/games">
             <Games />
@@ -99,7 +99,7 @@ function App() {
             <Teams />
           </Route>
           <Route path="/players">
-            <Players />
+            <Players data={playerData} />
           </Route>
           <Redirect to="/" />
         </Switch>
