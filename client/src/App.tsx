@@ -20,19 +20,33 @@ interface Player {
   playerTeam: string,
 }
 
-function App(props : any) {
+interface Team {
+  id: string,
+  teamId: number,
+  teamName: string,
+  Conf: string,
+  Div: string,
+  W: number,
+  L: number,
+  WL: string,
+  MOV: string,
+  ORtg: string,
+  DRtg: string,
+  NRtg: string
+}
 
-  const [data, setData] = useState<Player[]>([]);
+function App() {
+
+  const [playerData, setPlayerData] = useState<Player[]>([]);
+  const [teamData, setTeamData] = useState<Team[]>([]);
 
   // Base URL for Perfect Team API
   // const API_URL = 'https://perfect-team-api.herokuapp.com/';
   const API_URL = 'http://localhost:4567/';
 
-
-
   async function statusCheck(res : Response) {
     if (!res.ok) {
-      throw new Error(await res.text());
+      throw new Error(await res.json());
     }
     return res;
   }
@@ -43,11 +57,19 @@ function App(props : any) {
       fetch(API_URL + 'players')
         .then(statusCheck)
         .then(res => res.json())
-        .then(setData)
+        .then(setPlayerData)
         .catch(console.error);
     }
-    
+    // Get all team data from Perfect Team API
+    function getTeamsRequest() {
+      fetch(API_URL + 'nbateams')
+        .then(statusCheck)
+        .then(res => res.json())
+        .then(setTeamData)
+        .catch(console.error);
+    }
     getPlayersRequest();
+    getTeamsRequest();
   });
 
   // returns rendered routes and specified components
@@ -68,7 +90,7 @@ function App(props : any) {
             <Home />
           </Route>
           <Route path="/createteam">
-            <CreateTeam data={data}/>
+            <CreateTeam data={playerData} teamData={teamData} />
           </Route>
           <Route path="/games">
             <Games />
@@ -77,7 +99,11 @@ function App(props : any) {
             <Teams />
           </Route>
           <Route path="/players">
+<<<<<<< HEAD
             <Players  data={data}/>
+=======
+            <Players data={playerData} />
+>>>>>>> 21a95a450d3ddce2f88b53e9da3b2a14cf3dfa96
           </Route>
           <Redirect to="/" />
         </Switch>

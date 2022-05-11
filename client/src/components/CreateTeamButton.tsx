@@ -13,5 +13,4 @@ function CreateTeamBtn() {
   );
 }
 
-
 export default CreateTeamBtn;
