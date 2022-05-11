@@ -99,11 +99,7 @@ function App() {
             <Teams />
           </Route>
           <Route path="/players">
-<<<<<<< HEAD
-            <Players  data={data}/>
-=======
             <Players data={playerData} />
->>>>>>> 21a95a450d3ddce2f88b53e9da3b2a14cf3dfa96
           </Route>
           <Redirect to="/" />
         </Switch>
