@@ -31,8 +31,8 @@ function CreateTeam(props : any) {
   const [modalShow, setModalShow] = React.useState(false);
 
   // Base URL for Perfect Team API
-  // const API_URL = 'https://perfect-team-api.herokuapp.com/';
-  const API_URL = 'http://localhost:4567/';
+  const API_URL = 'https://perfect-team-api.herokuapp.com/';
+  // const API_URL = 'http://localhost:4567/';
 
   // Updates stored value of player search bar input
   const inputChangeHandler = (value : string) => {
@@ -112,7 +112,7 @@ function CreateTeam(props : any) {
   // Handles getting win prediction and luxury tax values from API
   const submitTeamHandler = (event : React.MouseEvent) => {
     event.preventDefault();
-    fetch(API_URL + 'team/get/team/' + ptTeamRks.join(','))
+    fetch(API_URL + 'team/' + ptTeamRks.join(','))
       .then(statusCheck)
       .then(res => res.json())
       .then(checkError)
@@ -142,19 +142,22 @@ function CreateTeam(props : any) {
     setTax(res.luxuryTax);
   }
 
+  // Updates current team player names
   const updateTeamNames = useCallback((val : string[]) => {
     setPTNames(val);
   }, [setPTNames]);
 
+  // Updates current team player ranks
   const updateTeamRks = useCallback((val : number[]) => {
     setPTRks(val);
   }, [setPTRks]);
 
+  // Update current team salary
   const updateSalary = useCallback((val : number) => {
     setTotalSalary(val);
   }, [setTotalSalary]);
 
-  // renders create team page
+  // Renders create team page
   return (
     <div className='create-team-container' data-testid='create-team-container'>
       <div id='search-bar-inputs'>

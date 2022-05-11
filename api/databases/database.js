@@ -8,7 +8,7 @@ async function main() {
     await mongoose.connect('mongodb+srv://nandojfg:PerfectTeam@clusterjuan.khmci.mongodb.net/PerfectTeam?retryWrites=true&w=majority');
 
     const playerSchema = new mongoose.Schema({
-        Rk: String,
+        Rk: Number,
         Player: String,
         age: Number,
         WS: String,

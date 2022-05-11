@@ -41,8 +41,8 @@ function App() {
   const [teamData, setTeamData] = useState<Team[]>([]);
 
   // Base URL for Perfect Team API
-  // const API_URL = 'https://perfect-team-api.herokuapp.com/';
-  const API_URL = 'http://localhost:4567/';
+  const API_URL = 'https://perfect-team-api.herokuapp.com/';
+  // const API_URL = 'http://localhost:4567/';
 
   async function statusCheck(res : Response) {
     if (!res.ok) {
