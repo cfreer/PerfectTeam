@@ -17,8 +17,20 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 
 # Git Repo
 ## Layout
+**.github/workflows**
+- Stores the .yml file needed for GitHub Actions to build and test the application.
+
 **api**
 - Stores all files for Perfect Team API.
+
+**api/models**
+- Stores all the mongoose models used for the API.
+
+**api/routes**
+- Stores all the routes used to make various requests in the API.
+
+**api/test**
+- Stores all the test files needed to test the API.
 
 **client**
 - Stores all files for Perfect Team frontend application.
@@ -32,20 +44,11 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 **client/public**
 - Stores the index.html file that hosts the application.
 
-**client/src/Components**
+**client/src/components**
 - Stores all the components needed to create the frontend server.
 
-**client/src/Pages**
+**client/src/pages**
 - Stores all the pages needed to create the frontend server.
-
-**client/src/main/java**
-- Stores all of the .java classes for the backend server.
-
-**client/src/test/java**
-- Stores all of the JUnit tests for the backend server.
-
-**gradle/wrapper**
-- Store the Gradle wrapper files so GitHub Actions can use Gradle.
 
 ## Policies
 Branches will be in the format "name/feature_name" for each new feature and will be merged through a pull request that must be approved by another team member.
@@ -89,12 +92,17 @@ Firebase hosting URL: [https://perfect-team-75839.web.app](https://perfect-team-
 10. Now, you can run the commands `npm run build` to create a production build and `firebase deploy` to deploy the Firebase web app. The hosting URL will be shown in the command prompt after the web app is deployed successfully.
 
 # How to Test
-To run all Jest test files, run the following command:
+To run all Jest test files, run the following command in the client directory:
 ```
 npm test
 ```
 
-To run a specific Jest test file, run the following command:
+To run a specific Jest test file, run the following command in the client directory:
 ```
 npm test <filename>.test.tsx
+```
+
+To run all API tests, run the following command in the api directory:
+```
+npm test
 ```
