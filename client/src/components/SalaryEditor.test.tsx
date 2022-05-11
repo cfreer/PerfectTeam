@@ -5,7 +5,7 @@
  import { render, screen } from '@testing-library/react';
  import SalaryEditor from './SalaryEditor';
  
- test('modal shows selector', () => {
+ test('modal shows salary editor modal', () => {
    render(
      <SalaryEditor 
        salary={112400000}
