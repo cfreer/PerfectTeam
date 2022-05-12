@@ -11,12 +11,13 @@
 
 ### Plans and Goals
 - Finalize suggested players feature (Caroline)
+- Add extra interactions to frontend to improve user experience (Amanda)
 
 
 ## Team Member Contributions
 ### 1. Aaron
 #### Goals From Last Week
-- Finsih a basic games page
+- Finish a basic games page
 - decide how we intend to keep the games page up to date.
 - Begin work on players page.
 
@@ -31,8 +32,12 @@
 - Help integrate frontend and backend.
 
 #### Progress and Issues
+I worked on adding a lot of features to the front end. I added the Create Team page, Quick Add Team feature, and more unit tests for the different components and pages. I also updated the README.md to reflect the directory changes made to our repo to separate frontend and backend files. As we worked on integrating the frontend and backend, the API documentation written by the backend group was very helpful in understanding how the create the fetch calls. I learned that a lot of work is needed to develop a beta version and integrate the frontend and backend. I had trouble figuring out how to update a parent component state from a child component, but I was able to figure this out by passing a callback function to the child component. I will continue to add more interactions that improve user experience and add another suggestion feature that suggests players for teams.
 
 #### Plans and Goals
+- Add extra interactions to create a team page that improves user experience
+- Add suggested players for teams to quick add feature
+- Add images for players and the slideshow
 
 ### 3. Caroline
 #### Goals From Last Week
