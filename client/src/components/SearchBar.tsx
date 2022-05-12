@@ -43,7 +43,7 @@ function SearchBar(props : any) {
     props.setInput('');
   };
 
-  //Handles the selcted player
+  // Handles the selected player
   const handleOnSelect = (result : Item) => {
     setSearchString(result.name);
     props.setInput(result.name);
