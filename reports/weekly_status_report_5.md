@@ -7,11 +7,14 @@
 - Combine front and backend to create a beta release (Everyone)
 
 ### Progress and Issues
-We reformatted our backend this week by switching from a Java Object Oriented Programming approach to just using a JavaScript API. We also connected our front and backend using this API and added API testing.
+We reformatted our backend this week by switching from a Java Object Oriented Programming approach to just using a JavaScript API. We also connected our front and backend using this API and added API testing. On the frontend, we finish implementing the major features of allowing users to customize a 12 player team using a search bar that includes autofill suggestions and requesting the win prediction and luxury tax of their customized teams. We were also able to add the feature that allows users to set the salary cap and quick add a 12 players from an existing NBA team. Meeting together in person and through Zoom to figure out problems worked well. We had trouble integrating the frontend, backend, and database together; however, we were able to create an API to connect everything together. We are currently stuck on getting NBA images for our web application, but we have an idea of using the generic image url from the NBA website for player profile images and changing the player id in the url.
 
 ### Plans and Goals
 - Finalize suggested players feature (Caroline)
-- Add extra interactions to frontend to improve user experience (Amanda)
+- Add extra interactions to the create team page to improve user experience (Amanda)
+- Change and clean data in database (Juan)
+- Start looking into using ML for our backend algorithm (Ned, Amanda)
+- Continue improving UI for games, teams, and player pages (Aaron)
 
 
 ## Team Member Contributions
@@ -22,13 +25,12 @@ We reformatted our backend this week by switching from a Java Object Oriented Pr
 - Begin work on players page.
 
 #### Progress and Issues
-This week I was able to complete a basic page for both games and teams, in which the necessary information could be displayed. I also resolved the issue with keeping
-games up to date, as currently the playoffs are nearing completion, and I will be able to include all games for the time being, but in the future adn if time allows, I will webscrape the data or take the data from a API call to include current games. I was also able to debug and with some help, fully implement the autofill searchbar as a component. I was able to add this component ot the players page so players could be searched for informative purposes. The major functions now also correctly work with API, so I look to increase the use of these functions on other pages in the future. There were certianly a lot fo challenges this week with accessing the API and making the pages function accordingly, but we were eventually able to complete that. There is currently nothing blocking me, which is a nice change of pace.
+This week I was able to complete a basic page for both games and teams, in which the necessary information could be displayed. I also resolved the issue with keeping games up to date, as currently the playoffs are nearing completion, and I will be able to include all games for the time being, but in the future and if time allows, I will webscrape the data or take the data from a API call to include current games. I was also able to debug and with some help, fully implement the autofill searchbar as a component. I was able to add this component to the players page so players could be searched for informative purposes. The major functions now also correctly work with API, so I look to increase the use of these functions on other pages in the future. There were certainly a lot of challenges this week with accessing the API and making the pages function accordingly, but we were eventually able to complete that. There is currently nothing blocking me, which is a nice change of pace.
 
 #### Plans and Goals
 - Improve UI on the pages I worked on (could be CSS or reformatting)
 - Fully implement a teams grab funcitonality from database
-- look into webscraping games (if deemed necessary or benificial)
+- Look into webscraping games (if deemed necessary or benificial)
 - Add images, such as player profiles
 
 ### 2. Amanda
@@ -38,12 +40,13 @@ games up to date, as currently the playoffs are nearing completion, and I will b
 - Help integrate frontend and backend.
 
 #### Progress and Issues
-I worked on adding a lot of features to the front end. I added the Create Team page, Quick Add Team feature, and more unit tests for the different components and pages. I also updated the README.md to reflect the directory changes made to our repo to separate frontend and backend files. As we worked on integrating the frontend and backend, the API documentation written by the backend group was very helpful in understanding how the create the fetch calls. I learned that a lot of work is needed to develop a beta version and integrate the frontend and backend. I had trouble figuring out how to update a parent component state from a child component, but I was able to figure this out by passing a callback function to the child component. I will continue to add more interactions that improve user experience and add another suggestion feature that suggests players for teams.
+I worked on adding a lot of features to the front end. I added the Create Team page, Quick Add Team feature, and more unit tests for the different components and pages. I also updated the README.md to reflect the directory changes made to our repo to separate frontend and backend files. As we worked on integrating the frontend and backend, the API documentation written by the backend group was very helpful and allowed me to easily understand how to create a request and what is returned by the request. I learned that a lot of work is needed to develop a beta version and integrate the frontend and backend. I had trouble figuring out how to update a parent component state from a child component, but I was able to figure this out by passing a callback function to the child component. I am not currently stuck on anything and  will continue to add more interactions that improve user experience and add another suggestion feature that suggests players for teams.
 
 #### Plans and Goals
 - Add extra interactions to create a team page that improves user experience
 - Add suggested players for teams to quick add feature
 - Add images for players and the slideshow
+- Look into potentially using machine learning for backend
 
 ### 3. Caroline
 #### Goals From Last Week
