@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import SearchBar from '../components/SearchBar';
 import { Row, Col, Button, Card, Alert } from 'react-bootstrap';
 
+
+//The interface for the Player and their stats
 interface Player {
   id: string,
   Rk: string,
@@ -13,11 +15,13 @@ interface Player {
   playerTeam: string,
 }
 
+//This is the page that presents the player data
 function Players(props : any) {
   const players = props.data.map((obj : Player) => (obj.Player).substring(0, obj.Player.indexOf('\\')));
   const [input, setInput] = useState<string>('');
   const [player, setPlayer] = useState<Player | null>(null);
 
+  //Handles the instance in which a player is submitted for searcg
   const submitPlayerHandler = (event : React.MouseEvent) => {
     event.preventDefault();
      
@@ -42,6 +46,10 @@ function Players(props : any) {
     }
   }
 
+  //This is the object that presents the players information to the user as a
+  //Card. Shows the rank, win share and current team, or TOT if they have been on
+  //two teams in that season
+  //Takes in am obj that is a player
   let playerCards = props.data.map((obj: Player) => {
     return (
       <Card className="text-center player-card-lg border-0">
@@ -58,6 +66,8 @@ function Players(props : any) {
     );
   });
 
+  //Handles the instance in which the input is changed
+  //Takes in a string from the user
   const inputChangeHandler = (value : string) => {
    setInput(value);
   }

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 
+//This is the page that presents the teams and their current informaiton
+
 function Teams(props : any) {
 
   // renders teams page
