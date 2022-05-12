@@ -161,3 +161,18 @@ To run all API tests, run the following command in the api directory:
 ```
 npm test
 ```
+
+
+# Use Cases Operational in Beta
+
+Case 1: Check the Win Prediction of a Team
+
+Case 3: Adding Suggested Players *exept the extensions/variations
+
+Case 5: Customizing a Team *exept the extensions/variations
+
+# Use Cases Not Operational in Beta
+
+Case 2: Create a Team Within Budget
+
+Case 4: Search Game History
