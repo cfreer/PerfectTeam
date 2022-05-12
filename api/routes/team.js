@@ -110,7 +110,7 @@ function getLuxuryTax(totalSalary, salaryCap) {
   if (limitOverage >= 0) {
     luxuryTax += (limitOverage) * 1.50;
   }
-  return luxuryTax;
+  return Math.round(luxuryTax);
 }
 
 module.exports = router;
