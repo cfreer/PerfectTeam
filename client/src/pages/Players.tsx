@@ -46,10 +46,10 @@ function Players(props : any) {
     }
   }
 
-  //This is the object that presents the players information to the user as a
-  //Card. Shows the rank, win share and current team, or TOT if they have been on
-  //two teams in that season
-  //Takes in am obj that is a player
+  // This is the object that presents the players information to the user as a
+  // Card. Shows the rank, win share and current team, or TOT if they have been on
+  // two teams in that season
+  // Takes in an obj that is a player
   let playerCards = props.data.map((obj: Player) => {
     return (
       <Card className="text-center player-card-lg border-0">
