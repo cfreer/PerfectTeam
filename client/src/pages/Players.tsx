@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SearchBar from '../components/SearchBar';
-import { Row, Col, Button, Card, Alert } from 'react-bootstrap';
+import { Row, Button, Card, Alert } from 'react-bootstrap';
 
 
 //The interface for the Player and their stats
@@ -19,12 +19,12 @@ interface Player {
 function Players(props : any) {
   const players = props.data.map((obj : Player) => (obj.Player).substring(0, obj.Player.indexOf('\\')));
   const [input, setInput] = useState<string>('');
-  const [player, setPlayer] = useState<Player | null>(null);
+  // const [player, setPlayer] = useState<Player | null>(null);
 
   //Handles the instance in which a player is submitted for searcg
   const submitPlayerHandler = (event : React.MouseEvent) => {
     event.preventDefault();
-     
+
     let player : string = input;
     let regex = new RegExp(players.join('|'),'i');
     let warning = document.getElementById('input-alert') as HTMLElement;
@@ -38,7 +38,7 @@ function Players(props : any) {
       });
       let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
       if (playerInfo !== null) {
-        setPlayer(playerInfo);
+        // setPlayer(playerInfo);
       }
     } else {
       // Shows alert for invalid NBA player
@@ -74,7 +74,7 @@ function Players(props : any) {
 
   // renders players page
   return (
-    <div className='players-container'>
+    <div className='players-container' data-testid='players-container'>
       <div id='search-bar-inputs'>
         <div id='search' data-testid='search'>
           <SearchBar

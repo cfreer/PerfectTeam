@@ -9,6 +9,7 @@ import { Container, Row, Col, Button, Card, Alert, Table } from 'react-bootstrap
 import SearchBar from './../components/SearchBar';
 import QuickAdd from './../components/QuickAdd';
 import ErrorBoundary from './../components/ErrorBoundary';
+import SalaryEditor from './../components/SalaryEditor';
 
 interface Player {
   id: string,
@@ -29,11 +30,13 @@ function CreateTeam(props : any) {
   const [totalSalary, setTotalSalary] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [tax, setTax] = useState<number>(-1);
-  const [modalShow, setModalShow] = React.useState(false);
+  const [modalShowQA, setModalShowQA] = useState<boolean>(false);
+  const [editing, setEditing] = useState<boolean>(false);
+  const [salaryVal, setSalaryValue] = useState<number>(112400000);
 
   // Base URL for Perfect Team API
-  // const API_URL = 'https://perfect-team-api.herokuapp.com/';
-  const API_URL = 'http://localhost:4567/';
+  const API_URL = 'https://perfect-team-api.herokuapp.com/';
+  // const API_URL = 'http://localhost:4567/';
 
   // Updates stored value of player search bar input
   const inputChangeHandler = (value : string) => {
@@ -113,7 +116,7 @@ function CreateTeam(props : any) {
   // Handles getting win prediction and luxury tax values from API
   const submitTeamHandler = (event : React.MouseEvent) => {
     event.preventDefault();
-    fetch(API_URL + 'team/' + ptTeamRks.join(','))
+    fetch(API_URL + 'team/' + ptTeamRks.join(',') + '/' + salaryVal.toString())
       .then(statusCheck)
       .then(res => res.json())
       .then(checkError)
@@ -158,32 +161,40 @@ function CreateTeam(props : any) {
     setTotalSalary(val);
   }, [setTotalSalary]);
 
+  // Handle salary edit text
+  const handleSave = useCallback((value : number) => {
+    setSalaryValue(value);
+  }, [setSalaryValue]);
+
   // Renders create team page
   return (
     <div className='create-team-container' data-testid='create-team-container'>
-      <div id='search-bar-inputs'>
-        <div id='search' data-testid='search'>
-          <SearchBar
-            placeholder='Enter player name'
-            aria-label='Enter player name'
-            id='player-search'
-            value={input}
-            setInput={inputChangeHandler}
-            data={props.data}
-            />
-        </div>
-        <Button id='add-btn' data-testid='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Add Player</Button>
-      </div>
+      <Container id='search-container'>
+        <Row id='search-bar-inputs'>
+          <div id='search' data-testid='search'>
+            <SearchBar
+              placeholder='Enter player name'
+              aria-label='Enter player name'
+              id='player-search'
+              value={input}
+              setInput={inputChangeHandler}
+              data={props.data}
+              />
+          </div>
+          <Button id='add-btn' data-testid='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Add Player</Button>
+        </Row>
+        <Row>
+          <Alert variant='warning' hidden={true} id='input-alert' data-testid='input-alert' className='warning'>Please enter a valid NBA player.</Alert>
+          <Alert variant='warning' hidden={true} id='input-alert-duplicate'data-testid='input-alert-duplicate' className='warning'>Please enter another NBA player that is not already included in your current team.</Alert>
+          <Alert variant='warning' hidden={true} id='input-alert-salary' data-testid='input-alert-salary' className='warning'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
+          <Alert variant='danger' hidden={true} id='input-alert-error' data-testid='input-alert-error' className='warning'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
+        </Row>
+      </Container>
       <div id='create-team-content'>
-        <Alert variant='warning' hidden={true} id='input-alert' data-testid='input-alert'>Please enter a valid NBA player.</Alert>
-        <Alert variant='warning' hidden={true} id='input-alert-duplicate'data-testid='input-alert-duplicate'>Please enter another NBA player that is not already included in your current team.</Alert>
-        <Alert variant='warning' hidden={true} id='input-alert-salary' data-testid='input-alert-salary'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
-        <Alert variant='danger' hidden={true} id='input-alert-error' data-testid='input-alert-error'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
-        <Button variant="primary" onClick={() =>setModalShow(true)} id='quick-add-btn'>Quick Add NBA Team</Button>
         <ErrorBoundary>
           <QuickAdd
-            show={modalShow}
-            onHide={() => setModalShow(false)}
+            show={modalShowQA}
+            onHide={() => setModalShowQA(false)}
             parentTeamNamesSetter={updateTeamNames}
             parentTeamRksSetter={updateTeamRks}
             parentSalarySetter={updateSalary}
@@ -191,6 +202,9 @@ function CreateTeam(props : any) {
           />
         </ErrorBoundary>
         <Container id='team-container'>
+          <Row>
+            <Button variant='primary' onClick={() =>setModalShowQA(true)} id='quick-add-btn'>Quick Add NBA Team</Button>
+          </Row>
           <Row>
             <Col sm={4} id='player-list' data-testid='player-list'>
               <p><b>Current Team</b></p>
@@ -205,11 +219,11 @@ function CreateTeam(props : any) {
                   <tbody>
                     <tr>
                       <td><b>Win Prediction:</b></td>
-                      <td>{score === 0 ? '---' : score}</td>
+                      <td>{score === 0 ? '---' : (score * 100).toFixed(2) + '%' }</td>
                     </tr>
                     <tr>
                       <td><b>Luxury Tax:</b></td>
-                      <td>{tax === -1 ? '---' : (tax === 0 ? 'None' : '$' + tax.toString())}</td>
+                      <td>{tax === -1 ? '---' : (tax === 0 ? 'None' : '$' + tax.toLocaleString())}</td>
                     </tr>
                     <tr>
                       <td><b>Salary:</b></td>
@@ -217,7 +231,18 @@ function CreateTeam(props : any) {
                     </tr>
                     <tr>
                       <td><b>Salary Cap:</b></td>
-                      <td>$112,400,000</td>
+                      <td>${salaryVal.toLocaleString()}</td>
+                      <td>
+                        <Button variant='light' size='sm' onClick={() =>setEditing(true)} id='salary-btn'>Edit</Button>
+                        {/* <ErrorBoundary> */}
+                          <SalaryEditor
+                            show={editing}
+                            onHide={() => setEditing(false)}
+                            parentSave={handleSave}
+                            salary={salaryVal}
+                          />
+                        {/* </ErrorBoundary> */}
+                      </td>
                     </tr>
                   </tbody>
                 </Table>

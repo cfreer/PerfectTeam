@@ -14,10 +14,12 @@ function Home(props : any) {
       <Slideshow data-testid='slideshow'/>
       <div id='tutorial-description' data-testid='tutorial-description'>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ornare arcu dui
-          vivamus arcu felis bibendum ut. Gravida quis blandit turpis cursus in
-          hac habitasse platea dictumst. Sagittis nisl rhoncus mattis rhoncus.
+          PerfectTeam is an NBA predictive modeling software that takes 
+          any twelve-person lineup for a basketball team and accurately 
+          predicts their wins for an 82 game season. It uses algorithms 
+          for data analysis to predict their wins and losses. It includes 
+          major features like a wins prediction, team customization, 
+          salary cap, and a quick add team function. 
         </p>
         <CreateTeamBtn />
       </div>

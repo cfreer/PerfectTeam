@@ -60,7 +60,7 @@ git clone https://github.com/cfreer/PerfectTeam.git
 cd client
 ```
 
-Install the latest version of Node from [Nodejs.org](https://nodejs.org/en/). Once Node is installed, run the following command in the root directory:
+Install the latest version of Node from [Nodejs.org](https://nodejs.org/en/). Once Node is installed, run the following command in the client directory:
 ```
 npm install
 ```
@@ -90,6 +90,61 @@ Firebase hosting URL: [https://perfect-team-75839.web.app](https://perfect-team-
 8. Run the command `firebase init` in the root directory. Type "y" to proceed. When asked to select the Firebase CLI features to set up, select Database and Hosting options. Next, select "Use an existing project" and select the project name that you created earlier. Once the database finishes setting up, type "y" when it asks if you would like to set up Realtime Database for the project. Next, select "us-central1" for the location. Press "Enter" when asked about the Realtime Database Security Rules file, using your public directory, and configuring a single-page app. Type "n" to setting up automatic builds and deploys with GitHub and overwriting the `public/index.html` file.
 9. Go to the `firebase.json` file. In the "hosting" object, change the line `"public": "public",` to `"public": "build",` and save the changes.
 10. Now, you can run the commands `npm run build` to create a production build and `firebase deploy` to deploy the Firebase web app. The hosting URL will be shown in the command prompt after the web app is deployed successfully.
+
+# How to Set Up Heroku API
+#### (Instructions Adapted From UW CSE154)
+1. Set up a Heroku account on Heroku.com.
+2. Install the Heroku command line interface following these [instructions](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
+3. Clone this repo and change into the api directory.
+```
+git clone https://github.com/cfreer/PerfectTeam.git
+cd api
+```
+4. Initialize your Heroku repo.
+```
+git init
+```
+5. Login to Heroku.
+```
+heroku login
+```
+6. Create the Heroku server.
+```
+heroku create
+```
+7. Add all files.
+```
+git add .
+```
+8. Commit the files.
+```
+git commit -m "add api"
+```
+9. Push the repo to Heroku.
+```
+git push origin master
+```
+10. Open your new API.
+```
+heroku open
+```
+
+# How to Start API Locally
+Clone this repo and change into the api directory using the following commands:
+```
+git clone https://github.com/cfreer/PerfectTeam.git
+cd api
+```
+
+Install the latest version of Node from [Nodejs.org](https://nodejs.org/en/). Once Node is installed, run the following command in the api directory:
+```
+npm install
+```
+
+To start the API locally on http://localhost:4567/, run the following command:
+```
+npm start
+```
 
 # How to Test
 To run all Jest test files, run the following command in the client directory:

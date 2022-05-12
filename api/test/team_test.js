@@ -13,14 +13,26 @@ describe('Team', () => {
   * Test the /GET route for a team.
   */
   describe('/GET team', () => {
-      it('it should GET the score and luxury tax of the given team', (done) => {
+      it('it should GET the score and luxury tax of the given team with salary cap of 112400000', (done) => {
         chai.request(server)
-            .get('/team/1,2,35,23,52,500,34,77,99,100,11,12')
+            .get('/team/1,2,35,23,52,500,34,77,99,100,11,12/112400000')
             .end((err, res) => {
                   res.should.have.status(200);
                   res.body.should.be.a('Object');
                   res.body.score.should.be.eql(1.2673193554478226);
                   res.body.luxuryTax.should.be.eql(2583127993.25);
+              done();
+            });
+      });
+
+      it('it should GET the score and luxury tax of the given team with salary cap of 1000000', (done) => {
+        chai.request(server)
+            .get('/team/1,2,3,4,5,6,7,8,9,10,11,12/1000000')
+            .end((err, res) => {
+                  res.should.have.status(200);
+                  res.body.should.be.a('Object');
+                  res.body.score.should.be.eql(1.4033800709184585);
+                  res.body.luxuryTax.should.be.eql(13004950148);
               done();
             });
       });
