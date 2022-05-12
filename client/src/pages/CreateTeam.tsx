@@ -68,13 +68,20 @@ function CreateTeam(props : any) {
       });
       let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
       if (playerInfo !== null) {
-        // Adds player name, rank, and salary to current team
-        let name = (playerInfo.Player).substring(0, playerInfo.Player.indexOf('\\'));
-        let rank = playerInfo.Rk;
-        let salary = parseInt(playerInfo.salary.substring(1));
-        setPTNames(arr => [...arr, name]);
-        setPTRks(arr => [...arr, rank]);
-        setTotalSalary(totalSalary + salary);
+        if (!playerInfo.hasOwnProperty('salary')) {
+          // Shows alert for player's salary unavailable
+          warning.hidden = true;
+          warningDuplicate.hidden = true;
+          warningSalary.hidden = false;
+        } else {
+          // Adds player name, rank, and salary to current team
+          let name = (playerInfo.Player).substring(0, playerInfo.Player.indexOf('\\'));
+          let rank = playerInfo.Rk;
+          let salary = parseInt(playerInfo.salary.substring(1));
+          setPTNames(arr => [...arr, name]);
+          setPTRks(arr => [...arr, rank]);
+          setTotalSalary(totalSalary + salary);
+        }
       } else {
         // Shows alert for invalid NBA player
         warning.hidden = false;
