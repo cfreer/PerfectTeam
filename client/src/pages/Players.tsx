@@ -66,8 +66,8 @@ function Players(props : any) {
     );
   });
 
-  //Handles the instance in which the input is changed
-  //Takes in a string from the user
+  // Handles the instance in which the input is changed
+  // Takes in a string from the user
   const inputChangeHandler = (value : string) => {
    setInput(value);
   }
