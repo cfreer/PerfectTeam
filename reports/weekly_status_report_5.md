@@ -76,6 +76,8 @@ I set up the API and database for the backend this week and also added endpoints
 The main goal is to finish the beta release by friday hopefully before our weekly meeting so we can show Ardi our progress. My personal goal is to have our algorithm working and being somewhat accurate before we spend time testing it.
 
 #### Progress and Issues
+This week I helped finish the backend features inlcuding the luxury tax calculator and fixing algorithm bugs. I also made the presentation and part of the script for the video. I also edited the video putting it all together after we finished. Some issues we have are that the data that we are using are totals, and not per game statistics. This makes the algorithm very buggy and less accurate.
 
 #### Plans and Goals
+The main plan for this next week is to work on adding small features and cleaning up bugs. The other goal is to try to see what I can do for a ML algorithm and see if that stretch goal will be possible in the time we have left.
 
