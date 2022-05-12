@@ -7,7 +7,7 @@ type Item = {
   name: string;
 }
 
-//The entire player stats
+// The entire player stats
 type Player = {
   id: string,
   Rk: number,
