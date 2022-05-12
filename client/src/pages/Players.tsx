@@ -21,7 +21,7 @@ function Players(props : any) {
   const [input, setInput] = useState<string>('');
   // const [player, setPlayer] = useState<Player | null>(null);
 
-  //Handles the instance in which a player is submitted for searcg
+  // Handles the instance in which a player is submitted for search
   const submitPlayerHandler = (event : React.MouseEvent) => {
     event.preventDefault();
 
