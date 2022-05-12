@@ -23,7 +23,7 @@ function SearchBar(props : any) {
   const [searchString, setSearchString] = useState('');
   const data : Player[] = props.data;
 
-  //Sets up the item object
+  // Sets up the item object
   const items : Item[] = data.map((obj : Player) => ({
     id: parseInt(obj.id),
     name: (obj.Player).substring(0, obj.Player.indexOf('\\'))
