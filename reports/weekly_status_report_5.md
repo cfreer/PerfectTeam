@@ -7,7 +7,7 @@
 - Combine front and backend to create a beta release (Everyone)
 
 ### Progress and Issues
-
+We reformatted our backend this week by switching from a Java Object Oriented Programming approach to just using a JavaScript API. We also connected our front and backend using this API and added API testing.
 
 ### Plans and Goals
 - Finalize suggested players feature (Caroline)
