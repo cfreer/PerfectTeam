@@ -22,8 +22,14 @@
 - Begin work on players page.
 
 #### Progress and Issues
+This week I was able to complete a basic page for both games and teams, in which the necessary information could be displayed. I also resolved the issue with keeping
+games up to date, as currently the playoffs are nearing completion, and I will be able to include all games for the time being, but in the future adn if time allows, I will webscrape the data or take the data from a API call to include current games. I was also able to debug and with some help, fully implement the autofill searchbar as a component. I was able to add this component ot the players page so players could be searched for informative purposes. The major functions now also correctly work with API, so I look to increase the use of these functions on other pages in the future. There were certianly a lot fo challenges this week with accessing the API and making the pages function accordingly, but we were eventually able to complete that. There is currently nothing blocking me, which is a nice change of pace.
 
 #### Plans and Goals
+- Improve UI on the pages I worked on (could be CSS or reformatting)
+- Fully implement a teams grab funcitonality from database
+- look into webscraping games (if deemed necessary or benificial)
+- Add images, such as player profiles
 
 ### 2. Amanda
 #### Goals From Last Week
