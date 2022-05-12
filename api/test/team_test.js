@@ -36,5 +36,17 @@ describe('Team', () => {
               done();
             });
       });
+
+      it('it should not include salary for 492', (done) => {
+        chai.request(server)
+            .get('/team/1,2,3,4,5,6,7,8,9,10,11,492/1000000')
+            .end((err, res) => {
+                  res.should.have.status(200);
+                  res.body.should.be.a('Object');
+                  res.body.score.should.be.eql(1.1115062927284078);
+                  res.body.luxuryTax.should.be.eql(11232668374);
+              done();
+            });
+      });
   });
 });

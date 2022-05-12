@@ -21,8 +21,10 @@ router.get('/:players/:salaryCap', async (req, res) => {
       let statsJSON = await Stats.findOne({ Rk: rank }).exec();
       statsJSONs.push(statsJSON);
       let playerJSON = await Players.findOne({ Rk: rank }).exec();
-      const salary = parseInt(playerJSON.salary.substring(1));
-      totalSalary += salary;
+      if (playerJSON.salary) {
+        const salary = parseInt(playerJSON.salary.substring(1));
+        totalSalary += salary;
+      }
     }
     const score = getAlgorithmScore(statsJSONs);
     const luxuryTax = getLuxuryTax(totalSalary, salaryCap);
