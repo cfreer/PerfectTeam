@@ -29,7 +29,7 @@ function SearchBar(props : any) {
     name: (obj.Player).substring(0, obj.Player.indexOf('\\'))
   }));
 
-  //Handle the instance in which the player is selected
+  // Handle the instance in which the player is selected
   const handleOnSearch = (string : string, results : Item[]) => {
     console.log(string, results);
     setSearchString(string);
