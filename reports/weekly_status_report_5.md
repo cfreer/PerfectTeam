@@ -59,9 +59,11 @@ I did a lot of work on the backend this week. We reformatted the backend to full
 - Have a beta where the data can flow from end-to-end
 
 #### Progress and Issues
+I set up the API and database for the backend this week and also added endpoints for the quick add and NBA teams routes. I ran into some issues with getting our API to connect to our mongoose database but got them sorted out. Additionally, I had trouble finding a way to get the API hosted on firebase, but the team was able to get it hosted on Heroku instead.
 
 #### Plans and Goals
-
+- Clean up database to fix typos
+- Add any endpoints the frontend realizes they need
 
 ### 5. Ned
 #### Goals From Last Week
