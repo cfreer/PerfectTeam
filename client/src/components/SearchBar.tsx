@@ -36,7 +36,7 @@ function SearchBar(props : any) {
     props.setInput(string);
   };
 
-  //Handles the instance in which the searchbar is cleared
+  // Handles the instance in which the searchbar is cleared
   const handleOnClear = () => {
     console.log('Cleared');
     setSearchString('');
