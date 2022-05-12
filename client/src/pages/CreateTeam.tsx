@@ -169,25 +169,28 @@ function CreateTeam(props : any) {
   // Renders create team page
   return (
     <div className='create-team-container' data-testid='create-team-container'>
-      <div id='search-bar-inputs'>
-        <div id='search' data-testid='search'>
-          <SearchBar
-            placeholder='Enter player name'
-            aria-label='Enter player name'
-            id='player-search'
-            value={input}
-            setInput={inputChangeHandler}
-            data={props.data}
-            />
-        </div>
-        <Button id='add-btn' data-testid='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Add Player</Button>
-      </div>
+      <Container id='search-container'>
+        <Row id='search-bar-inputs'>
+          <div id='search' data-testid='search'>
+            <SearchBar
+              placeholder='Enter player name'
+              aria-label='Enter player name'
+              id='player-search'
+              value={input}
+              setInput={inputChangeHandler}
+              data={props.data}
+              />
+          </div>
+          <Button id='add-btn' data-testid='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Add Player</Button>
+        </Row>
+        <Row>
+          <Alert variant='warning' hidden={true} id='input-alert' data-testid='input-alert' className='warning'>Please enter a valid NBA player.</Alert>
+          <Alert variant='warning' hidden={true} id='input-alert-duplicate'data-testid='input-alert-duplicate' className='warning'>Please enter another NBA player that is not already included in your current team.</Alert>
+          <Alert variant='warning' hidden={true} id='input-alert-salary' data-testid='input-alert-salary' className='warning'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
+          <Alert variant='danger' hidden={true} id='input-alert-error' data-testid='input-alert-error' className='warning'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
+        </Row>
+      </Container>
       <div id='create-team-content'>
-        <Alert variant='warning' hidden={true} id='input-alert' data-testid='input-alert'>Please enter a valid NBA player.</Alert>
-        <Alert variant='warning' hidden={true} id='input-alert-duplicate'data-testid='input-alert-duplicate'>Please enter another NBA player that is not already included in your current team.</Alert>
-        <Alert variant='warning' hidden={true} id='input-alert-salary' data-testid='input-alert-salary'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
-        <Alert variant='danger' hidden={true} id='input-alert-error' data-testid='input-alert-error'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
-        <Button variant='primary' onClick={() =>setModalShowQA(true)} id='quick-add-btn'>Quick Add NBA Team</Button>
         <ErrorBoundary>
           <QuickAdd
             show={modalShowQA}
@@ -199,6 +202,9 @@ function CreateTeam(props : any) {
           />
         </ErrorBoundary>
         <Container id='team-container'>
+          <Row>
+            <Button variant='primary' onClick={() =>setModalShowQA(true)} id='quick-add-btn'>Quick Add NBA Team</Button>
+          </Row>
           <Row>
             <Col sm={4} id='player-list' data-testid='player-list'>
               <p><b>Current Team</b></p>
