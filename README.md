@@ -167,9 +167,9 @@ npm test
 
 Case 1: Check the Win Prediction of a Team
 
-Case 3: Adding Suggested Players *exept the extensions/variations
+Case 3: Adding Suggested Players *except the extensions/variations
 
-Case 5: Customizing a Team *exept the extensions/variations
+Case 5: Customizing a Team *except the extensions/variations
 
 # Use Cases Not Operational in Beta
 
