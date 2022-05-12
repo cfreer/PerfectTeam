@@ -15,7 +15,7 @@ interface Player {
   playerTeam: string,
 }
 
-//This is the page that presents the player data
+// This is the page that presents the player data
 function Players(props : any) {
   const players = props.data.map((obj : Player) => (obj.Player).substring(0, obj.Player.indexOf('\\')));
   const [input, setInput] = useState<string>('');
