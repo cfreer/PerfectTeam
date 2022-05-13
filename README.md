@@ -1,6 +1,8 @@
 # PerfectTeam
 PerfectTeam is an NBA predictive modeling software that takes any twelve-person lineup for a basketball team and accurately predicts their wins for an 82 game season. It uses algorithms and potentially machine learning for data analysis to predict their wins and losses. It includes major features like a wins prediction, team customization, salary cap, and a quick add team function. PerfectTeam is a web application that users may access easily using a public URL.
-> Perfect Team Public URL: [https://perfect-team-75839.web.app](https://perfect-team-75839.web.app)
+> Perfect Team Public URL: [https://perfect-team-75839.web.app](https://perfect-team-75839.web.app)  
+> User Documentation: [User Doc](https://docs.google.com/document/d/15EX6s6G98Mrvnf63af8UgCeSFA896j7Ri-ko85FwacM/edit?usp=sharing)  
+> Developer Documentation: [Developer Doc](https://docs.google.com/document/d/1Yv0fqrUQZNTx0qqgvMVjop9h45ziyMy2_Kr94YylpFg/edit?usp=sharing)
 
 ## Major Features & Goals:
 - Wins Prediction - Clearly present a statistic that represents the potential for the team that the user has selected to win a given game.
