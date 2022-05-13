@@ -18,40 +18,6 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 - Real-Time Data - Data on the webpage will be updated in real-time to give the user the best statistics and predictions.
 
 # Git Repo
-## Layout
-**.github/workflows**
-- Stores the .yml file needed for GitHub Actions to build and test the application.
-
-**api**
-- Stores all files for Perfect Team API.
-
-**api/models**
-- Stores all the mongoose models used for the API.
-
-**api/routes**
-- Stores all the routes used to make various requests in the API.
-
-**api/test**
-- Stores all the test files needed to test the API.
-
-**client**
-- Stores all files for Perfect Team frontend application.
-
-**client/data**
-- Stores all of the basketball data used for the application.
-
-**client/lib**
-- Stores the .jar files needed for JUnit.
-
-**client/public**
-- Stores the index.html file that hosts the application.
-
-**client/src/components**
-- Stores all the components needed to create the frontend server.
-
-**client/src/pages**
-- Stores all the pages needed to create the frontend server.
-
 ## Policies
 Branches will be in the format "name/feature_name" for each new feature and will be merged through a pull request that must be approved by another team member.
 
