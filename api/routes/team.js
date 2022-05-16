@@ -69,31 +69,28 @@ function getAlgorithmScore(statsJSONs) {
     blk += playerJSON.BLK * playingTimeScale;
     pf += playerJSON.PF * playingTimeScale;
   }
-  if(pts > 120) {
+  if (pts > 120) {
     pts = 120;
   }
-  if(ftm > 25) {
+  if (ftm > 25) {
     ftm = 25;
   }
-  if(oreb > 20) {
+  if (oreb > 20) {
     oreb = 20;
   }
-  if(dreb > 50) {
-    dreb > 50;
+  if (dreb > 50) {
+    dreb = 50;
   }
-  if(ast > 35) {
+  if (ast > 35) {
     ast = 35;
   }
-  if(blk > 8) {
+  if (blk > 8) {
     blk = 8;
   }
-
 
   const score = 0.5 - 0.033 * Math.log(pts) + 0.0587 * ftm + 0.0186 * Math.log(oreb) +
                 0.0543 * Math.log(dreb) + 0.0376 * Math.log(ast) - 0.048 * tov +
                 0.0408 * stl + 0.0186 * Math.log(blk) - .0988 - 0.0107 * pf;
-
-  
 
   return score;
 }
