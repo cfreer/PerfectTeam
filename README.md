@@ -21,56 +21,6 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 ## Policies
 Branches will be in the format "name/feature_name" for each new feature and will be merged through a pull request that must be approved by another team member.
 
-# How to Set Up Firebase Hosting and Include Firebase in the React App
-1. Go to [https://firebase.google.com/](https://firebase.google.com/), click the "Get started" button, and sign in using a Google account.
-2. Click the "Add project" button and enter a project name.
-3. Unselect "Enable Google Analytics for this project" and create the project.
-4. Click on the "</>" button under the project name to add Firebase to a web app.
-5. Enter an app nickname and select "Also set up Firebase Hosting for this app." to register the app. Click the "Next" button until you reach the Install Firebase CLI section.
-6. Run the npm command (`npm install -g firebase-tools`) in the root directory of the project. Click the "Next" button to continue to the Deploy to Firebase Hosting section.
-7. Run the command `firebase login` in the root directory. It will prompt you to log in with the Google account that you used to sign up for Firebase.
-8. Run the command `firebase init` in the root directory. Type "y" to proceed. When asked to select the Firebase CLI features to set up, select Database and Hosting options. Next, select "Use an existing project" and select the project name that you created earlier. Once the database finishes setting up, type "y" when it asks if you would like to set up Realtime Database for the project. Next, select "us-central1" for the location. Press "Enter" when asked about the Realtime Database Security Rules file, using your public directory, and configuring a single-page app. Type "n" to setting up automatic builds and deploys with GitHub and overwriting the `public/index.html` file.
-9. Go to the `firebase.json` file. In the "hosting" object, change the line `"public": "public",` to `"public": "build",` and save the changes.
-10. Now, you can run the commands `npm run build` to create a production build and `firebase deploy` to deploy the Firebase web app. The hosting URL will be shown in the command prompt after the web app is deployed successfully.
-
-# How to Set Up Heroku API
-#### (Instructions Adapted From UW CSE154)
-1. Set up a Heroku account on Heroku.com.
-2. Install the Heroku command line interface following these [instructions](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
-3. Clone this repo and change into the api directory.
-```
-git clone https://github.com/cfreer/PerfectTeam.git
-cd api
-```
-4. Initialize your Heroku repo.
-```
-git init
-```
-5. Login to Heroku.
-```
-heroku login
-```
-6. Create the Heroku server.
-```
-heroku create
-```
-7. Add all files.
-```
-git add .
-```
-8. Commit the files.
-```
-git commit -m "add api"
-```
-9. Push the repo to Heroku.
-```
-git push origin master
-```
-10. Open your new API.
-```
-heroku open
-```
-
 # Use Cases Operational in Beta
 
 Case 1: Check the Win Prediction of a Team
