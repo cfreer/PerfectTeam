@@ -21,32 +21,6 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 ## Policies
 Branches will be in the format "name/feature_name" for each new feature and will be merged through a pull request that must be approved by another team member.
 
-# How to Run Frontend
-Clone this repo and change into the client directory using the following commands:
-```
-git clone https://github.com/cfreer/PerfectTeam.git
-cd client
-```
-
-Install the latest version of Node from [Nodejs.org](https://nodejs.org/en/). Once Node is installed, run the following command in the client directory:
-```
-npm install
-```
-
-To create a development build, run the following command:
-```
-npm start
-```
-
-To create a production build and deploy it to Firebase, run the following command:
-```
-npm run build
-firebase deploy
-```
-> Note: Firebase should be installed by using `npm install -g firebase-tools` and logged into before running the `firebase deploy` command.
-
-Firebase hosting URL: [https://perfect-team-75839.web.app](https://perfect-team-75839.web.app)
-
 # How to Set Up Firebase Hosting and Include Firebase in the React App
 1. Go to [https://firebase.google.com/](https://firebase.google.com/), click the "Get started" button, and sign in using a Google account.
 2. Click the "Add project" button and enter a project name.
@@ -96,40 +70,6 @@ git push origin master
 ```
 heroku open
 ```
-
-# How to Start API Locally
-Clone this repo and change into the api directory using the following commands:
-```
-git clone https://github.com/cfreer/PerfectTeam.git
-cd api
-```
-
-Install the latest version of Node from [Nodejs.org](https://nodejs.org/en/). Once Node is installed, run the following command in the api directory:
-```
-npm install
-```
-
-To start the API locally on http://localhost:4567/, run the following command:
-```
-npm start
-```
-
-# How to Test
-To run all Jest test files, run the following command in the client directory:
-```
-npm test
-```
-
-To run a specific Jest test file, run the following command in the client directory:
-```
-npm test <filename>.test.tsx
-```
-
-To run all API tests, run the following command in the api directory:
-```
-npm test
-```
-
 
 # Use Cases Operational in Beta
 
