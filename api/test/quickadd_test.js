@@ -29,4 +29,32 @@ describe('Quick Add', () => {
             });
       });
   });
+
+  /*
+  * Test the /GET route for quick add with given ranks.
+  */
+  describe('/GET quick add', () => {
+    it('it should GET 12 players from the given team including the players given', (done) => {
+      chai.request(server)
+          .get('/quickadd/Los Angeles Lakers?players=14,18,39')
+          .end((err, res) => {
+                let players = res.body;
+                res.should.have.status(200);
+                players.should.be.a('Array');
+                players.length.should.be.eql(12);
+                const ranks = [14, 18, 39];
+                for (let i = 0; i < ranks.length; i++) {
+                  let player = players[i];
+                  player.Rk.should.be.eql(ranks[i]);
+                }
+                for (let i = 3; i < players.length; i++) {
+                  let player = players[i];
+                  player.playerTeam.should.be.eql("Los Angeles Lakers");
+                  player.Rk.should.not.be.oneOf(ranks);
+                }
+
+            done();
+          });
+    });
+  });
 });

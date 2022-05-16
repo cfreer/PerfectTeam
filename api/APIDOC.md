@@ -41,7 +41,7 @@ Base URL: https://perfect-team-api.herokuapp.com
 ]
 ```
 
-**Description 2:** If the search parameter is included in the request, returns the rank, name (& twitter handle), age, win shares, salary, and projected salary of the player with the given name.
+**Description 2:** If the name parameter is included in the request, returns the rank, name (& twitter handle), age, win shares, salary, and projected salary of the player with the given name.
 
 **Example Request 2:** /players?name=Steven Adams
 
@@ -138,11 +138,11 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 **Returned Data Format**: JSON
 
-**Description:** Returns a complete team of 12 players on the same NBA team.
+**Description 1:** Returns a complete team of 12 players on the same NBA team.
 
-**Example Request:** /quickadd/Utah Jazz
+**Example Request 1:** /quickadd/Utah Jazz
 
-**Example Response:** (abbreviated)
+**Example Response 1:** (abbreviated)
 ```json
 [
   {
@@ -164,6 +164,47 @@ Base URL: https://perfect-team-api.herokuapp.com
     "salary": "$20000000.00",
     "projSalary": "$20000000.00",
     "playerTeam": "Utah Jazz"
+  },
+  ...
+]
+```
+
+**Description 2:** If the players parameter is included in the request, returns a complete team of 12 players on the same NBA team, starting with the 3 players given.
+
+**Example Request 2:** /quickadd/Los Angeles Lakers?players=14,18,39
+
+**Example Response 2:**
+```json (abbreviated)
+[
+  {
+    _id: new ObjectId("627d73b3f1fc43da47c82e70"),
+    Rk: 14,
+    Player: 'Carmelo Anthony\\anthoca01',
+    age: 37,
+    WS: '3.6',
+    salary: '$35500000.00',
+    projSalary: '$37948276.00',
+    playerTeam: 'Los Angeles Lakers'
+  },
+  {
+    _id: new ObjectId("627d73b3f1fc43da47c82e74"),
+    Rk: 18,
+    Player: 'Trevor Ariza\\arizatr01',
+    age: 36,
+    WS: '0.2',
+    salary: '$34502130.00',
+    projSalary: '$37262300.00',
+    playerTeam: 'Los Angeles Lakers'
+  },
+  {
+    _id: new ObjectId("627d73b3f1fc43da47c82e89"),
+    Rk: 39,
+    Player: 'Kent Bazemore\\bazemke01',
+    age: 32,
+    WS: '0.1',
+    salary: '$28103550.00',
+    projSalary: '$30351834.00',
+    playerTeam: 'Los Angeles Lakers'
   },
   ...
 ]
