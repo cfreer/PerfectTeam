@@ -59,6 +59,7 @@ function SearchBar(props : any) {
         inputSearchString={searchString}
         inputDebounce={0}
         autoFocus
+        styling={{height: '38px'}}
       />
     </div>
   );

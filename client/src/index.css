@@ -116,12 +116,13 @@ nav li {
 }
 
 #search-container {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 #add-btn {
   background-color: #F1600D;
   border-color: #F1600D;
+  height: 38px;
 }
 
 #create-team-content {
@@ -152,7 +153,7 @@ nav li {
   justify-content: center;
 }
 
-#quick-add-btn {
+#quick-add-btn, #clear-team-btn, #creat-team-btn {
   margin-bottom: 15px;
 }
 
