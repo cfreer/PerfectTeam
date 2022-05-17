@@ -153,8 +153,14 @@ nav li {
   justify-content: center;
 }
 
-#quick-add-btn, #clear-team-btn, #creat-team-btn {
+#quick-add-btn, #clear-team-btn, #create-team-btn {
   margin-bottom: 15px;
+}
+
+#team-btns {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #stats-table {
