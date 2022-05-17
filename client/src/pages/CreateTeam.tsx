@@ -101,6 +101,7 @@ function CreateTeam(props : any) {
       warningDuplicate.hidden = true;
       warningSalary.hidden = true;
     }
+    setInput('');
   }
 
   // Updates team list
