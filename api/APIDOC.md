@@ -12,7 +12,7 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 **Returned Data Format**: JSON
 
-**Description 1:** If the search parameter is not included in the request, returns the rank, name (& twitter handle), age, win shares, salary, and projected salary of all players in order by rank.
+**Description 1:** If the search parameter is not included in the request, returns the rank, name, profile photo url, age, win shares, salary, and projected salary of all players in order by rank.
 
 **Example Request 1:** /players
 
@@ -20,22 +20,24 @@ Base URL: https://perfect-team-api.herokuapp.com
 ```json
 [
   {
-    "_id": "6274db2d67b2ba8ad69487dd",
+    "_id": "627d73b3f1fc43da47c82e63",
     "Rk": 1,
-    "name": "Precious Achiuwa\\achiupr01",
+    "Player": "Precious Achiuwa\\achiupr01",
     "age": 22,
     "WS": "2.5",
-    "salary": "$45780966",
-    "projSalary": "$48070014"
+    "salary": "$45780966.00",
+    "projSalary": "$48070014.00",
+    "playerTeam": "Toronto Raptors"
   },
   {
-    "_id": "6274db2d67b2ba8ad69487de",
+    "_id": "627d73b3f1fc43da47c82e64",
     "Rk": 2,
-    "name": "Steven Adams\\adamsst01",
+    "Player": "Steven Adams\\adamsst01",
     "age": 28,
     "WS": "6.8",
-    "salary": "$44310840",
-    "projSalary": "$47366760"
+    "salary": "$44310840.00",
+    "projSalary": "$47366760.00",
+    "playerTeam": "Memphis Grizzlies"
   },
   ...
 ]
@@ -48,13 +50,14 @@ Base URL: https://perfect-team-api.herokuapp.com
 **Example Response 2:**
 ```json
 {
-  "_id": "6274db2d67b2ba8ad69487de",
-  "Rk": 2,
-  "name": "Steven Adams\\adamsst01",
-  "age": 28,
-  "WS": "6.8",
-  "salary": "$44310840",
-  "projSalary": "$47366760"
+  "_id": "627d73b3f1fc43da47c82e63",
+  "Rk": 1,
+  "Player": "Precious Achiuwa\\achiupr01",
+  "age": 22,
+  "WS": "2.5",
+  "salary": "$45780966.00",
+  "projSalary": "$48070014.00",
+  "playerTeam": "Toronto Raptors"
 }
 ```
 
@@ -146,23 +149,25 @@ Base URL: https://perfect-team-api.herokuapp.com
 ```json
 [
   {
-    "_id": "627a039daf95564d91af9c49",
-    "Rk": "23",
-    "Player": "Udoka Azubuike\\azubuud01",
+    "_id": "62850368cd0631716c143bbf",
+    "Rk": 23,
+    "Player": "Udoka Azubuike",
     "age": 22,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/azubuud01.jpg",
     "WS": "0.6",
-    "salary": "$31590000.00",
-    "projSalary": "$33930000.00",
+    "salary": "31590000.00",
+    "projSalary": "33930000.00",
     "playerTeam": "Utah Jazz"
   },
   {
-    "_id": "627a039daf95564d91af9c69",
-    "Rk": "55",
-    "Player": "Bojan Bogdanović\\bogdabo02",
+    "_id": "62850368cd0631716c143bdf",
+    "Rk": 55,
+    "Player": "Bojan Bogdanović",
     "age": 32,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/bogdabo02.jpg",
     "WS": "5.2",
-    "salary": "$20000000.00",
-    "projSalary": "$20000000.00",
+    "salary": "20000000.00",
+    "projSalary": "20000000.00",
     "playerTeam": "Utah Jazz"
   },
   ...
@@ -177,34 +182,37 @@ Base URL: https://perfect-team-api.herokuapp.com
 ```json (abbreviated)
 [
   {
-    _id: new ObjectId("627d73b3f1fc43da47c82e70"),
-    Rk: 14,
-    Player: 'Carmelo Anthony\\anthoca01',
-    age: 37,
-    WS: '3.6',
-    salary: '$35500000.00',
-    projSalary: '$37948276.00',
-    playerTeam: 'Los Angeles Lakers'
+    "_id": "62850368cd0631716c143bb6",
+    "Rk": 14,
+    "Player": "Carmelo Anthony",
+    "age": 37,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/anthoca01.jpg",
+    "WS": "3.6",
+    "salary": "35500000.00",
+    "projSalary": "37948276.00",
+    "playerTeam": "Los Angeles Lakers"
   },
   {
-    _id: new ObjectId("627d73b3f1fc43da47c82e74"),
-    Rk: 18,
-    Player: 'Trevor Ariza\\arizatr01',
-    age: 36,
-    WS: '0.2',
-    salary: '$34502130.00',
-    projSalary: '$37262300.00',
-    playerTeam: 'Los Angeles Lakers'
+    "_id": "62850368cd0631716c143bba",
+    "Rk": 18,
+    "Player": "Trevor Ariza",
+    "age": 36,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/arizatr01.jpg",
+    "WS": "0.2",
+    "salary": "34502130.00",
+    "projSalary": "37262300.00",
+    "playerTeam": "Los Angeles Lakers"
   },
   {
-    _id: new ObjectId("627d73b3f1fc43da47c82e89"),
-    Rk: 39,
-    Player: 'Kent Bazemore\\bazemke01',
-    age: 32,
-    WS: '0.1',
-    salary: '$28103550.00',
-    projSalary: '$30351834.00',
-    playerTeam: 'Los Angeles Lakers'
+    "_id": "62850368cd0631716c143bcf",
+    "Rk": 39,
+    "Player": "Kent Bazemore",
+    "age": 32,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/bazemke01.jpg",
+    "WS": "0.1",
+    "salary": "28103550.00",
+    "projSalary": "30351834.00",
+    "playerTeam": "Los Angeles Lakers"
   },
   ...
 ]

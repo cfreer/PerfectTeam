@@ -35,7 +35,7 @@ describe('Players', () => {
           .end((err, res) => {
                 res.should.have.status(200);
                 res.body.should.be.a('Object');
-                res.body.Player.should.be.eql('Steven Adams\\adamsst01');
+                res.body.Player.should.be.eql('Steven Adams');
             done();
           });
     });
