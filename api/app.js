@@ -10,6 +10,7 @@ const playerRouter = require('./routes/player');
 const teamRouter = require('./routes/team');
 const quickAddRouter = require('./routes/quickadd');
 const nbateamsRouter = require('./routes/nbateams');
+const statsRouter = require('./routes/stats');
 
 //Database
 //const db = require('./databases/database');
@@ -47,6 +48,7 @@ app.use('/players', playerRouter);
 app.use('/team', teamRouter);
 app.use('/quickadd', quickAddRouter);
 app.use('/nbateams', nbateamsRouter);
+app.use('/stats', statsRouter);
 
 app.use("/", function(req, res) {
   try {
