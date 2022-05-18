@@ -32,6 +32,7 @@ describe('Team', () => {
                   res.should.have.status(200);
                   res.body.should.be.a('Object');
                   res.body.score.should.be.eql(1.4033800709184585- 0.5);
+
                   res.body.luxuryTax.should.be.eql(13004950148);
               done();
             });
