@@ -88,7 +88,7 @@ function getAlgorithmScore(statsJSONs) {
     blk = 8;
   }
 
-  const score = 0.5 - 0.033 * Math.log(pts) + 0.0587 * ftm + 0.0186 * Math.log(oreb) +
+  const score = 0.0 - 0.033 * Math.log(pts) + 0.0587 * ftm + 0.0186 * Math.log(oreb) +
                 0.0543 * Math.log(dreb) + 0.0376 * Math.log(ast) - 0.048 * tov +
                 0.0408 * stl + 0.0186 * Math.log(blk) - .0988 - 0.0107 * pf;
 

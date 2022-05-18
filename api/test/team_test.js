@@ -19,7 +19,7 @@ describe('Team', () => {
             .end((err, res) => {
                   res.should.have.status(200);
                   res.body.should.be.a('Object');
-                  res.body.score.should.be.eql(1.230421803996592);
+                  res.body.score.should.be.eql(0.7304218039965921);
                   res.body.luxuryTax.should.be.eql(2583127993);
               done();
             });
@@ -31,7 +31,7 @@ describe('Team', () => {
             .end((err, res) => {
                   res.should.have.status(200);
                   res.body.should.be.a('Object');
-                  res.body.score.should.be.eql(1.3929074719304304);
+                  res.body.score.should.be.eql(0.8929074719304304);
                   res.body.luxuryTax.should.be.eql(13004950148);
               done();
             });
@@ -43,7 +43,7 @@ describe('Team', () => {
             .end((err, res) => {
                   res.should.have.status(200);
                   res.body.should.be.a('Object');
-                  res.body.score.should.be.eql(1.117291946722901);
+                  res.body.score.should.be.eql(0.6172919467229012);
                   res.body.luxuryTax.should.be.eql(11232668374);
               done();
             });
