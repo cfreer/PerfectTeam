@@ -212,3 +212,35 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 **Error Handling:**
 - Returns a JSON with an error status and descriptive error message.
+
+
+## Get stats for a given player.
+**Request Format:** /stats/:name
+
+**Request Type:** GET
+
+**Returned Data Format**: JSON
+
+**Description:** Returns the stats of the given player.
+
+**Example Request:** /stats/OG Anunoby
+
+**Example Response:**
+```json
+{
+  "_id": "6282c979855797bbdb2d3735",
+  "Rk": 16,
+  "MP": 36,
+  "FT": 1.9,
+  "ORB": 1.5,
+  "DRB": 4,
+  "AST": 2.6,
+  "STL": 1.5,
+  "BLK": 0.5,
+  "TOV": 1.7,
+  "PF": 2.7,
+  "PTS": 17.1
+}
+```
+**Error Handling:**
+- Returns a JSON with an error status and descriptive error message.
