@@ -34,6 +34,13 @@ function CreateTeam(props : any) {
   const [editing, setEditing] = useState<boolean>(false);
   const [salaryVal, setSalaryValue] = useState<number>(112400000);
 
+  // Get buttons
+  const createButton = document.getElementById('create-team-btn') as HTMLButtonElement;
+  const addButton = document.getElementById('add-btn') as HTMLButtonElement;
+  const clearButton = document.getElementById('clear-team-btn') as HTMLButtonElement;
+  const quickAddButton = document.getElementById('quick-add-btn') as HTMLButtonElement;
+  const editButton = document.getElementById('salary-btn') as HTMLButtonElement;
+
   // Base URL for Perfect Team API
   const API_URL = 'https://perfect-team-api.herokuapp.com/';
   // const API_URL = 'http://localhost:4567/';
@@ -94,16 +101,18 @@ function CreateTeam(props : any) {
       warningDuplicate.hidden = true;
       warningSalary.hidden = true;
     }
+    setInput('');
   }
 
   // Updates team list
   let teamList = ptNames.map((player) => {
     // Disables add button and shows create team button when the team has 12 players
-    const createButton = document.getElementById('create-team-btn') as HTMLButtonElement;
-    const addButton = document.getElementById('add-btn') as HTMLButtonElement;
-    if (createButton != null && addButton != null && ptNames.length === 12) {
+    if (createButton != null && addButton != null && clearButton != null && quickAddButton != null && ptNames.length === 12) {
       createButton.hidden = false;
       addButton.disabled = true;
+      clearButton.hidden = false;
+      quickAddButton.disabled = true;
+      editButton.disabled = true;
     }
     return (<li key={ptNames.indexOf(player)} className='player-name'>{player}</li>)
   });
@@ -173,6 +182,21 @@ function CreateTeam(props : any) {
     setSalaryValue(value);
   }, [setSalaryValue]);
 
+  // Handles clearing current team and reseting buttons
+  const clearTeamHandler = (event : React.MouseEvent) => {
+    setPTNames([]);
+    setPTRks([]);
+    setTotalSalary(0);
+    setScore(0);
+    setTax(-1);
+
+    createButton.hidden = true;
+    addButton.disabled = false;
+    clearButton.hidden = true;
+    quickAddButton.disabled = false;
+    editButton.disabled = false;
+  }
+
   // Renders create team page
   return (
     <div className='create-team-container' data-testid='create-team-container'>
@@ -218,7 +242,10 @@ function CreateTeam(props : any) {
               <ol>
                 {teamList}
               </ol>
-              <Button variant='primary' data-testid='create-team-btn' id='create-team-btn' hidden={true} onClick={submitTeamHandler}>Create Team!</Button>
+              <div id='team-btns'>
+                <Button variant='primary' data-testid='create-team-btn' id='create-team-btn' hidden={true} onClick={submitTeamHandler}>Create Team!</Button>
+                <Button variant='secondary' data-testid='clear-team-btn' id='clear-team-btn' hidden={true} onClick={clearTeamHandler}>Clear Team</Button>
+              </div>
             </Col>
             <Col sm={8} id='team'>
               <Row id='team-stats'>
