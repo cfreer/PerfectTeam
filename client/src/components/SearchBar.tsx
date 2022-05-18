@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 
 // The player information
@@ -49,6 +49,12 @@ function SearchBar(props : any) {
     props.setInput(result.name);
   }
 
+  useEffect( () => {
+    if (props.value === '') {
+      setSearchString('');
+    }
+  }, [props.value]);
+
   return (
     <div>
       <ReactSearchAutocomplete
@@ -59,6 +65,7 @@ function SearchBar(props : any) {
         inputSearchString={searchString}
         inputDebounce={0}
         autoFocus
+        styling={{height: '38px'}}
       />
     </div>
   );

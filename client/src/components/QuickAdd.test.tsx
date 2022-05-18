@@ -4,7 +4,7 @@
 
 import { render, screen } from '@testing-library/react';
 import QuickAdd from './QuickAdd';
-import teams from './../../data/teams.json';
+import teams from './../../data/nbaTeams.json';
 
 test('modal shows selector', () => {
   render(
