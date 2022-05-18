@@ -21,8 +21,8 @@ router.get('/:players/:salaryCap', async (req, res) => {
       let statsJSON = await Stats.findOne({ Rk: rank }).exec();
       statsJSONs.push(statsJSON);
       let playerJSON = await Players.findOne({ Rk: rank }).exec();
-      if (playerJSON.salary) {
-        const salary = parseInt(playerJSON.salary.substring(1));
+      const salary = parseInt(playerJSON.salary);
+      if (salary) {
         totalSalary += salary;
       }
     }
