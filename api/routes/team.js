@@ -89,11 +89,16 @@ function getAlgorithmScore(statsJSONs) {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   const score = 0.0 - 0.033 * Math.log(pts) + 0.0587 * ftm + 0.0186 * Math.log(oreb) +
 =======
   const score = 0.5 - 0.033 * Math.log(pts) + 0.0587 * ftm + 0.0186 * Math.log(oreb) +
 >>>>>>> 7cd137b04af5bbcbe076fbf28d6c14d66271aad3
+=======
+
+  const score = 0.0 - 0.033 * Math.log(pts) + 0.0587 * ftm + 0.0186 * Math.log(oreb) +
+>>>>>>> b5b214f92ae9dc90104e511e6f9d9c921db49492
                 0.0543 * Math.log(dreb) + 0.0376 * Math.log(ast) - 0.048 * tov +
                 0.0408 * stl + 0.0186 * Math.log(blk) - .0988 - 0.0107 * pf;
 
