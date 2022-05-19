@@ -31,14 +31,17 @@ We improved the backend this week to have an endpoint for getting players' stats
 ### 2. Amanda
 #### Goals From Last Week
 - Add extra interactions to create a team page that improves user experience
-- Add suggested players for teams to quick add feature
-- Add images for players and the slideshow
-- Look into potentially using machine learning for backend
+- Add suggested players for teams to quick add feature.
+- Add images for players and the slideshow.
+- Look into potentially using machine learning for backend.
 
 #### Progress and Issues
+This week I added a clear button to the Create Team page that removes all 12 players from the team. I also fixed the search bar to clear when the user clicks on the Add Player button, making it easier for users to continue searching for players quickly. I also started working on the suggested players for teams features and helped write the user documentation for HW7. I had trouble figuring out how to style and clear the search bar since we imported the react-search-autocomplete component. I figured out how to manipulate the existing component by searching for examples on the react-search-autocomplete GitHub repo and other examples online. I am currently not stuck on anything and will continue working on the suggested players feature. Since Juan has added the images for each player in the database, I also plan to work on getting the images to appear on the Create Team page.
 
 #### Plans and Goals
-
+- Continue working on suggested players for teams to quick add feature.
+- Add images for players and the slideshow on the Create Team and Home page.
+- Look into potentially using machine learning for backend.
 
 ### 3. Caroline
 #### Goals From Last Week
