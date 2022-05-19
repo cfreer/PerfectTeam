@@ -9,11 +9,13 @@
 - Continue improving UI for games, teams, and player pages (Aaron)
 
 ### Progress and Issues
-We improved the backend this week to have an endpoint for getting players' stats by name and functionality for the suggested players feature. We also fixed the typos in the player database and added URLs to their profile pictures, so we can have images.
+We improved the backend this week to have an endpoint for getting players' stats by name and functionality for the suggested players feature. We also fixed the typos in the player database and added URLs to their profile pictures so that we can have images. We improved the interactions on the Create Team page on the frontend by adding a clear button that allows users to remove all 12 players in a team. We also fixed the search bar to clear once the player clicks on the Add Player button. We are currently having trouble getting live game data for our Games page. We found an API that can return the game data for the day and are trying to figure out the best way to utilize the information returned by the API.
 
 ### Plans and Goals
 - Peer review another project (everyone)
 - Add support for player profile pictures in the frontend (Aaron & Amanda)
+- Add suggested players from teams feature to the Create Team page (Amanda)
+- Continue working on adding live game data to the Games page (Aaron)
 
 ## Team Member Contributions
 ### 1. Aaron
