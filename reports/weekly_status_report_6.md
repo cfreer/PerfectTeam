@@ -26,9 +26,11 @@ We improved the backend this week to have an endpoint for getting players' stats
 - Add images, such as player profiles
 
 #### Progress and Issues
+This week involved a lot fo research for me, as I was looking into appropriate API's at minimal to no cost that would allow us to update current game scores as they happened. i eventually located one with the help of our project manager that would give us the desired information, and began implementing a comonent titles "box score" that would update the given scores as they were updated. I also focused on completing the homework and added a few tests. I am currently not stuck, and just need oen more API call to work so that I can successfully implement the box score component. 
 
 #### Plans and Goals
-
+- Finish the games page
+- add player profile images and other stats to the players page.
 
 ### 2. Amanda
 #### Goals From Last Week
