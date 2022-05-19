@@ -76,5 +76,7 @@ This week I added an endpoint to the backend API to get players' stats by name. 
 The main plan for this next week is to work on adding small features and cleaning up bugs. The other goal is to try to see what I can do for a ML algorithm and see if that stretch goal will be possible in the time we have left.
 
 #### Progress and Issues
+This past week ive been updating the algorithm to better fit the actual statistics from this season. I also updated some test cases to fit the change. 
 
 #### Plans and Goals
+My goal is to continue to update the algorithm and make it more accurate as we change how some of the team lineups work.
