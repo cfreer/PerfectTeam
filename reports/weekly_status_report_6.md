@@ -67,9 +67,11 @@ This week I added an endpoint to the backend API to get players' stats by name. 
 - Add any endpoints the frontend realizes they need
 
 #### Progress and Issues
+I spent most of my time this week updating the database. This included fixing a bug in which player names were replaced with team names. I also added necessary stats that were required for the algorithm to work. I altered the stats so that they were an all aroudn average, increasing accuracy for the algorithm. I also made a few minor changes to the database to improve functionailty for the frontend team.
 
 #### Plans and Goals
-
+- Continue to respond to frontend needs for endpoints
+- update database as required
 
 ### 5. Ned
 #### Goals From Last Week
