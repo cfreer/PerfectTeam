@@ -185,6 +185,7 @@ nav li {
 
 .player-name {
   margin-top: 10px;
+  display: flex;
 }
 
 .warning {

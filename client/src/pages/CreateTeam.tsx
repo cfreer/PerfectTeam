@@ -58,6 +58,7 @@ function CreateTeam(props : any) {
     let warning = document.getElementById('input-alert') as HTMLElement;
     let warningDuplicate = document.getElementById('input-alert-duplicate') as HTMLElement;
     let warningSalary = document.getElementById('input-alert-salary') as HTMLElement;
+
     if (ptNames.includes(player)) {
       // Shows alert for duplicate player
       warningDuplicate.hidden = false;
@@ -73,6 +74,7 @@ function CreateTeam(props : any) {
       let p : Player[] = props.data.filter((obj : Player) => {
         return obj.Player.includes(player);
       });
+
       let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
       if (playerInfo !== null) {
         if (!playerInfo.hasOwnProperty('salary')) {
@@ -114,7 +116,14 @@ function CreateTeam(props : any) {
       quickAddButton.disabled = true;
       editButton.disabled = true;
     }
-    return (<li key={ptNames.indexOf(player)} className='player-name'>{player}</li>)
+    return (
+      <div className='player-name'>
+        <li key={ptNames.indexOf(player)}>{player}</li>
+        <Button variant='outline-light' size='sm'>
+          <span className="material-symbols-outlined">close</span>
+        </Button>
+      </div>
+    )
   });
 
   // Creates player cards
