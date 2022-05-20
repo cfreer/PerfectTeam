@@ -23,7 +23,7 @@ interface Player {
 }
 
 function CreateTeam(props : any) {
-  const players = props.data.map((obj : Player) => (obj.Player).substring(0, obj.Player.indexOf('\\')));
+  const players = props.data.map((obj : Player) => obj.Player);
   const [input, setInput] = useState<string>('');
   const [ptNames, setPTNames] = useState<string[]>([]);
   const [ptTeamRks, setPTRks] = useState<number[]>([]);
@@ -82,7 +82,7 @@ function CreateTeam(props : any) {
           warningSalary.hidden = false;
         } else {
           // Adds player name, rank, and salary to current team
-          let name = (playerInfo.Player).substring(0, playerInfo.Player.indexOf('\\'));
+          let name = playerInfo.Player;
           let rank = playerInfo.Rk;
           let salary = parseInt(playerInfo.salary.substring(1));
           setPTNames(arr => [...arr, name]);

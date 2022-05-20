@@ -26,7 +26,7 @@ function SearchBar(props : any) {
   // Sets up the item object
   const items : Item[] = data.map((obj : Player) => ({
     id: parseInt(obj.id),
-    name: (obj.Player).substring(0, obj.Player.indexOf('\\'))
+    name: obj.Player
   }));
 
   // Handle the instance in which the player is selected
