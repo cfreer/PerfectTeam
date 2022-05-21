@@ -65,7 +65,7 @@ function QuickAdd(props : any) {
     let rks : number[] = [];
     let salary : number = 0;
     res.forEach((obj : Player) => {
-      names.push((obj.Player).substring(0, obj.Player.indexOf('\\')));
+      names.push(obj.Player);
       rks.push(obj.Rk);
       salary = obj.hasOwnProperty('salary') ? salary + parseInt(obj.salary.substring(1)) : 0;
     });

@@ -12,7 +12,7 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 **Returned Data Format**: JSON
 
-**Description 1:** If the search parameter is not included in the request, returns the rank, name (& twitter handle), age, win shares, salary, and projected salary of all players in order by rank.
+**Description 1:** If the search parameter is not included in the request, returns the rank, name, profile photo url, age, win shares, salary, and projected salary of all players in order by rank.
 
 **Example Request 1:** /players
 
@@ -20,41 +20,44 @@ Base URL: https://perfect-team-api.herokuapp.com
 ```json
 [
   {
-    "_id": "6274db2d67b2ba8ad69487dd",
+    "_id": "627d73b3f1fc43da47c82e63",
     "Rk": 1,
-    "name": "Precious Achiuwa\\achiupr01",
+    "Player": "Precious Achiuwa\\achiupr01",
     "age": 22,
     "WS": "2.5",
-    "salary": "$45780966",
-    "projSalary": "$48070014"
+    "salary": "$45780966.00",
+    "projSalary": "$48070014.00",
+    "playerTeam": "Toronto Raptors"
   },
   {
-    "_id": "6274db2d67b2ba8ad69487de",
+    "_id": "627d73b3f1fc43da47c82e64",
     "Rk": 2,
-    "name": "Steven Adams\\adamsst01",
+    "Player": "Steven Adams\\adamsst01",
     "age": 28,
     "WS": "6.8",
-    "salary": "$44310840",
-    "projSalary": "$47366760"
+    "salary": "$44310840.00",
+    "projSalary": "$47366760.00",
+    "playerTeam": "Memphis Grizzlies"
   },
   ...
 ]
 ```
 
-**Description 2:** If the search parameter is included in the request, returns the rank, name (& twitter handle), age, win shares, salary, and projected salary of the player with the given name.
+**Description 2:** If the name parameter is included in the request, returns the rank, name (& twitter handle), age, win shares, salary, and projected salary of the player with the given name.
 
 **Example Request 2:** /players?name=Steven Adams
 
 **Example Response 2:**
 ```json
 {
-  "_id": "6274db2d67b2ba8ad69487de",
-  "Rk": 2,
-  "name": "Steven Adams\\adamsst01",
-  "age": 28,
-  "WS": "6.8",
-  "salary": "$44310840",
-  "projSalary": "$47366760"
+  "_id": "627d73b3f1fc43da47c82e63",
+  "Rk": 1,
+  "Player": "Precious Achiuwa\\achiupr01",
+  "age": 22,
+  "WS": "2.5",
+  "salary": "$45780966.00",
+  "projSalary": "$48070014.00",
+  "playerTeam": "Toronto Raptors"
 }
 ```
 
@@ -138,36 +141,114 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 **Returned Data Format**: JSON
 
-**Description:** Returns a complete team of 12 players on the same NBA team.
+**Description 1:** Returns a complete team of 12 players on the same NBA team.
 
-**Example Request:** /quickadd/Utah Jazz
+**Example Request 1:** /quickadd/Utah Jazz
 
-**Example Response:** (abbreviated)
+**Example Response 1:** (abbreviated)
 ```json
 [
   {
-    "_id": "627a039daf95564d91af9c49",
-    "Rk": "23",
-    "Player": "Udoka Azubuike\\azubuud01",
+    "_id": "62850368cd0631716c143bbf",
+    "Rk": 23,
+    "Player": "Udoka Azubuike",
     "age": 22,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/azubuud01.jpg",
     "WS": "0.6",
-    "salary": "$31590000.00",
-    "projSalary": "$33930000.00",
+    "salary": "31590000.00",
+    "projSalary": "33930000.00",
     "playerTeam": "Utah Jazz"
   },
   {
-    "_id": "627a039daf95564d91af9c69",
-    "Rk": "55",
-    "Player": "Bojan Bogdanović\\bogdabo02",
+    "_id": "62850368cd0631716c143bdf",
+    "Rk": 55,
+    "Player": "Bojan Bogdanović",
     "age": 32,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/bogdabo02.jpg",
     "WS": "5.2",
-    "salary": "$20000000.00",
-    "projSalary": "$20000000.00",
+    "salary": "20000000.00",
+    "projSalary": "20000000.00",
     "playerTeam": "Utah Jazz"
   },
   ...
 ]
 ```
 
+**Description 2:** If the players parameter is included in the request, returns a complete team of 12 players on the same NBA team, starting with the 3 players given.
+
+**Example Request 2:** /quickadd/Los Angeles Lakers?players=14,18,39
+
+**Example Response 2:**
+```json (abbreviated)
+[
+  {
+    "_id": "62850368cd0631716c143bb6",
+    "Rk": 14,
+    "Player": "Carmelo Anthony",
+    "age": 37,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/anthoca01.jpg",
+    "WS": "3.6",
+    "salary": "35500000.00",
+    "projSalary": "37948276.00",
+    "playerTeam": "Los Angeles Lakers"
+  },
+  {
+    "_id": "62850368cd0631716c143bba",
+    "Rk": 18,
+    "Player": "Trevor Ariza",
+    "age": 36,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/arizatr01.jpg",
+    "WS": "0.2",
+    "salary": "34502130.00",
+    "projSalary": "37262300.00",
+    "playerTeam": "Los Angeles Lakers"
+  },
+  {
+    "_id": "62850368cd0631716c143bcf",
+    "Rk": 39,
+    "Player": "Kent Bazemore",
+    "age": 32,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/bazemke01.jpg",
+    "WS": "0.1",
+    "salary": "28103550.00",
+    "projSalary": "30351834.00",
+    "playerTeam": "Los Angeles Lakers"
+  },
+  ...
+]
+```
+
+**Error Handling:**
+- Returns a JSON with an error status and descriptive error message.
+
+
+## Get stats for a given player.
+**Request Format:** /stats/:name
+
+**Request Type:** GET
+
+**Returned Data Format**: JSON
+
+**Description:** Returns the stats of the given player.
+
+**Example Request:** /stats/OG Anunoby
+
+**Example Response:**
+```json
+{
+  "_id": "6282c979855797bbdb2d3735",
+  "Rk": 16,
+  "MP": 36,
+  "FT": 1.9,
+  "ORB": 1.5,
+  "DRB": 4,
+  "AST": 2.6,
+  "STL": 1.5,
+  "BLK": 0.5,
+  "TOV": 1.7,
+  "PF": 2.7,
+  "PTS": 17.1
+}
+```
 **Error Handling:**
 - Returns a JSON with an error status and descriptive error message.

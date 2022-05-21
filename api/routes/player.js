@@ -10,7 +10,7 @@ const Players = require('../models/players');
 router.get('/', async (req, res) => {
   try {
     let posts;
-    // checks to see if the user added a player name
+    // Checks to see if the user added a player name.
     if (Object.keys(req.query).length !== 0) {
       const fullName = req.query.name;
       const nameRegex = new RegExp(fullName);
