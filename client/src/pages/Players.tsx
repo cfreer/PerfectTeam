@@ -17,7 +17,7 @@ interface Player {
 
 // This is the page that presents the player data
 function Players(props : any) {
-  const players = props.data.map((obj : Player) => (obj.Player).substring(0, obj.Player.indexOf('\\')));
+  const players = props.data.map((obj : Player) => obj.Player);
   const [input, setInput] = useState<string>('');
   // const [player, setPlayer] = useState<Player | null>(null);
 
@@ -55,7 +55,7 @@ function Players(props : any) {
       <Card className="text-center player-card-lg border-0">
         <Card.Body>
           <span className="material-icons md-100">person</span>
-          <Card.Title>{(obj.Player).substring(0, obj.Player.indexOf('\\'))}</Card.Title>
+          <Card.Title>{obj.Player}</Card.Title>
           <Card.Text>
             <p><b>Rank:</b> {obj.Rk}</p>
             <p><b>Win share:</b> {obj.WS}</p>
