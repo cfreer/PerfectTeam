@@ -107,7 +107,7 @@ function CreateTeam(props : any) {
   }
 
   // Removes a single player from the current team
-  const removePlayer = (e : MouseEvent<HTMLElement>) => {
+  const removePlayer = (e : MouseEvent) => {
     let player = e.currentTarget.id;
     setPTNames(ptNames.filter((p) => p !== player));
 
@@ -122,6 +122,8 @@ function CreateTeam(props : any) {
       setPTRks(ptTeamRks.filter((rank : number) => rank !== playerInfo?.Rk));
       setTotalSalary(totalSalary - salary);
     }
+    setScore(0);
+    setTax(-1);
   }
 
   // Updates team list
@@ -166,7 +168,7 @@ function CreateTeam(props : any) {
   })
 
   // Handles getting win prediction and luxury tax values from API
-  const submitTeamHandler = (event : React.MouseEvent) => {
+  const submitTeamHandler = (event : MouseEvent) => {
     event.preventDefault();
     fetch(API_URL + 'team/' + ptTeamRks.join(',') + '/' + salaryVal.toString())
       .then(statusCheck)
@@ -219,7 +221,7 @@ function CreateTeam(props : any) {
   }, [setSalaryValue]);
 
   // Handles clearing current team and reseting buttons
-  const clearTeamHandler = (event : React.MouseEvent) => {
+  const clearTeamHandler = (event : MouseEvent) => {
     setPTNames([]);
     setPTRks([]);
     setTotalSalary(0);
