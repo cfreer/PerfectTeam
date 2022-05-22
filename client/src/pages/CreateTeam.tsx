@@ -4,7 +4,7 @@
  * the UI for customizing a team, adding a salary cap, quick adding a team, and
  * display win prediction feature.
  */
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useState, MouseEvent } from 'react';
 import { Container, Row, Col, Button, Card, Alert, Table } from 'react-bootstrap';
 import SearchBar from './../components/SearchBar';
 import QuickAdd from './../components/QuickAdd';
@@ -106,8 +106,14 @@ function CreateTeam(props : any) {
     setInput('');
   }
 
+  // Removes a single player from the current team
+  const removePlayer = (e : MouseEvent<HTMLElement>) => {
+    let player = e.currentTarget.id;
+    setPTNames(ptNames.filter((p, i) => i.toString() !== player));
+  }
+
   // Updates team list
-  let teamList = ptNames.map((player) => {
+  let teamList = ptNames.map((player, i) => {
     // Disables add button and shows create team button when the team has 12 players
     if (createButton != null && addButton != null && clearButton != null && quickAddButton != null && ptNames.length === 12) {
       createButton.hidden = false;
@@ -117,12 +123,15 @@ function CreateTeam(props : any) {
       editButton.disabled = true;
     }
     return (
-      <div className='player-name'>
-        <li key={ptNames.indexOf(player)}>{player}</li>
-        <Button variant='outline-light' size='sm'>
-          <span className="material-symbols-outlined">close</span>
-        </Button>
-      </div>
+      <tr id={i.toString()}>
+        <td>{i + 1}.</td>
+        <td> {player}</td>
+        <td className='clr-player-btn'>
+          <Button variant='outline-light' size='sm' id={i.toString()} onClick={removePlayer}>
+            <span className="material-symbols-outlined">close</span>
+          </Button>
+        </td>
+      </tr>
     )
   });
 
@@ -181,12 +190,12 @@ function CreateTeam(props : any) {
     setPTRks(val);
   }, [setPTRks]);
 
-  // Update current team salary
+  // Updates current team salary
   const updateSalary = useCallback((val : number) => {
     setTotalSalary(val);
   }, [setTotalSalary]);
 
-  // Handle salary edit text
+  // Handles salary edit text
   const handleSave = useCallback((value : number) => {
     setSalaryValue(value);
   }, [setSalaryValue]);
@@ -248,17 +257,19 @@ function CreateTeam(props : any) {
           <Row>
             <Col sm={4} id='player-list' data-testid='player-list'>
               <p><b>Current Team</b></p>
-              <ol>
-                {teamList}
-              </ol>
-              <div id='team-btns'>
+              <Table id='player-list-table' data-testid='player-list-table' borderless={true}>
+                <tbody>
+                  {teamList}
+                </tbody>
+              </Table>
+              <Row id='team-btns'>
                 <Button variant='primary' data-testid='create-team-btn' id='create-team-btn' hidden={true} onClick={submitTeamHandler}>Create Team!</Button>
                 <Button variant='secondary' data-testid='clear-team-btn' id='clear-team-btn' hidden={true} onClick={clearTeamHandler}>Clear Team</Button>
-              </div>
+              </Row>
             </Col>
             <Col sm={8} id='team'>
               <Row id='team-stats'>
-                <Table id='stats-table' data-testid='stats-table'>
+                <Table id='stats-table' data-testid='stats-table' borderless={true}>
                   <tbody>
                     <tr>
                       <td><b>Win Prediction:</b></td>
