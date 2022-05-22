@@ -109,7 +109,19 @@ function CreateTeam(props : any) {
   // Removes a single player from the current team
   const removePlayer = (e : MouseEvent<HTMLElement>) => {
     let player = e.currentTarget.id;
-    setPTNames(ptNames.filter((p, i) => i.toString() !== player));
+    setPTNames(ptNames.filter((p) => p !== player));
+
+    let p : Player[] = props.data.filter((obj : Player) => {
+      return obj.Player.includes(player);
+    });
+
+    let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
+    if (playerInfo !== null) {
+      // Removes rank and salary from current team
+      let salary = parseInt(playerInfo.salary.substring(1));
+      setPTRks(ptTeamRks.filter((rank : number) => rank !== playerInfo?.Rk));
+      setTotalSalary(totalSalary - salary);
+    }
   }
 
   // Updates team list
@@ -127,7 +139,7 @@ function CreateTeam(props : any) {
         <td>{i + 1}.</td>
         <td> {player}</td>
         <td className='clr-player-btn'>
-          <Button variant='outline-light' size='sm' id={i.toString()} onClick={removePlayer}>
+          <Button variant='outline-light' size='sm' id={player} onClick={removePlayer}>
             <span className="material-symbols-outlined">close</span>
           </Button>
         </td>
