@@ -127,12 +127,18 @@ function CreateTeam(props : any) {
   // Updates team list
   let teamList = ptNames.map((player, i) => {
     // Disables add button and shows create team button when the team has 12 players
-    if (createButton != null && addButton != null && clearButton != null && quickAddButton != null && ptNames.length === 12) {
+    if (ptNames.length === 12) {
       createButton.hidden = false;
       addButton.disabled = true;
       clearButton.hidden = false;
       quickAddButton.disabled = true;
       editButton.disabled = true;
+    } else {
+      createButton.hidden = true;
+      addButton.disabled = false;
+      clearButton.hidden = true;
+      quickAddButton.disabled = false;
+      editButton.disabled = false;
     }
     return (
       <tr id={i.toString()}>
