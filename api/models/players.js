@@ -4,6 +4,7 @@ const playerSchema = new mongoose.Schema({
   Rk: Number,
   Player: String,
   age: Number,
+  playerPicture: String,
   WS: String,
   salary: String,
   projSalary: String,
