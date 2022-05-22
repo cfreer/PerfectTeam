@@ -18,7 +18,7 @@ test('renders add player button', () => {
 
 test('renders a list of players\' names', () => {
   render(<CreateTeam data={players}/>)
-  expect(screen.getByTestId(/player-list/i)).toBeInTheDocument();
+  expect(screen.getByTestId(/player-list-table/i)).toBeInTheDocument();
 });
 
 test('renders create team button', () => {
