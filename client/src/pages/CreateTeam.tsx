@@ -4,7 +4,7 @@
  * the UI for customizing a team, adding a salary cap, quick adding a team, and
  * display win prediction feature.
  */
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useState, MouseEvent } from 'react';
 import { Container, Row, Col, Button, Card, Alert, Table } from 'react-bootstrap';
 import SearchBar from './../components/SearchBar';
 import QuickAdd from './../components/QuickAdd';
@@ -58,6 +58,7 @@ function CreateTeam(props : any) {
     let warning = document.getElementById('input-alert') as HTMLElement;
     let warningDuplicate = document.getElementById('input-alert-duplicate') as HTMLElement;
     let warningSalary = document.getElementById('input-alert-salary') as HTMLElement;
+
     if (ptNames.includes(player)) {
       // Shows alert for duplicate player
       warningDuplicate.hidden = false;
@@ -73,6 +74,7 @@ function CreateTeam(props : any) {
       let p : Player[] = props.data.filter((obj : Player) => {
         return obj.Player.includes(player);
       });
+
       let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
       if (playerInfo !== null) {
         if (!playerInfo.hasOwnProperty('salary')) {
@@ -104,17 +106,53 @@ function CreateTeam(props : any) {
     setInput('');
   }
 
+  // Removes a single player from the current team
+  const removePlayer = (e : MouseEvent) => {
+    let player = e.currentTarget.id;
+    setPTNames(ptNames.filter((p) => p !== player));
+
+    let p : Player[] = props.data.filter((obj : Player) => {
+      return obj.Player.includes(player);
+    });
+
+    let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
+    if (playerInfo !== null) {
+      // Removes rank and salary from current team
+      let salary = parseInt(playerInfo.salary.substring(1));
+      setPTRks(ptTeamRks.filter((rank : number) => rank !== playerInfo?.Rk));
+      setTotalSalary(totalSalary - salary);
+    }
+    setScore(0);
+    setTax(-1);
+  }
+
   // Updates team list
-  let teamList = ptNames.map((player) => {
+  let teamList = ptNames.map((player, i) => {
     // Disables add button and shows create team button when the team has 12 players
-    if (createButton != null && addButton != null && clearButton != null && quickAddButton != null && ptNames.length === 12) {
+    if (ptNames.length === 12) {
       createButton.hidden = false;
       addButton.disabled = true;
       clearButton.hidden = false;
       quickAddButton.disabled = true;
       editButton.disabled = true;
+    } else {
+      createButton.hidden = true;
+      addButton.disabled = false;
+      clearButton.hidden = true;
+      quickAddButton.disabled = false;
+      editButton.disabled = false;
     }
-    return (<li key={ptNames.indexOf(player)} className='player-name'>{player}</li>)
+    return (
+      <tr id={i.toString()}>
+        <td>{i + 1}.</td>
+        <td> {player}</td>
+        <td className='clr-player-btn'>
+          <Button variant='outline-light' size='sm' id={player} onClick={removePlayer}>
+            <span className="material-symbols-outlined">close</span>
+          </Button>
+        </td>
+      </tr>
+    )
   });
 
   // Creates player cards
@@ -130,7 +168,7 @@ function CreateTeam(props : any) {
   })
 
   // Handles getting win prediction and luxury tax values from API
-  const submitTeamHandler = (event : React.MouseEvent) => {
+  const submitTeamHandler = (event : MouseEvent) => {
     event.preventDefault();
     fetch(API_URL + 'team/' + ptTeamRks.join(',') + '/' + salaryVal.toString())
       .then(statusCheck)
@@ -172,18 +210,18 @@ function CreateTeam(props : any) {
     setPTRks(val);
   }, [setPTRks]);
 
-  // Update current team salary
+  // Updates current team salary
   const updateSalary = useCallback((val : number) => {
     setTotalSalary(val);
   }, [setTotalSalary]);
 
-  // Handle salary edit text
+  // Handles salary edit text
   const handleSave = useCallback((value : number) => {
     setSalaryValue(value);
   }, [setSalaryValue]);
 
   // Handles clearing current team and reseting buttons
-  const clearTeamHandler = (event : React.MouseEvent) => {
+  const clearTeamHandler = (event : MouseEvent) => {
     setPTNames([]);
     setPTRks([]);
     setTotalSalary(0);
@@ -239,17 +277,19 @@ function CreateTeam(props : any) {
           <Row>
             <Col sm={4} id='player-list' data-testid='player-list'>
               <p><b>Current Team</b></p>
-              <ol>
-                {teamList}
-              </ol>
-              <div id='team-btns'>
+              <Table id='player-list-table' data-testid='player-list-table' borderless={true}>
+                <tbody>
+                  {teamList}
+                </tbody>
+              </Table>
+              <Row id='team-btns'>
                 <Button variant='primary' data-testid='create-team-btn' id='create-team-btn' hidden={true} onClick={submitTeamHandler}>Create Team!</Button>
                 <Button variant='secondary' data-testid='clear-team-btn' id='clear-team-btn' hidden={true} onClick={clearTeamHandler}>Clear Team</Button>
-              </div>
+              </Row>
             </Col>
             <Col sm={8} id='team'>
               <Row id='team-stats'>
-                <Table id='stats-table' data-testid='stats-table'>
+                <Table id='stats-table' data-testid='stats-table' borderless={true}>
                   <tbody>
                     <tr>
                       <td><b>Win Prediction:</b></td>
