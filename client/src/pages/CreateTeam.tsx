@@ -4,6 +4,7 @@
  * the UI for customizing a team, adding a salary cap, quick adding a team, and
  * display win prediction feature.
  */
+
 import React, { useCallback, useState, MouseEvent } from 'react';
 import { Container, Row, Col, Button, Card, Alert, Table } from 'react-bootstrap';
 import SearchBar from './../components/SearchBar';

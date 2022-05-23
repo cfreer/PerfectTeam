@@ -1,4 +1,8 @@
-import React from 'react';
+/**
+ * This file contains the Firebase configuration and returns
+ * the render of the React element in the DOM.
+ */
+
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
