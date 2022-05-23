@@ -9,19 +9,17 @@ let should = chai.should();
 chai.use(chaiHttp);
 
 describe('NBA Teams', () => {
-  /*
-  * Test the /GET route
-  */
+  // Test the /GET route.
   describe('/GET nbateams', () => {
-      it('it should GET all the NBA teams', (done) => {
-        chai.request(server)
-            .get('/nbateams')
-            .end((err, res) => {
-                  res.should.have.status(200);
-                  res.body.should.be.a('array');
-                  res.body.length.should.be.eql(30);
-              done();
-            });
-      });
+    it('it should GET all the NBA teams', (done) => {
+      chai.request(server)
+        .get('/nbateams')
+        .end((err, res) => {
+          res.should.have.status(200);
+          res.body.should.be.a('array');
+          res.body.length.should.be.eql(30);
+          done();
+        });
+    });
   });
 });

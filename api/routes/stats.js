@@ -9,9 +9,11 @@ const Players = require('../models/players');
  */
 router.get('/:name', async (req, res) => {
   try {
+    // Find player by name.
     const name = req.params.name;
-    const nameRegex = new RegExp(name);
-    let player = await Players.findOne({ Player: { $regex: nameRegex } }).exec();
+    let player = await Players.findOne({ Player: name }).exec();
+
+    // Find stats by rank.
     const rank = player.Rk;
     let posts = await Stats.findOne({ Rk: rank }).exec();
     res.json(posts);
