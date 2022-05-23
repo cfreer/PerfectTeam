@@ -31,6 +31,33 @@ describe('Quick Add', () => {
   });
 
   /*
+  * Test the /GET route for quick add, making sure it's top 12 by minutes played.
+  */
+  describe('/GET quick add', () => {
+    it('it should GET top 12 minutes played players from the given team', (done) => {
+      chai.request(server)
+          .get('/quickadd/Los Angeles Lakers')
+          .end((err, res) => {
+                let top12 = [
+                  274, 127, 576, 385,
+                   14, 251, 468, 288,
+                   63,  18, 161, 253
+                ];
+                let players = res.body;
+                res.should.have.status(200);
+                players.should.be.a('Array');
+                players.length.should.be.eql(12);
+                for (let i = 0; i < players.length; i++) {
+                  let player = players[i];
+                  player.playerTeam.should.be.eql("Los Angeles Lakers");
+                  top12.should.include(player.Rk);
+                }
+            done();
+          });
+    });
+});
+
+  /*
   * Test the /GET route for quick add with given ranks.
   */
   describe('/GET quick add', () => {
