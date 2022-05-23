@@ -12,9 +12,8 @@ router.get('/', async (req, res) => {
     let posts;
     // Checks to see if the user added a player name.
     if (Object.keys(req.query).length !== 0) {
-      const fullName = req.query.name;
-      const nameRegex = new RegExp(fullName);
-      posts = await Players.findOne({ Player: { $regex: nameRegex } }).exec();
+      const name = req.query.name;
+      posts = await Players.findOne({ Player: name }).exec();
     } else {
       posts = await Players.find();
     }

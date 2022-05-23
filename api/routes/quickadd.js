@@ -60,7 +60,6 @@ async function getTopMP(players, n) {
   for (let i = 0; i < stats.length; i++) {
     final_ranks.push(stats[i].Rk);
   }
-  console.log(final_ranks);
 
   // Gets the players data by the top n ranks.
   let posts = await Players.find({Rk: {$in: final_ranks}});

@@ -3,12 +3,11 @@ var router = express.Router();
 let NbaTeams = require('../models/nbateams');
 
 /**
- * GET team listing.
+ * Returns the names of all NBA teams.
  */
 router.get('/', async (req, res) => {
   try {
-    let posts;
-    posts = await NbaTeams.find();
+    let posts = await NbaTeams.find();
     res.json(posts);
   } catch (err) {
     res.json({status: 'error', error: err.message});
