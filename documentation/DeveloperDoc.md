@@ -118,7 +118,7 @@ git commit -m “<descriptive message>”
 git push heroku master
 ```
 
-## How to Start a New Server
+## How to Set Up a New Server
 ***Note: If you would like to set up a new server and create the project from scratch, please follow the instructions below to set up Firebase Hosting for the React App and Heroku API.***  
 ### How to Set Up Firebase Hosting and Include Firebase in the React App
 1. Go to https://firebase.google.com/, click the "Get started" button, and sign in using a Google account.
