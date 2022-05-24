@@ -5,6 +5,7 @@
 
 ## How to Install the Software
 No installation is necessary for our software; it is hosted and can be accessed on https://perfect-team-75839.web.app.
+![](imgs/pt_home.png)
 
 ## How to Run the Software
 You can run the software by visiting the link: https://perfect-team-75839.web.app.
