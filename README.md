@@ -19,7 +19,7 @@ The [developer doc](https://github.com/cfreer/PerfectTeam/blob/main/documentatio
 - How to Test the Software
 - How to Add New Tests
 - How to Build a Release of the Software
-- How to Start a New Server
+- How to Set Up a New Server
   - How to Set Up Firebase Hosting and Include Firebase in the React App
   - How to Set Up Heroku API
 
