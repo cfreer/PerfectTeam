@@ -101,17 +101,15 @@ Refer to our [how to add a new test](https://docs.google.com/document/d/1-kPpM9f
 **Backend:**  
 ***Note: You will need access to Heroku in order to make a deployment. Contact Caroline Freer (cfreer@uw.edu) if access is needed.*** 
 1. If you are building a major release, increment the first digit by one and reset the middle and last digits of the version number to zero. If you are building a minor release, increment the middle digit and reset the last digit to zero. If you are building a patch release, increment the last digit of the version number by one. The version number can be found in the api/package.json file.
-2. Change into the api directory.  
-`cd api`
-3. Log into Heroku.  
+2. Log into Heroku.  
 `heroku login`
-4. Clone the Heroku API files.  
+3. Clone the Heroku API files.  
 `heroku git:clone -a perfect-team-api`
-5. Copy the PerfectTeam API files into the Heroku repo.  
+4. Copy the PerfectTeam API files into the Heroku repo.  
 `cp -R ./api/* ./perfect-team-api`
-6. Change into the perfect-team-api directory.  
+5. Change into the perfect-team-api directory.  
 `cd perfect-team-api`
-7. Add your changes to Heroku.  
+6. Add your changes to Heroku.  
 ```
 git add .
 git commit -m “<descriptive message>”
