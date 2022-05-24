@@ -3,25 +3,25 @@ PerfectTeam is an NBA predictive modeling software that takes any twelve-person 
 > Perfect Team Public URL: [https://perfect-team-75839.web.app](https://perfect-team-75839.web.app)  
 
 # User Documentation
-The [user doc](https://docs.google.com/document/d/15EX6s6G98Mrvnf63af8UgCeSFA896j7Ri-ko85FwacM/edit?usp=sharing) includes:
+The [user doc](https://github.com/cfreer/PerfectTeam/blob/main/documentation/UserDoc.md) includes:
 - High-Level Description
 - How to Install the Software
 - How to Run the Software
 - How to Use the Software
 - How to Report a Bug
-- Known User Bugs
+- Known Bugs
 
 # Developer Documentation
-The [developer doc](https://docs.google.com/document/d/1Yv0fqrUQZNTx0qqgvMVjop9h45ziyMy2_Kr94YylpFg/edit?usp=sharing) includes:
+The [developer doc](https://github.com/cfreer/PerfectTeam/blob/main/documentation/DeveloperDoc.md) includes:
 - How to Obtain the Source Code
 - The Layout of Our Directory Structure
 - How to Build the Software
 - How to Test the Software
 - How to Add New Tests
 - How to Build a Release of the Software
-- How to Set Up Firebase Hosting and Include Firebase in the React App
-- How to Set Up Heroku API
-- Known Developer Bugs
+- How to Start a New Server
+  - How to Set Up Firebase Hosting and Include Firebase in the React App
+  - How to Set Up Heroku API
 
 # Major Features & Goals:
 - Wins Prediction - Clearly present a statistic that represents the potential for the team that the user has selected to win a given game.
