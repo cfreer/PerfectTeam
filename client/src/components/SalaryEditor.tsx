@@ -63,7 +63,7 @@ function SalaryEditor(props : any) {
           </InputGroup.Prepend>
           <Form.Control
             type='text'
-            onChange={(e) => validateInput(e.target.value)}
+            onChange={(e : any) => validateInput(e.target.value)}
             autoFocus
           />
         </InputGroup>
