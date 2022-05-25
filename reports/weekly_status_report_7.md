@@ -8,10 +8,13 @@
 - Continue working on adding live game data to the Games page (Aaron)
 
 ### Progress and Issues
-
+- Fixed bugs
+- Added some features to salary cap
+- Sorted quick add teams by playing time
 
 ### Plans and Goals
-
+- Address peer review feedback
+- 
 
 ## Team Member Contributions
 ### 1. Aaron
