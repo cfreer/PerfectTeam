@@ -61,17 +61,19 @@ function QuickAdd(props : any) {
   }
 
   function updateCurrentTeam(res : any) {
-    let names : string[] = [];
-    let rks : number[] = [];
+    // let names : string[] = [];
+    // let rks : number[] = [];
     let salary : number = 0;
     res.forEach((obj : Player) => {
-      names.push(obj.Player);
-      rks.push(obj.Rk);
+      // names.push(obj.Player);
+      // rks.push(obj.Rk);
       salary = obj.hasOwnProperty('salary') ? salary + parseInt(obj.salary) : 0;
     });
 
-    props.parentTeamNamesSetter(names);
-    props.parentTeamRksSetter(rks);
+
+    // props.parentTeamNamesSetter(names);
+    // props.parentTeamRksSetter(rks);
+    props.parentTeamSetter(res);
     props.parentSalarySetter(salary);
   }
 
