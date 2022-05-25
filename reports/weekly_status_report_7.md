@@ -20,10 +20,10 @@
 - add player profile images and other stats to the players page.
 
 #### Progress and Issues
-
+This week I wasn't able to accomplish all my goals, as I was very busy in my other classes, but I was still able to make a lot fo progress. The games page is almost complete, I just require some final implementation details to get it working. Profile images should now also be in the repo, so I can now start implementing that into the players page. This will be my next main priority. I am currently not being blocked on anything, and will continue to make progress where applicable
 
 #### Plans and Goals
-
+- Continue to progress on player images on players page
 
 ### 2. Amanda
 #### Goals From Last Week
