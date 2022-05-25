@@ -87,7 +87,7 @@ function CreateTeam(props : any) {
           // Adds player name, rank, and salary to current team
           let name = playerInfo.Player;
           let rank = playerInfo.Rk;
-          let salary = parseInt(playerInfo.salary.substring(1));
+          let salary = parseInt(playerInfo.salary);
           setPTNames(arr => [...arr, name]);
           setPTRks(arr => [...arr, rank]);
           setTotalSalary(totalSalary + salary);
@@ -119,7 +119,7 @@ function CreateTeam(props : any) {
     let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
     if (playerInfo !== null) {
       // Removes rank and salary from current team
-      let salary = parseInt(playerInfo.salary.substring(1));
+      let salary = parseInt(playerInfo.salary);
       setPTRks(ptTeamRks.filter((rank : number) => rank !== playerInfo?.Rk));
       setTotalSalary(totalSalary - salary);
     }

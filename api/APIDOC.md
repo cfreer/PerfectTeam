@@ -134,7 +134,7 @@ Base URL: https://perfect-team-api.herokuapp.com
 ```
 
 
-## Get 12 players from the given team.
+## Get top 12 minutes played players from the given team.
 **Request Format:** /quickadd/:playerTeam
 
 **Request Type:** GET
