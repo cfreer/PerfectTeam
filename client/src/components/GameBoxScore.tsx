@@ -1,3 +1,8 @@
+// This file makes calls to the NBA API that access the current scores and
+// upcoming games to date. It renders this information in the style of a box score
+// contianer and returns this as the component
+
+
 import React, { useEffect ,useState } from 'react';
 import { Table } from 'react-bootstrap';
 import internal from 'stream';
