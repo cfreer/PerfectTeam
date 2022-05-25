@@ -1,3 +1,9 @@
+/**
+ * This file contains the function that renders the teams page.
+ * This page features the current teams in the NBA and their regular season record.
+ * This page is meant to present simple information to the user as a table
+ */
+
 import React from 'react';
 import { Table } from 'react-bootstrap';
 
