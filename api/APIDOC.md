@@ -12,7 +12,7 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 **Returned Data Format**: JSON
 
-**Description 1:** If the search parameter is not included in the request, returns the rank, name, profile photo url, age, win shares, salary, and projected salary of all players in order by rank.
+**Description 1:** If the search parameter is not included in the request, returns the rank, name, age, profile photo url, win shares, salary, projected salary, and team of all players in order by rank.
 
 **Example Request 1:** /players
 
@@ -20,44 +20,47 @@ Base URL: https://perfect-team-api.herokuapp.com
 ```json
 [
   {
-    "_id": "627d73b3f1fc43da47c82e63",
+    "_id": "62850368cd0631716c143ba9",
     "Rk": 1,
-    "Player": "Precious Achiuwa\\achiupr01",
+    "Player": "Precious Achiuwa",
     "age": 22,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/achiupr01.jpg",
     "WS": "2.5",
-    "salary": "$45780966.00",
-    "projSalary": "$48070014.00",
+    "salary": "45780966.00",
+    "projSalary": "48070014.00",
     "playerTeam": "Toronto Raptors"
   },
   {
-    "_id": "627d73b3f1fc43da47c82e64",
+    "_id": "62850368cd0631716c143baa",
     "Rk": 2,
-    "Player": "Steven Adams\\adamsst01",
+    "Player": "Steven Adams",
     "age": 28,
+    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/adamsst01.jpg",
     "WS": "6.8",
-    "salary": "$44310840.00",
-    "projSalary": "$47366760.00",
+    "salary": "44310840.00",
+    "projSalary": "47366760.00",
     "playerTeam": "Memphis Grizzlies"
   },
   ...
 ]
 ```
 
-**Description 2:** If the name parameter is included in the request, returns the rank, name (& twitter handle), age, win shares, salary, and projected salary of the player with the given name.
+**Description 2:** If the name parameter is included in the request, returns the rank, name, age, profile photo url, win shares, salary, projected salary, and team of the player with the given name.
 
 **Example Request 2:** /players?name=Steven Adams
 
 **Example Response 2:**
 ```json
 {
-  "_id": "627d73b3f1fc43da47c82e63",
-  "Rk": 1,
-  "Player": "Precious Achiuwa\\achiupr01",
-  "age": 22,
-  "WS": "2.5",
-  "salary": "$45780966.00",
-  "projSalary": "$48070014.00",
-  "playerTeam": "Toronto Raptors"
+  "_id": "62850368cd0631716c143baa",
+  "Rk": 2,
+  "Player": "Steven Adams",
+  "age": 28,
+  "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/adamsst01.jpg",
+  "WS": "6.8",
+  "salary": "44310840.00",
+  "projSalary": "47366760.00",
+  "playerTeam": "Memphis Grizzlies"
 }
 ```
 
