@@ -28,8 +28,6 @@ function CreateTeam(props : any) {
   const players = props.data.map((obj : Player) => obj.Player);
   const [input, setInput] = useState<string>('');
   const [team, setTeam] = useState<Player[]>([]);
-  const [ptNames, setPTNames] = useState<string[]>([]);
-  const [ptTeamRks, setPTRks] = useState<number[]>([]);
   const [totalSalary, setTotalSalary] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [tax, setTax] = useState<number>(-1);
@@ -62,7 +60,7 @@ function CreateTeam(props : any) {
     let warningDuplicate = document.getElementById('input-alert-duplicate') as HTMLElement;
     let warningSalary = document.getElementById('input-alert-salary') as HTMLElement;
 
-    if (ptNames.includes(player)) {
+    if (team.map((p : Player) => p.Player).includes(player)) {
       // Shows alert for duplicate player
       warningDuplicate.hidden = false;
       warning.hidden = true;
@@ -85,11 +83,7 @@ function CreateTeam(props : any) {
         warningSalary.hidden = false;
       } else {
         // Adds player name, rank, and salary to current team
-        // let name = playerInfo.Player;
-        // let rank = playerInfo.Rk;
         let salary = parseInt(playerInfo.salary);
-        // setPTNames(arr => [...arr, name]);
-        // setPTRks(arr => [...arr, rank]);
         setTotalSalary(totalSalary + salary);
         setTeam(arr => [...arr, playerInfo]);
       }
@@ -113,7 +107,6 @@ function CreateTeam(props : any) {
 
     // Removes rank and salary from current team
     let salary = parseInt(playerInfo.salary);
-    // setPTRks(ptTeamRks.filter((rank : number) => rank !== playerInfo?.Rk));
     setTotalSalary(totalSalary - salary);
     setScore(0);
     setTax(-1);
@@ -154,8 +147,13 @@ function CreateTeam(props : any) {
     return (
       <Card className="text-center player-card border-0">
         <Card.Body>
-          {/* <span className="material-icons md-100">person</span> */}
-          <img src={player.playerPicture} alt='' />
+          <img src={player.playerPicture}
+            alt=''
+            onError={({currentTarget}) => {
+              currentTarget.onerror=null;
+              currentTarget.src=process.env.PUBLIC_URL + 'imgs/headshot.png';
+            }}
+          />
           <Card.Text>{player.Player}</Card.Text>
         </Card.Body>
       </Card>
@@ -197,16 +195,6 @@ function CreateTeam(props : any) {
     setTax(res.luxuryTax);
   }
 
-  // // Updates current team player names
-  // const updateTeamNames = useCallback((val : string[]) => {
-  //   setPTNames(val);
-  // }, [setPTNames]);
-
-  // // Updates current team player ranks
-  // const updateTeamRks = useCallback((val : number[]) => {
-  //   setPTRks(val);
-  // }, [setPTRks]);
-
   // Updates current team player ranks
   const updateTeam = useCallback((val : Player[]) => {
     setTeam(val);
@@ -224,8 +212,6 @@ function CreateTeam(props : any) {
 
   // Handles clearing current team and reseting buttons
   const clearTeamHandler = (event : MouseEvent) => {
-    setPTNames([]);
-    setPTRks([]);
     setTeam([]);
     setTotalSalary(0);
     setScore(0);
@@ -267,8 +253,6 @@ function CreateTeam(props : any) {
           <QuickAdd
             show={modalShowQA}
             onHide={() => setModalShowQA(false)}
-            // parentTeamNamesSetter={updateTeamNames}
-            // parentTeamRksSetter={updateTeamRks}
             parentSalarySetter={updateSalary}
             parentTeamSetter={updateTeam}
             data={props.teamData}
@@ -312,14 +296,14 @@ function CreateTeam(props : any) {
                       <td>${salaryVal.toLocaleString()}</td>
                       <td>
                         <Button variant='light' size='sm' onClick={() =>setEditing(true)} id='salary-btn'>Edit</Button>
-                        {/* <ErrorBoundary> */}
+                        <ErrorBoundary>
                           <SalaryEditor
                             show={editing}
                             onHide={() => setEditing(false)}
                             parentSave={handleSave}
                             salary={salaryVal}
                           />
-                        {/* </ErrorBoundary> */}
+                        </ErrorBoundary>
                       </td>
                     </tr>
                   </tbody>
