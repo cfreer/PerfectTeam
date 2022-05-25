@@ -1,6 +1,6 @@
 /**
- * This file contains the information for the players page, and renders 
- * a page that features a searchbar in which the user can input players and 
+ * This file contains the information for the players page, and renders
+ * a page that features a searchbar in which the user can input players and
  * revieve stats off that player, as well as team and salary
  */
 
@@ -11,12 +11,13 @@ import SearchBar from '../components/SearchBar';
 import { Row, Button, Card, Alert } from 'react-bootstrap';
 
 
-//The interface for the Player and their stats
+// The interface for the Player and their stats
 interface Player {
   id: string,
-  Rk: string,
+  Rk: number,
   Player: string,
   age: number,
+  playerPicture: string,
   WS: string,
   salary: string,
   projSalary: string,
@@ -62,7 +63,14 @@ function Players(props : any) {
     return (
       <Card className="text-center player-card-lg border-0">
         <Card.Body>
-          <span className="material-icons md-100">person</span>
+          <img src={obj.playerPicture}
+            alt=''
+            onError={({currentTarget}) => {
+              currentTarget.onerror=null;
+              currentTarget.src=process.env.PUBLIC_URL + 'imgs/headshot.png';
+            }}
+            className='profile-pic'
+          />
           <Card.Title>{obj.Player}</Card.Title>
           <Card.Text>
             <p><b>Rank:</b> {obj.Rk}</p>

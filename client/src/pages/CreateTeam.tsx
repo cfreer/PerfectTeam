@@ -12,6 +12,7 @@ import QuickAdd from './../components/QuickAdd';
 import ErrorBoundary from './../components/ErrorBoundary';
 import SalaryEditor from './../components/SalaryEditor';
 
+// Interface for an NBA player
 interface Player {
   id: string,
   Rk: number,
