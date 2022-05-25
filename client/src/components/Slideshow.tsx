@@ -2,6 +2,7 @@
  * This file contains the function Slideshow that returns the render for a
  * slideshow component. It currently displays different images.
  */
+
 import React from 'react';
 
 /* original code source for auto play slideshow: https://tinloof.com/blog/how-to-build-an-auto-play-slideshow-with-react */

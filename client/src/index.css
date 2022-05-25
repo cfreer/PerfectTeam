@@ -1,3 +1,7 @@
+/**
+ * This file contains the CSS styling for the overall application and .
+ */
+
 /* import google fonts family */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
 
@@ -116,12 +120,13 @@ nav li {
 }
 
 #search-container {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 #add-btn {
   background-color: #F1600D;
   border-color: #F1600D;
+  height: 38px;
 }
 
 #create-team-content {
@@ -152,13 +157,28 @@ nav li {
   justify-content: center;
 }
 
-#quick-add-btn {
+#quick-add-btn, #clear-team-btn, #create-team-btn {
   margin-bottom: 15px;
+}
+
+#team-btns {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #stats-table {
   margin: 0;
   width: 90%;
+}
+
+#player-list-table {
+  width: 80%;
+}
+
+.clr-player-btn {
+  display: flex;
+  justify-content: right;
 }
 
 .material-icons.md-100 {
@@ -174,10 +194,6 @@ nav li {
 .player-card-lg {
   max-width: 250px;
   margin: 5px;
-}
-
-.player-name {
-  margin-top: 10px;
 }
 
 .warning {

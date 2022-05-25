@@ -18,11 +18,16 @@ router.get('/:players/:salaryCap', async (req, res) => {
     let totalSalary = 0;
     for (let i = 0; i < rankArr.length; i++) {
       let rank = rankArr[i];
+      // Find stats by rank.
       let statsJSON = await Stats.findOne({ Rk: rank }).exec();
       statsJSONs.push(statsJSON);
+
+      // Find players by rank.
       let playerJSON = await Players.findOne({ Rk: rank }).exec();
-      if (playerJSON.salary) {
-        const salary = parseInt(playerJSON.salary.substring(1));
+      const salary = parseInt(playerJSON.salary);
+
+      // Sum the salaries.
+      if (salary) {
         totalSalary += salary;
       }
     }
@@ -41,6 +46,7 @@ router.get('/:players/:salaryCap', async (req, res) => {
  * @returns "synergy" score determined by the algorithm.
  */
 function getAlgorithmScore(statsJSONs) {
+  // Sum the total playing time of the team.
   let totalPlayingTime = 0;
   for (let i = 0; i < statsJSONs.length; i++) {
     let playerJSON = statsJSONs[i];
@@ -57,6 +63,8 @@ function getAlgorithmScore(statsJSONs) {
   let stl = 0;
   let blk = 0;
   let pf = 0;
+
+  // Sum all the stats for the team.
   for (let i = 0; i < statsJSONs.length; i++) {
     let playerJSON = statsJSONs[i];
     pts += playerJSON.PTS * playingTimeScale;
@@ -69,6 +77,8 @@ function getAlgorithmScore(statsJSONs) {
     blk += playerJSON.BLK * playingTimeScale;
     pf += playerJSON.PF * playingTimeScale;
   }
+
+  // Set hard limits for each stat.
   if (pts > 120) {
     pts = 120;
   }
@@ -88,7 +98,8 @@ function getAlgorithmScore(statsJSONs) {
     blk = 8;
   }
 
-  const score = 0.5 - 0.033 * Math.log(pts) + 0.0587 * ftm + 0.0186 * Math.log(oreb) +
+  // Algorithm.
+  const score = 0.0 - 0.033 * Math.log(pts) + 0.0587 * ftm + 0.0186 * Math.log(oreb) +
                 0.0543 * Math.log(dreb) + 0.0376 * Math.log(ast) - 0.048 * tov +
                 0.0408 * stl + 0.0186 * Math.log(blk) - .0988 - 0.0107 * pf;
 
@@ -103,6 +114,8 @@ function getAlgorithmScore(statsJSONs) {
  */
 function getLuxuryTax(totalSalary, salaryCap) {
   let luxuryTax = 0;
+
+  // The amount the team is over the salary cap.
   let limitOverage = totalSalary - salaryCap;
   if (limitOverage >= 20000000) {
     let currentTax = 3.75;
@@ -115,6 +128,8 @@ function getLuxuryTax(totalSalary, salaryCap) {
     luxuryTax += (limitOverage % 5000000) * (currentTax + .5);
     limitOverage -= limitOverage % 5000000
   }
+
+  // Uses tax brackets to determine luxury tax.
   if (limitOverage >= 15000000) {
     luxuryTax += (limitOverage - 15000000) * 3.25;
     limitOverage -= limitOverage - 15000000;

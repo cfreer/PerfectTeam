@@ -1,4 +1,10 @@
-import React, { useEffect, useState } from 'react';
+/**
+ * This file contains the function App that returns the render for the
+ * App component. It fetches data from the Perfect Team API and returns
+ * the render of the routes for the different pages.
+ */
+
+import { useEffect, useState } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Home from './pages/Home';
 import CreateTeam from './pages/CreateTeam';

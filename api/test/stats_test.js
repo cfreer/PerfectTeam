@@ -8,16 +8,16 @@ let server = require('../app');
 let should = chai.should();
 chai.use(chaiHttp);
 
-describe('NBA Teams', () => {
-  // Test the /GET route.
-  describe('/GET nbateams', () => {
-    it('it should GET all the NBA teams', (done) => {
+describe('Stats', () => {
+  // Test the /GET route for given player.
+  describe('/GET stats', () => {
+    it('it should GET the stats of Cole Anthony', (done) => {
       chai.request(server)
-        .get('/nbateams')
+        .get('/stats/Cole Anthony')
         .end((err, res) => {
           res.should.have.status(200);
-          res.body.should.be.a('array');
-          res.body.length.should.be.eql(30);
+          res.body.should.be.a('Object');
+          res.body.Rk.should.be.eql(15);
           done();
         });
     });
