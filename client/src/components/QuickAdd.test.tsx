@@ -8,11 +8,11 @@ import teams from './../../data/nbaTeams.json';
 
 test('modal shows selector', () => {
   render(
-    <QuickAdd 
+    <QuickAdd
       data={teams}
       show={true}
     />
   );
 
-  expect(screen.getByTestId(/quick-add-popup/i)).toBeInTheDocument;
+  expect(screen.getByTestId(/quick-add-popup/i)).toBeInTheDocument();
 });

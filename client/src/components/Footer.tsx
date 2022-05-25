@@ -1,9 +1,7 @@
 /**
  * This file contains the function Footer that returns the render for the
- * footer shown on all pages. 
+ * footer shown on all pages.
  */
-
-import React from 'react';
 
 function Footer() {
   return (
