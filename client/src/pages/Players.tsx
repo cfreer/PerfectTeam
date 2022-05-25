@@ -1,3 +1,11 @@
+/**
+ * This file contains the information for the players page, and renders 
+ * a page that features a searchbar in which the user can input players and 
+ * revieve stats off that player, as well as team and salary
+ */
+
+
+
 import React, { useState } from 'react';
 import SearchBar from '../components/SearchBar';
 import { Row, Button, Card, Alert } from 'react-bootstrap';

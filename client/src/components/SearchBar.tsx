@@ -1,3 +1,6 @@
+// This file contains the autofill search bar component that
+// accepts user input and returns reccomended results
+
 import { useEffect, useState } from 'react';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 
