@@ -13,8 +13,8 @@
 - Sorted quick add teams by playing time
 
 ### Plans and Goals
-- Address peer review feedback
-- 
+- Address peer review feedback (everyone)
+- Final release! (everyone)
 
 ## Team Member Contributions
 ### 1. Aaron
@@ -46,9 +46,11 @@ This week I wasn't able to accomplish all my goals, as I was very busy in my oth
 - Help frontend where they need and adjust backend to meet their needs.
 
 #### Progress and Issues
-
+This week I peer reviewed another project and improved our documentation following the suggestions from last week. I also added sorting to the quickadd backend endpoint, so it now returns the top 12 minutes played players, rather than just any 12 players on the same team. Again, no issues this week.
 
 #### Plans and Goals
+- Help the team with the final release.
+- User test our application to make sure all errors are handled and bugs are fixed.
 
 
 ### 4. Juan
@@ -75,5 +77,3 @@ to use for our slideshow and have started to look ahead on to next weeks assignm
 - Write a script for the video
 - Edit video
 - Help with documentation
-
-
