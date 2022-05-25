@@ -45,6 +45,7 @@ We are using GitHub Issues to keep track of any current and past bugs found in t
 2. Check to see if you are able to reproduce the bug. If so, please go to the [Issues tab](https://github.com/cfreer/PerfectTeam/issues) in the Perfect Team GitHub repository.
 3. Check if any open issues are similar to the bug you may have encountered.
 4. If the bug you encountered is already mentioned in an issue, please click on the issue and add a detailed comment if you would like to add more information. Otherwise, click on the “New Issue” button to report the new bug.
+![](imgs/bug_report.png)
 5. When creating a new issue, please use a descriptive title and include the page where the bug was found in square brackets. For example, “[Create Team] Players search suggestions not appearing” is a good title for a bug encountered when trying to search for a player on the Create Team page.
 6. To describe a bug, please include the following information to the best of your ability:
     - A summary of the bug in one sentence.
