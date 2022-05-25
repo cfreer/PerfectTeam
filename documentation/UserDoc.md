@@ -11,9 +11,23 @@ No installation is necessary for our software; it is hosted and can be accessed 
 You can run the software by visiting the link: https://perfect-team-75839.web.app.
 
 ## How to Use the Software
-To create a customized team, navigate to the Create Team page using the “Create Team” tab on the navigation bar or the “Create a Team!” button at the bottom of the home page. Once you are on the Create Team page, type in an NBA player name into the search bar located under the navigation bar. Player name search suggestions will appear under the search bar as you type. Click on the orange “Add Player” button to confirm adding the player you have entered into the search bar. The player’s name and profile picture will appear in the “Current Team” list in the lower half of the page. Please enter 12 NBA players individually into the search bar and add them to the current team. You may also use the “Quick Add NBA Team” button to easily add 12 players from an existing NBA team. Once you click on the button, a popup box will appear on the screen with a dropdown menu. Please use the dropdown menu to select the NBA team you would like the 12 players to be added from. After the current team contains 12 players, a “Create Team!” button and a "Clear Team" button will appear at the bottom of the “Current Team” name list. Click on the "Create Team!" button to get the win prediction and luxury tax amounts in the top-right statistics box. Use the "Clear Team" button to remove all players in the current team. You may also use the "X" button next to a player's name to remove that one player from the team.
+To create a customized team, navigate to the Create Team page using the “Create Team” tab on the navigation bar or the “Create a Team!” button at the bottom of the home page. Once you are on the Create Team page, type in an NBA player name into the search bar located under the navigation bar.
+
+![](imgs/ct_search.png)
+
+Player name search suggestions will appear under the search bar as you type. Click on the orange “Add Player” button to confirm adding the player you have entered into the search bar. The player’s name and profile picture will appear in the “Current Team” list in the lower half of the page. Please enter 12 NBA players individually into the search bar and add them to the current team.
+
+You may also use the “Quick Add NBA Team” button to easily add 12 players from an existing NBA team. Once you click on the button, a popup box will appear on the screen with a dropdown menu. Please use the dropdown menu to select the NBA team you would like the 12 players to be added from.
+
+![](imgs/ct_quickadd.png)
+
+After the current team contains 12 players, a “Create Team!” button and a "Clear Team" button will appear at the bottom of the “Current Team” name list. Click on the "Create Team!" button to get the win prediction and luxury tax amounts in the top-right statistics box. Use the "Clear Team" button to remove all players in the current team. You may also use the "X" button next to a player's name to remove that one player from the team.
+
+![](imgs/ct_created.png)
 
 The Create Team page loads with the current NBA salary cap set. If you would like to set your own salary cap, click on the edit button next to the salary cap shown in the top-right statistics box. A popup box will appear on the screen, and you may input the new value you would like to set the salary cap. Use the “Save” button to set the salary cap to your entered value.
+
+![](imgs/ct_salarycap.png)
 
 Receiving player suggestions are currently works in progress.
 
