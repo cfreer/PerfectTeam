@@ -64,8 +64,13 @@ This week I wasn't able to accomplish all my goals, as I was very busy in my oth
 My goal is to continue to update the algorithm and make it more accurate as we change how some of the team lineups work.
 
 #### Progress and Issues
+I updated the algo to better fit the actual standings. I helped facilitate some of the tasks that we still needed to do. I gathered images
+to use for our slideshow and have started to look ahead on to next weeks assignment.
 
 
 #### Plans and Goals
+- Write a script for the video
+- Edit video
+- Help with documentation
 
 
