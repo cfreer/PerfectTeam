@@ -4,6 +4,7 @@
  * the UI for customizing a team, adding a salary cap, quick adding a team, and
  * display win prediction feature.
  */
+
 import React, { useCallback, useState, MouseEvent } from 'react';
 import { Container, Row, Col, Button, Card, Alert, Table } from 'react-bootstrap';
 import SearchBar from './../components/SearchBar';
@@ -142,6 +143,7 @@ function CreateTeam(props : any) {
       quickAddButton.disabled = false;
       editButton.disabled = false;
     }
+    // Return the render of a single player
     return (
       <tr id={i.toString()}>
         <td>{i + 1}.</td>
@@ -178,6 +180,7 @@ function CreateTeam(props : any) {
       .catch(console.error);
   }
 
+  // Check if the API returns an error
   function checkError(res : any) {
     if (res.hasOwnProperty('status') && res.status === 'error') {
       let alert = document.getElementById('input-alert-error') as HTMLElement;

@@ -13,6 +13,6 @@
      </ErrorBoundary>
    );
  
-   expect(screen.getByText(/Sorry, an error occurred/i)).toBeInTheDocument;
+   expect(screen.getByText(/Sorry, an error occurred/i)).toBeInTheDocument();
  });
  
