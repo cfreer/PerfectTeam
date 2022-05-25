@@ -67,7 +67,7 @@ function QuickAdd(props : any) {
     res.forEach((obj : Player) => {
       names.push(obj.Player);
       rks.push(obj.Rk);
-      salary = obj.hasOwnProperty('salary') ? salary + parseInt(obj.salary.substring(1)) : 0;
+      salary = obj.hasOwnProperty('salary') ? salary + parseInt(obj.salary) : 0;
     });
 
     props.parentTeamNamesSetter(names);
