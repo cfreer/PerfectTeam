@@ -153,6 +153,7 @@ function CreateTeam(props : any) {
               currentTarget.onerror=null;
               currentTarget.src=process.env.PUBLIC_URL + 'imgs/headshot.png';
             }}
+            className='profile-pic'
           />
           <Card.Text>{player.Player}</Card.Text>
         </Card.Body>

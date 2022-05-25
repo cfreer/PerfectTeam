@@ -30,7 +30,7 @@ header {
 
 img {
   margin: 10px 0;
-  max-width: 5.5rem;
+  max-width: 15rem;
   height: auto;
 }
 
@@ -181,9 +181,8 @@ nav li {
   justify-content: right;
 }
 
-.material-icons.md-100 {
-  font-size: 100px;
-  background-color: #c4c4c4;
+.profile-pic {
+  max-width: 5.5rem;
 }
 
 .player-card {
