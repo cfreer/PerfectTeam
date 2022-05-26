@@ -58,10 +58,12 @@ This week I peer reviewed another project and improved our documentation followi
 - update database as required
 
 #### Progress and Issues
-
+This week I worked on peer reviewing other projects at the same time as working on updating the database with the images for the players and teams. I have been working on cleaning the data and making sure the information is accurate based on the current season. For me to be able to work on the images I had to clean the data using a python script to retrieve and map the data for our tables. 
 
 #### Plans and Goals
-
+-- Help the team with the final release
+-- Help with the documentation and video for next assignment
+-- Clean and update accurate information for the team
 
 ### 5. Ned
 #### Goals From Last Week
