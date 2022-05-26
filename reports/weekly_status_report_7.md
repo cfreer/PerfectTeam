@@ -35,10 +35,11 @@ This week I wasn't able to accomplish all my goals, as I was very busy in my oth
 - Look into potentially using machine learning for backend.
 
 #### Progress and Issues
-
+This week I continued working on the suggested players for teams features for quick add. I also added the functionality to remove players individually from the current team and fixed an issue for the salary cap editor by adding a limit to the input value. I have added the images to the Create Team page and will continue to work on adding the images for the Home page slideshow. In addition, I helped with fixing revisions from last week's feedback. I learned how to use another image when the original image link is broken. I had trouble removing a single player from the team by having each remove button associated with one player. I figured out how to add the function by adding a player's name as the id of each button. I am currently not stuck on anything and will continue working on finishing up the frontend features for our final release.
 
 #### Plans and Goals
-
+- Finish implementing frontend functionality features for our final release.
+- Help with the final release and video.
 
 ### 3. Caroline
 #### Goals From Last Week
