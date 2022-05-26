@@ -8,9 +8,7 @@
 - Continue working on adding live game data to the Games page (Aaron)
 
 ### Progress and Issues
-- Fixed bugs
-- Added some features to salary cap
-- Sorted quick add teams by playing time
+We fixed a few bugs on the front end and back end this week. We added sorting by playing time to the quick add team endpoint. We also added a limit to the salary cap customization feature to limit user input and added buttons to remove individual players from the current team. We also revised our documentation and added the user and developer manuals as markdown files in our repository. We learned to use the GitHub Issues feature to track bugs for our project. We are not stuck on anything at the moment.
 
 ### Plans and Goals
 - Address peer review feedback (everyone)
