@@ -1,6 +1,6 @@
 /**
- * This file contains the information for the players page, and renders 
- * a page that features a searchbar in which the user can input players and 
+ * This file contains the information for the players page, and renders
+ * a page that features a searchbar in which the user can input players and
  * revieve stats off that player, as well as team and salary
  */
 
@@ -11,10 +11,10 @@ import SearchBar from '../components/SearchBar';
 import { Row, Button, Card, Alert } from 'react-bootstrap';
 
 
-//The interface for the Player and their stats
+// The interface for the Player and their stats
 interface Player {
   id: string,
-  Rk: string,
+  Rk: number,
   Player: string,
   age: number,
   WS: string,

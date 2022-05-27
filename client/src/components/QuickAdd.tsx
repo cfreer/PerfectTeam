@@ -60,18 +60,14 @@ function QuickAdd(props : any) {
       .catch(console.error);
   }
 
+  // Updates the team players and total salary
   function updateCurrentTeam(res : any) {
-    let names : string[] = [];
-    let rks : number[] = [];
     let salary : number = 0;
     res.forEach((obj : Player) => {
-      names.push(obj.Player);
-      rks.push(obj.Rk);
-      salary = obj.hasOwnProperty('salary') ? salary + parseInt(obj.salary) : 0;
+      salary = obj.hasOwnProperty('salary') ? salary + parseInt(obj.salary) : salary;
     });
 
-    props.parentTeamNamesSetter(names);
-    props.parentTeamRksSetter(rks);
+    props.parentTeamSetter(res);
     props.parentSalarySetter(salary);
   }
 
