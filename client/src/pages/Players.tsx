@@ -17,7 +17,6 @@ interface Player {
   Rk: number,
   Player: string,
   age: number,
-  playerPicture: string,
   WS: string,
   salary: string,
   projSalary: string,
