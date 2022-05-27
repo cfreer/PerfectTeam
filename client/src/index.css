@@ -11,10 +11,10 @@ body {
 }
 
 main {
-  width: 80%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 h1, h2, h3 {
@@ -24,13 +24,14 @@ h1, h2, h3 {
 
 header {
   width: 80%;
+  padding-left: 30px;
   margin-left: auto;
   margin-right: auto;
 }
 
 img {
   margin: 10px 0;
-  max-width: 15rem;
+  max-width: 12rem;
   height: auto;
 }
 
@@ -60,6 +61,11 @@ div nav a:hover {
 nav li {
   display: inline;
   margin-right: 1rem;
+}
+
+#navbar-tabs {
+  margin: 0;
+  padding: 0.15rem;
 }
 
 #page-container {
@@ -176,6 +182,10 @@ nav li {
   width: 80%;
 }
 
+#slides {
+  height: min-content;
+}
+
 .clr-player-btn {
   display: flex;
   justify-content: right;
@@ -183,7 +193,6 @@ nav li {
 
 .material-icons.md-100 {
   font-size: 100px;
-  background-color: #c4c4c4;
 }
 
 .player-card {
@@ -201,45 +210,18 @@ nav li {
   width: 100%;
 }
 
-/* Slideshow */
-
-.slideshow {
-  margin: 0 auto;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.slideshowSlider {
-  white-space: nowrap;
-  transition: ease 1000ms;
-}
-
-.slide {
-  display: inline-block;
-  height: 500px;
+.slide-img {
+  max-width: none;
   width: 100%;
 }
 
-/* Buttons */
-
-.slideshowDots {
-  text-align: center;
-}
-
-.slideshowDot {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-
-  cursor: pointer;
-  margin: 15px 7px 0px;
-
-  background-color: #c4c4c4;
-}
-
-.slideshowDot.active {
-  background-color: #F1600D;
+.attribution {
+  color: black;
+  font-size: x-small;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  left: 0;
 }
 
 .game-table {

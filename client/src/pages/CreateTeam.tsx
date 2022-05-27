@@ -12,6 +12,7 @@ import QuickAdd from './../components/QuickAdd';
 import ErrorBoundary from './../components/ErrorBoundary';
 import SalaryEditor from './../components/SalaryEditor';
 
+// Interface for an NBA player
 interface Player {
   id: string,
   Rk: number,
@@ -26,8 +27,7 @@ interface Player {
 function CreateTeam(props : any) {
   const players = props.data.map((obj : Player) => obj.Player);
   const [input, setInput] = useState<string>('');
-  const [ptNames, setPTNames] = useState<string[]>([]);
-  const [ptTeamRks, setPTRks] = useState<number[]>([]);
+  const [team, setTeam] = useState<Player[]>([]);
   const [totalSalary, setTotalSalary] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [tax, setTax] = useState<number>(-1);
@@ -60,7 +60,7 @@ function CreateTeam(props : any) {
     let warningDuplicate = document.getElementById('input-alert-duplicate') as HTMLElement;
     let warningSalary = document.getElementById('input-alert-salary') as HTMLElement;
 
-    if (ptNames.includes(player)) {
+    if (team.map((p : Player) => p.Player).includes(player)) {
       // Shows alert for duplicate player
       warningDuplicate.hidden = false;
       warning.hidden = true;
@@ -72,31 +72,20 @@ function CreateTeam(props : any) {
       warningSalary.hidden = true;
 
       // Gets player info from data
-      let p : Player[] = props.data.filter((obj : Player) => {
-        return obj.Player.includes(player);
-      });
+      let playerInfo : Player = props.data.filter((obj : Player) => {
+        return obj.Player === player;
+      })[0];
 
-      let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
-      if (playerInfo !== null) {
-        if (!playerInfo.hasOwnProperty('salary')) {
-          // Shows alert for player's salary unavailable
-          warning.hidden = true;
-          warningDuplicate.hidden = true;
-          warningSalary.hidden = false;
-        } else {
-          // Adds player name, rank, and salary to current team
-          let name = playerInfo.Player;
-          let rank = playerInfo.Rk;
-          let salary = parseInt(playerInfo.salary);
-          setPTNames(arr => [...arr, name]);
-          setPTRks(arr => [...arr, rank]);
-          setTotalSalary(totalSalary + salary);
-        }
-      } else {
-        // Shows alert for invalid NBA player
-        warning.hidden = false;
+      if (!playerInfo.hasOwnProperty('salary')) {
+        // Shows alert for player's salary unavailable
+        warning.hidden = true;
         warningDuplicate.hidden = true;
-        warningSalary.hidden = true;
+        warningSalary.hidden = false;
+      } else {
+        // Adds player name, rank, and salary to current team
+        let salary = parseInt(playerInfo.salary);
+        setTotalSalary(totalSalary + salary);
+        setTeam(arr => [...arr, playerInfo]);
       }
     } else {
       // Shows alert for invalid NBA player
@@ -110,27 +99,23 @@ function CreateTeam(props : any) {
   // Removes a single player from the current team
   const removePlayer = (e : MouseEvent) => {
     let player = e.currentTarget.id;
-    setPTNames(ptNames.filter((p) => p !== player));
+    setTeam(team.filter((p : Player) => p.Player !== player));
 
-    let p : Player[] = props.data.filter((obj : Player) => {
-      return obj.Player.includes(player);
-    });
+    let playerInfo : Player = props.data.filter((obj : Player) => {
+      return obj.Player === player;
+    })[0];
 
-    let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
-    if (playerInfo !== null) {
-      // Removes rank and salary from current team
-      let salary = parseInt(playerInfo.salary);
-      setPTRks(ptTeamRks.filter((rank : number) => rank !== playerInfo?.Rk));
-      setTotalSalary(totalSalary - salary);
-    }
+    // Removes rank and salary from current team
+    let salary = parseInt(playerInfo.salary);
+    setTotalSalary(totalSalary - salary);
     setScore(0);
     setTax(-1);
   }
 
   // Updates team list
-  let teamList = ptNames.map((player, i) => {
+  let teamList = team.map((player, i) => {
     // Disables add button and shows create team button when the team has 12 players
-    if (ptNames.length === 12) {
+    if (team.length === 12) {
       createButton.hidden = false;
       addButton.disabled = true;
       clearButton.hidden = false;
@@ -147,9 +132,9 @@ function CreateTeam(props : any) {
     return (
       <tr id={i.toString()}>
         <td>{i + 1}.</td>
-        <td> {player}</td>
+        <td> {player.Player}</td>
         <td className='clr-player-btn'>
-          <Button variant='outline-light' size='sm' id={player} onClick={removePlayer}>
+          <Button variant='outline-light' size='sm' id={player.Player} onClick={removePlayer}>
             <span className="material-symbols-outlined">close</span>
           </Button>
         </td>
@@ -158,12 +143,12 @@ function CreateTeam(props : any) {
   });
 
   // Creates player cards
-  let playerCards = ptNames.map((player) => {
+  let playerCards = team.map((player) => {
     return (
       <Card className="text-center player-card border-0">
         <Card.Body>
           <span className="material-icons md-100">person</span>
-          <Card.Text>{player}</Card.Text>
+          <Card.Text>{player.Player}</Card.Text>
         </Card.Body>
       </Card>
     )
@@ -172,7 +157,8 @@ function CreateTeam(props : any) {
   // Handles getting win prediction and luxury tax values from API
   const submitTeamHandler = (event : MouseEvent) => {
     event.preventDefault();
-    fetch(API_URL + 'team/' + ptTeamRks.join(',') + '/' + salaryVal.toString())
+    let ranks : number[] = team.map((p : Player) => p.Rk);
+    fetch(API_URL + 'team/' + ranks.join(',') + '/' + salaryVal.toString())
       .then(statusCheck)
       .then(res => res.json())
       .then(checkError)
@@ -203,15 +189,10 @@ function CreateTeam(props : any) {
     setTax(res.luxuryTax);
   }
 
-  // Updates current team player names
-  const updateTeamNames = useCallback((val : string[]) => {
-    setPTNames(val);
-  }, [setPTNames]);
-
   // Updates current team player ranks
-  const updateTeamRks = useCallback((val : number[]) => {
-    setPTRks(val);
-  }, [setPTRks]);
+  const updateTeam = useCallback((val : Player[]) => {
+    setTeam(val);
+  }, [setTeam]);
 
   // Updates current team salary
   const updateSalary = useCallback((val : number) => {
@@ -225,8 +206,7 @@ function CreateTeam(props : any) {
 
   // Handles clearing current team and reseting buttons
   const clearTeamHandler = (event : MouseEvent) => {
-    setPTNames([]);
-    setPTRks([]);
+    setTeam([]);
     setTotalSalary(0);
     setScore(0);
     setTax(-1);
@@ -267,9 +247,8 @@ function CreateTeam(props : any) {
           <QuickAdd
             show={modalShowQA}
             onHide={() => setModalShowQA(false)}
-            parentTeamNamesSetter={updateTeamNames}
-            parentTeamRksSetter={updateTeamRks}
             parentSalarySetter={updateSalary}
+            parentTeamSetter={updateTeam}
             data={props.teamData}
           />
         </ErrorBoundary>
@@ -311,14 +290,14 @@ function CreateTeam(props : any) {
                       <td>${salaryVal.toLocaleString()}</td>
                       <td>
                         <Button variant='light' size='sm' onClick={() =>setEditing(true)} id='salary-btn'>Edit</Button>
-                        {/* <ErrorBoundary> */}
+                        <ErrorBoundary>
                           <SalaryEditor
                             show={editing}
                             onHide={() => setEditing(false)}
                             parentSave={handleSave}
                             salary={salaryVal}
                           />
-                        {/* </ErrorBoundary> */}
+                        </ErrorBoundary>
                       </td>
                     </tr>
                   </tbody>
