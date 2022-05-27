@@ -14,6 +14,7 @@ function Slideshow() {
           {/* Image Source & Citation: "NBA Collectible Figures" by ye-wa is licensed under CC BY-NC-SA 2.0. */}
           <img
             className='slide-img'
+            data-testid='slide-1'
             src={process.env.PUBLIC_URL + 'imgs/slide-1.jpg'}
             alt="First slide - player figurines"
           />
@@ -26,6 +27,7 @@ function Slideshow() {
           {/* Image Source & Citation: "NBA Playoffs Dallas Mavericks vs. San Antonio Spurs" by Katie Haugland Bowen is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse. */}
           <img
             className='slide-img'
+            data-testid='slide-2'
             src={process.env.PUBLIC_URL + 'imgs/slide-2.jpg'}
             alt="Second slide - basketball game stadium 1"
           />
@@ -38,6 +40,7 @@ function Slideshow() {
           {/* Image Source & Citation: "Los Angeles Lakers vs. San Antonio Spurs" by Katie Haugland Bowen is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse. */}
           <img
             className='slide-img'
+            data-testid='slide-3'
             src={process.env.PUBLIC_URL + 'imgs/slide-3.jpg'}
             alt="Third slide - basketball game stadium 2"
           />
