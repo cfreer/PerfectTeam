@@ -26,12 +26,39 @@ test('renders create team button', () => {
   expect(screen.getByTestId(/create-team-btn/i)).toBeInTheDocument();
 });
 
-test('renders all alerts hidden', () => {
+test('renders invalid player alert hidden', () => {
   render(<CreateTeam data={players}/>)
-  expect(screen.getByTestId('input-alert')).toBeInTheDocument();
-  expect(screen.getByTestId('input-alert-duplicate')).toBeInTheDocument();
-  expect(screen.getByTestId('input-alert-salary')).toBeInTheDocument();
-  expect(screen.getByTestId('input-alert-error')).toBeInTheDocument();
+  let alert = screen.getByTestId('input-alert');
+  expect(alert).toBeInTheDocument();
+  expect(alert).not.toBeVisible();
+});
+
+test('renders duplicate player alert hidden', () => {
+  render(<CreateTeam data={players}/>)
+  let alert = screen.getByTestId('input-alert-duplicate');
+  expect(alert).toBeInTheDocument();
+  expect(alert).not.toBeVisible();
+});
+
+test('renders player with no salary alert hidden', () => {
+  render(<CreateTeam data={players}/>)
+  let alert = screen.getByTestId('input-alert-salary');
+  expect(alert).toBeInTheDocument();
+  expect(alert).not.toBeVisible();
+});
+
+test('renders API error alert hidden', () => {
+  render(<CreateTeam data={players}/>)
+  let alert = screen.getByTestId('input-alert-error');
+  expect(alert).toBeInTheDocument();
+  expect(alert).not.toBeVisible();
+});
+
+test('renders team suggest message hidden', () => {
+  render(<CreateTeam data={players}/>)
+  let alert = screen.getByTestId('team-suggestion-msg');
+  expect(alert).toBeInTheDocument();
+  expect(alert).not.toBeVisible();
 });
 
 test('renders statistics table', () => {

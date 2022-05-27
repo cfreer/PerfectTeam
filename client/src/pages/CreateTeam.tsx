@@ -5,7 +5,7 @@
  * display win prediction feature.
  */
 
-import React, { useCallback, useState, MouseEvent } from 'react';
+import React, { useCallback, useState, MouseEvent, useEffect } from 'react';
 import { Container, Row, Col, Button, Card, Alert, Table } from 'react-bootstrap';
 import SearchBar from './../components/SearchBar';
 import QuickAdd from './../components/QuickAdd';
@@ -25,15 +25,16 @@ interface Player {
 }
 
 function CreateTeam(props : any) {
-  const players = props.data.map((obj : Player) => obj.Player);
-  const [input, setInput] = useState<string>('');
-  const [team, setTeam] = useState<Player[]>([]);
-  const [totalSalary, setTotalSalary] = useState<number>(0);
-  const [score, setScore] = useState<number>(0);
-  const [tax, setTax] = useState<number>(-1);
-  const [modalShowQA, setModalShowQA] = useState<boolean>(false);
-  const [editing, setEditing] = useState<boolean>(false);
-  const [salaryVal, setSalaryValue] = useState<number>(112400000);
+  const players = props.data;   // Array of all players
+  const [input, setInput] = useState<string>('');   // Stores user input
+  const [team, setTeam] = useState<Player[]>([]);   // Stores current team
+  const [totalSalary, setTotalSalary] = useState<number>(0);    // Stores total salary
+  const [score, setScore] = useState<number>(0);    // Stores team win prediction score
+  const [tax, setTax] = useState<number>(-1);   // Stores team luxury tax
+  const [modalShowQA, setModalShowQA] = useState<boolean>(false);   // Quick add modal visibility state
+  const [editing, setEditing] = useState<boolean>(false);   // Salary editor modal visibility state
+  const [salaryVal, setSalaryValue] = useState<number>(112400000);  // Stores salary cap value
+  const [suggestedTeam, setSuggestedTeam] = useState<string>('');   // Stores the suggested team
 
   // Get buttons
   const createButton = document.getElementById('create-team-btn') as HTMLButtonElement;
@@ -72,9 +73,7 @@ function CreateTeam(props : any) {
       warningSalary.hidden = true;
 
       // Gets player info from data
-      let playerInfo : Player = props.data.filter((obj : Player) => {
-        return obj.Player === player;
-      })[0];
+      let playerInfo : Player = props.data.filter((obj : Player) => obj.Player === player)[0];
 
       if (!playerInfo.hasOwnProperty('salary')) {
         // Shows alert for player's salary unavailable
@@ -101,9 +100,7 @@ function CreateTeam(props : any) {
     let player = e.currentTarget.id;
     setTeam(team.filter((p : Player) => p.Player !== player));
 
-    let playerInfo : Player = props.data.filter((obj : Player) => {
-      return obj.Player === player;
-    })[0];
+    let playerInfo : Player = props.data.filter((obj : Player) => obj.Player === player)[0];
 
     // Removes rank and salary from current team
     let salary = parseInt(playerInfo.salary);
@@ -218,9 +215,49 @@ function CreateTeam(props : any) {
     editButton.disabled = false;
   }
 
+  // Handles getting the suggested quick add team from the API
+  const addSuggestedTeam = (event : MouseEvent) => {
+    fetch(API_URL + 'quickadd/' + suggestedTeam + '?players=' + team.map((p : Player) => p.Rk))
+      .then(statusCheck)
+      .then(res => res.json())
+      .then(updateQATeam)
+      .catch(console.error);
+  }
+
+  // Updates the current team based on the returns quick add team
+  function updateQATeam(res : any) {
+    let salary : number = 0;
+    res.forEach((obj : Player) => {
+      salary = obj.hasOwnProperty('salary') ? salary + parseInt(obj.salary) : salary;
+    });
+
+    setTeam(res);
+    setTotalSalary(salary);
+  }
+
+  // Checks whether a team should be suggested
+  useEffect(() => {
+    let msg = document.getElementById('team-suggestion-msg') as HTMLElement;
+
+    if (team.length === 3) {
+      let currTeams = team.map((p : Player) => p.playerTeam);
+
+      // Check if all 3 players are from the same NBA team
+      if (currTeams.filter((t, index, self) => {
+          return self.indexOf(t) === index;
+        }).length === 1) {
+          setSuggestedTeam(currTeams[0]);
+          msg.hidden = false;
+      }
+    } else {
+      msg.hidden = true;
+    }
+  }, [team]);
+
   // Renders create team page
   return (
     <div className='create-team-container' data-testid='create-team-container'>
+      {/* Container for the search bar, add player button, and input warnings and messages */}
       <Container id='search-container'>
         <Row id='search-bar-inputs'>
           <div id='search' data-testid='search'>
@@ -240,6 +277,10 @@ function CreateTeam(props : any) {
           <Alert variant='warning' hidden={true} id='input-alert-duplicate'data-testid='input-alert-duplicate' className='warning'>Please enter another NBA player that is not already included in your current team.</Alert>
           <Alert variant='warning' hidden={true} id='input-alert-salary' data-testid='input-alert-salary' className='warning'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
           <Alert variant='danger' hidden={true} id='input-alert-error' data-testid='input-alert-error' className='warning'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
+          <Alert variant='primary' hidden={true} id='team-suggestion-msg' data-testid='team-suggestion-msg' className='warning'>
+            Would you like to quick add the {<b>{suggestedTeam}</b>} team?
+            <Button variant='primary' onClick={addSuggestedTeam} id='suggested-btn'>Yes!</Button>
+          </Alert>
         </Row>
       </Container>
       <div id='create-team-content'>
@@ -252,11 +293,13 @@ function CreateTeam(props : any) {
             data={props.teamData}
           />
         </ErrorBoundary>
+        {/* Container for the current team information */}
         <Container id='team-container'>
           <Row>
-            <Button variant='primary' onClick={() =>setModalShowQA(true)} id='quick-add-btn'>Quick Add NBA Team</Button>
+            <Button variant='primary' onClick={() => setModalShowQA(true)} id='quick-add-btn'>Quick Add NBA Team</Button>
           </Row>
           <Row>
+            {/* Player name list of the current team */}
             <Col sm={4} id='player-list' data-testid='player-list'>
               <p><b>Current Team</b></p>
               <Table id='player-list-table' data-testid='player-list-table' borderless={true}>
@@ -270,6 +313,7 @@ function CreateTeam(props : any) {
               </Row>
             </Col>
             <Col sm={8} id='team'>
+              {/* Team statistics information */}
               <Row id='team-stats'>
                 <Table id='stats-table' data-testid='stats-table' borderless={true}>
                   <tbody>
@@ -303,6 +347,7 @@ function CreateTeam(props : any) {
                   </tbody>
                 </Table>
               </Row>
+              {/* Grid of player images */}
               <Row id='player-cards' data-testid='player-cards'>
                 {playerCards}
               </Row>
