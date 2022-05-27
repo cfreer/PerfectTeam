@@ -148,14 +148,7 @@ function CreateTeam(props : any) {
     return (
       <Card className="text-center player-card border-0">
         <Card.Body>
-          <img src={player.playerPicture}
-            alt=''
-            onError={({currentTarget}) => {
-              currentTarget.onerror=null;
-              currentTarget.src=process.env.PUBLIC_URL + 'imgs/headshot.png';
-            }}
-            className='profile-pic'
-          />
+          <span className="material-icons md-100">person</span>
           <Card.Text>{player.Player}</Card.Text>
         </Card.Body>
       </Card>

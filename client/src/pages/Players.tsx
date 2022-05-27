@@ -63,14 +63,7 @@ function Players(props : any) {
     return (
       <Card className="text-center player-card-lg border-0">
         <Card.Body>
-          <img src={obj.playerPicture}
-            alt=''
-            onError={({currentTarget}) => {
-              currentTarget.onerror=null;
-              currentTarget.src=process.env.PUBLIC_URL + 'imgs/headshot.png';
-            }}
-            className='profile-pic'
-          />
+          <span className="material-icons md-100">person</span>
           <Card.Title>{obj.Player}</Card.Title>
           <Card.Text>
             <p><b>Rank:</b> {obj.Rk}</p>
