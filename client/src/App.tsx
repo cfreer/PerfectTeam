@@ -15,6 +15,7 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import './index.css';
 
+// Interface for an NBA player
 interface Player {
   id: string,
   Rk: number,
@@ -26,6 +27,7 @@ interface Player {
   playerTeam: string,
 }
 
+// Interface for an NBA team
 interface Team {
   id: string,
   teamId: number,
@@ -102,7 +104,7 @@ function App() {
             <Games />
           </Route>
           <Route path="/teams">
-            <Teams />
+            <Teams data={teamData}/>
           </Route>
           <Route path="/players">
             <Players data={playerData} />
