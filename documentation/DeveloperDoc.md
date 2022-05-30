@@ -148,7 +148,7 @@ cd api
 7. Add all files.  
 `git add .`
 8. Commit the files.  
-`git commit -m “add api”`
+`git commit -m "add api"`
 9. Push the repo to Heroku.  
 `git push heroku master`
 10. Open your new API.  
