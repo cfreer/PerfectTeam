@@ -65,8 +65,7 @@ function Players(props : any) {
           <span className="material-icons md-100">person</span>
           <Card.Title>{obj.Player}</Card.Title>
           <Card.Text>
-            <p><b>Rank:</b> {obj.Rk}</p>
-            <p><b>Win share:</b> {obj.WS}</p>
+            <p><b>Win Shares:</b> {obj.WS}</p>
             <p><b>Team:</b> {obj.playerTeam}</p>
           </Card.Text>
         </Card.Body>
