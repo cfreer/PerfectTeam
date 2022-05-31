@@ -6,7 +6,7 @@
 function Footer() {
   return (
     <div>
-      <p>Portions of this page &copy;2022 Aaron Carter, Amanda Ki, Caroline Freer, Juan Gonzalez, Ned Harrison</p>
+      <p>&copy; 2022 Aaron Carter, Amanda Ki, Caroline Freer, Juan Gonzalez, Ned Harrison. All rights reserved.</p>
     </div>
   )
 }
