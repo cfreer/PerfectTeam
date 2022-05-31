@@ -44,7 +44,6 @@ function Players(props : any) {
       // Gets player info from data
       let playerInfo : Player = props.data.filter((obj : Player) => obj.Player === player)[0];
       if (playerInfo !== null) {
-        console.log(playerInfo)
         setPlayer(playerInfo)
         setSearch(true);
       }
