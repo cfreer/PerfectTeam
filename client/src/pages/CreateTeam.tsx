@@ -11,6 +11,7 @@ import SearchBar from './../components/SearchBar';
 import QuickAdd from './../components/QuickAdd';
 import ErrorBoundary from './../components/ErrorBoundary';
 import SalaryEditor from './../components/SalaryEditor';
+// import Images from '@assets/images';
 
 // Interface for an NBA player
 interface Player {
@@ -144,7 +145,8 @@ function CreateTeam(props : any) {
     return (
       <Card className="text-center player-card border-0">
         <Card.Body>
-          <span className="material-icons md-100">person</span>
+          {/* <span className="material-icons md-100">person</span> */}
+          <img src={require('./../assets/' + player.playerTeam.replace(/ /g,"-") + '.png').default} alt='' className='player-img'/>
           <Card.Text>{player.Player}</Card.Text>
         </Card.Body>
       </Card>

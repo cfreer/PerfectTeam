@@ -4,6 +4,9 @@
  */
 
 import { Carousel } from "react-bootstrap";
+import slide1 from './../assets/slide-1.jpg';
+import slide2 from './../assets/slide-2.jpg';
+import slide3 from './../assets/slide-3.jpg';
 
 function Slideshow() {
   return (
@@ -15,7 +18,7 @@ function Slideshow() {
           <img
             className='slide-img'
             data-testid='slide-1'
-            src={process.env.PUBLIC_URL + 'imgs/slide-1.jpg'}
+            src={slide1}
             alt="First slide - player figurines"
           />
           <Carousel.Caption>
@@ -28,7 +31,7 @@ function Slideshow() {
           <img
             className='slide-img'
             data-testid='slide-2'
-            src={process.env.PUBLIC_URL + 'imgs/slide-2.jpg'}
+            src={slide2}
             alt="Second slide - basketball game stadium 1"
           />
           <Carousel.Caption>
@@ -41,7 +44,7 @@ function Slideshow() {
           <img
             className='slide-img'
             data-testid='slide-3'
-            src={process.env.PUBLIC_URL + 'imgs/slide-3.jpg'}
+            src={slide3}
             alt="Third slide - basketball game stadium 2"
           />
           <Carousel.Caption>
