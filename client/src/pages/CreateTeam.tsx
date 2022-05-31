@@ -59,38 +59,30 @@ function CreateTeam(props : any) {
     let regex = new RegExp(players.join('|'),'i');
     let warning = document.getElementById('input-alert') as HTMLElement;
     let warningDuplicate = document.getElementById('input-alert-duplicate') as HTMLElement;
-    let warningSalary = document.getElementById('input-alert-salary') as HTMLElement;
 
     if (team.map((p : Player) => p.Player).includes(player)) {
       // Shows alert for duplicate player
       warningDuplicate.hidden = false;
       warning.hidden = true;
-      warningSalary.hidden = true;
     } else if (player !== '' && regex.test(player)) {
       // Hides all alerts
       warning.hidden = true;
       warningDuplicate.hidden = true;
-      warningSalary.hidden = true;
 
       // Gets player info from data
       let playerInfo : Player = props.data.filter((obj : Player) => obj.Player === player)[0];
 
-      if (!playerInfo.hasOwnProperty('salary')) {
-        // Shows alert for player's salary unavailable
-        warning.hidden = true;
-        warningDuplicate.hidden = true;
-        warningSalary.hidden = false;
-      } else {
-        // Adds player name, rank, and salary to current team
+      if (playerInfo.hasOwnProperty('salary')) {
+        // Adds salary to current team
         let salary = parseInt(playerInfo.salary);
         setTotalSalary(totalSalary + salary);
-        setTeam(arr => [...arr, playerInfo]);
       }
+      // Adds player to the current team
+      setTeam(arr => [...arr, playerInfo]);
     } else {
       // Shows alert for invalid NBA player
       warning.hidden = false;
       warningDuplicate.hidden = true;
-      warningSalary.hidden = true;
     }
     setInput('');
   }
@@ -98,13 +90,16 @@ function CreateTeam(props : any) {
   // Removes a single player from the current team
   const removePlayer = (e : MouseEvent) => {
     let player = e.currentTarget.id;
+    // Removes player from current team
     setTeam(team.filter((p : Player) => p.Player !== player));
 
     let playerInfo : Player = props.data.filter((obj : Player) => obj.Player === player)[0];
 
-    // Removes rank and salary from current team
-    let salary = parseInt(playerInfo.salary);
-    setTotalSalary(totalSalary - salary);
+    if (playerInfo.hasOwnProperty('salary')) {
+      // Removes salary from current team
+      let salary = parseInt(playerInfo.salary);
+      setTotalSalary(totalSalary - salary);
+    }
     setScore(0);
     setTax(-1);
   }
@@ -275,7 +270,6 @@ function CreateTeam(props : any) {
         <Row>
           <Alert variant='warning' hidden={true} id='input-alert' data-testid='input-alert' className='warning'>Please enter a valid NBA player.</Alert>
           <Alert variant='warning' hidden={true} id='input-alert-duplicate'data-testid='input-alert-duplicate' className='warning'>Please enter another NBA player that is not already included in your current team.</Alert>
-          <Alert variant='warning' hidden={true} id='input-alert-salary' data-testid='input-alert-salary' className='warning'>Player's salary information is currently unavailable. Please enter another NBA player.</Alert>
           <Alert variant='danger' hidden={true} id='input-alert-error' data-testid='input-alert-error' className='warning'>Sorry, an error has occurred with the API. Please try to create a team later.</Alert>
           <Alert variant='primary' hidden={true} id='team-suggestion-msg' data-testid='team-suggestion-msg' className='warning'>
             Would you like to quick add the {<b>{suggestedTeam}</b>} team?
