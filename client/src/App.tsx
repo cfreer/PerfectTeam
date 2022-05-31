@@ -43,14 +43,41 @@ interface Team {
   NRtg: string
 }
 
+interface GTeam {
+  id: number,
+  abbreviation: string,
+  city: string,
+  conference: string,
+  division: string,
+  full_name: string,
+  name: string
+}
+
+interface Game {
+  id : number,
+  date: string,
+  home_team: GTeam,
+  home_team_score: number,
+  period: number,
+  postseason: boolean,
+  season: number,
+  status: string,
+  time: string,
+  visitor_team: GTeam,
+  visitor_team_score: number
+}
+
 function App() {
 
   const [playerData, setPlayerData] = useState<Player[]>([]);
   const [teamData, setTeamData] = useState<Team[]>([]);
+  const [gameData, setGameData] = useState<Game[]>([]);
 
   // Base URL for Perfect Team API
   const API_URL = 'https://perfect-team-api.herokuapp.com/';
   // const API_URL = 'http://localhost:4567/';
+
+  const GAME_URL = 'https://www.balldontlie.io/api/v1/games?seasons[]=2021';
 
   async function statusCheck(res : Response) {
     if (!res.ok) {
@@ -76,8 +103,17 @@ function App() {
         .then(setTeamData)
         .catch(console.error);
     }
+    function addHandler() {
+      fetch(GAME_URL)
+      .then(statusCheck)
+      .then(res => res.json())
+      .then(res => setGameData(res.data))
+      .then(console.log)
+      .catch(console.error);
+    }
     getPlayersRequest();
     getTeamsRequest();
+    addHandler();
   }, []);
 
   // returns rendered routes and specified components
@@ -101,7 +137,7 @@ function App() {
             <CreateTeam data={playerData} teamData={teamData} />
           </Route>
           <Route path="/games">
-            <Games />
+            <Games data={gameData} />
           </Route>
           <Route path="/teams">
             <Teams data={teamData}/>
