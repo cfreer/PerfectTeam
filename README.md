@@ -46,4 +46,4 @@ Case 4: Search Game History
 Case 5: Customizing a Team
 
 # Use Cases Not Operational
-Case 2: Create a Team Within Budget *does not suggest trades
+Case 2: Create a Team Within Budget *(does not suggest trades)*
