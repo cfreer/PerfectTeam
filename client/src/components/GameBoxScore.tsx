@@ -39,7 +39,7 @@ function GameBoxScore(props : any) {
     return (
       <tr>
       <td>{g.date.substring(0, 10)}</td>
-      <td>{g.home_team.full_name} vs. </td>
+      <td>{g.home_team.full_name}</td>
       <td>{g.visitor_team.full_name}</td>
       <td>{g.home_team_score} - {g.visitor_team_score}</td>
       </tr>
