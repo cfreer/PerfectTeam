@@ -10,9 +10,9 @@ import GameBoxScore from '../components/GameBoxScore'
 function Games(props : any) {
   // rendered games page
   return (
-      <div className='game-table' data-testid="game-table">
-          <GameBoxScore data={props.data}/>
-      </div>
+    <div className='game-table' data-testid="game-table">
+      <GameBoxScore data={props.data}/>
+    </div>
   );
 }
 

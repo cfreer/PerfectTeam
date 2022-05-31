@@ -4,8 +4,6 @@
  * revieve stats off that player, as well as team and salary
  */
 
-
-
 import React, { useState } from 'react';
 import SearchBar from '../components/SearchBar';
 import { Row, Button, Card, Alert } from 'react-bootstrap';
@@ -79,7 +77,7 @@ function Players(props : any) {
   // Handles the instance in which the input is changed
   // Takes in a string from the user
   const inputChangeHandler = (value : string) => {
-   setInput(value);
+    setInput(value);
   }
 
   // renders players page
@@ -94,8 +92,7 @@ function Players(props : any) {
             value={input}
             setInput={inputChangeHandler}
             data={props.data}
-
-            />
+          />
         </div>
         <ErrorBoundary>
           <PlayerProfile
@@ -104,7 +101,7 @@ function Players(props : any) {
             player={player}
           />
         </ErrorBoundary>
-      <Button id='add-btn' data-testid='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Search Player</Button>
+        <Button id='add-btn' data-testid='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Search</Button>
       </div>
       <Alert variant='warning' hidden={true} id='input-alert' data-testid='input-alert'>Please enter a valid NBA player.</Alert>
       <Row id='player-cards' data-testid='player-cards'>
