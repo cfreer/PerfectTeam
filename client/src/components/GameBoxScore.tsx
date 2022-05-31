@@ -1,85 +1,55 @@
-// This file makes calls to the NBA API that access the current scores and
-// upcoming games to date. It renders this information in the style of a box score
-// contianer and returns this as the component
-
-
 import React, { useEffect ,useState } from 'react';
 import { Table } from 'react-bootstrap';
 import internal from 'stream';
 
- interface Game{
-    hTeam: Object,
-    vTeam: Object,
-    hTeamScore: string,
-    vTeamScore: string,
-    period: Object,
+interface Team {
+    id: number,
+    abbreviation: string,
+    city: string,
+    conference: string,
+    division: string,
+    full_name: string,
+    name: string
+}
 
- }
-
+interface Game {
+    id : number,
+    date: string,
+    home_team: Team,
+    home_team_score: number,
+    period: number,
+    postseason: boolean,
+    season: number,
+    status: string,
+    time: string,
+    visitor_team: Team,
+    visitor_team_score: number
+}
 
 function GameBoxScore(props : any) {
 
-    const API_URL = 'http://data.nba.net/10s/prod/v1/20170218/scoreboard.json';
+        let gamesList = props.data.map((g : Game) => {
+            console.log(props.data)
+            return (<tr>
+                <td>{g.date}</td>
+                <td>{g.home_team.full_name} vs. </td>
+                <td>{g.visitor_team.full_name}</td>
+                <td>{g.home_team_score} - {g.visitor_team_score}</td>
+                </tr>)
+        })
 
-    const [games, setGames] = useState<Game[]>([]);
-
-
-
-    async function statusCheck(res : Response) {
-        if (!res.ok) {
-          throw new Error(await res.json());
-        }
-        return res;
-      }
-    useEffect(() => { 
-        function addHandler() {
-            fetch(API_URL)
-            .then(statusCheck)
-            .then(res => res.json())
-            .then(updateCurrentScore)
-            .catch(console.error);
-        }
-
-        
-        function updateCurrentScore(res : any) {
-            //let teams : string[] = [];
-            //let score : number[] = [];
-        
-            //props.parentTeamNamesSetter(teams);
-            //props.parentTeamRksSetter(score);
-            setGames(res.games);
-            console.log(games)
-            console.log(res)
-        }
-        addHandler();
-    }, []);
-
-    let teamList = games.map((game, i) => {
-        return (<tr>
-            <td>{i}</td>
-            <td>{game.hTeam} vs. {game.vTeam}</td>
-            <td>{game.period}</td>
-            <td>{game.hTeamScore} - {game.vTeamScore}</td>
-        </tr>)
-      });
-
-      return (
-        <Table striped bordered hover>
+    return (
+        <Table striped bordered hover data-testid="game-box">
             <thead>
             <tr>
-                <th>#</th>
+                <th>date</th>
                 <th>Home Team</th>
-                <th>Score</th>
-                <th>Away Team</th>
+                <th>Visitng Team</th>
+                <th>score</th>
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>1</td>
-                <td>Mavericks vs. Suns</td>
-                <td>Today 7:00 PM PST</td>
-                <td>Pheonix, AZ</td>
-            </tr>
+            {gamesList}
             </tbody>
         </Table>
       );
