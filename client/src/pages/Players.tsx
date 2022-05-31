@@ -25,7 +25,7 @@ interface Player {
 
 // This is the page that presents the player data
 function Players(props : any) {
-  const players = props.data.map((obj : Player) => obj.Player);
+  const players = props.data;
   const [input, setInput] = useState<string>('');
   // const [player, setPlayer] = useState<Player | null>(null);
 
@@ -41,10 +41,7 @@ function Players(props : any) {
       warning.hidden = true;
 
       // Gets player info from data
-      let p : Player[] = props.data.filter((obj : Player) => {
-        return obj.Player.includes(player);
-      });
-      let playerInfo : (Player | null) = p.length > 0 ? p[0] : null;
+      let playerInfo : Player = props.data.filter((obj : Player) => obj.Player === player)[0];
       if (playerInfo !== null) {
         // setPlayer(playerInfo);
       }
@@ -62,7 +59,7 @@ function Players(props : any) {
     return (
       <Card className="text-center player-card-lg border-0">
         <Card.Body>
-          <span className="material-icons md-100">person</span>
+          <img src={require('./../assets/' + obj.playerTeam.replace(/ /g,"-") + '.png').default} alt='' className='player-img'/>
           <Card.Title>{obj.Player}</Card.Title>
           <Card.Text>
             <p><b>Win Shares:</b> {obj.WS}</p>
