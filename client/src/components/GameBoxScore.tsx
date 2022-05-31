@@ -41,7 +41,7 @@ function GameBoxScore(props : any) {
         let gamesList = props.data.map((g : Game) => {
             console.log(props.data)
             return (<tr>
-                <td>{g.date}</td>
+                <td>{g.date.substring(0, 10)}</td>
                 <td>{g.home_team.full_name} vs. </td>
                 <td>{g.visitor_team.full_name}</td>
                 <td>{g.home_team_score} - {g.visitor_team_score}</td>
