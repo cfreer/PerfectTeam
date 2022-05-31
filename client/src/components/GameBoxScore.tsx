@@ -3,7 +3,7 @@
  * will be updated every ten minutes. This will show users the score and teams involved
  */
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Form, InputGroup, Table } from 'react-bootstrap';
 
 // Interface for the NBA teams
@@ -36,9 +36,13 @@ interface Game {
 function GameBoxScore(props : any) {
 
   // Sort games data by date
-  const [games, setGames] = useState<Game[]>(props.data.slice().sort((a : Game, b : Game) => {
-    return a.date.localeCompare(b.date);
-  }));
+  const [games, setGames] = useState<Game[]>([]);
+
+  useEffect(() => {
+    setGames(props.data.slice().sort((a : Game, b : Game) => {
+      return a.date.localeCompare(b.date);
+    }));
+  }, [setGames, props.data]);
 
   // This will create the table row with the date, teams and score
   let gamesList = games.map((g : Game) => {
