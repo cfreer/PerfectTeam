@@ -236,3 +236,13 @@ nav li {
 .game-table {
   text-align: center;
 }
+
+.player-profile-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.player-name {
+  font-size: 20px;
+}
