@@ -1,5 +1,5 @@
 /**
- * This file renders the games page, adn is intended to
+ * This file renders the games page, and is intended to
  * contain the live scores of current games as well as upcoming games
  * based off of the NBA API
  */
