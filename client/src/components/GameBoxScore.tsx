@@ -36,8 +36,9 @@ interface Game {
 function GameBoxScore(props : any) {
 
   // Sort games data by date
-  const [sortBy, setSortBy] = useState<string>('Date');
-  const [games, setGames] = useState<Game[]>([]);
+  const [games, setGames] = useState<Game[]>(props.data.slice().sort((a : Game, b : Game) => {
+    return a.date.localeCompare(b.date);
+  }));
 
   // This will create the table row with the date, teams and score
   let gamesList = games.map((g : Game) => {
@@ -51,19 +52,19 @@ function GameBoxScore(props : any) {
     )
   });
 
-  // Sort games table by column selected by the user
-  useEffect(() => {
-    let sorted = props.data;
+  // Sorts the games data based on the selected value
+  const handleSorting = (sortBy : string) => {
+    let sorted = props.data.slice();
     if (sortBy === 'Home Team') {    // Sort by home team name
-      sorted = props.data.sort((a : Game, b : Game) => {
+      sorted = sorted.sort((a : Game, b : Game) => {
         return a.home_team.full_name.localeCompare(b.home_team.full_name);
       });
     } else if (sortBy === 'Visiting Team') {    // Sort by visitor team name
-      sorted = props.data.sort((a : Game, b : Game) => {
+      sorted = sorted.sort((a : Game, b : Game) => {
         return a.visitor_team.full_name.localeCompare(b.visitor_team.full_name);
       });
     } else if (sortBy === 'Score') {    // Sort by game score
-      sorted = props.data.sort((a : Game, b : Game) => {
+      sorted = sorted.sort((a : Game, b : Game) => {
         let homeScore = a.home_team_score - b.home_team_score;
         if (homeScore !== 0) {
           return homeScore;
@@ -71,12 +72,12 @@ function GameBoxScore(props : any) {
         return a.visitor_team_score - b.visitor_team_score;
       });
     } else {
-      sorted = props.data.sort((a : Game, b : Game) => {
+      sorted = sorted.sort((a : Game, b : Game) => {
         return a.date.localeCompare(b.date);
       });
     }
     setGames(sorted);
-  }, [props.data, sortBy, setGames]);
+  }
 
   // Renders game box scores
   return (
@@ -86,7 +87,7 @@ function GameBoxScore(props : any) {
           <InputGroup.Prepend>
             <InputGroup.Text>Sort Games By:</InputGroup.Text>
           </InputGroup.Prepend>
-          <Form.Control as='select' id='sort-by' onChange={(e) => setSortBy(e.target.value)}>
+          <Form.Control as='select' id='sort-by' onChange={(e) => handleSorting(e.target.value)}>
             <option value='Date'>Date</option>
             <option value='Home Team'>Home Team</option>
             <option value='Visiting Team'>Visiting Team</option>
