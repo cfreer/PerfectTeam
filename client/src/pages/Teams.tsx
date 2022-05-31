@@ -25,6 +25,7 @@ interface Team {
 // This is the page that presents the teams and their current information
 function Teams(props : any) {
   let teams : Team[] = props.data;
+  let load = props.loading;
 
   // Creates a table row for each NBA team including team name, conference, division, wins, and losses
   let teamData = teams.map((t : Team) => {
@@ -71,7 +72,7 @@ function Teams(props : any) {
   // Renders teams page
   return (
     <div className='teams-container' data-testid='teams-container'>
-      <Table data-testid='teams-table' striped bordered hover>
+      <Table data-testid='teams-table' striped bordered hover hidden={load}>
         <thead>
           <tr>
             <th>Team</th>
