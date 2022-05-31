@@ -3,7 +3,8 @@
  * will be updated every ten minutes. This will show users the score and teams involved
  */
 
-import { Table } from 'react-bootstrap';
+import { useEffect, useState } from 'react';
+import { Form, InputGroup, Table } from 'react-bootstrap';
 
 // Interface for the NBA teams
 interface Team {
@@ -34,33 +35,79 @@ interface Game {
 // This page will present the game scores for the games page and will update on a schedule
 function GameBoxScore(props : any) {
 
+  // Sort games data by date
+  const [sortBy, setSortBy] = useState<string>('Date');
+  const [games, setGames] = useState<Game[]>([]);
+
   // This will create the table row with the date, teams and score
-  let gamesList = props.data.map((g : Game) => {
+  let gamesList = games.map((g : Game) => {
     return (
       <tr>
-      <td>{g.date.substring(0, 10)}</td>
-      <td>{g.home_team.full_name} vs. </td>
-      <td>{g.visitor_team.full_name}</td>
-      <td>{g.home_team_score} - {g.visitor_team_score}</td>
+        <td>{g.date.substring(0, 10)}</td>
+        <td>{g.home_team.full_name}</td>
+        <td>{g.visitor_team.full_name}</td>
+        <td>{g.home_team_score} - {g.visitor_team_score}</td>
       </tr>
     )
-  })
+  });
+
+  // Sort games table by column selected by the user
+  useEffect(() => {
+    let sorted = props.data;
+    if (sortBy === 'Home Team') {    // Sort by home team name
+      sorted = props.data.sort((a : Game, b : Game) => {
+        return a.home_team.full_name.localeCompare(b.home_team.full_name);
+      });
+    } else if (sortBy === 'Visiting Team') {    // Sort by visitor team name
+      sorted = props.data.sort((a : Game, b : Game) => {
+        return a.visitor_team.full_name.localeCompare(b.visitor_team.full_name);
+      });
+    } else if (sortBy === 'Score') {    // Sort by game score
+      sorted = props.data.sort((a : Game, b : Game) => {
+        let homeScore = a.home_team_score - b.home_team_score;
+        if (homeScore !== 0) {
+          return homeScore;
+        }
+        return a.visitor_team_score - b.visitor_team_score;
+      });
+    } else {
+      sorted = props.data.sort((a : Game, b : Game) => {
+        return a.date.localeCompare(b.date);
+      });
+    }
+    setGames(sorted);
+  }, [props.data, sortBy, setGames]);
 
   // Renders game box scores
   return (
-    <Table striped bordered hover data-testid="game-box">
-      <thead>
-        <tr>
-          <th>date</th>
-          <th>Home Team</th>
-          <th>Visitng Team</th>
-          <th>score</th>
-        </tr>
-      </thead>
-      <tbody>
-        {gamesList}
-      </tbody>
-    </Table>
+    <div>
+      <Form>
+        <InputGroup>
+          <InputGroup.Prepend>
+            <InputGroup.Text>Sort Games By:</InputGroup.Text>
+          </InputGroup.Prepend>
+          <Form.Control as='select' id='sort-by' onChange={(e) => setSortBy(e.target.value)}>
+            <option value='Date'>Date</option>
+            <option value='Home Team'>Home Team</option>
+            <option value='Visiting Team'>Visiting Team</option>
+            <option value='Score'>Score</option>
+          </Form.Control>
+        </InputGroup>
+      </Form>
+      <Table striped bordered hover data-testid='game-box'>
+        <thead>
+          <tr>
+            <th>date</th>
+            <th>Home Team</th>
+            <th>Visiting Team</th>
+            <th>score</th>
+          </tr>
+        </thead>
+        <tbody>
+          {gamesList}
+        </tbody>
+      </Table>
+    </div>
   );
 }
 
