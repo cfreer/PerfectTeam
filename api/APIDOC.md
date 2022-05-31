@@ -12,7 +12,7 @@ Base URL: https://perfect-team-api.herokuapp.com
 
 **Returned Data Format**: JSON
 
-**Description 1:** If the search parameter is not included in the request, returns the rank, name, age, profile photo url, win shares, salary, projected salary, and team of all players in order by rank.
+**Description 1:** If the search parameter is not included in the request, returns the rank, name, age, win shares, salary, projected salary, and team of all players in order by rank.
 
 **Example Request 1:** /players
 
@@ -24,7 +24,6 @@ Base URL: https://perfect-team-api.herokuapp.com
     "Rk": 1,
     "Player": "Precious Achiuwa",
     "age": 22,
-    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/achiupr01.jpg",
     "WS": "2.5",
     "salary": "45780966.00",
     "projSalary": "48070014.00",
@@ -35,7 +34,6 @@ Base URL: https://perfect-team-api.herokuapp.com
     "Rk": 2,
     "Player": "Steven Adams",
     "age": 28,
-    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/adamsst01.jpg",
     "WS": "6.8",
     "salary": "44310840.00",
     "projSalary": "47366760.00",
@@ -56,7 +54,6 @@ Base URL: https://perfect-team-api.herokuapp.com
   "Rk": 2,
   "Player": "Steven Adams",
   "age": 28,
-  "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/adamsst01.jpg",
   "WS": "6.8",
   "salary": "44310840.00",
   "projSalary": "47366760.00",
@@ -82,8 +79,8 @@ Base URL: https://perfect-team-api.herokuapp.com
 **Example Response:**
 ```json
 {
-  "score": 3680.0441030811808,
-  "luxuryTax": 9122626936
+  "score": 0.8929074719304304,
+  "luxuryTax": 7938889004
 }
 ```
 **Error Handling:**
@@ -156,7 +153,6 @@ Base URL: https://perfect-team-api.herokuapp.com
     "Rk": 23,
     "Player": "Udoka Azubuike",
     "age": 22,
-    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/azubuud01.jpg",
     "WS": "0.6",
     "salary": "31590000.00",
     "projSalary": "33930000.00",
@@ -167,7 +163,6 @@ Base URL: https://perfect-team-api.herokuapp.com
     "Rk": 55,
     "Player": "Bojan Bogdanović",
     "age": 32,
-    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/bogdabo02.jpg",
     "WS": "5.2",
     "salary": "20000000.00",
     "projSalary": "20000000.00",
@@ -189,7 +184,6 @@ Base URL: https://perfect-team-api.herokuapp.com
     "Rk": 14,
     "Player": "Carmelo Anthony",
     "age": 37,
-    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/anthoca01.jpg",
     "WS": "3.6",
     "salary": "35500000.00",
     "projSalary": "37948276.00",
@@ -200,7 +194,6 @@ Base URL: https://perfect-team-api.herokuapp.com
     "Rk": 18,
     "Player": "Trevor Ariza",
     "age": 36,
-    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/arizatr01.jpg",
     "WS": "0.2",
     "salary": "34502130.00",
     "projSalary": "37262300.00",
@@ -211,7 +204,6 @@ Base URL: https://perfect-team-api.herokuapp.com
     "Rk": 39,
     "Player": "Kent Bazemore",
     "age": 32,
-    "playerPicture": "https://www.basketball-reference.com/req/202106291/images/players/bazemke01.jpg",
     "WS": "0.1",
     "salary": "28103550.00",
     "projSalary": "30351834.00",
