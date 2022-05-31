@@ -72,16 +72,8 @@ function App() {
 
   const [playerData, setPlayerData] = useState<Player[]>([]);
   const [teamData, setTeamData] = useState<Team[]>([]);
-<<<<<<< HEAD
-<<<<<<< HEAD
-  const [gameData, setGameData] = useState<Game[]>([]);
-=======
-  const [load, setLoading] = useState<boolean>(true);
->>>>>>> e0a4843791068f96c9f80a2d1c0ebf30314e8589
-=======
   const [gameData, setGameData] = useState<Game[]>([]);
   const [load, setLoading] = useState<boolean>(true);
->>>>>>> eebd3b4a7aab54a2ef72ab672deaaffb3d0dbcc1
 
   // Base URL for Perfect Team API
   const API_URL = 'https://perfect-team-api.herokuapp.com/';
@@ -124,15 +116,7 @@ function App() {
     }
     getPlayersRequest();
     getTeamsRequest();
-<<<<<<< HEAD
-<<<<<<< HEAD
     addHandler();
-=======
-
->>>>>>> e0a4843791068f96c9f80a2d1c0ebf30314e8589
-=======
-    addHandler();
->>>>>>> eebd3b4a7aab54a2ef72ab672deaaffb3d0dbcc1
   }, []);
 
   // returns rendered routes and specified components
