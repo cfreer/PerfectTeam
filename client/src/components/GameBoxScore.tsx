@@ -50,7 +50,7 @@ function GameBoxScore(props : any) {
 
     // Renders game box scores
     return (
-        <Table striped bordered hover>
+        <Table striped bordered hover data-testid="game-box">
             <thead>
             <tr>
                 <th>date</th>
