@@ -9,6 +9,8 @@
 import React, { useState } from 'react';
 import SearchBar from '../components/SearchBar';
 import { Row, Button, Card, Alert } from 'react-bootstrap';
+import ErrorBoundary from '../components/ErrorBoundary';
+import PlayerProfile from '../components/PlayerProfile';
 
 
 // The interface for the Player and their stats
@@ -27,7 +29,8 @@ interface Player {
 function Players(props : any) {
   const players = props.data;
   const [input, setInput] = useState<string>('');
-  // const [player, setPlayer] = useState<Player | null>(null);
+  const [search, setSearch] = useState<boolean>(false);
+  const [player, setPlayer] = useState<Player>({id : "", Rk : 0, Player : "", age : 0, WS : "", salary :  "", projSalary : "", playerTeam : ""});
 
   // Handles the instance in which a player is submitted for search
   const submitPlayerHandler = (event : React.MouseEvent) => {
@@ -42,8 +45,11 @@ function Players(props : any) {
 
       // Gets player info from data
       let playerInfo : Player = props.data.filter((obj : Player) => obj.Player === player)[0];
+      console.log(playerInfo)
       if (playerInfo !== null) {
-        // setPlayer(playerInfo);
+        console.log(playerInfo)
+        setPlayer(playerInfo)
+        setSearch(true);
       }
     } else {
       // Shows alert for invalid NBA player
@@ -91,6 +97,13 @@ function Players(props : any) {
 
             />
         </div>
+        <ErrorBoundary>
+          <PlayerProfile
+            show={search}
+            onHide={() => setSearch(false)}
+            player={player}
+          />
+        </ErrorBoundary>
       <Button id='add-btn' data-testid='add-btn' variant='secondary' onClick={submitPlayerHandler} type='submit'>Search Player</Button>
       </div>
       <Alert variant='warning' hidden={true} id='input-alert' data-testid='input-alert'>Please enter a valid NBA player.</Alert>
