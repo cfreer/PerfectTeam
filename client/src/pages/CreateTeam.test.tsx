@@ -40,13 +40,6 @@ test('renders duplicate player alert hidden', () => {
   expect(alert).not.toBeVisible();
 });
 
-test('renders player with no salary alert hidden', () => {
-  render(<CreateTeam data={players}/>)
-  let alert = screen.getByTestId('input-alert-salary');
-  expect(alert).toBeInTheDocument();
-  expect(alert).not.toBeVisible();
-});
-
 test('renders API error alert hidden', () => {
   render(<CreateTeam data={players}/>)
   let alert = screen.getByTestId('input-alert-error');
