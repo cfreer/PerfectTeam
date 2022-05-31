@@ -13,6 +13,7 @@ import Teams from './pages/Teams';
 import Players from './pages/Players';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import logo from './assets/perfect_team_logo.jpg';
 import './index.css';
 
 // Interface for an NBA player
@@ -47,6 +48,7 @@ function App() {
 
   const [playerData, setPlayerData] = useState<Player[]>([]);
   const [teamData, setTeamData] = useState<Team[]>([]);
+  const [load, setLoading] = useState<boolean>(true);
 
   // Base URL for Perfect Team API
   const API_URL = 'https://perfect-team-api.herokuapp.com/';
@@ -74,10 +76,12 @@ function App() {
         .then(statusCheck)
         .then(res => res.json())
         .then(setTeamData)
+        .then(() => setLoading(false))
         .catch(console.error);
     }
     getPlayersRequest();
     getTeamsRequest();
+
   }, []);
 
   // returns rendered routes and specified components
@@ -87,7 +91,7 @@ function App() {
         <p></p>
       </div>
       <header>
-        <img src={process.env.PUBLIC_URL + '/imgs/perfect_team_logo.jpg'} alt='Perfect Team logo'/>
+        <img src={logo} alt='Perfect Team logo'/>
       </header>
       <hr />
       <Route path="/" component={NavBar} />
@@ -104,7 +108,7 @@ function App() {
             <Games />
           </Route>
           <Route path="/teams">
-            <Teams data={teamData}/>
+            <Teams data={teamData} loading={load}/>
           </Route>
           <Route path="/players">
             <Players data={playerData} />
