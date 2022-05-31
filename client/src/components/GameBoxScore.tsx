@@ -27,7 +27,6 @@ interface Game {
 }
 
 function GameBoxScore(props : any) {
-    const API_URL = 'https://www.balldontlie.io/api/v1/games?seasons[]=2021';
 
         let gamesList = props.data.map((g : Game) => {
             console.log(props.data)
@@ -37,7 +36,7 @@ function GameBoxScore(props : any) {
                 <td>{g.visitor_team.full_name}</td>
                 <td>{g.home_team_score} - {g.visitor_team_score}</td>
                 </tr>)
-        }) 
+        })
 
     return (
         <Table striped bordered hover>
