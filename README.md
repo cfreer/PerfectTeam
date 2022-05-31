@@ -36,14 +36,14 @@ The [developer doc](https://github.com/cfreer/PerfectTeam/blob/main/documentatio
 - Trade Strategy - Calculate whether a trade is “worth it” depending on salary and potential contribution to wins.
 - Real-Time Data - Data on the webpage will be updated in real-time to give the user the best statistics and predictions.
 
-# Use Cases Operational in Beta
+# Use Cases Operational
 Case 1: Check the Win Prediction of a Team
 
-Case 3: Adding Suggested Players *except the extensions/variations
-
-Case 5: Customizing a Team *except the extensions/variations
-
-# Use Cases Not Operational in Beta
-Case 2: Create a Team Within Budget
+Case 3: Adding Suggested Players
 
 Case 4: Search Game History
+
+Case 5: Customizing a Team
+
+# Use Cases Not Operational
+Case 2: Create a Team Within Budget *(does not suggest trades)*
