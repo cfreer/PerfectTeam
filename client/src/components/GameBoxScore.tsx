@@ -51,7 +51,7 @@ function GameBoxScore(props : any) {
     <Table striped bordered hover data-testid="game-box">
       <thead>
         <tr>
-          <th>date</th>
+          <th>Date</th>
           <th>Home Team</th>
           <th>Visitng Team</th>
           <th>score</th>
