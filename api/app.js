@@ -5,15 +5,14 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const mongoose = require("mongoose");
 
-//Routers
+// Routers
 const playerRouter = require('./routes/player');
 const teamRouter = require('./routes/team');
 const quickAddRouter = require('./routes/quickadd');
 const nbateamsRouter = require('./routes/nbateams');
 const statsRouter = require('./routes/stats');
 
-//Database
-//const db = require('./databases/database');
+// Database
 mongoose.connect('mongodb+srv://nandojfg:PerfectTeam@clusterjuan.khmci.mongodb.net/PerfectTeam?retryWrites=true&w=majority');
 let db = mongoose.connection;
 
@@ -26,14 +25,14 @@ var cors = require('cors')
 app.use(cors());
 const { createProxyMiddleware } = require('http-proxy-middleware');
 app.use('/api', createProxyMiddleware({
-    target: 'http://localhost:4567/', //original url
+    target: 'http://localhost:4567/', // Original URL.
     changeOrigin: true,
     onProxyRes: function (proxyRes, req, res) {
        proxyRes.headers['Access-Control-Allow-Origin'] = '*';
     }
 }));
 
-// view engine setup
+// View engine setup.
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
@@ -43,7 +42,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//Setup middleware
+// Set up middleware.
 app.use('/players', playerRouter);
 app.use('/team', teamRouter);
 app.use('/quickadd', quickAddRouter);
@@ -60,13 +59,13 @@ app.use("/", function(req, res) {
   }
 });
 
-// error handler
+// Error handler.
 app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
+  // Set locals, only providing error in development.
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  // render the error page
+  // Render the error page.
   res.status(err.status || 500);
   res.render('error');
 });
