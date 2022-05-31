@@ -30,7 +30,7 @@ function Players(props : any) {
   const players = props.data;
   const [input, setInput] = useState<string>('');
   const [search, setSearch] = useState<boolean>(false);
-  const [player, setPlayer] = useState<Player>({id : "", Rk : 0, Player : "", age : 0, WS : "", salary :  "", projSalary : "", playerTeam : ""});
+  const [player, setPlayer] = useState<Player>({id : "", Rk : 0, Player : "", age : 0, WS : "", salary :  "", projSalary : "", playerTeam : "TOT"});
 
   // Handles the instance in which a player is submitted for search
   const submitPlayerHandler = (event : React.MouseEvent) => {

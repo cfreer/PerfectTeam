@@ -3,8 +3,7 @@
  * modal that allows the user to set the salary cap.
  */
 
- import { useState } from 'react';
- import { Button, Modal, Card } from 'react-bootstrap';
+ import { Modal, Card } from 'react-bootstrap';
 
 
  // Interface for an NBA player
@@ -18,12 +17,12 @@ interface Player {
     projSalary: string,
     playerTeam: string,
   }
-  
- 
+
+
  function PlayerProfile(props : any) {
- 
+
    const player : Player = props.player;
- 
+
    return (
      <Modal
        {...props}
@@ -52,6 +51,5 @@ interface Player {
      </Modal>
    );
  }
- 
+
  export default PlayerProfile;
- 

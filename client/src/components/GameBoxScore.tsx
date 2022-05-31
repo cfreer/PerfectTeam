@@ -3,10 +3,7 @@
    will be updated every ten minutes. This will show users the score and teams involved
 **/
 
-
-import React, { useEffect ,useState } from 'react';
 import { Table } from 'react-bootstrap';
-import internal from 'stream';
 
 // Interface for the NBA teams
 interface Team {
