@@ -54,7 +54,7 @@ function GameBoxScore(props : any) {
           <th>Date</th>
           <th>Home Team</th>
           <th>Visitng Team</th>
-          <th>score</th>
+          <th>Score</th>
         </tr>
       </thead>
       <tbody>
