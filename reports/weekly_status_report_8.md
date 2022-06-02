@@ -18,10 +18,10 @@ None!
 - Continue to progress on player images on players page
 
 #### Success of the Project
-
+I believe that I was effective in completing my desired goals and adding to stretch goals when applicable. I worked consistently with group members to conceptualize the best plans for proceeding. I aided in the overall completiong of the frontend with all major features accounted for, as well as supplementing those with additional features to improve the overall quality fo our UI. I also focused on API implementations into the frontend, which was one of my primary focuses at the end of the project cycle.
 
 #### Open Issues/Notes
-
+There are no current issues that I am aware of. Functionality is as expected
 
 ### 2. Amanda
 #### Goals From Last Week
