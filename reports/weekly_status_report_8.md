@@ -29,10 +29,10 @@ None!
 - Help with the final release and video.
 
 #### Success of the Project
-
+I believe I contributed to the success of our project by being available and responsive throughout the day to help with any issues and reviewing pull requests. Also, I helped with finalizing the assignments weekly to make sure we completed them as thoroughly as possible, addressing feedback from previous assignments, reminding others of deadlines, checking in on others' progress, and offering help. In addition, I worked well with both the frontend and backend teams to make sure the frontend and backend were integrated properly. I went above and beyond to design and implement almost all of the major features of our project. I also helped add extra features mentioned in our use cases and ensured all of our features in our final project functioned properly.
 
 #### Open Issues/Notes
-
+None! One issue was opened to suggest adding a limit on the salary cap editor input. I was able to address the suggestion and limit the input value immediately.
 
 
 ### 3. Caroline
