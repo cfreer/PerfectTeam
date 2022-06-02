@@ -66,8 +66,12 @@ None!
 - Help with documentation
 
 #### Success of the Project
-
+I believe I contributed to the success of the group because I was always able to communicate with the group and wasn't afraid of asking for
+help when needed. I was always availible to answer questions about how things were supposed to look and was timely with my responses. I was
+also flexible when needed with meeting times and flexible with the overall plan since it changed multiple times. I never got hung up about 
+personal preferences and wanted the best for the team. I also helped a lot out with the group outside of the code in the weekly assignments
+and scripts that we had to write for the videos.
 
 #### Open Issues/Notes
 
-
+None
