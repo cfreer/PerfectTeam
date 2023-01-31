@@ -6,14 +6,14 @@ const logger = require('morgan');
 const mongoose = require("mongoose");
 
 // Routers
-const playerRouter = require('./routes/player');
+const playerRouter = require('./routes/players');
 const teamRouter = require('./routes/team');
 const quickAddRouter = require('./routes/quickadd');
 const nbateamsRouter = require('./routes/nbateams');
 const statsRouter = require('./routes/stats');
 
 // Database
-mongoose.connect('mongodb+srv://nandojfg:PerfectTeam@clusterjuan.khmci.mongodb.net/PerfectTeam?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://public:read-only@perfect-team.ylvqzkm.mongodb.net/?retryWrites=true&w=majority');
 let db = mongoose.connection;
 
 const fs = require('fs');

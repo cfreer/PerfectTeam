@@ -1,6 +1,5 @@
 // Reference: https://www.digitalocean.com/community/tutorials/test-a-node-restful-api-with-mocha-and-chai
 process.env.NODE_ENV = 'test';
-
 let mongoose = require("mongoose");
 let chai = require('chai');
 let chaiHttp = require('chai-http');

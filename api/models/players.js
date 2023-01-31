@@ -8,7 +8,6 @@ const playerSchema = new mongoose.Schema({
   salary: String,
   projSalary: String,
   playerTeam: String
-  //image: String, //1.png
 });
 
 module.exports = mongoose.model('players', playerSchema);
