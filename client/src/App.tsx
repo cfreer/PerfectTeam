@@ -76,7 +76,7 @@ function App() {
   const [load, setLoading] = useState<boolean>(true);
 
   // Base URL for Perfect Team API
-  const API_URL = 'https://perfect-team-api.herokuapp.com/';
+  const API_URL = 'https://perfect-team-api.onrender.com/';
   // const API_URL = 'http://localhost:4567/';
 
   const GAME_URL = 'https://www.balldontlie.io/api/v1/games?seasons[]=2021';

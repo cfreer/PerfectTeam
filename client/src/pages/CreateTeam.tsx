@@ -44,7 +44,7 @@ function CreateTeam(props : any) {
   const editButton = document.getElementById('salary-btn') as HTMLButtonElement;
 
   // Base URL for Perfect Team API
-  const API_URL = 'https://perfect-team-api.herokuapp.com/';
+  const API_URL = 'https://perfect-team-api.onrender.com/';
   // const API_URL = 'http://localhost:4567/';
 
   // Updates stored value of player search bar input

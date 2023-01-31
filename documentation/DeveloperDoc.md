@@ -1,123 +1,109 @@
 # Developer Documentation
 
 ## How to Obtain the Source Code
-All source code is included in our GitHub repository: https://github.com/cfreer/PerfectTeam. It can be obtained by cloning the repository using the following command:  
+All source code is included in our GitHub repository: https://github.com/cfreer/PerfectTeam. It can be obtained by cloning the repository using the following command:
 `git clone https://github.com/cfreer/PerfectTeam.git`
 
 ## The Layout of Our Directory Structure
-**.github/workflows**  
+**.github/workflows**
 Stores the .yml file needed for GitHub Actions to build and test the application.
 
-**api**  
+**api**
 Stores all files for Perfect Team API.
 
-**api/models**  
+**api/models**
 Stores all the mongoose models used for the API.
 
-**api/routes**  
+**api/routes**
 Stores all the routes used to make various requests in the API.
 
-**api/test**  
+**api/test**
 Stores all the test files needed to test the API.
 
-**client**  
+**client**
 Stores all files for Perfect Team frontend application.
 
-**client/data**  
+**client/data**
 Stores all of the basketball data used for the application.
 
-**client/lib**  
+**client/lib**
 Stores the .jar files needed for JUnit.
 
-**client/public**  
+**client/public**
 Stores the index.html file that hosts the application.
 
-**client/src/components**  
+**client/src/components**
 Stores all the components needed to create the frontend server.
 
-**client/src/pages**  
+**client/src/pages**
 Stores all the pages needed to create the frontend server.
 
-**documentation**  
+**documentation**
 Stores the user and developer documentation.
 
 ## How to Build the Software
 **Prerequisites:**
-1. Clone the repo.  
+1. Clone the repo.
 `git clone https://github.com/cfreer/PerfectTeam.git`
-2. Change into the PerfectTeam directory.  
+2. Change into the PerfectTeam directory.
 `cd PerfectTeam`
-3. Install the latest version of Node from https://nodejs.org/en/. 
+3. Install the latest version of Node from https://nodejs.org/en/.
 
 **Frontend:**
-1. Change into the client directory.  
+1. Change into the client directory.
 `cd client`
-2. Install the node dependencies.  
+2. Install the node dependencies.
 `npm install`
-3. Create a development build.  
-`npm start`  
+3. Create a development build.
+`npm start`
 
-***Note: You do not need to run the backend API locally for both the local and Firebase-hosted frontend, as they use the Heroku-hosted API instead.***  
+***Note: You do not need to run the backend API locally for both the local and Firebase-hosted frontend, as they use the Render-hosted API instead.***
 
 **Backend:**
-1. Change into the api directory.  
+1. Change into the api directory.
 `cd api`
-2. Install the node dependencies.  
+2. Install the node dependencies.
 `npm install`
-3. Start the API locally on http://localhost:4567/.  
+3. Start the API locally on http://localhost:4567/.
 `npm start`
 
 ## How to Test the Software
-**Frontend:**  
-To run all Jest test files, run the following command in the client directory:  
+**Frontend:**
+To run all Jest test files, run the following command in the client directory:
 `npm test`
 
-To run a specific Jest test file, run the following command in the client directory with the specific test file name replacing \<filename\>:  
+To run a specific Jest test file, run the following command in the client directory with the specific test file name replacing \<filename\>:
 `npm test <filename>.test.tsx`
 
-**Backend:**  
-To run all API tests, run the following command in the api directory:  
+**Backend:**
+To run all API tests, run the following command in the api directory:
 `npm test`
 
 ## How to Add New Tests
 Refer to our [how to add a new test](https://docs.google.com/document/d/1-kPpM9fv8adkxtt-zc9KxAO8eYRFMxG70Qdem-sFYcY/edit#bookmark=id.yhb6dbv4bw5n) to the code base section from our living doc.
 
 ## How to Build a Release of the Software
-**Prerequisites:**  
-1. Use `git status` to make sure your local repository is up to date with the main branch. If not, use `git add`,  `git commit`, and `git push` commands to push all changes to GitHub and `git pull` to get all changes from GitHub.  
+**Prerequisites:**
+1. Use `git status` to make sure your local repository is up to date with the main branch. If not, use `git add`,  `git commit`, and `git push` commands to push all changes to GitHub and `git pull` to get all changes from GitHub.
 2. As a sanity check, make sure all tests have passed locally and that the most recent commit on GitHub passes all checks of the GitHub Actions workflow.
 
 **Frontend:**
 1. If you are building a major release, increment the first digit by one and reset the middle and last digits of the version number to zero. If you are building a minor release, increment the middle digit and reset the last digit to zero. If you are building a patch release, increment the last digit of the version number by one. The version number can be found in the client/package.json file.
-2. Change into the client directory.  
+2. Change into the client directory.
 `cd client`
-3. Create a production build.  
+3. Create a production build.
 `npm run build`
-4. Deploy production build to Firebase.  
+4. Deploy production build to Firebase.
 `firebase deploy`
 
-***Note: Firebase should be installed by using `npm install -g firebase-tools` and logged into before running the `firebase deploy` command.***   
+***Note: Firebase should be installed by using `npm install -g firebase-tools` and logged into before running the `firebase deploy` command.***
 
-**Backend:**  
-***Note: You will need access to Heroku in order to make a deployment. Contact Caroline Freer (cfreer@uw.edu) if access is needed.*** 
+**Backend:**
 1. If you are building a major release, increment the first digit by one and reset the middle and last digits of the version number to zero. If you are building a minor release, increment the middle digit and reset the last digit to zero. If you are building a patch release, increment the last digit of the version number by one. The version number can be found in the api/package.json file.
-2. Log into Heroku.  
-`heroku login`
-3. Clone the Heroku API files.  
-`heroku git:clone -a perfect-team-api`
-4. Copy the PerfectTeam API files into the Heroku repo.  
-`cp -R ./api/* ./perfect-team-api`
-5. Change into the perfect-team-api directory.  
-`cd perfect-team-api`
-6. Add your changes to Heroku.  
-```
-git add .
-git commit -m “<descriptive message>”
-git push heroku master
-```
+2. The API will be deployed automatically when a new commit is merged with the main branch on GitHub.
 
 ## How to Set Up a New Server
-***Note: If you would like to set up a new server and create the project from scratch, please follow the instructions below to set up Firebase Hosting for the React App and Heroku API.***  
+***Note: If you would like to set up a new server and create the project from scratch, please follow the instructions below to set up Firebase Hosting for the React App and Render API.***
 ### How to Set Up Firebase Hosting and Include Firebase in the React App
 1. Go to https://firebase.google.com/, click the "Get started" button, and sign in using a Google account.
 2. Click the "Add project" button and enter a project name.
@@ -130,26 +116,5 @@ git push heroku master
 9. Go to the `firebase.json` file. In the "hosting" object, change the line `"public": "public",` to `"public": "build",` and save the changes.
 10. Now, you can run the commands `npm run build` to create a production build and `firebase deploy` to deploy the Firebase web app. The hosting URL will be shown in the command prompt after the web app is deployed successfully.
 
-### How to Set Up Heroku API
-(Instructions Adapted From UW CSE154)
-1. Set up a Heroku account on https://heroku.com.
-2. Install the Heroku command line interface following these [instructions](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
-3. Clone the repo and change into the api directory.
-```
-git clone https://github.com/cfreer/PerfectTeam.git
-cd api
-```
-4. Initialize your Heroku repo.  
-`git init`
-5. Login to Heroku.  
-`heroku login`
-6. Create the Heroku server.  
-`heroku create`
-7. Add all files.  
-`git add .`
-8. Commit the files.  
-`git commit -m "add api"`
-9. Push the repo to Heroku.  
-`git push heroku master`
-10. Open your new API.  
-`heroku open`
+### How to Set Up Render API
+[Render API Tutorial](https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/)
