@@ -13,9 +13,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'; //bootstrap
 // Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyDu6xLq9hDh2hDiAplRrwl_Ro4s6ySOQGs",
-  authDomain: "perfect-team-75839.firebaseapp.com",
-  projectId: "perfect-team-75839",
-  storageBucket: "perfect-team-75839.appspot.com",
+  authDomain: "perfect-team-web.firebaseapp.com",
+  projectId: "perfect-team-web",
+  storageBucket: "perfect-team-web.appspot.com",
   messagingSenderId: "496641240932",
   appId: "1:496641240932:web:6e43a4635544aa291bd471"
 };

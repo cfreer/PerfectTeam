@@ -4,11 +4,11 @@
 [Click here](https://github.com/cfreer/PerfectTeam#perfectteam) to see our high-level product description, found on our GitHub Repository.
 
 ## How to Install the Software
-No installation is necessary for our software; it is hosted and can be accessed on https://perfect-team-75839.web.app.
+No installation is necessary for our software; it is hosted and can be accessed on https://perfect-team-web.web.app.
 ![](imgs/pt_home.png)
 
 ## How to Run the Software
-You can run the software by visiting the link: https://perfect-team-75839.web.app.
+You can run the software by visiting the link: https://perfect-team-web.web.app.
 
 ## How to Use the Software
 To create a customized team, navigate to the Create Team page using the “Create Team” tab on the navigation bar or the “Create a Team!” button at the bottom of the home page. Once you are on the Create Team page, type in an NBA player name into the search bar located under the navigation bar.

@@ -1,6 +1,6 @@
 # Perfect Team API Documentation
 The Perfect Team API lets the user get various information about NBA players and utilizes our algorithm to produce a synergy score.
-Base URL: https://perfect-team-api.herokuapp.com
+Base URL: https://perfect-team-api.onrender.com
 
 
 ## Get all players or players matching a given name.
